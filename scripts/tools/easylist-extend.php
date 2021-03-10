@@ -190,7 +190,7 @@ $ARR_REGEX_LIST = array(
     '/^([\w]{1,4}\.)?\d+platnosci?\.online/' => null,
     '/^([\w]{1,4}\.)?allegro(finanse)?\d+\.pl/' => null,
     '/^([\w]{1,4}\.)?faktury\d+\.org/' => null,
-    '/^([\w]{1,4}\.)?(probablerootport)-?[\d]{1,2}\.live/'
+    '/^([\w]{1,4}\.)?(probablerootport)-?[\d]{1,2}\.live/' => null,
 
     // '/^([^\s\/]+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
 );
