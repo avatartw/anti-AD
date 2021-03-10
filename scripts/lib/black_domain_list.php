@@ -1,10 +1,11 @@
 <?php
-//黑名单域名，即直接封杀主域名，效果就是只要是使用该域名及其下级所有域名的请求全部被阻挡，慎重使用
+//黑名單域名，即直接封殺主域名，效果就是只要是使用該域名及其下級所有域名的請求全部被阻擋，慎重使用
 
-//这个文件主要定义针对hosts文件中不能泛域名解析而优化减少生成行数
-//对于个性化屏蔽的域名，全部移动到block_domains.root.conf中管理
+//這個文件主要定義針對hosts文件中不能泛域名解析而優化減少生成行數
+//對於個性化屏蔽的域名，全部移動到block_domains.root.conf中管理
 
 return array(
+    'umiwi.com' => array('www.umiwi.com'),
     'f2pool.com' => array('openvpn.f2pool.com'),
     'gepush.com' => array('gepush.com'),
     'cnzz.com' => array('cnzz.com'),
@@ -23,13 +24,13 @@ return array(
 
     ),
     'amazonaws.com' => array(
-        'checkip.amazonaws.com', //获取真实外网ip接口
+        'checkip.amazonaws.com', //獲取真實外網ip接口
     ),
     'irs03.com' => array(
         'irs03.com',
     ),
     'bcelive.com' => array(
-        'httpdns.bcelive.com', //一个不支持https的httpdns服务，并不能反制运营商劫持
+        'httpdns.bcelive.com', //一個不支持https的httpdns服務，並不能反制運營商劫持
     ),
     'tencentmusic.com' => array(
         'ad.tencentmusic.com',
@@ -174,7 +175,7 @@ return array(
         'kuyun.com'
     ),
     'shareinstall.com.cn' => array(
-        'shareinstall.com.cn' //移动广告商
+        'shareinstall.com.cn' //移動廣告商
     ),
     'apple.com' => array(
         'iadsdk.apple.com',
@@ -182,22 +183,22 @@ return array(
         'iad.apple.com',
     ),
     '51y5.net' => array(
-        '51y5.net', //wifi万能钥匙的推广
+        '51y5.net', //wifi萬能鑰匙的推廣
     ),
     'com.com' => array(
-        'com.com', //来自ublock的规则，恶意域名 https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019
+        'com.com', //來自ublock的規則，惡意域名 https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019
     ),
     'consensu.org' => array(
-        'consensu.org', //广告网址，例如：https://vendorlist.consensu.org/vendorlist.json
+        'consensu.org', //廣告網址，例如：https://vendorlist.consensu.org/vendorlist.json
     ),
     'dnvod.tv' => array(
-        'dnvod.tv', //官网显示 此域名已停止服务 游戏业务暂停运营
+        'dnvod.tv', //官網顯示 此域名已停止服務 遊戲業務暫停運營
     ),
     'gentags.net' => array(
-        'gentags.net', //第三方监测，例如：clk.gentags.net
+        'gentags.net', //第三方監測，例如：clk.gentags.net
     ),
     'mydas.mobi' => array(
-        'mydas.mobi', //移动广告商
+        'mydas.mobi', //移動廣告商
     ),
     'soarfi.cn' => array(
         'soarfi.cn',
@@ -206,7 +207,7 @@ return array(
         'starwave.com',
     ),
     'tradetracker.net' => array(
-        'tradetracker.net', //广告联盟
+        'tradetracker.net', //廣告聯盟
     ),
     'uol.com.br' => array(
         'uol.com.br',
@@ -215,30 +216,30 @@ return array(
         'rambler.ru'
     ),
     'zhanzhang.net' => array(
-        'zhanzhang.net', //网络推广
+        'zhanzhang.net', //網絡推廣
     ),
     'adroll.com' => array(
-        'adroll.com', //广告商
+        'adroll.com', //廣告商
     ),
     'cnbanbao.com' => array(
-        'cnbanbao.com', //网络推广
+        'cnbanbao.com', //網絡推廣
     ),
     '4u.pl' => array(
-        '4u.pl', //访问统计
+        '4u.pl', //訪問統計
     ),
     'minisplat.cn' => array(
         'minisplat.cn',
     ),
     'bdurl.net' => array(
-        'dig.bdurl.net', //数据收集
+        'dig.bdurl.net', //數據收集
     ),
     'id1.cn' => array(
-        'id1.cn', //钓鱼网站
+        'id1.cn', //釣魚網站
     ),
     'ts166.net' => array(
-        'ts166.net', //广告联盟
+        'ts166.net', //廣告聯盟
     ),
-    'unity3d.com' => array(//u3d广告平台
+    'unity3d.com' => array(//u3d廣告平台
         'unityads.unity3d.com',
         'cdp.cloud.unity3d.com',
         'data-optout-service.uca.cloud.unity3d.com',
@@ -257,14 +258,14 @@ return array(
 
     ),
     'jd.com' => array(
-        'mercury.jd.com', //大数据收集，用户行为埋点上报
+        'mercury.jd.com', //大數據收集，用戶行為埋點上報
         'wl.jd.com',
     ),
     'ixigua.com' => array(
-        'v3-ad.ixigua.com', //移动广告
+        'v3-ad.ixigua.com', //移動廣告
     ),
     'huan.tv' => array(
-        'ads.huan.tv', //广告
+        'ads.huan.tv', //廣告
     ),
 
     'kingsoft-office-service.com' => array(
@@ -281,17 +282,17 @@ return array(
         'openjmacs.m.taobao.com',
     ),
     'aiclk.com' => array('aiclk.com'),
-    '5ubei.com' => array('5ubei.com'), //统计类例如http://dnm.5ubei.com:7098/hlink.html
+    '5ubei.com' => array('5ubei.com'), //統計類例如http://dnm.5ubei.com:7098/hlink.html
     'jpush.cn' => array('jpush.cn'),
     'jpush.io' => array('jpush.io'),
     'jiguang.cn' => array('jiguang.cn'),
-    'easytomessage.com' => array('easytomessage.com'), //极光SDK
+    'easytomessage.com' => array('easytomessage.com'), //極光SDK
     'getui.com' => array('getui.com'),
     'getui.net' => array('getui.net'),
     'jumei.com' => array('adxapi.jumei.com', 'sd.int.jumei.com', 'sd.jumei.com'),
-    '92caijing.com' => array('92caijing.com'), //广告联盟
-    'mm100.com' => array('mm100.com'), //广告联盟
-    'juyoufan.net' => array('juyoufan.net'), //博彩类
+    '92caijing.com' => array('92caijing.com'), //廣告聯盟
+    'mm100.com' => array('mm100.com'), //廣告聯盟
+    'juyoufan.net' => array('juyoufan.net'), //博彩類
     'hpplay.cn' => array(
             'imdns.hpplay.cn',
             'vipauth.hpplay.cn',
@@ -305,7 +306,7 @@ return array(
             'adcdn.hpplay.cn',
             'pin.hpplay.cn',
             'rp.hpplay.cn',
-    ), //广告下发 #306
+    ), //廣告下發 #306
     'hpplay.com.cn' => array( #306
         'h5.hpplay.com.cn',
         'cdn.hpplay.com.cn',
@@ -313,33 +314,33 @@ return array(
     'cibn.cc' => array( #306
         'hpplay.cdn.cibn.cc',
     ),
-    'supersonic.com' => array('logs.supersonic.com'), //交叉推广平台
-    'advmob.cn' => array('advmob.cn'), //交叉推广平台
-    'adnexus.mobi' => array('adnexus.mobi'), //广告平台
-    'mobileapptracking.com' => array('mobileapptracking.com'), //广告追踪
-    '360in.com' => array('360in.com'), //广告追踪
-    'ad4.com.cn' => array('ad4.com.cn'), //广告商
-    'adform.com' => array('adform.com'), //广告商
-    'adgoji.com' => array('adgoji.com'), //广告商
-    'adups.com' => array('adups.com'), //大数据收集
-    'crasheye.cn' => array('crasheye.cn'), //大数据收集
-    'adcome.cn' => array('adcome.cn'), //广告服务
-    'adsunflower.cn' => array('adsunflower.cn'), //广告服务
-    'bsclink.cn' => array('sdk.appadhoc.com.bsclink.cn'), //统计数据
-    'diditaxi.com.cn' => array('static.diditaxi.com.cn'), //统计数据
-    'dotui.cn' => array('dotui.cn'), //推送广告
-    'droid4x.cn' => array('log.droid4x.cn', 'mtlog.droid4x.cn', 'nlog.droid4x.cn'), //日志收集
-    'fmobi.cn' => array('api.sdk.fmobi.cn'), //广告sdk
-    'ht55.cn' => array('ht55.cn'), //赌博恶意网址
-    'huidakms.com.cn' => array('huidakms.com.cn'), //恶意网址
-    'immob.cn' => array('immob.cn'), //恶意网址
-    'inmobicdn.cn' => array('inmobicdn.cn'), //广告商
-    'inmobicdn.com' => array('inmobicdn.com'), //广告商
-    'inmobicdn.net' => array('inmobicdn.net'), //广告商
-    'intely.cn' => array('intely.cn'), //营销服务商
-    'lomark.cn' => array('lomark.cn'), //营销服务商
-    'p0y.cn' => array('p0y.cn'), //大数据服务商
-    'superads.cn' => array('superads.cn'), //广告商
+    'supersonic.com' => array('logs.supersonic.com'), //交叉推廣平台
+    'advmob.cn' => array('advmob.cn'), //交叉推廣平台
+    'adnexus.mobi' => array('adnexus.mobi'), //廣告平台
+    'mobileapptracking.com' => array('mobileapptracking.com'), //廣告追蹤
+    '360in.com' => array('360in.com'), //廣告追蹤
+    'ad4.com.cn' => array('ad4.com.cn'), //廣告商
+    'adform.com' => array('adform.com'), //廣告商
+    'adgoji.com' => array('adgoji.com'), //廣告商
+    'adups.com' => array('adups.com'), //大數據收集
+    'crasheye.cn' => array('crasheye.cn'), //大數據收集
+    'adcome.cn' => array('adcome.cn'), //廣告服務
+    'adsunflower.cn' => array('adsunflower.cn'), //廣告服務
+    'bsclink.cn' => array('sdk.appadhoc.com.bsclink.cn'), //統計數據
+    'diditaxi.com.cn' => array('static.diditaxi.com.cn'), //統計數據
+    'dotui.cn' => array('dotui.cn'), //推送廣告
+    'droid4x.cn' => array('log.droid4x.cn', 'mtlog.droid4x.cn', 'nlog.droid4x.cn'), //日誌收集
+    'fmobi.cn' => array('api.sdk.fmobi.cn'), //廣告sdk
+    'ht55.cn' => array('ht55.cn'), //賭博惡意網址
+    'huidakms.com.cn' => array('huidakms.com.cn'), //惡意網址
+    'immob.cn' => array('immob.cn'), //惡意網址
+    'inmobicdn.cn' => array('inmobicdn.cn'), //廣告商
+    'inmobicdn.com' => array('inmobicdn.com'), //廣告商
+    'inmobicdn.net' => array('inmobicdn.net'), //廣告商
+    'intely.cn' => array('intely.cn'), //營銷服務商
+    'lomark.cn' => array('lomark.cn'), //營銷服務商
+    'p0y.cn' => array('p0y.cn'), //大數據服務商
+    'superads.cn' => array('superads.cn'), //廣告商
     'tv2phone.cn' => array('appwall.tv2phone.cn'),
     'vivo.com.cn' => array(
         'adlog.vivo.com.cn',
@@ -357,70 +358,70 @@ return array(
         'stsdk.vivo.com.cn',
         'vcardsdkservice.vivo.com.cn',
     ),
-    'vnet.cn' => array('vnet.cn'), //互联星空
-    'wannaplay.cn' => array('h5.wannaplay.cn'), //游戏广告
-    'waps.cn' => array('waps.cn'), //广告商
-    'yomob.com.cn' => array('yomob.com.cn'), //移动视频广告
-    'kochava.com' => array('kochava.com'), //移动大数据收集
-    'supersonicads.com' => array('supersonicads.com'), //广告聚合平台
-    'voodoo-ads.io' => array('voodoo-ads.io'), //广告平台
-    'voodoo-analytics.io' => array('voodoo-analytics.io'), //数据收集
-    'voodoo.io' => array('crosspromo.voodoo.io'), //交叉推广
-    'inner-active.mobi' => array('inner-active.mobi'), //广告追踪
-    'adtilt.com' => array('adtilt.com'), //隐私收集
+    'vnet.cn' => array('vnet.cn'), //互聯星空
+    'wannaplay.cn' => array('h5.wannaplay.cn'), //遊戲廣告
+    'waps.cn' => array('waps.cn'), //廣告商
+    'yomob.com.cn' => array('yomob.com.cn'), //移動視頻廣告
+    'kochava.com' => array('kochava.com'), //移動大數據收集
+    'supersonicads.com' => array('supersonicads.com'), //廣告聚合平台
+    'voodoo-ads.io' => array('voodoo-ads.io'), //廣告平台
+    'voodoo-analytics.io' => array('voodoo-analytics.io'), //數據收集
+    'voodoo.io' => array('crosspromo.voodoo.io'), //交叉推廣
+    'inner-active.mobi' => array('inner-active.mobi'), //廣告追蹤
+    'adtilt.com' => array('adtilt.com'), //隱私收集
     'nextmedia.com' => array(
-        'imp.nextmedia.com', //行为追踪
+        'imp.nextmedia.com', //行為追蹤
         'dev.imp.nextmedia.com',
         'dev-imp.nextmedia.com',
     ),
     'sdo.com' => array(
-        'aa.sdo.com',//行为追踪
+        'aa.sdo.com',//行為追蹤
         'dfp.aa.sdo.com',
         'snyu.sdo.com',
     ),
     'wasu.cn' => array(
-        'acsystem.wasu.cn', //广告系统
+        'acsystem.wasu.cn', //廣告系統
     ),
     'sandai.net' => array(
-        'cpm.cm.sandai.net', //cpm广告
+        'cpm.cm.sandai.net', //cpm廣告
     ),
     'cdndm.com' => array(
-        'by.tel.cdndm.com', //行为收集
+        'by.tel.cdndm.com', //行為收集
     ),
     'zol.com.cn' => array(
-        'p.zol.com.cn', //统计脚本
+        'p.zol.com.cn', //統計腳本
     ),
-    'adm668.com' => array( //不良投注网站
+    'adm668.com' => array( //不良投注網站
         'adm668.com',
         'www.adm668.com'
     ),
     'jiguangzhuisu.com' => array(
-        'jiguangzhuisu.com', //怀疑是恶意网站，例如https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
+        'jiguangzhuisu.com', //懷疑是惡意網站，例如https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
         //例如 https://etc.jiguangzhuisu.com/act.html
         'etc.jiguangzhuisu.com',
     ),
     'aliyuncs.com' => array(
-        'sspmiaoshuo.cn-hangzhou.log.aliyuncs.com', //日志收集
+        'sspmiaoshuo.cn-hangzhou.log.aliyuncs.com', //日誌收集
         'arms-retcode.aliyuncs.com',
     ),
 
     '186078.com' => array(
         'api.186078.com',
-        '186078.com', //行为追踪，在https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
+        '186078.com', //行為追蹤，在https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
     ),
 
     'iask.cn' => array(
-        'iask.cn', //广告服务商
+        'iask.cn', //廣告服務商
         'pic.iask.cn',
     ),
 
     'iask.com.cn' => array(
-        'iask.com.cn', //广告服务商
+        'iask.com.cn', //廣告服務商
         'dw.iask.com.cn',
     ),
 
     'dushu.io' => array(
-        'advertising.dushu.io', //广告域名
+        'advertising.dushu.io', //廣告域名
     ),
 
     'unitychina.cn' => array(
@@ -436,13 +437,13 @@ return array(
         'c-sta-cn.upltv.com',
     ),
 
-    //上传分享wifi密码
+    //上傳分享wifi密碼
     'ggsafe.com' => array(
         'ggsafe.com',
         'wifi.ggsafe.com',
     ),
     '2345.cn' => array(
-        '2345.cn', //广告联盟
+        '2345.cn', //廣告聯盟
         'dl.2345.cn',
         'download.2345.cn',
         'houtai.2345.cn',
@@ -464,21 +465,21 @@ return array(
     ),
 
 
-    //一窝恶意劫持搞推广的域名
+    //一窩惡意劫持搞推廣的域名
     'duoroumao.cn' => array(
-        's.duoroumao.cn', //广告分发，例如https://s.duoroumao.cn/yxs191.js
+        's.duoroumao.cn', //廣告分發，例如https://s.duoroumao.cn/yxs191.js
         'duoroumao.cn',
     ),
     'geakr.com' => array(
-        'geakr.com', //广告 例如：https://www.geakr.com/tkl/cp.js?channel_id=3
+        'geakr.com', //廣告 例如：https://www.geakr.com/tkl/cp.js?channel_id=3
         'www.geakr.com',
     ),
     'qichetiemo.info' => array(
         'qichetiemo.info',
-        'about.qichetiemo.info', //广告，例如 https://about.qichetiemo.info/apf/mkdjJSjcs113 ，此页面有js加密代码，应属于恶意网站
+        'about.qichetiemo.info', //廣告，例如 https://about.qichetiemo.info/apf/mkdjJSjcs113 ，此頁面有js加密代碼，應屬於惡意網站
     ),
     'bbhyqp.com' => array(
-        'bbhyqp.com', //“澳门真金”。。推广页面 例如 https://bbhyqp.com/mifiqp/index.html
+        'bbhyqp.com', //“澳門真金”。。推廣頁面 例如 https://bbhyqp.com/mifiqp/index.html
     ),
     'sntzq.com' => array(
         'sntzq.com', //https://c.sntzq.com/init/proxy.html?v=1.2
@@ -489,7 +490,7 @@ return array(
         'n.35kds.com', //https://n.35kds.com/Exposead/index/?re=
     ),
     'mobaders.com' => array(
-        'mobaders.com', //行为统计，例如http://d1.mobaders.com/cnzzA/1260857752
+        'mobaders.com', //行為統計，例如http://d1.mobaders.com/cnzzA/1260857752
         'd1.mobaders.com',
         'd2.mobaders.com',
         'd3.mobaders.com',
@@ -500,7 +501,7 @@ return array(
         'd8.mobaders.com',
         'd9.mobaders.com',
     ),
-    '61677.com' => array( //澳门新葡京
+    '61677.com' => array( //澳門新葡京
         '61677.com',
         'www.61677.com',
     ),
@@ -552,15 +553,15 @@ return array(
         'v4dwkcv.com',
         'c.v4dwkcv.com',
     ),
-    'he2d.com' => array(// 相关http://c.v4dwkcv.com/html/click/23421_5605.html
+    'he2d.com' => array(// 相關http://c.v4dwkcv.com/html/click/23421_5605.html
         'ss2.he2d.com',
         'he2d.com'
     ),
-    'sdqoi2d.com' => array(// 统计 http://j.sdqoi2d.com/click/ffb.php
+    'sdqoi2d.com' => array(// 統計 http://j.sdqoi2d.com/click/ffb.php
         'j.sdqoi2d.com',
         'sdqoi2d.com'
     ),
-    'youhuiguan.com' => array(// 神药？ http://cr.youhuiguan.com/attachments/201908/28/20/3658-5lmj04.jpg
+    'youhuiguan.com' => array(// 神藥？ http://cr.youhuiguan.com/attachments/201908/28/20/3658-5lmj04.jpg
         'youhuiguan.com',
         'cr.youhuiguan.com'
     ),
@@ -585,25 +586,25 @@ return array(
         'mobile.pipe.aria.microsoft.com',
         'events.data.microsoft.com',
     ),
-    'leixjun.com' => array(//恶意诱导下载app
+    'leixjun.com' => array(//惡意誘導下載app
         'leixjun.com',
         'zq2.leixjun.com',
     ),
-    'xi9p.com' => array(//诈骗网址
+    'xi9p.com' => array(//詐騙網址
         'xi9p.com'
     ),
 
-    'doukekan.cn' => array(//广告平台
+    'doukekan.cn' => array(//廣告平台
         'doukekan.cn',
         'y3.doukekan.cn',
     ),
-    'dzdkw9.cn' => array(//恶意推广 #65
+    'dzdkw9.cn' => array(//惡意推廣 #65
         'dzdkw9.cn',
         'm.dzdkw9.cn',
     ),
 
     'feeddsp.cn' => array(
-        '1.feeddsp.cn', //游戏推广落地页
+        '1.feeddsp.cn', //遊戲推廣落地頁
     ),
     'huya.com' => array(
         'ylog.huya.com', // #86
@@ -628,35 +629,35 @@ return array(
     'nvidia.com' => array(
         'events.gfe.nvidia.com'
     ),
-    'axbxgg.com' => array( // 恶意推广app下载
+    'axbxgg.com' => array( // 惡意推廣app下載
         'axbxgg.com',
         '2ydl.axbxgg.com',
     ),
-    'rayjump.com' => array( // 广告域名 #98
+    'rayjump.com' => array( // 廣告域名 #98
         'rayjump.com',
         'adx-tk.rayjump.com',
     ),
-    'baicizhan.org' => array( // 百词斩
+    'baicizhan.org' => array( // 百詞斬
         'advertise.baicizhan.org',
     ),
-    'baicizhan.com' => array( // 百词斩
+    'baicizhan.com' => array( // 百詞斬
         'advertise.baicizhan.com',
     ),
-    'yiche.com' => array( // 易车ad
+    'yiche.com' => array( // 易車ad
         'adx.yiche.com',
         'log.ycapp.yiche.com',
     ),
-    'csheaven.com' => array( // 总结到主域名上
+    'csheaven.com' => array( // 總結到主域名上
         'csheaven.com',
     ),
-    'bckrono.cn' => array( // 恶意跳转下载app
+    'bckrono.cn' => array( // 惡意跳轉下載app
         'bckrono.cn',
         'js.bckrono.cn',
     ),
-    'yemnn.cn' => array( // 恶意跳转下载app
+    'yemnn.cn' => array( // 惡意跳轉下載app
         'yemnn.cn',
     ),
-    'familytaste.cn' => array( // 恶意跳转下载app
+    'familytaste.cn' => array( // 惡意跳轉下載app
         'familytaste.cn',
         's350.familytaste.cn',
     ),
@@ -711,11 +712,11 @@ return array(
     'pubghio.fun' => array(
         'pubghio.fun', // #212, https://pubghio.fun/login?agency=200
     ),
-    'xladapi.izuiyou.com' => array( // 手机迅雷广告
+    'xladapi.izuiyou.com' => array( // 手機迅雷廣告
         'xladapi.izuiyou.com',
         'xlstat.izuiyou.com',
     ),
-    'idmchina.net' => array( // 假冒官网
+    'idmchina.net' => array( // 假冒官網
         'www.idmchina.net',
         'idmchina.net',
     ),
@@ -849,31 +850,31 @@ return array(
         'dabaicai.com',
         'www.dabaicai.com',
     ),
-    'fancydsp.com' => array( // fancyapi.com同备案号
+    'fancydsp.com' => array( // fancyapi.com同備案號
         'fancydsp.com',
         'www.fancydsp.com',
     ),
-    'fancydigital.com.cn' => array( // fancyapi.com同备案号
+    'fancydigital.com.cn' => array( // fancyapi.com同備案號
         'fancydigital.com.cn',
         'www.fancydigital.com.cn',
     ),
-    'fancydmp.com' => array( // fancyapi.com同备案号
+    'fancydmp.com' => array( // fancyapi.com同備案號
         'fancydmp.com',
         'www.fancydmp.com',
     ),
-    'adfancy.com.cn' => array( // fancyapi.com同备案号
+    'adfancy.com.cn' => array( // fancyapi.com同備案號
         'adfancy.com.cn',
         'www.adfancy.com.cn',
     ),
-    'fancysmp.com' => array( // fancyapi.com同备案号
+    'fancysmp.com' => array( // fancyapi.com同備案號
         'fancysmp.com',
         'www.fancysmp.com',
     ),
-    'fancysocialtalk.com' => array( // fancyapi.com同备案号
+    'fancysocialtalk.com' => array( // fancyapi.com同備案號
         'fancysocialtalk.com',
         'www.fancysocialtalk.com',
     ),
-    '188api.com' => array( // fancyapi.com同备案号
+    '188api.com' => array( // fancyapi.com同備案號
         '188api.com',
         'www.188api.com',
     ),
@@ -931,7 +932,7 @@ return array(
     '91756.cn' =>array('91756.cn', 'www.91756.cn'),
     'adups.cn' =>array('adups.cn', 'www.adups.cn'),
 
-    // 一批运营商劫持域名
+    // 一批運營商劫持域名
     '17gouwuba.com' => array('17gouwuba.com', 'www.17gouwuba.com'),
     '189zj.cn' => array('189zj.cn', 'www.189zj.cn'),
     '285680.com' => array('285680.com', 'www.285680.com'),
@@ -1002,7 +1003,7 @@ return array(
     'zzd6.com' => array('zzd6.com', 'www.zzd6.com'),
 
 
-    // 一批广告公司和大数据公司域名 #223
+    // 一批廣告公司和大數據公司域名 #223
     'appadhoc.com' => array('appadhoc.com', 'www.appadhoc.com'),
     'appadhoc.net' => array('appadhoc.net', 'www.appadhoc.net'),
     'dratio.com' => array('dratio.com', 'www.dratio.com'),
@@ -1111,7 +1112,7 @@ return array(
     'viyouhui.com' => array('viyouhui.com', 'www.viyouhui.com'),
 
 
-    //一些电视盒子相关的屏蔽列表
+    //一些電視盒子相關的屏蔽列表
     'tuiapple.com' => array('activity.tuiapple.com'),
     'tudou.com' => array('ad.api.3g.tudou.com'),
     'youku.com' => array('ad.api.3g.youku.com', 'ad.api.mobile.youku.com'),
