@@ -1,6 +1,6 @@
 <?php
 /**
- * url地址相关的操作类
+ * url地址相關的操作類
  *
  * @file addressMaker.class.php
  * @author gently
@@ -15,7 +15,7 @@ class addressMaker{
     const LINK_URL = 'https://github.com/privacy-protection-tools/anti-AD';
 
     /**
-     * 分离域名
+     * 分離域名
      *
      * @param $str_domain
      * @return string
@@ -26,13 +26,13 @@ class addressMaker{
         }
 
         $str_reg = '/^(?:(?:[a-z0-9\-]*[a-z0-9]\.)*?|\.)?([a-z0-9\-]*[a-z0-9](';
-        /************start CN域名的特殊处理规则，其中包括了各行政区特别后缀的cn域名*****************************/
+        /************start CN域名的特殊處理規則，其中包括了各行政區特別後綴的cn域名*****************************/
         $str_reg .= '\.ac\.cn|\.ah\.cn|\.bj\.cn|\.com\.cn|\.cq\.cn|\.fj\.cn|\.gd\.cn|\.gov\.cn|\.gs\.cn';
         $str_reg .= '|\.gx\.cn|\.gz\.cn|\.ha\.cn|\.hb\.cn|\.he\.cn|\.hi\.cn|\.hk\.cn|\.hl\.cn|\.hn\.cn';
         $str_reg .= '|\.jl\.cn|\.js\.cn|\.jx\.cn|\.ln\.cn|\.mo\.cn|\.net\.cn|\.nm\.cn|\.nx\.cn|\.org\.cn';
         $str_reg .= '|\.qh\.cn|\.sc\.cn|\.sd\.cn|\.sh\.cn|\.sn\.cn|\.sx\.cn|\.tj\.cn|\.tw\.cn|\.xj\.cn';
         $str_reg .= '|\.xz\.cn|\.yn\.cn|\.zj\.cn|\.edu.cn';
-        /************end CN域名的特殊处理规则，其中包括了各行政区特别后缀的cn域名******************************/
+        /************end CN域名的特殊處理規則，其中包括了各行政區特別後綴的cn域名******************************/
         $str_reg .= '|\.cn|\.com|\.net|\.org|\.me|\.co|\.info|\.cc|\.tv';
         $str_reg .= '|\.pw|\.biz|\.top|\.win|\.bid|\.cf|\.club|\.ne|\.de|\.la|\.us|\.mobi|\.hn|\.asia';
         $str_reg .= '|\.jp|\.tw|\.am|\.hk|\.site|\.live|\.xyz|\.space|\.fr|\.es|\.nl|\.au|\.in|\.ru';
@@ -66,11 +66,11 @@ class addressMaker{
     }
 
     /**
-     * 从 easylist类源文件中提取可用地址
+     * 從 easylist類源文件中提取可用地址
      *
      * @param String $str_easylist 原始的easylist列表字符串
-     * @param Boolean $strict_mode 严格模式，启用时将屏蔽该域所在的主域名，例如www.baidu.com，将获取到baidu.com并写入最终列表
-     * @param Array $arr_whitelist 白名单列表
+     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主域名，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
+     * @param Array $arr_whitelist 白名單列表
      * @return array
      */
     public static function get_domain_from_easylist($str_easylist, $strict_mode = false, $arr_whitelist = array()){
@@ -79,7 +79,7 @@ class addressMaker{
             return array();
         }
 
-        $str_easylist = $str_easylist . "\n"; //防止最后一行没有换行符
+        $str_easylist = $str_easylist . "\n"; //防止最後一行沒有換行符
 
         $i = 0;
         $arr_domains = array();
@@ -115,11 +115,11 @@ class addressMaker{
     }
 
     /**
-     * 从hosts或dnsmasq类文件中提取地址
+     * 從hosts或dnsmasq類文件中提取地址
      *
      * @param String $str_hosts 原始的hosts字符串
-     * @param Boolean $strict_mode 严格模式，启用时将屏蔽该域所在的主域名，例如www.baidu.com，将获取到baidu.com并写入最终列表
-     * @param Array $arr_whitelist 白名单
+     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主域名，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
+     * @param Array $arr_whitelist 白名單
      * @return array
      */
     public static function get_domain_list($str_hosts, $strict_mode = false, $arr_whitelist = array()){
@@ -128,7 +128,7 @@ class addressMaker{
             return array();
         }
 
-        $str_hosts = $str_hosts . "\n"; //防止最后一行没有换行符
+        $str_hosts = $str_hosts . "\n"; //防止最後一行沒有換行符
 
         $i = 0;
         $arr_domains = array();
@@ -136,7 +136,7 @@ class addressMaker{
             $end_pos = strpos($str_hosts, "\n", $i);
             $line = trim(substr($str_hosts, $i, $end_pos - $i));
             $i = $end_pos + 1;
-            if(empty($line) || ($line{0} == '#')){//注释行忽略
+            if(empty($line) || ($line{0} == '#')){//註釋行忽略
                 continue;
             }
             $line = strtolower(preg_replace('/[\s\t]+/', "/", $line));
@@ -173,7 +173,7 @@ class addressMaker{
     }
 
     /**
-     * 写入结果到最终文件
+     * 寫入結果到最終文件
      *
      * @param array $arr_src
      * @param $arr_format
@@ -202,7 +202,7 @@ class addressMaker{
                 continue;
             }
 
-            if(empty($main_domain)){//不匹配记录（一般是不合法域名或者未收录的后缀）
+            if(empty($main_domain)){//不匹配記錄（一般是不合法域名或者未收錄的後綴）
                 continue;
             }
 
