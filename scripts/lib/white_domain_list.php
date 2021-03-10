@@ -1,54 +1,60 @@
 <?php
 //white_domain_list
-//白名单机制...，白名单是
+//白名單機制...，白名單是
 //@date 2018年12月23日
-//value=-1,代表失效本条规则，暂只支持单域名（针对引入外部白名单时的精确控制）,当处于strict_mode时，排除此key，单条关闭strict_mode
-//value=0,代表仅加白单条域名
-//value=1,代表其下级域名全部加白（例如3级域名，则其4级子域名全部加白）
-//value=2,代表仅加白主域名及其子域名，即如果是主域名，加白全部，如果是子域名，加白命中的单条
+//value=-1,代表失效本條規則，暫只支持單域名（針對引入外部白名單時的精確控制）,當處於strict_mode時，排除此key，單條關閉strict_mode
+//value=0,代表僅加白單條域名
+//value=1,代表其下級域名全部加白（例如3級域名，則其4級子域名全部加白）
+//value=2,代表僅加白主域名及其子域名，即如果是主域名，加白全部，如果是子域名，加白命中的單條
 
 return array(
 
     'cdn-thumb.fds.api.xiaomi.com' => 0,
     'bce.baidu.com' => 0,
     'b.bdstatic.com' => 0,
-    'gss0.bdstatic.com' => 0, //百度贴吧头像
-    'googleadapis.l.google.com' => 0, //解决google字体下载异常
-    'gstaticadssl.l.google.com' => 0, //解决google字体下载异常
-    'gvt2.com' => 1, //gvt2，安卓系统相关
-    'wangbase.com' => 1, //阮一峰同志的博客图片显示
-    'l.qq.com' => 0, //解决腾讯视频无法播放
-    'dldir1.qq.com' => 0, //qq下载安装包路径
-    'cgi.connect.qq.com' => 0, //qq互联
-    'stdl.qq.com' => 0, //qq浏览器
-    'wup.imtt.qq.com' => 0, //qq浏览器书签
-    'pacaio.match.qq.com' => 0, //腾讯网qq登录
-    'gia.jd.com' => 0, //京东滑动验证码
-    'edge.yunjiasu.com' => 0, //百度云加速javascript快速加载功能
-    'cd.bendibao.com' => 0, //成都本地宝
-    'm.qpic.cn' => 0, // qq，微信，QQ空间等用到的静态资源域名
-    'ipify.org' => 1, // 获得公网 IP
-    'pass.1688.com' => 0, // 阿里巴巴网站访问不正常
+    'goatcounter.com' => 0,
+    'pornimg.xyz' => 0,
+    'etracker.com' => 0,
+    'etracker.de' => 0,
+    'edge.activity.windows.com' => 0,
+    'edge-enterprise.activity.windows.com' => 0,
+    'gss0.bdstatic.com' => 0, //百度貼吧頭像
+    //'googleadapis.l.google.com' => 0, //解決google字體下載異常
+    //'gstaticadssl.l.google.com' => 0, //解決google字體下載異常
+    'gvt2.com' => 1, //gvt2，安卓系統相關
+    'wangbase.com' => 1, //阮一峰同志的博客圖片顯示
+    'l.qq.com' => 0, //解決騰訊視頻無法播放
+    'dldir1.qq.com' => 0, //qq下載安裝包路徑
+    'cgi.connect.qq.com' => 0, //qq互聯
+    'stdl.qq.com' => 0, //qq瀏覽器
+    'wup.imtt.qq.com' => 0, //qq瀏覽器書籤
+    'pacaio.match.qq.com' => 0, //騰訊網qq登錄
+    'gia.jd.com' => 0, //京東滑動驗證碼
+    'edge.yunjiasu.com' => 0, //百度雲加速javascript快速加載功能
+    'cd.bendibao.com' => 0, //成都本地寶
+    'm.qpic.cn' => 0, // qq，微信，QQ空間等用到的靜態資源域名
+    'ipify.org' => 1, // 獲得公網 IP
+    'pass.1688.com' => 0, // 阿里巴巴網站訪問不正常
     'cedexis.net' => 0, // windowsupdate CNAME
-    'y0.cn' => 0, // 短网址服务，涉及本次丁香医生实时疫情页面 http://y0.cn/sari
-    'click.taobao.com' => 0, //淘宝粉丝福利购
-    't1.baidu.com' => 0, //百度图片自有平台
-    't2.baidu.com' => 0, //百度图片自有平台
-    't3.baidu.com' => 0, //百度图片自有平台
-    't4.baidu.com' => 0, //百度图片自有平台
-    't5.baidu.com' => 0, //百度图片自有平台
-    't6.baidu.com' => 0, //百度图片自有平台
-    't7.baidu.com' => 0, //百度图片自有平台
-    't8.baidu.com' => 0, //百度图片自有平台
-    't9.baidu.com' => 0, //百度图片自有平台
-    't10.baidu.com' => 0, //百度图片自有平台
-    't11.baidu.com' => 0, //百度图片自有平台
-    't12.baidu.com' => 0, //百度图片自有平台
-    'bytedance.com' => 0, //字节跳动
-    'tbskip.taobao.com' => 1, //淘宝订单搜索相关
-    'wl.jd.com' => 0, //修复京东pc首页加载异常
-    'tanx.com' => 0, //饿了么店铺异常
-    'promotion.aliyun.com' => 0, //阿里云控制台
+    'y0.cn' => 0, // 短網址服務，涉及本次丁香醫生實時疫情頁面 http://y0.cn/sari
+    'click.taobao.com' => 0, //淘寶粉絲福利購
+    't1.baidu.com' => 0, //百度圖片自有平台
+    't2.baidu.com' => 0, //百度圖片自有平台
+    't3.baidu.com' => 0, //百度圖片自有平台
+    't4.baidu.com' => 0, //百度圖片自有平台
+    't5.baidu.com' => 0, //百度圖片自有平台
+    't6.baidu.com' => 0, //百度圖片自有平台
+    't7.baidu.com' => 0, //百度圖片自有平台
+    't8.baidu.com' => 0, //百度圖片自有平台
+    't9.baidu.com' => 0, //百度圖片自有平台
+    't10.baidu.com' => 0, //百度圖片自有平台
+    't11.baidu.com' => 0, //百度圖片自有平台
+    't12.baidu.com' => 0, //百度圖片自有平台
+    'bytedance.com' => 0, //字節跳動
+    'tbskip.taobao.com' => 1, //淘寶訂單搜索相關
+    'wl.jd.com' => 0, //修復京東pc首頁加載異常
+    'tanx.com' => 0, //餓了麼店舖異常
+    'promotion.aliyun.com' => 0, //阿里雲控制台
     'rarbg.to' => 0, //BT站
     'rarbgprx.org' => 0, //BT站
     'rarbgmirror.org' => 0, //BT站
@@ -63,40 +69,40 @@ return array(
     'rarbg2019.org' => 0, //BT站
     'rarbg2020.org' => 0, //BT站
     'rarbg2021.org' => 0, //BT站
-    'gsp0.baidu.com' => 0, //百度贴吧相关
-    'gsp1.baidu.com' => 0, //百度贴吧相关
-    'gsp2.baidu.com' => 0, //百度贴吧相关
-    'gsp3.baidu.com' => 0, //百度贴吧相关
-    'sp0.baidu.com' => 0, //百度翻译资源
-    'sp1.baidu.com' => 0, //百度翻译资源
-    'sp2.baidu.com' => 0, //百度翻译资源
-    'c0.ifengimg.com' => 0, //凤凰网视频异常
-    '7moor.com' => 0, //山姆会员客服异常
-    'v.smtcdns.net' => 0, //影响部分B站直播
-    'gameone.com' => 0, //影响部分B站直播
-    'ultraiso.net' => 1, //软碟通官网
-    'mmstat.com' => 0, //修复优酷视频显示禁用了cookie
-    'log.mmstat.com' => 0, //修复优酷视频显示禁用了cookie
-    'adm.10jqka.com.cn' => 0, //修复同花顺的tips异常
+    'gsp0.baidu.com' => 0, //百度貼吧相關
+    'gsp1.baidu.com' => 0, //百度貼吧相關
+    'gsp2.baidu.com' => 0, //百度貼吧相關
+    'gsp3.baidu.com' => 0, //百度貼吧相關
+    'sp0.baidu.com' => 0, //百度翻譯資源
+    'sp1.baidu.com' => 0, //百度翻譯資源
+    'sp2.baidu.com' => 0, //百度翻譯資源
+    'c0.ifengimg.com' => 0, //鳳凰網視頻異常
+    '7moor.com' => 0, //山姆會員客服異常
+    'v.smtcdns.net' => 0, //影響部分B站直播
+    'gameone.com' => 0, //影響部分B站直播
+    'ultraiso.net' => 1, //軟碟通官網
+    'mmstat.com' => 0, //修復優酷視頻顯示禁用了cookie
+    'log.mmstat.com' => 0, //修復優酷視頻顯示禁用了cookie
+    'adm.10jqka.com.cn' => 0, //修復同花順的tips異常
     'cps.kaola.com' => 0, //考拉的cps，放行
-    'iteye.com' => 0, //某编程网站
-    'dl.360safe.com' => 0, //360驱动下载
-    'resolver.msg.xiaomi.net' => 0, //小爱音箱语音识别
-    'api.sec.miui.com' => 0, //miui自带骚扰拦截相关
-    'iface2.iqiyi.com' => 0, //爱奇艺 相关视频推荐
-    'apm3.music.163.com' => 0, //网易云音乐
-    'mbd.baidu.com' => 0, //百度百家号
-    'suo.im' => 0, //短网址服务
+    'iteye.com' => 0, //某編程網站
+    'dl.360safe.com' => 0, //360驅動下載
+    'resolver.msg.xiaomi.net' => 0, //小愛音箱語音識別
+    'api.sec.miui.com' => 0, //miui自帶騷擾攔截相關
+    'iface2.iqiyi.com' => 0, //愛奇藝 相關視頻推薦
+    'apm3.music.163.com' => 0, //網易雲音樂
+    'mbd.baidu.com' => 0, //百度百家號
+    'suo.im' => 0, //短網址服務
     'hinet.net' => 0,
-    'hubpd.com' => 0, //党媒平台网址
-    'i.niupic.com' => 0, //免费图床地址
-    'api-game.meizu.com' => 0, //魅族商店更新游戏
-    'image.uczzd.cn' => 0, //uc头条的图片 #67
-    'dg.k.jd.com' => 0, //京东不能跳转app
-    'orbit.jd.com' => 0, //京东不能跳转app
-    'kepler.jd.com' => 0, //京东不能跳转app
-    'widget.weibo.com' => 0, //微博误杀
-    'sailthru.com' => 0, //误杀epicgame.com，因CNAME #73
+    'hubpd.com' => 0, //黨媒平台網址
+    'i.niupic.com' => 0, //免費圖床地址
+    'api-game.meizu.com' => 0, //魅族商店更新遊戲
+    'image.uczzd.cn' => 0, //uc頭條的圖片 #67
+    'dg.k.jd.com' => 0, //京東不能跳轉app
+    'orbit.jd.com' => 0, //京東不能跳轉app
+    'kepler.jd.com' => 0, //京東不能跳轉app
+    'widget.weibo.com' => 0, //微博誤殺
+    'sailthru.com' => 0, //誤殺epicgame.com，因CNAME #73
     't1.58cdn.com.cn' => 0, // 58同城cdn #75
     't2.58cdn.com.cn' => 0, // 58同城cdn #75
     't3.58cdn.com.cn' => 0, // 58同城cdn #75
@@ -106,15 +112,15 @@ return array(
     'zimuku.la' => 0, // #84
     'qihucdn.com' => 0, // #89
     'sqimg.qq.com' => 0, // #90
-    'haohuo.snssdk.com' => 0, // 抖音订单列表
+    'haohuo.snssdk.com' => 0, // 抖音訂單列表
     'acs.m.taobao.com' => 0, // #92
     'perfops.net' => 0, // #96
     'msg.video.qiyi.com' => 0, // #93
-    'img.zuoyebang.cc' => 0, // 作业帮拍照搜题
-    'data.video.iqiyi.com' => 0, // 爱奇艺电视投屏
-    'cp81.ott.cibntv.net' => 0, // CIBN云视听异常 #107
-    'sj.uukanshu.com' => 0, // 误杀 #110
-    'e.shifen.com' => 0, // 百度的某个cname域名，误杀严重
+    'img.zuoyebang.cc' => 0, // 作業幫拍照搜題
+    'data.video.iqiyi.com' => 0, // 愛奇藝電視投屏
+    'cp81.ott.cibntv.net' => 0, // CIBN雲視聽異常 #107
+    'sj.uukanshu.com' => 0, // 誤殺 #110
+    'e.shifen.com' => 0, // 百度的某個cname域名，誤殺嚴重
     'gvt1.com' => 0, // google play #117
     'apiwz.midukanshu.com' => 0, // #120
     'api.jr.mi.com' => 0, // #121
@@ -129,12 +135,12 @@ return array(
     'ae01.alicdn.com' => 0, // #142
    // 'pingjs.qq.com' => 0, // #143
     'shifen.com' => 0, // 百度的cname
-    'f10.baidu.com' => 0, // 百度公众号图片
-    'f11.baidu.com' => 0, // 百度公众号图片
-    'f12.baidu.com' => 0, // 百度公众号图片
-    'bj.bcebos.com' => 0, // 百度云产品    
-    'kingsoft.com' => 0, // 金山软件
-    'top.baidu.com' => 0, // 百度风云榜
+    'f10.baidu.com' => 0, // 百度公眾號圖片
+    'f11.baidu.com' => 0, // 百度公眾號圖片
+    'f12.baidu.com' => 0, // 百度公眾號圖片
+    'bj.bcebos.com' => 0, // 百度雲產品    
+    'kingsoft.com' => 0, // 金山軟件
+    'top.baidu.com' => 0, // 百度風雲榜
     'aiseet.atianqi.com' => 0, // #147
     'data.bilibili.com' => 0, // #148
     'get3.adobe.com' => 0, // #152
@@ -142,7 +148,7 @@ return array(
     '1sapp.com' => 0, // #156
     'dyn.ithome.com' => 0, // #157
     'sf6-ttcdn-tos.pstatp.com' => 0, // #159
-    'api.tv.sohu.com' => 0, // 搜狐视频win app版不能使用
+    'api.tv.sohu.com' => 0, // 搜狐視頻win app版不能使用
     'ip2location.com' => 0, // #163
     'livere.com' => 0, // #170
     'ucan.25pp.com' => 0, // #171
@@ -160,7 +166,7 @@ return array(
     'iwx.mail.qq.com' => 0, // #243
     'ename.net' => 0, // #246
     'api.iplay.163.com' => 0, // #247
-    'minorshort.weixin.qq.com' => 0, // 微信滑动验证码 
+    'minorshort.weixin.qq.com' => 0, // 微信滑動驗證碼 
     'pusher.com' => 0, // #248
     'bluehost.com' => 0, // #249
     'hosting24.com' => 0, // #252
@@ -215,7 +221,7 @@ return array(
     'issuecdn.baidupcs.com' => 0, // #350
     'duiba.com.cn' => 0, // #352
     'trib.al' => 0, // #357
-
+    
     
     
     
@@ -236,11 +242,11 @@ return array(
     'cdn77.org' => -1,
     'cloudflare.net' => -1,
     'appspot.com' => -1,
-    'cpm.cm.kankan.com' => -1, //-1 失效本条规则，保持现状，即不加白本域名
-    'deliver.ifeng.com' => -1, //保留的dead-hosts，为了缩减其子域名
-    'ad.xiaomi.com' => -1, //保留的dead-hosts，为了缩减其子域名
+    'cpm.cm.kankan.com' => -1, //-1 失效本條規則，保持現狀，即不加白本域名
+    'deliver.ifeng.com' => -1, //保留的dead-hosts，為了縮減其子域名
+    'ad.xiaomi.com' => -1, //保留的dead-hosts，為了縮減其子域名
 
-    /**notracking 提议加白的一批域名 start**/
+    /**notracking 提議加白的一批域名 start**/
     'scribol.com' => 0,
     'tracking.epicgames.com' => 0,
     'logrocket.com' => 0,
@@ -272,7 +278,7 @@ return array(
     'dynatrace.com' => 0,
     'auditude.com' => 0,
     'app.link' => 0,
-    /**notracking 提议加白的一批域名 end**/
+    /**notracking 提議加白的一批域名 end**/
 
     'activate.adobe.com' => 0,
     'ereg.adobe.com' => 0,
@@ -299,4 +305,7 @@ return array(
     'techsmith.com' => 1,
     'binaryage.com' => 1,
     'wisecleaner.com' => 1,
+    'd1bl11pgu3tw3h.cloudfront.net' => 0,
+    'tv.sohu.com' => 0,
+    '3975.com' => 0,
 );
