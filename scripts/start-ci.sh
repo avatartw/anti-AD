@@ -124,13 +124,13 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
  | uniq >base-dead-hosts.txt
 
 
-cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | sort | uniq >base-src-easylist.txt
-cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >wildcard-src-easylist.txt
-cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^[^\|!]|\*|(^[^!]\S*[^\^]$)" | sort | uniq >e-easylist.txt
-cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | LC_ALL=C sort | uniq >base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | LC_ALL=C sort | uniq >wildcard-src-easylist.txt
+cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | LC_ALL=C sort | uniq >whiterule-src-easylist.txt
+cat easylist0.txt | grep -E "^[^\|!]|\*|(^[^!]\S*[^\^]$)" | LC_ALL=C sort | uniq >e-easylist.txt
+cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | LC_ALL=C sort | uniq >>base-src-easylist.txt
 #cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort | uniq >rule-modifiers.txt
-sort base-src-easylist.txt | uniq >a.txt
+LC_ALL=C sort base-src-easylist.txt | uniq >a.txt
 mv -f a.txt base-src-easylist.txt
 
 cd ../
