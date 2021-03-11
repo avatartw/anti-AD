@@ -139,7 +139,7 @@ php make-addr.php
 #sleep 2m
 cat ../anti-ad-easylist.txt ./origin-files/e-easylist.txt > ../a.txt
 cp ../a.txt ../anti-ad-easylist.txt
-#(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort) | uniq > ../anti-ad-easylist.txt
+(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
 rm -f ../a.txt
 
 echo
