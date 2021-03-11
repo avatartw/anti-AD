@@ -1,8 +1,8 @@
-! Checksum: EuVSLZauTyH9pbZ9C6nb0g
+! Checksum: irvzyBGrk0lOvaowau30fA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.69.16
-! TimeUpdated: 2021-03-10T16:02:50+03:00
+! Version: 2.0.69.19
+! TimeUpdated: 2021-03-11T04:01:06+03:00
 ! Expires: 4 days (update frequency)
 .optmnstr.
 /1pixel.
@@ -8104,6 +8104,7 @@ _europecookielaw.
 ##.s_youtube
 ##.saboxplugin-socials
 ##.safirShare
+##.sal-leaf-accessori-sharebox
 ##.save-share
 ##.sb-likeshare
 ##.sbSocialData
@@ -12669,6 +12670,7 @@ _europecookielaw.
 ###message_cookie
 ###metisCookieTopBar
 ###mk-cookie
+###mkCookieBar-bar
 ###mktg_Cookie_Wrap
 ###mmMS--bottom-notification
 ###mmMS--notification
@@ -18436,6 +18438,8 @@ yoigo.com#@#thor-cookies
 @@||cloudfront.net/meta/p/res/images/$image,domain=trello.com
 @@||cloudfront.net^*/images/soc/$image,domain=crowdin.com
 @@||cnn.com/cnnnext/*-social-$image
+@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/instafeed.min.js$~third-party
+@@||comelitgroup.com/wp-content/themes/comelitgroup/includes/js/SocialShare.min.js$~third-party
 @@||corriereobjects.it^*/socialshare.js?$domain=video.corriere.it
 @@||cotrip.org/images/common/$image,~third-party
 @@||crazypanda.ru/m/js/social-$script,domain=crazypanda.ru
