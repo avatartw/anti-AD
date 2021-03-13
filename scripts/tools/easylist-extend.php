@@ -126,8 +126,8 @@ $ARR_MERGED_WILD_LIST = array(
 
 $ARR_REGEX_LIST = array(
     '/9377[a-z]{2}\.com$/' => null,
-    '/^([^[^\s\/]+\.]+\.)?ad([\d]|m|s)?\./' => null,
-    '/^([^[^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
+    '/^([^\s\/]+\.)?ad([\d]|m|s)?\./' => null,
+    '/^([^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
     '/afgr[\d]{1,2}\.com$/' => null,
     '/^([^\s\/]+\.)?analytics(\-|\.)/' => null,
     '/^([^\s\/]+\.)?counter(\-|\.)/' => null,
@@ -191,7 +191,6 @@ $ARR_REGEX_LIST = array(
     '/^([\w]{1,4}\.)?allegro(finanse)?\d+\.pl/' => null,
     '/^([\w]{1,4}\.)?faktury\d+\.org/' => null,
     '/^([\w]{1,4}\.)?(probablerootport|ideaanstudy)-?[\d]{1,2}\.live/' => null,
-    '/^([\w]{1,4}\.)?[a-z]{6,30}-?\d{1,2}\.li[fv]e/' => null,
 
     // '/^([^\s\/]+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
 );
