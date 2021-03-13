@@ -111,7 +111,7 @@ cd origin-files
 
 sudo apt-get install tofrodos
 
-tofrodos -d -p easylist* hosts* strict-hosts* dead-hosts*
+fromdos -p easylist* hosts* strict-hosts* dead-hosts*
 
 #cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
 # | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
