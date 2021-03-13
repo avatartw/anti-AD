@@ -4,6 +4,8 @@ source /etc/profile
 
 cd $(cd "$(dirname "$0")";pwd)
 
+export LC_ALL="zh_TW.UTF-8"
+
 easylist=(
   "https://raw.githubusercontent.com/avatartw/avatartw/main/my-anti-ad.txt"
   "https://filters.adtidy.org/extension/chromium/filters/101_optimized.txt"
