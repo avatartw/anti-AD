@@ -109,7 +109,7 @@ done
 
 cd origin-files
 
-sudo apt-get install tofrodos
+# sudo apt-get install tofrodos
 
 fromdos -p easylist* hosts* strict-hosts* dead-hosts*
 
