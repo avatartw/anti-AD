@@ -1,8 +1,8 @@
-! Checksum: 1k9isMgzj0QPdl/Zcw5pcg
+! Checksum: 6Q71SIc3FhqcyuDcFcYdKg
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.0.69.44
-! TimeUpdated: 2021-03-13T08:00:20+03:00
+! Version: 2.0.69.45
+! TimeUpdated: 2021-03-13T16:00:20+03:00
 ! Expires: 4 days (update frequency)
 &act=ads_
 &ad_block=
@@ -18368,6 +18368,7 @@ comicbookrealm.com###right-rail > .module
 forums.anandtech.com###rightcol_top
 sciencealert.com###rt-header
 wsj.com###saving-united-coupon-list
+sched.com###sched-overlay-ad
 my.juno.com###scienceTile
 yahoo.com###sda-LDRB
 yahoo.com###sda-MAST
@@ -18627,6 +18628,11 @@ washingtontimes.com##.connatixcontainer
 marketwatch.com##.container--sponsored
 miniclip.com##.container-300x250
 adfoc.us##.content > iframe
+techrepublic.com##.content-MPU-bottom
+techrepublic.com##.content-MPU-middle
+techrepublic.com##.content-MPU-top
+techrepublic.com##.content-leader-bottom
+techrepublic.com##.content-leader-top
 jmail.co.za,tsamail.co.za,webmail.co.za##.content-section-left
 imdb.com##.cornerstone_slot
 thesimsresource.com##.crtv-bottom-wrapper
@@ -18784,6 +18790,7 @@ ubergizmo.com##.mediumbox
 democraticunderground.com##.mediumrectangle-op-blank
 democraticunderground.com##.mediumrectangle-placeholder
 allnurses.com##.medrec
+techrepublic.com##.medusa_right-rail
 flysat.com##.menualtireklam
 krebsonsecurity.com##.mid-banner
 investing.com##.midHeader
@@ -19623,6 +19630,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||nationalreview.com/wp-content/themes/national-review/client/build/js/$script
 @@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||networkworld.com/www/js/ads/gpt_includes.js?
+@@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nitropay.com/ads-$script,domain=lolalytics.com
 @@||notebookcheck.$image,~third-party
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
