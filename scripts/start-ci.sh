@@ -109,26 +109,28 @@ done
 
 cd origin-files
 
+dos2unix -k easylist* hosts* strict-hosts* dead-hosts*
+
 #cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
 # | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
 # | sed s/0.0.0.0/127.0.0.1/g | sed s/::/127.0.0.1/g | sort \
-# | tr -d '\r' | uniq >base-src-hosts.txt
+# | uniq >base-src-hosts.txt
 
 cat strict-hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
  | sed s/0.0.0.0/127.0.0.1/g | sed s/::/127.0.0.1/g | sort \
- | tr -d '\r' | uniq >base-src-strict-hosts.txt
+ | uniq >base-src-strict-hosts.txt
 
 cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
  | sort \
- | tr -d '\r' | uniq >base-dead-hosts.txt
+ | uniq >base-dead-hosts.txt
 
 
-cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | sort -d | tr -d '\r' | uniq >base-src-easylist.txt
-cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort -d | tr -d '\r' | uniq >wildcard-src-easylist.txt
-cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort -d | tr -d '\r' | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^[^\|!]|\*|(^[^!]\S*[^\^]$)" | sort -d | tr -d '\r' | uniq >e-easylist.txt
-cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort -d | tr -d '\r' | uniq >>base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | sort -d | uniq >base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort -d | uniq >wildcard-src-easylist.txt
+cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort -d | uniq >whiterule-src-easylist.txt
+cat easylist0.txt | grep -E "^[^\|!]|\*|(^[^!]\S*[^\^]$)" | sort -d | uniq >e-easylist.txt
+cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort -d | uniq >>base-src-easylist.txt
 #cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort -d | uniq >rule-modifiers.txt
 sort -d base-src-easylist.txt | uniq >a.txt
 mv -f a.txt base-src-easylist.txt
@@ -137,7 +139,7 @@ cd ../
 
 php make-addr.php
 cat ../anti-ad-easylist.txt ./origin-files/e-easylist.txt > ../a.txt
-(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | tr -d '\r' | uniq > ../anti-ad-easylist.txt
+(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
 rm -f ../a.txt
 
 echo
