@@ -13,10 +13,9 @@ jobs:
       run: |
         sudo apt-get update -y
         sudo apt-get install -y tofrodos
-    - name: Run start-ci.sh
-      run: |
-        sudo update-alternatives --set php /usr/bin/php7.4
-        ./scripts/start-ci.sh
+        cd ./scripts/origin-files
+        fromdos -p -v *
+
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
