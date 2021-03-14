@@ -139,6 +139,7 @@ mv -f a.txt base-src-easylist.txt
 cd ../
 
 php make-addr.php
+cp ../anti-ad-easylist.txt ../b.txt
 cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
 awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
