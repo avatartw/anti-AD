@@ -52,6 +52,12 @@ rm -f ./origin-files/easylist*
 rm -f ./origin-files/hosts*
 rm -f ./origin-files/strict-hosts*
 rm -f ./origin-files/dead-hosts*
+rm -f ../adblock-for-dnsmasq.conf
+rm -f ../anti-ad-clash.yaml
+rm -f ../anti-ad-domains.txt
+rm -f ../anti-ad-smartdns.conf
+rm -f ../anti-ad-surge.txt
+rm -f ../anti-ad-surge2.txt
 
 #cp ./origin-files/yhosts-latest.txt ./origin-files/hosts1000.txt
 cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
@@ -138,13 +144,13 @@ mv -f a.txt base-src-easylist.txt
 cd ../
 
 php make-addr.php
-cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
-awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
+#cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
+#awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
 # mv -f ../a.txt ../anti-ad-easylist.txt
 
 echo
-php ./tools/easylist-extend.php ../a.txt
+php ./tools/easylist-extend.php ../anti-ad-easylist.txt
 #cat ./origin-files/rule-modifiers.txt>> ../anti-ad-easylist.txt
 #(head -n 4 ../anti-ad-easylist.txt && tail -n +5 ../anti-ad-easylist.txt | sort) | uniq > ../a.txt
 #mv -f ../a.txt  ../anti-ad-easylist.txt
