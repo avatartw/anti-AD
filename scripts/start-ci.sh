@@ -52,12 +52,7 @@ rm -f ./origin-files/easylist*
 rm -f ./origin-files/hosts*
 rm -f ./origin-files/strict-hosts*
 rm -f ./origin-files/dead-hosts*
-rm -f ../adblock-for-dnsmasq.conf
-rm -f ../anti-ad-clash.yaml
-rm -f ../anti-ad-domains.txt
-rm -f ../anti-ad-smartdns.conf
-rm -f ../anti-ad-surge.txt
-rm -f ../anti-ad-surge2.txt
+
 
 #cp ./origin-files/yhosts-latest.txt ./origin-files/hosts1000.txt
 cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
@@ -135,7 +130,7 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
 cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | sort | uniq >base-src-easylist.txt
 cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >wildcard-src-easylist.txt
 cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^[^\|!]|\*|(^[^!]\S*[^\^]$)" | sort | uniq >e-easylist.txt
+cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" | sort | uniq >e-easylist.txt
 cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
 #cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort -d | uniq >rule-modifiers.txt
 sort base-src-easylist.txt | uniq >a.txt
@@ -144,10 +139,10 @@ mv -f a.txt base-src-easylist.txt
 cd ../
 
 php make-addr.php
-#cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
-#awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
+cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
+awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
-# mv -f ../a.txt ../anti-ad-easylist.txt
+mv -f ../a.txt ../anti-ad-easylist.txt
 
 echo
 php ./tools/easylist-extend.php ../anti-ad-easylist.txt
