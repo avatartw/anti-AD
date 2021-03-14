@@ -1,8 +1,8 @@
-! Checksum: srnmEX6ujqhsHpIsOgmwDg
+! Checksum: 6zCr0web7I1NLZlgx0E1Gg
 ! Title: EasyList (Optimized)
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Version: 2.0.69.48
-! TimeUpdated: 2021-03-14T08:00:19+03:00
+! Version: 2.0.69.50
+! TimeUpdated: 2021-03-14T16:00:19+03:00
 ! Expires: 4 days (update frequency)
 &act=ads_
 &ad_block=
@@ -4897,6 +4897,7 @@ _980x100.
 ##.ad350
 ##.ad350r
 ##.ad360
+##.ad3rdParty
 ##.ad400
 ##.ad468
 ##.ad468x60
@@ -18615,11 +18616,11 @@ washingtontimes.com##.connatixcontainer
 marketwatch.com##.container--sponsored
 miniclip.com##.container-300x250
 adfoc.us##.content > iframe
-techrepublic.com##.content-MPU-bottom
-techrepublic.com##.content-MPU-middle
-techrepublic.com##.content-MPU-top
-techrepublic.com##.content-leader-bottom
-techrepublic.com##.content-leader-top
+techrepublic.com,zdnet.com##.content-MPU-bottom
+techrepublic.com,zdnet.com##.content-MPU-middle
+techrepublic.com,zdnet.com##.content-MPU-top
+techrepublic.com,zdnet.com##.content-leader-bottom
+techrepublic.com,zdnet.com##.content-leader-top
 jmail.co.za,tsamail.co.za,webmail.co.za##.content-section-left
 imdb.com##.cornerstone_slot
 thesimsresource.com##.crtv-bottom-wrapper
@@ -18751,6 +18752,7 @@ dotabuff.com,overbuff.com##.leaderboard_b
 dosgamesarchive.com##.leaderboard_big_banner
 realworldtech.com,rottentomatoes.com##.leaderboard_wrapper
 cherokeetribune.com,rockpapershotgun.com,vg247.com##.leaderboards
+zdnet.com##.leadgen
 keygames.com,solidfiles.com,youserials.com##.left
 10minutemail.net##.leftXL
 op.gg##.life-owner
