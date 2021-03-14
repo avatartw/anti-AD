@@ -9,7 +9,7 @@
 
 class writerFormat{
     /*dnsmasq支持格式的屏蔽广告列表*/
-    const DNSMASQ = array(
+    /*const DNSMASQ = array(
         'format' => 'address=/{DOMAIN}/',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
@@ -34,7 +34,7 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*easylist 兼容格式的屏蔽广告列表*/
     const EASYLIST = array(
@@ -65,7 +65,7 @@ class writerFormat{
     );
 
     /*Surge 兼容格式的屏蔽广告列表*/
-    const SURGE = array(
+    /*const SURGE = array(
         'format' => 'DOMAIN-SUFFIX,{DOMAIN}',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
@@ -90,10 +90,10 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*Surge DOMAIN-SET格式的屏蔽广告列表*/
-    const SURGE2 = array(
+    /*const SURGE2 = array(
         'format' => '.{DOMAIN}',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n\n#DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT\n",
         'full_domain' => 0,
@@ -118,10 +118,10 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*Domains 格式的屏蔽广告列表，用于支持pi-hole等*/
-    const DOMAINS = array(
+    /*const DOMAINS = array(
         'format' => '{DOMAIN}',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 1, //保留子域名，即使其上级域名
@@ -146,10 +146,10 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*smartdns支持格式的屏蔽广告列表*/
-    const SMARTDNS = array(
+    /*const SMARTDNS = array(
         'format' => 'address /{DOMAIN}/#',
         'header' => "#TITLE=anti-AD for SmartDNS\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
@@ -174,10 +174,10 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*Clash RULE-SET 格式的屏蔽广告列表*/
-    const CLASH = array(
+    /*const CLASH = array(
         'format' => '  - \'+.{DOMAIN}\'',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n\n#RULE-SET,AntiAd,REJECT\npayload:\n",
         'full_domain' => 0,
@@ -202,7 +202,7 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );
+    );*/
 
     /*and etc...*/
 
