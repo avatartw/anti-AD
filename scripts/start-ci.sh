@@ -138,10 +138,10 @@ mv -f a.txt base-src-easylist.txt
 cd ../
 
 php make-addr.php
-cat ../anti-ad-easylist.txt ./origin-files/e-easylist.txt > ../a.txt
-awk '{print(NR"\t"$0)}' ../a.txt | sort -t$'\t' -k2,2 | uniq --skip-fields 1 | sort -k1,1 -t$'\t' | cut -f2 -d$'\t' > ../anti-ad-easylist.txt
+cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
+awk '{print(NR"\t"$0)}' ../anti-ad-easylist.txt | sort -t$'\t' -k2,2 | uniq --skip-fields 1 | sort -k1,1 -t$'\t' | cut -f2 -d$'\t' > ../a.txt
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
-rm -f ../a.txt
+mv -f ../a.txt ../anti-ad-easylist.txt
 
 echo
 php ./tools/easylist-extend.php ../anti-ad-easylist.txt
