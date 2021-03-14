@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Sort Domain
-      run:  cat anti-ad-easylist.txt | perl -ple'$_=join".",reverse split/\./' | sort | perl -ple'$_=join".",reverse split/\./' >a.txt
+      run:  cat anti-ad-easylist.txt | perl -ple'$_=join".",reverse split/\./' | sort -d | perl -ple'$_=join".",reverse split/\./' >a.txt
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
