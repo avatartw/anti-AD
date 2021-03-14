@@ -139,12 +139,12 @@ cd ../
 
 php make-addr.php
 cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
-awk '{print(NR"\t"$0)}' ../anti-ad-easylist.txt | sort -t$'\t' -k2,2 | uniq --skip-fields 1 | sort -k1,1 -t$'\t' | cut -f2 -d$'\t' > ../a.txt
+awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
-mv -f ../a.txt ../anti-ad-easylist.txt
+# mv -f ../a.txt ../anti-ad-easylist.txt
 
 echo
-php ./tools/easylist-extend.php ../anti-ad-easylist.txt
+php ./tools/easylist-extend.php ../a.txt
 #cat ./origin-files/rule-modifiers.txt>> ../anti-ad-easylist.txt
 #(head -n 4 ../anti-ad-easylist.txt && tail -n +5 ../anti-ad-easylist.txt | sort) | uniq > ../a.txt
 #mv -f ../a.txt  ../anti-ad-easylist.txt
