@@ -132,8 +132,6 @@ cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq
 cat easylist*.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
 cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
 cat easylist0.txt | grep -E "^@@?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >>e0-wildcard-whiterule.txt
-rm -f wildcard-src.txt
-rm -f whiterule-src.txt
 cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" | sort | uniq >e-easylist.txt
 #cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort -d | uniq >rule-modifiers.txt
 #cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
