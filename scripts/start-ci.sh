@@ -125,14 +125,14 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
  | uniq >base-dead-hosts.txt
 
 
-cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | grep -v "domain=" | sed -i -e 's/\r\+$//' | sort | uniq >base-src-easylist.txt
-cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | grep -v "domain=" | sed -i -e 's/\r\+$//' | sort | uniq >wildcard-src-easylist.txt
-cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | grep -v "generichide" | sed -i -e 's/\r\+$//' | sort | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sed -i -e 's/\r\+$//' | sort | uniq >e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^@@" | sed -i -e 's/\r\+$//' | sort | uniq >>e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" | sed -i -e 's/\r\+$//' >e-easylist.txt
-#cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sed -i -e 's/\r\+$//' | sort -d | uniq >rule-modifiers.txt
-#cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sed -i -e 's/\r\+$//' | sort | uniq >>base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | grep -v "domain=" | sed 's/\r$//' | sort | uniq >base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | grep -v "domain=" | sed 's/\r$//' | sort | uniq >wildcard-src-easylist.txt
+cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | grep -v "generichide" | sed 's/\r$//' | sort | uniq >whiterule-src-easylist.txt
+cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sed 's/\r$//' | sort | uniq >e0-wildcard-whiterule.txt
+cat easylist0.txt | grep -E "^@@" | sed 's/\r$//' | sort | uniq >>e0-wildcard-whiterule.txt
+cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" | sed 's/\r$//' >e-easylist.txt
+#cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sed 's/\r$//' | sort -d | uniq >rule-modifiers.txt
+#cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sed 's/\r$//' | sort | uniq >>base-src-easylist.txt
 #sort base-src-easylist.txt | uniq >a.txt
 #mv -f a.txt base-src-easylist.txt
 
