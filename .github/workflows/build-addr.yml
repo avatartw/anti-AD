@@ -2,7 +2,7 @@ name: Auto build new list
 
 on:
   schedule:
-    - cron: "14 06 * * *"
+    - cron: "32 05 */3 * *"
   workflow_dispatch:
 jobs:
   build:
