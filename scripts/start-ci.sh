@@ -8,7 +8,7 @@ easylist=(
   "https://raw.githubusercontent.com/avatartw/avatartw/main/my-anti-ad.txt"
   "https://filters.adtidy.org/extension/chromium/filters/101_optimized.txt"
   "https://filters.adtidy.org/extension/chromium/filters/118_optimized.txt"
-  "https://raw.githubusercontent.com/avatartw/avatartw/main/219_optimized.txt"
+#  "https://raw.githubusercontent.com/avatartw/avatartw/main/219_optimized.txt"
 #  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
   "https://filters.adtidy.org/extension/chromium/filters/220_optimized.txt"
 #  "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt"
@@ -66,7 +66,7 @@ cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
 for i in "${!easylist[@]}"
 do
   echo "開始下載 easylist${i}..."
-  curl -o "./origin-files/easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}"
+  curl --connect-timeout 60 -s -o - "${easylist[$i]}" | grep -v -E "\^\*|\/|#|generichide|domain=" | sed 's/\r$//' > "./origin-files/easylist${i}.txt"
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下載失敗，請重試'
@@ -125,14 +125,14 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
  | uniq >base-dead-hosts.txt
 
 
-cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | grep -v -E "\^\*|\/" | grep -v "domain=" | sed 's/\r$//' | sort | uniq >base-src-easylist.txt
-cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | grep -v "domain=" | sed 's/\r$//' | sort | uniq >wildcard-src-easylist.txt
-cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | grep -v "generichide" | sed 's/\r$//' | sort | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sed 's/\r$//' | sort | uniq >e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^@@" | sed 's/\r$//' | sort | uniq >>e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" | sed 's/\r$//' >e-easylist.txt
-#cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sed 's/\r$//' | sort -d | uniq >rule-modifiers.txt
-#cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sed 's/\r$//' | sort | uniq >>base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | sort | uniq >base-src-easylist.txt
+cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >wildcard-src-easylist.txt
+cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
+cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
+cat easylist0.txt | grep -E "^@@" | sort | uniq >>e0-wildcard-whiterule.txt
+cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" >e-easylist.txt
+#cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort | uniq >rule-modifiers.txt
+#cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
 #sort base-src-easylist.txt | uniq >a.txt
 #mv -f a.txt base-src-easylist.txt
 
@@ -141,7 +141,7 @@ cd ../
 php make-addr.php
 cat ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt 
 awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
-#(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort -d) | uniq > ../anti-ad-easylist.txt
+#(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort) | uniq > ../anti-ad-easylist.txt
 mv -f ../a.txt ../anti-ad-easylist.txt
 
 echo
