@@ -5,7 +5,6 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://raw.githubusercontent.com/avatartw/avatartw/main/my-anti-ad.txt"
   "https://filters.adtidy.org/extension/chromium/filters/101_optimized.txt"
   "https://filters.adtidy.org/extension/chromium/filters/118_optimized.txt"
 #  "https://raw.githubusercontent.com/avatartw/avatartw/main/219_optimized.txt"
@@ -74,6 +73,8 @@ do
   fi
 done
 
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/avatartw/avatartw/main/my-anti-ad.txt | sed 's/\r$//' > ./origin-files/easylist100.txt
+
 for i in "${!hosts[@]}"
 do
   echo "開始下載 hosts${i}..."
@@ -128,11 +129,11 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
 cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | sort | uniq >base-src-easylist.txt
 cat easylist*.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >wildcard-src-easylist.txt
 cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
-cat easylist0.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^@@" | sort | uniq >>e0-wildcard-whiterule.txt
-cat easylist0.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" >e-easylist.txt
-#cat easylist0.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort | uniq >rule-modifiers.txt
-#cat easylist0.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
+cat easylist100.txt | grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
+cat easylist100.txt | grep -E "^@@" | sort | uniq >>e0-wildcard-whiterule.txt
+cat easylist100.txt | grep -E "^[^\|!]|(^[^!]\S*[^\^]$)" >e-easylist.txt
+#cat easylist100.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort | uniq >rule-modifiers.txt
+#cat easylist100.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
 #sort base-src-easylist.txt | uniq >a.txt
 #mv -f a.txt base-src-easylist.txt
 
