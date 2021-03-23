@@ -66,7 +66,7 @@ cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
 for i in "${!easylist[@]}"
 do
   echo "開始下載 easylist${i}..."
-  curl --connect-timeout 60 -s -o - "${easylist[$i]}" | grep -v -E "\^\*|\/|#|generichide|domain=" | sed 's/\r$//' > "./origin-files/easylist${i}.txt"
+  curl --connect-timeout 60 -s -o - "${easylist[$i]}" | grep -E "^[@\!\|]" | grep -v -E "\^\*|generichide|domain=" | sed 's/\r$//' > "./origin-files/easylist${i}.txt"
   # shellcheck disable=SC2181
   if [ $? -ne 0 ];then
     echo '下載失敗，請重試'
