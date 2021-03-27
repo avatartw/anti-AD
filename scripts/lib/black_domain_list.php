@@ -912,6 +912,22 @@ return array(
         'wwads.cn',
         'www.wwads.cn',
    ),
+   'pigvideo.com.cn' => array( #372
+        'pigvideo.com.cn',
+        'www.pigvideo.com.cn',
+   ),
+   'pigvideo.cn' => array( #372
+        'pigvideo.cn',
+        'www.pigvideo.cn',
+   ),
+   'xiaozhuvideo.cn' => array( #372
+        'xiaozhuvideo.cn',
+        'www.xiaozhuvideo.cn',
+   ),
+   'wikawika.xyz' => array( #375
+        'ad-display.wikawika.xyz',
+        'ad-channel.wikawika.xyz',
+   ),
     
     
     
