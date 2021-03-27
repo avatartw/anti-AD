@@ -49,7 +49,7 @@ class addressMaker{
         $str_reg .= '|\.watch|\.works|\.buzz|\.best|\.center|\.host|\.style|\.press|\.solutions|\.exchange|\.wtf';
         $str_reg .= '|\.delivery|\.page|\.webcam|\.cam|\.supply|\.accountant|\.systems|\.agency|\.science|\.awe';
         $str_reg .= '|\.gd|\.review|\.tc|\.mn|\.cool|\.monster|\.do|\.bi|\.news|\.boom|\.lol|\.events|\.jobs';
-        $str_reg .= '|\.ooo|\.social|\.ninja|\.blue|\.plus|\.racing|\.ht|\.tl|\.cat|\.tf|\.al|\.vc|\.cr';
+        $str_reg .= '|\.ooo|\.social|\.ninja|\.blue|\.plus|\.racing|\.ht|\.tl|\.cat|\.tf|\.al|\.vc|\.cr|\.[a-z0-9_\-]+';
         $str_reg .= ')';
 
         $str_reg .= '(\.hk|\.tw|\.uk|\.jp|\.kr|\.th|\.au|\.ua|\.so|\.br|\.sg|\.pt|\.ec|\.ar|\.my';
@@ -102,7 +102,7 @@ class addressMaker{
                 }else{
                     $row = $matches[1];
                 }
-                $main_domain = $matches[1];
+                $main_domain = self::extract_main_domain($matches[1]);
                 if($strict_mode && (!array_key_exists($main_domain, $arr_whitelist) || ($arr_whitelist[$main_domain] >= 1))){
                     $arr_domains[$main_domain] = array($main_domain);
                 }else{
@@ -151,7 +151,7 @@ class addressMaker{
             if(strpos($row[1], '.') === false){
                 continue;
             }
-            $main_domain = $row[1];
+            $main_domain = self::extract_main_domain($row[1]);
             if($strict_mode && (!array_key_exists($main_domain, $arr_whitelist) || ($arr_whitelist[$main_domain] >= 1))){
                 $arr_domains[$main_domain] = array($main_domain);
             }else{
