@@ -46,6 +46,7 @@ strict_hosts=(
 dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
+  "https://raw.githubusercontent.com/avatartw/avatartw/main/CNAME-trackers-list.txt"
 )
 
 rm -f ./origin-files/easylist*
@@ -122,7 +123,7 @@ cat strict-hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
  | sed s/0.0.0.0/127.0.0.1/g | sed s/::/127.0.0.1/g | sort \
  | uniq >base-src-strict-hosts.txt
 
-cat dead-hosts*.txt | grep -v -E "^(#|\!)" \
+cat dead-hosts*.txt | grep -v -E "^(#|\!|\*|\/)" \
  | sort \
  | uniq >base-dead-hosts.txt
 
