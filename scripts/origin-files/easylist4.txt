@@ -1,8 +1,8 @@
-! Checksum: q8G2FwDOucKcaw8sCLIpZw
+! Checksum: CFvcjsqGRVoY9aJ//Cms2g
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.70.50
-! TimeUpdated: 2021-04-04T04:01:07+03:00
+! Version: 2.0.70.59
+! TimeUpdated: 2021-04-06T16:01:15+03:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -16,7 +16,6 @@
 ||amazonaws.com/mailmunch/$script
 ||apester.com^$third-party
 ||api.traq.li^$third-party
-||app.e2ma.net^$third-party
 ||appboy.eu^$third-party
 ||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
@@ -194,7 +193,6 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||centrnotify.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||farteniuson.com^$third-party
@@ -203,7 +201,6 @@
 ||ntvsw.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
-||push.esputnik.com^
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
@@ -213,6 +210,7 @@
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
 ||pushkintop.ru^$third-party
+||pushmejs.com^$third-party
 ||pushnami.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
@@ -364,7 +362,6 @@
 ||sharethis.com^$third-party
 ||shpg.org^$third-party
 ||simplesharebuttons.com^$third-party
-||smartaddon.com/share_addon.js
 ||social9.com^$third-party
 ||socialannex.com^$third-party
 ||spotify.com/follow/$third-party
@@ -401,6 +398,7 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
+||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||ccmp.eu^$third-party
@@ -425,6 +423,7 @@
 ||cookiereports.com^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
+||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||hs-banner.com^$third-party
 ||iubenda.com^$third-party
@@ -474,6 +473,7 @@
 ||dcnews.ro/sm-
 ||tut.by/push/
 ||3dmark.com/proxycon/images/front-some-fb.png
+||cloudfront.net/facebook/
 ||cloudfront.net/instagram/
 ||crowdin.com/images/soc-btns/
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
@@ -522,7 +522,6 @@
 ||up-cookiemon.wavecdn.net^
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
-||cookie.wieni.be^
 ||cookies.nos.nl^
 ||almamedia.fi/almacmp/$script
 ||rcsobjects.it/rcs_cpmt/
@@ -558,6 +557,7 @@
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
 @@||cookielaw.org/consent/$other,xmlhttprequest
+@@||defense.gouv.fr/lib/tarteaucitron/$~third-party
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
@@ -648,7 +648,6 @@
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
-@@||icons8.com/iconizer/files/$image,~third-party
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
@@ -661,7 +660,6 @@
 @@||letyshops.com/build/core/images/$image,~third-party
 @@||login.mos.ru^$image
 @@||lublin112.pl/wp-content/uploads/$image
-@@||moneymorning.com/wp-content/plugins/mm-social-share/$stylesheet
 @@||panzi.github.io/SocialSharePrivacy/
 @@||parlament.mt/scripts/easy-social-share.js
 @@||passets-cdn.pinterest.com^
@@ -696,6 +694,7 @@
 @@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||tunestotube.com/images/mp3toyoutube.png
+@@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
