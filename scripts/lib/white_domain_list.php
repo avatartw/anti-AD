@@ -224,6 +224,8 @@ return array(
     'alissl.ucdl.pp.uc.cn' => 0, // #370
     'c3pool.com' => 0, // #371
     'check.ddos-guard.net' => 0, // #388
+    'update.avlyun.sec.miui.com' => 0, // #387
+    'sugar.zhihu.com' => 0, // #380
     
     
     
