@@ -226,6 +226,7 @@ return array(
     'check.ddos-guard.net' => 0, // #388
     'update.avlyun.sec.miui.com' => 0, // #387
     'sugar.zhihu.com' => 0, // #380
+    'chtbl.com' => 0, // #390
     
     
     
