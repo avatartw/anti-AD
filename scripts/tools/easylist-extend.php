@@ -244,7 +244,8 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||storage.live.com^' => 1, // #333
     '@@||skyapi.onedrive.live.com^' => 1, // #333
     '@@||counter-strike.net^' => 1, // #332
-    '@@|ftp.bmp.ovh^|' => 1, // #353
+    '@@|ftp.bmp.ovh^' => 1, // #353
+    '@@||profile*.se.360.cn^' => 1, // #381
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
