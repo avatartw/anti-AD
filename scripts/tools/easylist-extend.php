@@ -247,6 +247,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||counter-strike.net^' => 1, // #332
     '@@|ftp.bmp.ovh^' => 1, // #353
     '@@||profile*.se.360.cn^' => 1, // #381
+    '@@||pic.iask.cn^' => 1, // #397
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
