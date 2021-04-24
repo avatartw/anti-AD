@@ -134,7 +134,7 @@ $ARR_MERGED_WILD_LIST = array(
 
 $ARR_REGEX_LIST = array(
     '/9377[a-z]{2}\.com$/' => null,
-    '/^([^\s\/]+\.)?ad([\d]|m|s)?\./' => null,
+    '/^([^\s\/]+\.)?ad([\d]+|m|s)?\./' => null,
     '/^([^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
     '/afgr[\d]{1,2}\.com$/' => null,
     '/^([^\s\/]+\.)?analytics(\-|\.)/' => null,
@@ -210,8 +210,6 @@ $ARR_REGEX_LIST = array(
 //對通配符匹配或正則匹配增加的額外赦免規則
 $ARR_WHITE_RULE_LIST = array(
     '@@||fonts.gstatic.com^' => 1,
-    '@@||edge.activity.windows.com^' => 1,
-    '@@||edge-enterprise.activity.windows.com^' => 1,
     '@@||tongji.*kuwo.cn^' => 0,
     '@@||tracking.epicgames.com^' => 0,
     '@@||tracking.magnetmail.net^' => 0,
@@ -248,6 +246,11 @@ $ARR_WHITE_RULE_LIST = array(
     '@@|ftp.bmp.ovh^' => 1, // #353
     '@@||profile*.se.360.cn^' => 1, // #381
     '@@||pic.iask.cn^' => 1, // #397
+    '@@||ad.jp^' => 1, // #399
+    '@@||ad.azure.com^' => 1, // #399
+    '@@||ad.cityu.edu.hk^' => 1, // #398
+    '@@||edge-enterprise.activity.windows.com^' => 1, // #401
+    '@@||edge.activity.windows.com^' => 1, // #401
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
