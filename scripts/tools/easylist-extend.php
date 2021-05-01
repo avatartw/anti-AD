@@ -309,7 +309,12 @@ while(!feof($wild_fp)){
 
     $matched = false;
     foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        if(preg_match($regex_str, str_replace('*', '',$matches[1]))){
+        $arr_regex = explode('/$', $regex_str);
+        $final_regex = $regex_str;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+        if(preg_match($final_regex, str_replace('*', '',$matches[1]))){
             $matched = true;
         }
     }
@@ -328,18 +333,27 @@ while(!feof($src_fp)){
         continue;
     }
 
-    if((substr($row, 0, 1) === '!') && (substr($row, 0, 13) === '!Total lines:')){
-        $insert_pos = $written_size;
-    }
-
-    if(!preg_match('/^\|.+?/', $row)){
+    if((substr($row, 0, 1) === '!')){
+        if(substr($row, 0, 13) === '!Total lines:'){
+            $insert_pos = $written_size;
+        }
         $written_size += fwrite($new_fp, $row);
         continue;
     }
 
+//    if(!preg_match('/^\|.+?/', $row)){
+//        $written_size += fwrite($new_fp, $row);
+//        continue;
+//    }
+
     $matched = false;
     foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        if(preg_match($regex_str, substr(trim($row), 2, -1))){
+        $arr_regex = explode('/$', $regex_str);
+        $final_regex = $regex_str;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+        if(preg_match($final_regex, substr(trim($row), 2, -1))){
             $matched = true;
             if(!array_key_exists($regex_str, $wrote_wild)){
                 $written_size += fwrite($new_fp, "${regex_str}\n");
@@ -356,7 +370,13 @@ while(!feof($src_fp)){
     foreach($arr_wild_src as $core_str => $wild_row){
         $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
         if(!array_key_exists($core_str, $wrote_wild)){
-            $written_size += fwrite($new_fp, "||${core_str}^\n");
+            $arr_wild_sub = explode('$', $core_str);
+            if(count($arr_wild_sub) > 1){
+                $written_size += fwrite($new_fp, "||${arr_wild_sub[0]}^\$${arr_wild_sub[1]}\n");
+            }else{
+                $written_size += fwrite($new_fp, "||${core_str}^\n");
+            }
+
             $line_count++;
             $wrote_wild[$core_str] = 1;
         }
@@ -400,11 +420,20 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
     foreach($wrote_wild as $core_str => $val){
         if(substr($core_str, 0, 1) === '/'){
             $match_rule = $core_str;
+            $arr_regex = explode('/$', $match_rule);
         }else{
             $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
             $match_rule = "/^${match_rule}/";
         }
-        if(preg_match($match_rule, $matches[1])){
+        
+
+        $final_regex = $match_rule;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+
+
+        if(preg_match($final_regex, $matches[1])){
             $domain = addressMaker::extract_main_domain($matches[1]);
             if(array_key_exists($domain, $black_domain_list) ||
                 (is_array($black_domain_list[$domain]) && in_array($matches[1], $black_domain_list[$domain]))
