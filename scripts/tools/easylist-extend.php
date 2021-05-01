@@ -380,7 +380,7 @@ while(!feof($src_fp)){
             $line_count++;
             $wrote_wild[$core_str] = 1;
         }
-        if(preg_match("/\|${match_rule}/", $row)){
+        if(preg_match("/\|(\S+\.)?${match_rule}/", $row)){
             $matched = true;
             break;
         }
