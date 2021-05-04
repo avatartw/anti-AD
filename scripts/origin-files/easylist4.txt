@@ -1,8 +1,8 @@
-! Checksum: /rb2Se1tYnmmkI0PnN+z8Q
+! Checksum: Fi/YkNEknJcLiPO97BoNWQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.71.54
-! TimeUpdated: 2021-05-01T05:01:05+00:00
+! Version: 2.0.71.65
+! TimeUpdated: 2021-05-04T05:01:06+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -70,14 +70,15 @@
 ||hellobar.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
-||informvisitors.com^$third-party
 ||instapaper.com/e2$third-party
 ||insticator.com^$third-party
 ||internetdefenseleague.org^$third-party
 ||izooto.com^$third-party
 ||jobs.thejobnetwork.com^$third-party
 ||justanswer.com^$third-party
+||leadacity.net^$third-party
 ||leadpages.co^$third-party
+||ligatus.com^$third-party
 ||lightboxcdn.com/vendor/$script,third-party
 ||linkwithin.com^$third-party
 ||lpages.co/serve-leadbox/$third-party
@@ -105,7 +106,6 @@
 ||optnmnstr.com^$third-party
 ||optnmstr.com^$third-party
 ||phoenix-widget.com^$third-party
-||pippity.com^$third-party
 ||placehold.it^$third-party
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
@@ -195,7 +195,6 @@
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
-||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
 ||pushinpage.com^$third-party
@@ -225,7 +224,6 @@
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
 ||aimtell.com^$third-party
-||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -240,7 +238,6 @@
 ||feedify.net^$third-party
 ||feraciumus.com^$third-party
 ||fernomius.com^$third-party
-||fkondate.com^$third-party
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||getback.ch^$third-party
@@ -261,7 +258,6 @@
 ||provesrc.com^$third-party
 ||psh.one^$third-party
 ||push-ad.com^$third-party
-||push-free.com^$third-party
 ||pushalert.co^$third-party
 ||pushbird.com^$third-party
 ||pushbullet.com^$third-party
@@ -301,7 +297,6 @@
 ||digg.com^$script,subdocument,third-party
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
-||facebook.com/plugins/follow.php$third-party
 ||facebook.com/plugins/follow?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
@@ -390,7 +385,6 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
-||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||ccmp.eu^$third-party
@@ -413,6 +407,7 @@
 ||cookiepro.com^$third-party
 ||cookieq.com^$third-party
 ||cookiereports.com^$third-party
+||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||gdpr-service.herokuapp.com^$third-party
@@ -443,7 +438,6 @@
 ||wpcc.io^$third-party
 ||feedback.wwe.com/survey/
 ||goodreads.com/sign_in_prompt
-||jobs.mobilemarketingreads.com^
 ||mediafire.com/images/backgrounds/download/*promo
 ||newegg.com/newegg/survey/
 ||sfstatic.net/build/experiment/helperWidget-
@@ -475,6 +469,7 @@
 ||cmp.infopro-digital.com^
 ||cmp.osano.com^
 ||consent.cmp.oath.com^
+||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||privacy.claytonhomes.com^
 ||purevpn.com/loadGdprView
@@ -482,7 +477,6 @@
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
-||maison-travaux.fr/wp-content/themes/*/iframe-box-article.html
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -500,7 +494,6 @@
 ||news.net.finam.ru^$third-party
 ||static.smi2.net^$third-party
 ||top100.rambler.ru^$third-party
-||aklamator.com^$third-party
 ||newsletters.vocento.com^
 ||kleiner-kalender.de/static/social-media.html
 ||share.baidu.com^
@@ -524,6 +517,7 @@
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||rodo.agora.pl^
+||skryptcookies.pl^$third-party
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 @@/nk-sub.min.js$script,~third-party
@@ -567,6 +561,7 @@
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
+@@||vistaalegre.com/public/js/vendor/$script,stylesheet,~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
@@ -600,7 +595,6 @@
 @@||allfacebook.de/wp-content/uploads/*/nl-allfacebook.png
 @@||alternativeto.net/dist/icons/$image
 @@||amazonaws.com/mibbit/gfx/youtube.png
-@@||animeworld.tv/dist/frontend/vendor/jssocials/jssocials.min.js
 @@||app.degoo.com/assets/icons/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
@@ -629,13 +623,11 @@
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
 @@||fansshare.com/media/*social$image
-@@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
 @@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
 @@||fptplay.net/static/img/share/$image
-@@||gamingsociety.pl/wp-content/themes/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
 @@||golem.de/staticrl/images/icons-social.png
@@ -649,6 +641,7 @@
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
+@@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
 @@||kinogoo.cc/engine/classes/min/index.php$~third-party,xmlhttprequest
