@@ -1,8 +1,8 @@
-! Checksum: 06m0LPCrxI43dBgKHVbnlw
+! Checksum: dhEo2Nb39i5ogfA90qaf6A
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.20
-! TimeUpdated: 2021-05-16T05:01:04+00:00
+! Version: 2.0.72.36
+! TimeUpdated: 2021-05-19T05:01:16+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -136,6 +136,7 @@
 ||service.signalr.net^$third-party
 ||sg-autorepondeur.com^$third-party
 ||siteswithcontent.com^$third-party
+||slashdot.org^$third-party
 ||smi.pp.ua^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
@@ -144,7 +145,6 @@
 ||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
-||systeme.io^$third-party
 ||technorati.com^$third-party
 ||toolbar.complex.com^$third-party
 ||top100-images.rambler.ru^$third-party
@@ -169,7 +169,8 @@
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
 ||zoomanalytics.co^$third-party
-||appspot.com/sounds/chatmsg.mp3
+||music.youtube.com^$csp=worker-src 'none'
+||www.youtube.com^$csp=worker-src 'none'
 ||helpscout.net/static/ui-sounds/
 ||livechatinc.com/widget/static/media/
 ||purechatcdn.com/Content/Audio/
@@ -187,8 +188,6 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||centrnotify.com^$third-party
-||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||luravius.com^$third-party
@@ -229,7 +228,6 @@
 ||wpush.biz^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
-||aimtell.com^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -307,6 +305,7 @@
 ||digitiminimi.com^$third-party
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
+||facebook.com/plugins/fan.php?$third-party
 ||facebook.com/plugins/follow?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
@@ -418,6 +417,7 @@
 ||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
+||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||hs-banner.com^$third-party
 ||iubenda.com^$third-party
@@ -444,7 +444,6 @@
 ||api.qwant.com/*/homepage/trends?
 ||designtaxi.com/css/remodal.css
 ||feedback.wwe.com/survey/
-||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||mediafire.com/images/backgrounds/download/*promo
 ||newegg.com/newegg/survey/
@@ -478,7 +477,6 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
-||privacy.claytonhomes.com^
 ||purevpn.com/loadGdprView
 ||vinted.*/api/*/banners
 ||push.cnnindonesia.com^
@@ -509,6 +507,7 @@
 ||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/lapas/widgets/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
+||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
@@ -530,16 +529,15 @@
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||24tv.ua/assets/tv24/images/transparent-pixel.png$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
-@@||ebuddy.com/website/*social-icons.png
 @@||ecache.vzw.com/imageFiles/Myacct/*/onlineopinionV5/
 @@||expedia.*/opinionlab/oo_engine.js$script
 @@||gismeteo.ru/images/rss/$image
 @@||macrumors.com/images-new/1x1.trans.gif$image,~third-party
+@@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||ng.cengage.com/static/iloveapps/rssfeed/$script,~third-party
 @@||phonearena.com/?b=$~third-party
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
-@@||mirage.ru/js/jquery.smartbanner.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
@@ -557,6 +555,7 @@
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
+@@||hktdc.com/resources/cookieconsent/$~third-party
 @@||mac4ever.com/min.php$script
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
@@ -596,12 +595,8 @@
 @@/wp-content/plugins/wp-rocket/*$image,~third-party
 @@||3dmark.com/proxycon/images/fb_icon.png
 @@||4shared.com/images/icons/social-connect-buttons.png
-@@||accounts.codemasters.com/Areas/OAuth/Content/Clean/logo_twitter.png
-@@||afterglowplayer.com/img/feat_youtube.jpg
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
-@@||allfacebook.de/wp-content/uploads/*/nl-allfacebook.png
 @@||alternativeto.net/dist/icons/$image
-@@||amazonaws.com/mibbit/gfx/youtube.png
 @@||app.degoo.com/assets/icons/$~third-party
 @@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
@@ -609,19 +604,12 @@
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-twitter.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/google-authenticator.svg
 @@||authy.com/wp-content/uploads/dezeen_twitter-bird.gif
-@@||azurewebsites.net/Plugins/ExternalAuth.Facebook/Content/images/facebook-signing.png
 @@||brave.com/wp-content/uploads/$image,~third-party
-@@||breakoutlist.com/assets/pinterest-logo.png
-@@||breakoutlist.com/assets/twitter-logo.png
 @@||buzzfeed.com/buzzfeed-static/static/$image,third-party
 @@||cdn-immedia.net/img/share/
 @@||cdn.syndication.twimg.com/tweets.json
 @@||cgtn.com/static/public/web_share/css/shareStyle.css
 @@||cgtn.com/static/public/web_share/js/share-v2.js
-@@||chrisblattman.com/wp/wp-content/plugins/social/assets/social.png
-@@||cloudfront.net/liveblog/modules/login/images/social_icons.png
-@@||cloudfront.net/s/images/facebook-login.png
-@@||cloudfront.net/s/images/twitter-signin.png
 @@||cnn.com/cnnnext/*-social-$image
 @@||daumcdn.net/daumtop_deco/socialshare/$script
 @@||deskmodder.de/blog/wp-content/uploads/$image,~third-party
@@ -640,8 +628,6 @@
 @@||golem.de/staticrl/images/icons-social.png
 @@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
-@@||google.com/analytics/images/*_social.png
-@@||google.com/analytics/images/social.png
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
@@ -651,7 +637,6 @@
 @@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
-@@||kinogoo.cc/engine/classes/min/index.php$~third-party,xmlhttprequest
 @@||krunker.io/img/menu-icons/$image,~third-party
 @@||kym-cdn.com/entries/icons/$image
 @@||last.fm/static/js-build/social/twitter.js$script,~third-party
@@ -659,7 +644,6 @@
 @@||letyshops.com/build/core/images/$image,~third-party
 @@||login.mos.ru^$image
 @@||lublin112.pl/wp-content/uploads/$image
-@@||mtb-news.de/share/$subdocument,~third-party
 @@||neowin.net/images/uploaded/$image
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
@@ -672,13 +656,14 @@
 @@||s-media*.pinimg.com^$image,third-party
 @@||staticwars.com/combo/_/wp-content/themes/$script
 @@||tldrify.com/static/*/sharebox.$script,stylesheet,~third-party
+@@||yap.ru/html/static/share/$image,~third-party
+@@||yaplakal.com/html/static/$image,~third-party
 @@||seeklogo.com/images/*-seeklogo.com.gif
 @@||sharetv.com/images/social_login/$image,~third-party
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
-@@||stackoverflow.com/content/img/share-sprite-new.png
 @@||stadt-bremerhaven.de/wp-content/uploads/*/Facebook_$image
 @@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||swappa.com/static/icons/social/login_$image
