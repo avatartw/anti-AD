@@ -251,6 +251,15 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||ad.cityu.edu.hk^' => 1, // #398
     '@@||edge-enterprise.activity.windows.com^' => 1, // #401
     '@@||edge.activity.windows.com^' => 1, // #401
+    '@@||tracking-protection.cdn.mozilla.net^' => 1, // #407
+    '@@||skydrivesync.policies.live.net^' => 1, // #409
+    '@@||dxcloud.episerver.net^' => 1, // #418
+    '@@||static3.iask.cn^' => 1, // #429
+    '@@||login-ishare.iask.com.cn^' => 1, // #429
+    '@@||wechat.ishare.iask.com.cn^' => 1, // #429
+    '@@||dw.iask.com.cn^' => 1, // #429
+    '@@||settings-win.data.microsoft.com^' => 1, // #426
+    '@@||insideruser.microsoft.com^' => 1, // #426
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
