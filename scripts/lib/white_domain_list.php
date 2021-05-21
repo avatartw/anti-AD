@@ -229,12 +229,13 @@ return array(
     'chtbl.com' => 0, // #390
     'hsforms.com' => 0, // #420
     'hsforms.net' => 0, // #420
+    'jx.cn' => 0, // #423
 
-    
-    
-    
-    
-    
+
+
+
+
+
 
 
 
