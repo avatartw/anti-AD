@@ -261,6 +261,8 @@ return array(
     'jd.com' => array(
         'mercury.jd.com', //大數據收集，用戶行為埋點上報
         'wl.jd.com',
+        'blackhole.m.jd.com', // #428
+        'firevent.jd.com', // #428
     ),
     'ixigua.com' => array(
         'v3-ad.ixigua.com', //移動廣告
@@ -585,7 +587,6 @@ return array(
     ),
     'microsoft.com' => array(
         'mobile.pipe.aria.microsoft.com',
-        'events.data.microsoft.com',
     ),
     'leixjun.com' => array(//惡意誘導下載app
         'leixjun.com',
@@ -1006,12 +1007,33 @@ return array(
         'www.pkkjxs.cn',
         'windows.pkkjxs.cn',
     ),
-    
-    
-    
-    
-    
-    
+    'telegram-cn.org' => array( #431
+        'telegram-cn.org',
+        'www.telegram-cn.org',
+    ),
+    'telegram-vip.com' => array( #431
+        'telegram-vip.com',
+        'www.telegram-vip.com',
+    ),
+    'telegramcn.org' => array( #431
+        'telegramcn.org',
+        'www.telegramcn.org',
+    ),
+    'telegrcn.org' => array( #431
+        'telegrcn.org',
+        'www.telegrcn.org',
+    ),
+    'telegramsvip.com' => array( #431
+        'telegramsvip.com',
+        'www.telegramsvip.com',
+    ),
+
+
+
+
+
+
+
     // 批量添加域名
     '0202.com.tw' =>array('0202.com.tw', 'www.0202.com.tw'),
     '0757kd.cn' =>array('0757kd.cn', 'www.0757kd.cn'),
