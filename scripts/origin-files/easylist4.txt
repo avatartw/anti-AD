@@ -1,8 +1,8 @@
-! Checksum: dhEo2Nb39i5ogfA90qaf6A
+! Checksum: QDMNlRQ4z5TiNbzshoRpzg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.36
-! TimeUpdated: 2021-05-19T05:01:16+00:00
+! Version: 2.0.72.50
+! TimeUpdated: 2021-05-22T05:01:20+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -26,6 +26,7 @@
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
 ||blogtopsites.com^$third-party
+||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
 ||btn.createsend1.com^$third-party
 ||celebjihad.com^$third-party
@@ -47,6 +48,7 @@
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
 ||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
+||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
 ||emojics.com^$third-party
@@ -63,7 +65,6 @@
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
-||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
@@ -74,7 +75,6 @@
 ||instapaper.com/e2$third-party
 ||insticator.com^$third-party
 ||internetdefenseleague.org^$third-party
-||izooto.com^$third-party
 ||jobs.thejobnetwork.com^$third-party
 ||justanswer.com^$third-party
 ||leadacity.net^$third-party
@@ -86,7 +86,6 @@
 ||madmimi.com/signups/$third-party
 ||mail.bonnier-subscriptions.com^$subdocument
 ||mailerlite.com^$third-party
-||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
 ||misosoup.io^$third-party
@@ -379,7 +378,6 @@
 ||vk.com/widget_like.php$third-party
 ||vkontakte.ru/share.php?$third-party
 ||vkontakte.ru/widget_like.php$third-party
-||vuukle.com/widgets/emotes.html$third-party
 ||vuukle.com/widgets/powerbar.html$third-party
 ||w.uptolike.com^$third-party
 ||weheartit.com^$third-party
@@ -451,7 +449,7 @@
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||gn-flagpoles.api.bbci.co.uk^
 ||pgs.aviationweek.com^
-||subscriptions.cbc.ca^
+||subscriptions.cbc.ca^$xmlhttprequest
 ||webmd.com/dtmcms/live/webmd/*/newsletter/
 ||9to5terminal.com/push.js
 ||alerts.ndtv.com^
@@ -482,7 +480,6 @@
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
-||maison-travaux.fr/wp-content/themes/*/iframe-box-article.html
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -518,6 +515,7 @@
 ||cookie.wieni.be^
 ||cookies.nos.nl^
 ||blog.omlet.it/wp-content/themes/omlet/js/consent.min.js
+||creaweb.it/cookie/
 ||informagiovani-italia.com/consenso.js
 ||rcsobjects.it/rcs_cpmt/
 ||stbm.it/utility-fe/prod/general/network.common.v2.js
@@ -556,6 +554,7 @@
 @@||golem.de/abo/setconsentcookie.php
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hktdc.com/resources/cookieconsent/$~third-party
+@@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
@@ -563,6 +562,7 @@
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
+@@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||vistaalegre.com/public/js/vendor/$script,stylesheet,~third-party
@@ -570,7 +570,6 @@
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||bancaaltatoscana.it/framework/js/cookies.dyn.js
-@@||cartabcc.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||cdp.pl/skin/*/cookies.js
 @@||cmpv2.cookist.it/embed2/rmi/1.2.5|$subdocument
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
@@ -664,7 +663,6 @@
 @@||socialblade.com/images/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
-@@||stadt-bremerhaven.de/wp-content/uploads/*/Facebook_$image
 @@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
