@@ -1,8 +1,8 @@
-! Checksum: tlR5Vg7qIL0NP6pvwX9y0Q
+! Checksum: t7hVPqLsTluKuFa8rBy34g
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.63
-! TimeUpdated: 2021-05-24T13:01:11+00:00
+! Version: 2.0.72.66
+! TimeUpdated: 2021-05-25T05:01:11+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -315,7 +315,6 @@
 ||feedly.com/img/follows/$third-party
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
-||flickr.com/badge_code_$third-party
 ||flipboard.com/web/buttons/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
@@ -408,7 +407,6 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
-||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
@@ -520,7 +518,9 @@
 ||cookies.nos.nl^
 ||blog.omlet.it/wp-content/themes/omlet/js/consent.min.js
 ||creaweb.it/cookie/
+||fastweb.it/cookie-center/
 ||informagiovani-italia.com/consenso.js
+||kkaio.com/templates/t4_blank/js/ck.js
 ||rcsobjects.it/rcs_cpmt/
 ||stbm.it/utility-fe/prod/general/network.common.v2.js
 ||interia.pl/rodo-iframe
@@ -541,7 +541,6 @@
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||alicdn.com/js/*/cookie-info.js$script
 @@||consent-pref.trustarc.com^$subdocument
@@ -621,7 +620,6 @@
 @@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
-@@||fansshare.com/media/*social$image
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
