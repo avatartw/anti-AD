@@ -1,8 +1,8 @@
-! Checksum: ebCbnaDhmx4R53VQNHRsFA
+! Checksum: BgZFGgUEWtUuYfvhUcsZbg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.80
-! TimeUpdated: 2021-05-28T01:01:03+00:00
+! Version: 2.0.72.87
+! TimeUpdated: 2021-05-29T13:01:06+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -157,7 +157,6 @@
 ||usablenet.com^$third-party
 ||usefomo.com^$third-party
 ||vk.com/images/$third-party
-||vuukle.com/platform.js$third-party
 ||webseed.com/javascripts/messagebar.js
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
@@ -170,10 +169,12 @@
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
 ||zoomanalytics.co^$third-party
+||m.youtube.com/s/player/*/ad.js$script,~third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||helpscout.net/static/ui-sounds/
 ||js.driftt.com/conductor/assets/media/
+||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||purechatcdn.com/Content/Audio/
 ||reamaze.com/audio/
@@ -195,8 +196,6 @@
 ||ichecknotifyfriends.info^$third-party
 ||luravius.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
-||news2day.me^$third-party
-||ntvsw.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
 ||push.esputnik.com^
@@ -451,7 +450,6 @@
 ||sfstatic.net/build/experiment/helperWidget-
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||gn-flagpoles.api.bbci.co.uk^
-||pgs.aviationweek.com^
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||webmd.com/dtmcms/live/webmd/*/newsletter/
 ||9to5terminal.com/push.js
@@ -545,18 +543,20 @@
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||alicdn.com/js/*/cookie-info.js$script
+@@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
+@@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
 @@||cookielaw.org/consent/$other,xmlhttprequest
-@@||defense.gouv.fr/lib/tarteaucitron/$~third-party
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
+@@||golem.de/wrapperMessagingWithoutDetection.js
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||ksta.de/wrapperMessagingWithoutDetection.js
