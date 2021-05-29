@@ -133,7 +133,7 @@ $ARR_MERGED_WILD_LIST = array(
 );
 
 $ARR_REGEX_LIST = array(
-    '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A|AAAA'],
+    '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A'],
     '/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./' => null,
     '/^([^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
     '/^([^\s\/]+\.)?afgr[\d]{1,2}\.com$/' => null,
