@@ -1,8 +1,8 @@
-! Checksum: BgZFGgUEWtUuYfvhUcsZbg
+! Checksum: EUbBVTn0GKOGsOISewabdA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.87
-! TimeUpdated: 2021-05-29T13:01:06+00:00
+! Version: 2.0.72.94
+! TimeUpdated: 2021-05-31T05:01:19+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -49,7 +49,6 @@
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
 ||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
-||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
 ||emojics.com^$third-party
@@ -379,6 +378,7 @@
 ||vk.com/widget_like.php$third-party
 ||vkontakte.ru/share.php?$third-party
 ||vkontakte.ru/widget_like.php$third-party
+||vuukle.com/widgets/emotes.html$third-party
 ||vuukle.com/widgets/powerbar.html$third-party
 ||w.uptolike.com^$third-party
 ||weheartit.com^$third-party
@@ -407,6 +407,7 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
+||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
@@ -433,10 +434,8 @@
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
-||smartcookies.it^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
-||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
@@ -476,6 +475,7 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||privacy.claytonhomes.com^
 ||purevpn.com/loadGdprView
 ||vinted.*/api/*/banners
 ||push.cnnindonesia.com^
@@ -510,7 +510,6 @@
 ||consent-wrapper.jameda.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
-||up-cookiemon.wavecdn.net^
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
@@ -542,7 +541,6 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
-@@||alicdn.com/js/*/cookie-info.js$script
 @@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
 @@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
 @@||consent-pref.trustarc.com^$subdocument
@@ -554,6 +552,7 @@
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
+@@||gearbest.com/static/dist/minjs/jcookie.js
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
@@ -583,6 +582,7 @@
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
+@@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@||vesmir.cz/components/eu_cookie/$script
 @@/angular-facebook.js
@@ -681,6 +681,7 @@
 @@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||tunestotube.com/images/mp3toyoutube.png
+@@||worldwidedx.com/attachments/$image,~third-party
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image

@@ -1,6 +1,8 @@
 ! Title: adgk手机去广告规则
 ! Homepage: https://github.com/banbendalao/ADgk
 ! by: 坂本dalao
+||policy.jd.com/m/log^
+||saturn.jd.com/log^
 ||market.xiaomi.com^$replace=/"adInfo"/""/
 ||jializyw.com^
 ||3337739.com^
@@ -422,7 +424,6 @@
 ||simengadx.com^
 ||audioadx.com^
 ||umsns.com^
-||api.coolapk.com/v6/search?$replace=/hotSearch//
 ||api.coolapk.com/v6/feed/detail?$replace=/entities//
 ||tracker*.qcloud.com^
 ||c.mipcdn.com/c/s/by.manhuachi.com/mhbei0819.js
@@ -573,7 +574,6 @@
 ||api.browser.miui.com/bsr/pref$replace=/"go_supermarket_disable":"false"/"go_supermarket_disable":"true"/
 ||httpdns.browser.miui.com^
 ||nav.browser.miui.com^
-||iwx.mail.qq.com^
 ||adservice.
 ||open-adx.com^
 ||8nc8shot.txxx.com^
