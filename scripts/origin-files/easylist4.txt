@@ -1,8 +1,8 @@
-! Checksum: EUbBVTn0GKOGsOISewabdA
+! Checksum: Eb4EaEj1/3JchfrIoOyHVg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.72.94
-! TimeUpdated: 2021-05-31T05:01:19+00:00
+! Version: 2.0.73.0
+! TimeUpdated: 2021-06-01T05:01:05+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -77,7 +77,6 @@
 ||internetdefenseleague.org^$third-party
 ||jobs.thejobnetwork.com^$third-party
 ||justanswer.com^$third-party
-||leadacity.net^$third-party
 ||leadpages.co^$third-party
 ||ligatus.com^$third-party
 ||lightboxcdn.com/vendor/$script,third-party
@@ -214,6 +213,7 @@
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
+||pushvip.ru^$third-party
 ||pushwhy.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
@@ -228,6 +228,7 @@
 ||wpush.biz^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
+||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -397,6 +398,7 @@
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/t/cmp/$third-party
+||cmp.nextday.media^
 ||consent.dk^$third-party
 ||consent.truste.com^$third-party
 ||consentag.eu^$third-party
@@ -427,6 +429,7 @@
 ||onetrust.com^$third-party
 ||onetrust.mgr.consensu.org^$third-party
 ||optanon.blob.core.windows.net^
+||orangeclickmedia.com^$third-party
 ||privacy-center.org^$third-party
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
@@ -481,6 +484,7 @@
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
+||onaregarde-pourvous.com/api/$third-party
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -510,6 +514,7 @@
 ||consent-wrapper.jameda.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
+||cmp.lemonde.fr/js/lemonde.min.js
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
@@ -527,7 +532,6 @@
 ||privacy.schibsted.com^
 @@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
-@@||24tv.ua/assets/tv24/images/transparent-pixel.png$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||ecache.vzw.com/imageFiles/Myacct/*/onlineopinionV5/
 @@||expedia.*/opinionlab/oo_engine.js$script
@@ -538,6 +542,7 @@
 @@||phonearena.com/?b=$~third-party
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
+@@||thegrommet.com/js/onetrust-$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
