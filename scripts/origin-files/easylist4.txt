@@ -1,8 +1,8 @@
-! Checksum: Eb4EaEj1/3JchfrIoOyHVg
+! Checksum: IEOABX7d5BsDo5qKWU8lfg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.0
-! TimeUpdated: 2021-06-01T05:01:05+00:00
+! Version: 2.0.73.7
+! TimeUpdated: 2021-06-02T17:00:59+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -105,6 +105,7 @@
 ||optmstr.com^$third-party
 ||optnmnstr.com^$third-party
 ||optnmstr.com^$third-party
+||partner.dw.com^$third-party
 ||phoenix-widget.com^$third-party
 ||placehold.it^$third-party
 ||platform.loyaltylion.com^
@@ -136,6 +137,7 @@
 ||sg-autorepondeur.com^$third-party
 ||siteswithcontent.com^$third-party
 ||slashdot.org^$third-party
+||sleeknote.com^$third-party
 ||smi.pp.ua^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
@@ -194,6 +196,7 @@
 ||ichecknotifyfriends.info^$third-party
 ||luravius.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
+||notix.io^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
 ||push.esputnik.com^
@@ -312,6 +315,7 @@
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
 ||facebook.com/restserver.php?*.getStats&$third-party
+||facebook.com/widgets/like.php?$third-party
 ||feedly.com/img/follows/$third-party
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
@@ -574,7 +578,6 @@
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
-@@||vistaalegre.com/public/js/vendor/$script,stylesheet,~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
@@ -641,7 +644,6 @@
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
-@@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
 @@||krunker.io/img/menu-icons/$image,~third-party
