@@ -1,8 +1,8 @@
-! Checksum: IEOABX7d5BsDo5qKWU8lfg
+! Checksum: igwgVfNNXZCHiQxLH4Nk6Q
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.7
-! TimeUpdated: 2021-06-02T17:00:59+00:00
+! Version: 2.0.73.17
+! TimeUpdated: 2021-06-04T17:01:04+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -172,11 +172,11 @@
 ||m.youtube.com/s/player/*/ad.js$script,~third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
+||collectcdn.com^$media
 ||helpscout.net/static/ui-sounds/
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
-||purechatcdn.com/Content/Audio/
 ||reamaze.com/audio/
 ||static.widget.trengo.eu/assets/$media
 ||tawk.to/*/audio/
@@ -194,9 +194,9 @@
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
-||luravius.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
 ||notix.io^$third-party
+||ntvsw.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
 ||push.esputnik.com^
@@ -231,7 +231,7 @@
 ||wpush.biz^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
-||alertme.news^$third-party
+||aimtell.com^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -324,7 +324,6 @@
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
 ||instagramfollowbutton.com^$third-party
-||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||lessbuttons.com^$third-party
 ||likebtn.com^$third-party
@@ -421,6 +420,7 @@
 ||cookieq.com^$third-party
 ||cookiereports.com^$third-party
 ||cookiescript.info^$third-party
+||cookietagmanager.net^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||gdpr-service.herokuapp.com^$third-party
@@ -470,6 +470,7 @@
 ||tut.by/push/
 ||3dmark.com/proxycon/images/front-some-fb.png
 ||cloudfront.net/instagram/
+||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
@@ -512,7 +513,6 @@
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
 ||draugiem.lv/business/ext/follow/$third-party
-||draugiem.lv/lapas/widgets/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
@@ -529,7 +529,6 @@
 ||fastweb.it/cookie-center/
 ||kkaio.com/templates/t4_blank/js/ck.js
 ||rcsobjects.it/rcs_cpmt/
-||stbm.it/utility-fe/prod/general/network.common.v2.js
 ||interia.pl/rodo-iframe
 ||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
@@ -560,7 +559,6 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
-@@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
 @@||gearbest.com/static/dist/minjs/jcookie.js
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
