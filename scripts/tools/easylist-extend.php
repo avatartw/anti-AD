@@ -260,6 +260,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||dw.iask.com.cn^' => 1, // #429
     '@@||settings-win.data.microsoft.com^' => 1, // #426
     '@@||insideruser.microsoft.com^' => 1, // #426
+    '@@||metrics.vrch.at^' => 1, // #440
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
