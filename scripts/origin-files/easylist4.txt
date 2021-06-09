@@ -1,8 +1,8 @@
-! Checksum: vjI6F1mntp9DIu2tS18E2A
+! Checksum: rYyjqRWsoDHH6sQt6wGjOw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.39
-! TimeUpdated: 2021-06-08T17:01:02+00:00
+! Version: 2.0.73.45
+! TimeUpdated: 2021-06-09T17:00:59+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -51,6 +51,7 @@
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
 ||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
+||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
 ||emojics.com^$third-party
@@ -73,7 +74,6 @@
 ||healthgrades.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
-||informvisitors.com^$third-party
 ||insticator.com^$third-party
 ||internetdefenseleague.org^$third-party
 ||jobs.thejobnetwork.com^$third-party
@@ -140,7 +140,6 @@
 ||siteswithcontent.com^$third-party
 ||slashdot.org^$third-party
 ||sleeknote.com^$third-party
-||smi.pp.ua^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
@@ -202,7 +201,6 @@
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
-||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
 ||pushinpage.com^$third-party
@@ -319,7 +317,6 @@
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
-||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||lessbuttons.com^$third-party
@@ -505,6 +502,7 @@
 ||top100.rambler.ru^$third-party
 ||aklamator.com^$third-party
 ||newsletters.vocento.com^
+||pipeline.de/socialmedia-icons/
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
@@ -575,7 +573,6 @@
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
-@@||bancaaltatoscana.it/framework/js/cookies.dyn.js
 @@||cdp.pl/skin/*/cookies.js
 @@||cmpv2.cookist.it/embed2/rmi/1.2.5|$subdocument
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
