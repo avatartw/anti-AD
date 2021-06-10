@@ -1,8 +1,8 @@
-! Checksum: rYyjqRWsoDHH6sQt6wGjOw
+! Checksum: RSMRjh5tM46UkqUmarlyJg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.45
-! TimeUpdated: 2021-06-09T17:00:59+00:00
+! Version: 2.0.73.51
+! TimeUpdated: 2021-06-10T17:01:03+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -59,6 +59,8 @@
 ||exitintel.com^$third-party
 ||factors.ai^$third-party
 ||feed.mikle.com^$third-party
+||feedage.net^$third-party
+||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
 ||feedblitz.com^$third-party
 ||feedburner.com^$image,third-party
@@ -173,6 +175,7 @@
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
+||cliengo.com^$media
 ||collectcdn.com^$media
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
@@ -191,6 +194,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -388,7 +392,6 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
-||analytics-consent-manager.azureedge.net^
 ||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
@@ -488,7 +491,6 @@
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
 ||giornaledibrescia.it/newsletter/
-||smiling.video^$third-party
 ||trovaprezzi.it/buttons/$third-party
 ||videosynd.kataweb.it^$third-party
 ||kodcad.kr^$third-party
@@ -619,6 +621,7 @@
 @@||duckduckgo.com/assets/icons/favicons/youtube.png
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
+@@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
@@ -635,6 +638,7 @@
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
+@@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
 @@||krunker.io/img/menu-icons/$image,~third-party
