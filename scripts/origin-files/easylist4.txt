@@ -1,8 +1,8 @@
-! Checksum: Ts2M78rN49a9+duDQt8iFQ
+! Checksum: /yZTxWAVolMsWjkk7aYRhw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.65
-! TimeUpdated: 2021-06-13T13:01:04+00:00
+! Version: 2.0.73.69
+! TimeUpdated: 2021-06-14T17:01:11+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -51,7 +51,6 @@
 ||data.tm-awx.com^$third-party
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
-||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
@@ -414,6 +413,7 @@
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
+||cookieq.com^$third-party
 ||cookiereports.com^$third-party
 ||cookietagmanager.net^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
@@ -464,7 +464,6 @@
 ||ultimedia.com/js/common/notification.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
-||tut.by/push/
 ||3dmark.com/proxycon/images/front-some-fb.png
 ||cloudfront.net/instagram/
 ||cloudfront.net/twitter/
@@ -474,10 +473,8 @@
 ||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
-||cmp.infopro-digital.com^
 ||cmp.osano.com^
 ||consent.cmp.oath.com^
-||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
 ||privacy.claytonhomes.com^
@@ -503,7 +500,6 @@
 ||static.smi2.net^$third-party
 ||top100.rambler.ru^$third-party
 ||aklamator.com^$third-party
-||newsletters.vocento.com^
 ||pipeline.de/socialmedia-icons/
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
@@ -520,7 +516,6 @@
 ||cookie.vrt.be^
 ||cookie.wieni.be^
 ||cookies.nos.nl^
-||blog.omlet.it/wp-content/themes/omlet/js/consent.min.js
 ||creaweb.it/cookie/
 ||fastweb.it/cookie-center/
 ||kkaio.com/templates/t4_blank/js/ck.js
@@ -630,7 +625,6 @@
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
 @@||golem.de/staticrl/images/icons-social.png
-@@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
