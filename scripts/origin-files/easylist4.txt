@@ -1,8 +1,8 @@
-! Checksum: /yZTxWAVolMsWjkk7aYRhw
+! Checksum: f2J3iT3u+Rei9HbRi3y4zw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.69
-! TimeUpdated: 2021-06-14T17:01:11+00:00
+! Version: 2.0.73.72
+! TimeUpdated: 2021-06-15T13:01:08+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -27,6 +27,7 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
+||blogcatalog.com^$third-party
 ||blogtopsites.com^$third-party
 ||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
@@ -101,7 +102,6 @@
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
 ||optinmonster.com^$third-party
-||optkit.com^$third-party
 ||optmnstr.com^$third-party
 ||optmstr.com^$third-party
 ||optnmnstr.com^$third-party
@@ -144,6 +144,7 @@
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
+||socialtwist.com^$third-party
 ||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
@@ -158,6 +159,7 @@
 ||usablenet.com^$third-party
 ||usefomo.com^$third-party
 ||vk.com/images/$third-party
+||volomedia.com^$third-party
 ||webseed.com/javascripts/messagebar.js
 ||widget.gleamjs.io^$script,third-party
 ||widget.pico.tools^$third-party
@@ -192,6 +194,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -444,7 +447,6 @@
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
-||designtaxi.com/css/remodal.css
 ||feedback.wwe.com/survey/
 ||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
@@ -574,6 +576,7 @@
 @@||cmpv2.cookist.it/embed2/rmi/1.2.5|$subdocument
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
 @@||ebok.vectra.pl/components/layout/cookie-bar/
+@@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
@@ -602,7 +605,6 @@
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-twitter.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/google-authenticator.svg
-@@||authy.com/wp-content/uploads/dezeen_twitter-bird.gif
 @@||brave.com/wp-content/uploads/$image,~third-party
 @@||buzzfeed.com/buzzfeed-static/static/$image,third-party
 @@||cdn-immedia.net/img/share/
@@ -653,7 +655,6 @@
 @@||restream.io/img/$image
 @@||s-media*.pinimg.com^$image,third-party
 @@||staticwars.com/combo/_/wp-content/themes/$script
-@@||tldrify.com/static/*/sharebox.$script,stylesheet,~third-party
 @@||yap.ru/html/static/share/$image,~third-party
 @@||yaplakal.com/html/static/$image,~third-party
 @@||seeklogo.com/images/*-seeklogo.com.gif
