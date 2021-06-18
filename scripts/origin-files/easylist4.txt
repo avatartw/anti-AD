@@ -1,8 +1,8 @@
-! Checksum: f2J3iT3u+Rei9HbRi3y4zw
+! Checksum: c2ptggQJ+gaywRssA4uyWw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.73.72
-! TimeUpdated: 2021-06-15T13:01:08+00:00
+! Version: 2.0.73.75
+! TimeUpdated: 2021-06-17T21:01:03+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -27,7 +27,6 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
-||blogcatalog.com^$third-party
 ||blogtopsites.com^$third-party
 ||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
@@ -75,6 +74,7 @@
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
 ||healthgrades.com^$third-party
+||hellobar.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||insticator.com^$third-party
@@ -198,6 +198,7 @@
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||mab.mediaset.es^$xmlhttprequest
+||notification.tubecup.net^
 ||notix.io^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
@@ -308,7 +309,6 @@
 ||digg.com^$script,subdocument,third-party
 ||digitiminimi.com^$third-party
 ||facebook.com*/plugins/like.php?$third-party
-||facebook.com/plugins/fan.php?$third-party
 ||facebook.com/plugins/follow?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
@@ -421,7 +421,6 @@
 ||cookietagmanager.net^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
-||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||hs-banner.com^$third-party
 ||iubenda.com^$third-party
@@ -454,7 +453,9 @@
 ||newegg.com/newegg/survey/
 ||sfstatic.net/build/experiment/helperWidget-
 ||wp.com/wp-content/mu-plugins/post-flair/
+||artdaily.cc/subscribe.html
 ||gn-flagpoles.api.bbci.co.uk^
+||researchnews.cc/subscribe.html
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||webmd.com/dtmcms/live/webmd/*/newsletter/
 ||9to5terminal.com/push.js
@@ -527,6 +528,7 @@
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 ||wongnai.com/_api/consents/
+||consent.themeteocompany.com^
 @@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -618,6 +620,7 @@
 @@||duckduckgo.com/assets/icons/favicons/youtube.png
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
+@@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
 @@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
@@ -655,7 +658,6 @@
 @@||restream.io/img/$image
 @@||s-media*.pinimg.com^$image,third-party
 @@||staticwars.com/combo/_/wp-content/themes/$script
-@@||yap.ru/html/static/share/$image,~third-party
 @@||yaplakal.com/html/static/$image,~third-party
 @@||seeklogo.com/images/*-seeklogo.com.gif
 @@||sharetv.com/images/social_login/$image,~third-party
