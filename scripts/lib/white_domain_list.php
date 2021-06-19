@@ -233,6 +233,7 @@ return array(
     'qualtrics.com' => 0, // #434
     'assets.ckjr001.com' => 0, // #433
     'kpstaticbj.wx.ckjr001.com' => 0, // #433
+    'imagetwist.com' => 0, // #447
 
 
 
