@@ -121,7 +121,7 @@ class writerFormat{
     );*/
 
     /*Domains 格式的屏蔽广告列表，用于支持pi-hole等*/
-    /*const DOMAINS = array(
+    const DOMAINS = array(
         'format' => '{DOMAIN}',
         'header' => "#TITLE=anti-AD\n#VER={DATE}\n#URL={URL}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 1, //保留子域名，即使其上级域名
@@ -146,7 +146,7 @@ class writerFormat{
                 'strict_mode' => true,
             ),
         ),
-    );*/
+    );
 
     /*smartdns支持格式的屏蔽广告列表*/
     /*const SMARTDNS = array(
