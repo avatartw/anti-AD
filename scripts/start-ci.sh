@@ -30,8 +30,8 @@ easylist=(
 )
 
 hosts=(
-  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
-  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
+#  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+#  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
 #  "https://raw.githubusercontent.com/avatartw/avatartw/main/hosts-anti-ad.txt"
 #  "https://raw.githubusercontent.com/neoFelhz/neohosts/gh-pages/full/hosts.txt"
 #  "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
@@ -116,10 +116,10 @@ done
 
 cd origin-files
 
-cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
- | sed s/0.0.0.0/127.0.0.1/g | sed s/::/127.0.0.1/g | sort \
- | uniq >base-src-hosts.txt
+#cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
+# | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
+# | sed s/0.0.0.0/127.0.0.1/g | sed s/::/127.0.0.1/g | sort \
+# | uniq >base-src-hosts.txt
 
 #cat strict-hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
 # | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
