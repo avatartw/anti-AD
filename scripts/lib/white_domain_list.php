@@ -18,6 +18,7 @@ return array(
     'etracker.de' => 0,
     'edge.activity.windows.com' => 0,
     'edge-enterprise.activity.windows.com' => 0,
+    'imasdk.googleapis.com' => 0,
     'gss0.bdstatic.com' => 0, //百度貼吧頭像
     //'googleadapis.l.google.com' => 0, //解決google字體下載異常
     //'gstaticadssl.l.google.com' => 0, //解決google字體下載異常
