@@ -50,13 +50,13 @@ class addressMaker{
         $str_reg .= '|\.delivery|\.page|\.webcam|\.cam|\.supply|\.accountant|\.systems|\.agency|\.science|\.awe';
         $str_reg .= '|\.gd|\.review|\.tc|\.mn|\.cool|\.monster|\.do|\.bi|\.news|\.boom|\.lol|\.events|\.jobs';
         $str_reg .= '|\.ooo|\.social|\.ninja|\.blue|\.plus|\.racing|\.ht|\.tl|\.cat|\.tf|\.al|\.vc|\.cr|\.[a-z0-9_\-]+';*/
-        $str_reg .= '\.[a-z0-9_\-]+)';
+        $str_reg .= ')';
 
-        $str_reg .= '(\.hk|\.tw|\.uk|\.jp|\.kr|\.th|\.au|\.ua|\.so|\.br|\.sg|\.pt|\.ec|\.ar|\.my';
+        /*$str_reg .= '(\.hk|\.tw|\.uk|\.jp|\.kr|\.th|\.au|\.ua|\.so|\.br|\.sg|\.pt|\.ec|\.ar|\.my';
         $str_reg .= '|\.tr|\.bd|\.mk|\.za|\.mt|\.sm|\.ge|\.kg|\.ke|\.de|\.ve|\.es|\.ru|\.pk|\.mx';
-        $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';
+        $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';*/
 
-        $str_reg .= ')?)$/';
+        $str_reg .= '(\.[a-z0-9_\-]+)?)$/';
         if(preg_match($str_reg, $str_domain, $matches)){
             return strval($matches[1]);
         }
