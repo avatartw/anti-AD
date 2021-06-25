@@ -154,7 +154,7 @@ echo
 php ./tools/easylist-extend.php ../anti-ad-easylist.txt
 cat ./origin-files/e0-wildcard-whiterule.txt>> ../anti-ad-easylist.txt
 awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
-sed -i ../a.txt -e "s/^||be\^$//gI" -e "s/^||fr\^$//gI" -e "s/^||p\.de\^$//gI" -e "s/^||s\.sh\^$//gI"
+sed -i ../a.txt -e "s/^||be\^$//gI" -e "s/^||fr\^$//gI" -e "s/^||p\.de\^$//gI" -e "s/^||s\.sh\^$//gI" -e "/^$/d"
 mv -f ../a.txt ../anti-ad-easylist.txt
 #(head -n 4 ../anti-ad-easylist.txt && tail -n +5 ../anti-ad-easylist.txt | sort) | uniq > ../a.txt
 #mv -f ../a.txt  ../anti-ad-easylist.txt
