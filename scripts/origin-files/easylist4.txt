@@ -1,8 +1,8 @@
-! Checksum: uz8e9irTvjyMsQEmtLjeag
+! Checksum: V0oMpQEZPZ1Z9fSRloogeg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.3
-! TimeUpdated: 2021-06-25T17:00:58+00:00
+! Version: 2.0.74.4
+! TimeUpdated: 2021-06-26T01:00:57+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -138,6 +138,7 @@
 ||service.signalr.net^$third-party
 ||sg-autorepondeur.com^$third-party
 ||siteswithcontent.com^$third-party
+||slashdot.org^$third-party
 ||sleeknote.com^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
@@ -177,6 +178,7 @@
 ||cliengo.com^$media
 ||collectcdn.com^$media
 ||js.driftt.com/conductor/assets/media/
+||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
 ||static.widget.trengo.eu/assets/$media
@@ -205,6 +207,7 @@
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
+||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
 ||pushinstruments.com^$third-party
@@ -360,6 +363,7 @@
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
 ||sharethis.com^$third-party
+||sharpay.io^$third-party
 ||shpg.org^$third-party
 ||simplesharebuttons.com^$third-party
 ||social9.com^$third-party
@@ -454,7 +458,6 @@
 ||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||mediafire.com/images/backgrounds/download/*promo
-||newegg.com/newegg/survey/
 ||sfstatic.net/build/experiment/helperWidget-
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||artdaily.cc/subscribe.html
@@ -534,7 +537,6 @@
 ||privacy.schibsted.com^
 ||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
-@@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||ecache.vzw.com/imageFiles/Myacct/*/onlineopinionV5/
@@ -574,6 +576,7 @@
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
+@@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
@@ -652,6 +655,7 @@
 @@||letyshops.com/build/core/images/$image,~third-party
 @@||login.mos.ru^$image
 @@||lublin112.pl/wp-content/uploads/$image
+@@||media-cache*.pinimg.com^$image,third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
