@@ -235,6 +235,7 @@ return array(
     'assets.ckjr001.com' => 0, // #433
     'kpstaticbj.wx.ckjr001.com' => 0, // #433
     'imagetwist.com' => 0, // #447
+    'kanjiantu.com' => 0, // #451
     'www.kanjiantu.com' => 0, // #451
 
 
