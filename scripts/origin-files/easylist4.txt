@@ -1,8 +1,8 @@
-! Checksum: xu7EvMOXOFc6ji3wkwd1QQ
+! Checksum: z4Oji6dmIyQEXacu1k93Gw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.14
-! TimeUpdated: 2021-06-28T21:01:04+00:00
+! Version: 2.0.74.27
+! TimeUpdated: 2021-07-01T13:01:14+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -73,7 +73,6 @@
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
 ||healthgrades.com^$third-party
-||hellobar.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
@@ -104,6 +103,7 @@
 ||opmnstr.com^$third-party
 ||optimonk.com^$third-party
 ||optinmonster.com^$third-party
+||optkit.com^$third-party
 ||optmnstr.com^$third-party
 ||optmstr.com^$third-party
 ||optnmnstr.com^$third-party
@@ -157,7 +157,6 @@
 ||upscri.be^$third-party
 ||usablenet.com^$third-party
 ||usefomo.com^$third-party
-||userdatatrust.com^$third-party
 ||vk.com/images/$third-party
 ||volomedia.com^$third-party
 ||webseed.com/javascripts/messagebar.js
@@ -178,6 +177,7 @@
 ||cliengo.com^$media
 ||collectcdn.com^$media
 ||js.driftt.com/conductor/assets/media/
+||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
 ||static.widget.trengo.eu/assets/$media
@@ -226,7 +226,6 @@
 ||sckxppzdm.com^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-||viafoura.net/push_handlers.js
 ||webpush.jp^$third-party
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
@@ -259,6 +258,7 @@
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
+||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
@@ -322,7 +322,6 @@
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
 ||followistic.com^$third-party
-||friends2follow.com^$subdocument,third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
@@ -406,6 +405,7 @@
 ||axept.io^$third-party
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
+||clickiocdn.com/t/cmp/$third-party
 ||cmp.nextday.media^
 ||consent.dk^$third-party
 ||consent.truste.com^$third-party
@@ -424,6 +424,7 @@
 ||cookiepro.com^$third-party
 ||cookieq.com^$third-party
 ||cookiereports.com^$third-party
+||cookiescript.info^$third-party
 ||cookietagmanager.net^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
@@ -456,7 +457,9 @@
 ||feedback.wwe.com/survey/
 ||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
+||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
+||newegg.com/newegg/survey/
 ||sfstatic.net/build/experiment/helperWidget-
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||artdaily.cc/subscribe.html
@@ -488,13 +491,11 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
-||privacy.claytonhomes.com^
 ||vinted.*/api/*/banners
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
 ||maison-travaux.fr/wp-content/themes/*/iframe-box-article.html
-||onaregarde-pourvous.com/api/$third-party
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -558,13 +559,13 @@
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
-@@||gearbest.com/static/dist/minjs/jcookie.js
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||ksta.de/wrapperMessagingWithoutDetection.js
+@@||mac4ever.com/min.php$script
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
@@ -582,13 +583,12 @@
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
+@@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
-@@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@||vesmir.cz/components/eu_cookie/$script
-@@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/js/googleplus-sign-in.js$script
 @@/wp-content/plugins/2-click-socialmedia-buttons/js/social_bookmarks-min.js?$~third-party
