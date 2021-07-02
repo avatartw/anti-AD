@@ -1,8 +1,8 @@
-! Checksum: z4Oji6dmIyQEXacu1k93Gw
+! Checksum: 0T+/IwM6ZfwbrFmcgEaLgw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.27
-! TimeUpdated: 2021-07-01T13:01:14+00:00
+! Version: 2.0.74.33
+! TimeUpdated: 2021-07-02T17:00:58+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -234,7 +234,6 @@
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
 ||aimtell.com^$third-party
-||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -546,7 +545,6 @@
 @@||phonearena.com/?b=$~third-party
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
-@@||thegrommet.com/js/onetrust-$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
@@ -587,6 +585,7 @@
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
+@@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@||vesmir.cz/components/eu_cookie/$script
 @@/static/themes/*/img/icons/*$image,~third-party
@@ -683,7 +682,6 @@
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
-@@||worldwidedx.com/attachments/$image,~third-party
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
