@@ -25,6 +25,7 @@ class addressMaker{
             return "";
         }
 
+        return $str_domain;
         $str_reg = '/^(?:(?:[a-z0-9\-]*[a-z0-9]\.)*?|\.)?([a-z0-9\-]*[a-z0-9](';
         /************start CN域名的特殊處理規則，其中包括了各行政區特別後綴的cn域名*****************************/
         /*$str_reg .= '\.ac\.cn|\.ah\.cn|\.bj\.cn|\.com\.cn|\.cq\.cn|\.fj\.cn|\.gd\.cn|\.gov\.cn|\.gs\.cn';
@@ -57,9 +58,9 @@ class addressMaker{
         $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';*/
 
         $str_reg .= '(\.[a-z0-9_\-]+)?)$/';
-        //if(preg_match($str_reg, $str_domain, $matches)){
+        if(preg_match($str_reg, $str_domain, $matches)){
             return strval($matches[1]);
-        //}
+        }
 
         return "";
 
