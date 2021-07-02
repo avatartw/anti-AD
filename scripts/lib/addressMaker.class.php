@@ -57,9 +57,9 @@ class addressMaker{
         $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';*/
 
         $str_reg .= '(\.[a-z0-9_\-]+)?)$/';
-        if(preg_match($str_reg, $str_domain, $matches)){
+        //if(preg_match($str_reg, $str_domain, $matches)){
             return strval($matches[1]);
-        }
+        //}
 
         return "";
 
