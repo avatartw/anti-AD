@@ -1,8 +1,8 @@
-! Checksum: 0T+/IwM6ZfwbrFmcgEaLgw
+! Checksum: 4yZ5vFHF/yg+Y+VF08kD5g
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.33
-! TimeUpdated: 2021-07-02T17:00:58+00:00
+! Version: 2.0.74.37
+! TimeUpdated: 2021-07-03T13:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -176,7 +176,6 @@
 ||www.youtube.com^$csp=worker-src 'none'
 ||cliengo.com^$media
 ||collectcdn.com^$media
-||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
@@ -365,6 +364,7 @@
 ||simplesharebuttons.com^$third-party
 ||social9.com^$third-party
 ||socialannex.com^$third-party
+||spiceworks.com/share/$third-party
 ||spotify.com/follow/$third-party
 ||storeya.com/externalscript/$third-party
 ||stumbleupon.com/badge/$third-party
@@ -472,7 +472,6 @@
 ||indiatimes.com/pn/
 ||irishtimes.com/assets/js/notify.js
 ||push.api.bbci.co.uk^
-||ultimedia.com/js/common/notification.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
 ||3dmark.com/proxycon/images/front-some-fb.png
@@ -546,7 +545,6 @@
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
@@ -599,8 +597,6 @@
 @@/wp-content/plugins/super-socializer/js/front/social_login/*$~third-party
 @@/wp-content/plugins/wordpress-social-login/*$~third-party
 @@/wp-content/plugins/wp-rocket/*$image,~third-party
-@@||3dmark.com/proxycon/images/fb_icon.png
-@@||4shared.com/images/icons/social-connect-buttons.png
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
 @@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
