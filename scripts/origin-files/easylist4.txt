@@ -1,8 +1,8 @@
-! Checksum: 4yZ5vFHF/yg+Y+VF08kD5g
+! Checksum: hlhWfrUFRhBYjOG/bdbCNg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.37
-! TimeUpdated: 2021-07-03T13:00:56+00:00
+! Version: 2.0.74.40
+! TimeUpdated: 2021-07-04T09:01:15+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -176,7 +176,6 @@
 ||www.youtube.com^$csp=worker-src 'none'
 ||cliengo.com^$media
 ||collectcdn.com^$media
-||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
 ||static.widget.trengo.eu/assets/$media
@@ -314,7 +313,6 @@
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
 ||facebook.com/restserver.php?*.getStats&$third-party
-||facebook.com/widgets/like.php?$third-party
 ||feedly.com/img/follows/$third-party
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
@@ -424,7 +422,6 @@
 ||cookieq.com^$third-party
 ||cookiereports.com^$third-party
 ||cookiescript.info^$third-party
-||cookietagmanager.net^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||gdpr.studybreakmedia.com^
@@ -544,7 +541,9 @@
 @@||phonearena.com/?b=$~third-party
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
+@@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
+@@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
