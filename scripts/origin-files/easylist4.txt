@@ -1,8 +1,8 @@
-! Checksum: UuLt+Y01vgiPKBH9lRAr/A
+! Checksum: aGmx+uow+VuHDJRlhjQ3Ew
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.54
-! TimeUpdated: 2021-07-07T17:01:07+00:00
+! Version: 2.0.74.67
+! TimeUpdated: 2021-07-10T09:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -19,7 +19,6 @@
 ||app.convertful.com^$third-party
 ||app.e2ma.net^$third-party
 ||appboy.eu^$third-party
-||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||ayc0zsm69431gfebd.xyz^$third-party
 ||batch.com^$third-party
@@ -36,6 +35,7 @@
 ||chameleon.ad^$third-party
 ||civicscience.com/widget/jspoll/$third-party
 ||clearbit.com^$third-party
+||clevergirlscollective.com^$third-party
 ||connect.ekomi.de^$third-party
 ||connect.nosto.com^$third-party
 ||contentexchange.me^$third-party
@@ -145,6 +145,7 @@
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
 ||socialtwist.com^$third-party
+||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
 ||technorati.com^$third-party
@@ -164,7 +165,6 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
-||widgets.sprinkletxt.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
@@ -191,6 +191,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||contentsitesrv.com/js/push/$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
@@ -232,6 +233,7 @@
 ||wpush.biz^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
+||aimtell.com^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -302,12 +304,13 @@
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
+||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||digg.com^$script,subdocument,third-party
 ||digitiminimi.com^$third-party
 ||facebook.com*/plugins/like.php?$third-party
+||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
-||facebook.com/plugins/follow?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -408,7 +411,6 @@
 ||consentframework.com^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
 ||cookie-script.com^$third-party
-||cookieassistant.com^$third-party
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
@@ -469,6 +471,7 @@
 ||rottentomatoes.com/service-worker/sw.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
+||push.neko-san.fr^
 ||3dmark.com/proxycon/images/front-some-fb.png
 ||cloudfront.net/instagram/
 ||crowdin.com/images/soc-btns/
@@ -502,11 +505,10 @@
 ||currenttime.tv/a/signup-sidebar-widget/
 ||gnezdo.ru^$third-party
 ||mirtesen.ru^$third-party
-||news.net.finam.ru^$third-party
 ||static.smi2.net^$third-party
 ||top100.rambler.ru^$third-party
 ||aklamator.com^$third-party
-||pipeline.de/socialmedia-icons/
+||newsletters.vocento.com^
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
@@ -535,7 +537,6 @@
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||ecache.vzw.com/imageFiles/Myacct/*/onlineopinionV5/
-@@||expedia.*/opinionlab/oo_engine.js$script
 @@||gismeteo.ru/images/rss/$image
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||phonearena.com/?b=$~third-party
@@ -553,7 +554,6 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
-@@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
@@ -585,6 +585,7 @@
 @@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@||vesmir.cz/components/eu_cookie/$script
+@@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/js/googleplus-sign-in.js$script
 @@/wp-content/plugins/2-click-socialmedia-buttons/js/social_bookmarks-min.js?$~third-party
@@ -628,6 +629,7 @@
 @@||gamingsociety.pl/wp-content/themes/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
+@@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
@@ -646,6 +648,7 @@
 @@||login.mos.ru^$image
 @@||lublin112.pl/wp-content/uploads/$image
 @@||media-cache*.pinimg.com^$image,third-party
+@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
