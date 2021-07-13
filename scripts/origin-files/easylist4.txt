@@ -1,8 +1,8 @@
-! Checksum: aGmx+uow+VuHDJRlhjQ3Ew
+! Checksum: cmEHVhsZm7Zmmbvullz6Ew
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.67
-! TimeUpdated: 2021-07-10T09:00:56+00:00
+! Version: 2.0.74.80
+! TimeUpdated: 2021-07-13T17:01:05+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -53,6 +53,7 @@
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
+||embed.e2ma.net^$third-party
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
@@ -165,6 +166,7 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
+||widgets.recruitology.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
@@ -175,7 +177,7 @@
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||cliengo.com^$media
-||collectcdn.com^$media
+||js.driftt.com/conductor/assets/media/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
 ||static.widget.trengo.eu/assets/$media
@@ -191,6 +193,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||centrnotify.com^$third-party
 ||contentsitesrv.com/js/push/$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
@@ -257,7 +260,6 @@
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
 ||kattepush.com^$third-party
-||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
 ||mp3vizor.com^$third-party
@@ -394,11 +396,9 @@
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
 ||xing-share.com^$third-party
-||xing.com/img/buttons/$third-party
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
-||analytics-consent-manager.azureedge.net^
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||ccmp.eu^$third-party
@@ -486,6 +486,7 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||stromnetz-hamburg.de/matomo/js/
 ||vinted.*/api/*/banners
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
@@ -532,7 +533,6 @@
 ||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
-||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -621,7 +621,6 @@
 @@||eyeo.com/wp-content/plugins/pp-team-social-icons/$~third-party
 @@||fansshare.com/media/*social$image
 @@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
-@@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
@@ -629,6 +628,7 @@
 @@||gamingsociety.pl/wp-content/themes/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
+@@||golem.de/staticrl/images/icons-social.png
 @@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
@@ -637,7 +637,6 @@
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
-@@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
 @@||krunker.io/img/menu-icons/$image,~third-party

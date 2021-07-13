@@ -1,4 +1,4 @@
-! Version: 20210709171522
+! Version: 20210714000600
 ! Title: adgk手机去广告规则
 ! Homepage: https://github.com/banbendalao/ADgk
 ! by: 坂本dalao
@@ -186,7 +186,7 @@
 ||w.inews.qq.com^
 ||othstr.beacon.qq.com^
 ||ssp.qq.com^
-||evtubescms.phncdn.com^$mp4
+||evtubescms.phncdn.com^$redirect=noopmp4-1s
 ||logs.nandu.com^
 ||log.snssdk.com^
 ||pglstatp-toutiao.com/obj^
@@ -733,9 +733,9 @@
 ||c.cnzz.com^
 ||a.cnzz.com^
 ||m.sm.cn$third-party
-||data.video.ptqy.gitv.tv/videos/other/$mp4
+||data.video.ptqy.gitv.tv/videos/other/$redirect=noopmp4-1s
 ||img.piaosugo.com*.jpg
-||atm.cp31.ott.cibntv.net$media,MP4
+||atm.cp31.ott.cibntv.net$media,redirect=noopmp4-1s
 ||cpoml.iask.sina.com.cn^$empty
 ||sl.sogoucdn.com/semob$empty,popup
 ||e.qq.com^
@@ -5216,7 +5216,7 @@
 ||omlube.com^
 ||ch-hr12333.com^
 ||iche88.cn^
-||data.video.iqiyi.com/videos/other/*.mp4?*random=ad$mp4
+||data.video.iqiyi.com/videos/other/*.mp4?*random=ad$redirect=noopmp4-1s
 ||app.market.xiaomi.com/apm/search/hotword?searchHotSource
 ||app.market.xiaomi.com/apm/secondfloor?
 ||video-api.yql.yahoo.com^lcvfar.com^
