@@ -1,8 +1,8 @@
-! Checksum: cmEHVhsZm7Zmmbvullz6Ew
+! Checksum: saydgJf7AHUFrnubkxMkew
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.80
-! TimeUpdated: 2021-07-13T17:01:05+00:00
+! Version: 2.0.74.92
+! TimeUpdated: 2021-07-16T17:01:16+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -50,6 +50,7 @@
 ||data.tm-awx.com^$third-party
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
+||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
@@ -126,7 +127,6 @@
 ||rating-widget.com^$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
-||research.net^$third-party
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
@@ -145,7 +145,6 @@
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
-||socialtwist.com^$third-party
 ||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
@@ -177,6 +176,7 @@
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||cliengo.com^$media
+||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
@@ -266,7 +266,6 @@
 ||najva.com^$third-party
 ||notifpush.com^$third-party
 ||notify.solutions^$third-party
-||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -354,6 +353,7 @@
 ||reactandshare.com^$third-party
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/static/$third-party
+||revinate.com^$third-party
 ||scoop.it^$third-party
 ||share.itraffic.su^$third-party
 ||share.pluso.ru^$third-party
@@ -455,7 +455,6 @@
 ||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
 ||newegg.com/newegg/survey/
-||sfstatic.net/build/experiment/helperWidget-
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||artdaily.cc/subscribe.html
 ||gn-flagpoles.api.bbci.co.uk^
@@ -486,6 +485,7 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||next-immo.com/js/cookies.1.min.js
 ||stromnetz-hamburg.de/matomo/js/
 ||vinted.*/api/*/banners
 ||push.cnnindonesia.com^
@@ -498,7 +498,6 @@
 ||giornaledibrescia.it/newsletter/
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
-||trovaprezzi.it/buttons/$third-party
 ||videosynd.kataweb.it^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
@@ -508,7 +507,6 @@
 ||mirtesen.ru^$third-party
 ||static.smi2.net^$third-party
 ||top100.rambler.ru^$third-party
-||aklamator.com^$third-party
 ||newsletters.vocento.com^
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
@@ -567,6 +565,7 @@
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
+@@||sm-sp.givemesport.com^$~third-party
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||trinitymedia.ai/player/$script,subdocument
@@ -590,6 +589,7 @@
 @@/wp-content/js/googleplus-sign-in.js$script
 @@/wp-content/plugins/2-click-socialmedia-buttons/js/social_bookmarks-min.js?$~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
+@@/wp-content/plugins/facebook-page-promoter-lightbox/includes/featherlight/close.png$image,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/super-socializer/css/front.css$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/commenting.js$~third-party
@@ -600,6 +600,7 @@
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
 @@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
+@@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-twitter.svg
@@ -674,6 +675,7 @@
 @@||tf1.fr/public/*/universal-view-ui-button-share-$script,~third-party
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
+@@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
