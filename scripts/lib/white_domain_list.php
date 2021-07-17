@@ -228,15 +228,28 @@ return array(
     'update.avlyun.sec.miui.com' => 0, // #387
     'sugar.zhihu.com' => 0, // #380
     'chtbl.com' => 0, // #390
+    'edge-enterprise.activity.windows.com' => 0, // #401
+    'edge.activity.windows.com' => 0, // #401
     'hsforms.com' => 0, // #420
     'hsforms.net' => 0, // #420
     'jx.cn' => 0, // #423
     'qualtrics.com' => 0, // #434
     'assets.ckjr001.com' => 0, // #433
     'kpstaticbj.wx.ckjr001.com' => 0, // #433
+    'www.supportxmr.com.cdn.cloudflare.net' => 0, // #436
+    'www.supportxmr.com' => 0, // #436
+    'supportxmr.com' => 0, // #436
+    'pool.supportxmr.com' => 0, // #436
+    'pool-de.supportxmr.com' => 0, // #436
+    'minergate.com' => 0, // #439
     'imagetwist.com' => 0, // #447
     'kanjiantu.com' => 0, // #451
     'www.kanjiantu.com' => 0, // #451
+    'cdn.ark.qq.com' => 0, // #461
+    'eq.10jqka.com.cn' => 0, // #463
+    'stat.10jqka.com.cn' => 0, // #463
+    'ozone.10jqka.com.cn' => 0, // #463
+    'awstrack.me' => 0, // #467
 
 
 
