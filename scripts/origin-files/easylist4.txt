@@ -1,8 +1,8 @@
-! Checksum: saydgJf7AHUFrnubkxMkew
+! Checksum: qYvgAK34owYsA78KMWjfgA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.74.92
-! TimeUpdated: 2021-07-16T17:01:16+00:00
+! Version: 2.0.74.99
+! TimeUpdated: 2021-07-18T13:01:05+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -35,7 +35,6 @@
 ||chameleon.ad^$third-party
 ||civicscience.com/widget/jspoll/$third-party
 ||clearbit.com^$third-party
-||clevergirlscollective.com^$third-party
 ||connect.ekomi.de^$third-party
 ||connect.nosto.com^$third-party
 ||contentexchange.me^$third-party
@@ -66,6 +65,7 @@
 ||feedburner.com^$image,third-party
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
+||frizbit.com^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
@@ -74,7 +74,6 @@
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
 ||healthgrades.com^$third-party
-||hellobar.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
@@ -159,7 +158,6 @@
 ||usablenet.com^$third-party
 ||usefomo.com^$third-party
 ||vk.com/images/$third-party
-||volomedia.com^$third-party
 ||webseed.com/javascripts/messagebar.js
 ||widget.gleamjs.io^$script,third-party
 ||widget.pico.tools^$third-party
@@ -175,6 +173,7 @@
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
+||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
@@ -198,6 +197,7 @@
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
+||krakenoptimize.com^$third-party
 ||luravius.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
 ||notification.tubecup.net^
@@ -214,7 +214,6 @@
 ||pusherapp.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
-||pushkintop.ru^$third-party
 ||pushnami.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
@@ -305,7 +304,6 @@
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
-||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||digg.com^$script,subdocument,third-party
 ||digitiminimi.com^$third-party
@@ -411,6 +409,7 @@
 ||consentframework.com^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
 ||cookie-script.com^$third-party
+||cookieassistant.com^$third-party
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
@@ -446,19 +445,15 @@
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
-||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
-||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
 ||newegg.com/newegg/survey/
 ||wp.com/wp-content/mu-plugins/post-flair/
-||artdaily.cc/subscribe.html
 ||gn-flagpoles.api.bbci.co.uk^
-||researchnews.cc/subscribe.html
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||webmd.com/dtmcms/live/webmd/*/newsletter/
 ||9to5terminal.com/push.js
@@ -583,7 +578,6 @@
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
-@@||vesmir.cz/components/eu_cookie/$script
 @@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/js/googleplus-sign-in.js$script
@@ -677,6 +671,7 @@
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
+@@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
