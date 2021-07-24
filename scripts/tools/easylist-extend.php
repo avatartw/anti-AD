@@ -264,6 +264,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||trackings.post.japanpost.jp^' => 1, // #441
     '@@||track.aliexpress.com^' => 1, // #446
     '@@||s.mvconf.f.360.cn^' => 1, // #462
+    '@@||widget.1688.com^' => 1, // #469
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
