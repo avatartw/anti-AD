@@ -1,8 +1,8 @@
-! Checksum: S2ta8u0Mlg5rugrUnWEpJA
+! Checksum: vL1Vh/EYz/3vQccE4O9Oqw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.5
-! TimeUpdated: 2021-07-22T17:01:05+00:00
+! Version: 2.0.75.16
+! TimeUpdated: 2021-07-25T17:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -26,7 +26,6 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
-||blogcatalog.com^$third-party
 ||blogtopsites.com^$third-party
 ||browser-updater.yandex.net^
 ||btn.createsend1.com^$third-party
@@ -73,7 +72,6 @@
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
-||healthgrades.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
@@ -147,8 +145,8 @@
 ||toolbar.complex.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
-||topsy.com^$third-party
 ||traffim.com^$third-party
+||tuenti.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
 ||usablenet.com^$third-party
@@ -167,11 +165,13 @@
 ||worldgravity.com^$third-party
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
+||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||cleversite.ru/client/default/sound/
 ||jivosite.com/sounds/
+||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
@@ -197,7 +197,6 @@
 ||mab.mediaset.es^$xmlhttprequest
 ||notification.tubecup.net^
 ||notix.io^$third-party
-||puscomosca.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery^$third-party
 ||push.esputnik.com^
@@ -216,6 +215,7 @@
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
+||pushvip.ru^$third-party
 ||pushwhy.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
@@ -276,7 +276,6 @@
 ||urbanairship.com^$third-party
 ||viapush.com^$third-party
 ||webpu.sh^$third-party
-||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
 ||addthis.com^$third-party
 ||addtoany.com^$third-party
@@ -303,7 +302,6 @@
 ||digitiminimi.com^$third-party
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
-||facebook.com/plugins/fan.php?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -344,6 +342,7 @@
 ||po.st/static/$third-party
 ||reactandshare.com^$third-party
 ||reddit.com/api/info.json?$third-party
+||reddit.com/buttonlite.js$third-party
 ||reddit.com/static/$third-party
 ||revinate.com^$third-party
 ||scoop.it^$third-party
@@ -384,6 +383,7 @@
 ||w.uptolike.com^$third-party
 ||weheartit.com^$third-party
 ||widget.weibo.com^$third-party
+||widgets.fbshare.me^$third-party
 ||widgets.getpocket.com^$third-party
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
@@ -407,7 +407,6 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
-||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
@@ -462,7 +461,9 @@
 ||dcnews.ro/sm-
 ||push.neko-san.fr^
 ||3dmark.com/proxycon/images/front-some-fb.png
+||cloudfront.net/facebook/
 ||cloudfront.net/instagram/
+||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
@@ -514,7 +515,6 @@
 ||cookie.vrt.be^
 ||cookies.nos.nl^
 ||cookierulez.sqrt64.it^$third-party
-||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
 ||interia.pl/rodo-iframe
 ||orange.pl/ocp-http/map/js/cookies.js
@@ -546,7 +546,6 @@
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
-@@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
 @@||mangasaki.com/sites/all/modules/eu_cookie_compliance/$~third-party
@@ -641,7 +640,6 @@
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
-@@||payco.com/share/js/$~third-party
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
 @@||rambler.ru/public-icons/$image
