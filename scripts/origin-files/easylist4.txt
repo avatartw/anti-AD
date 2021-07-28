@@ -1,8 +1,8 @@
-! Checksum: vL1Vh/EYz/3vQccE4O9Oqw
+! Checksum: vRulMq93Fr6LiAfAOlsfkQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.16
-! TimeUpdated: 2021-07-25T17:00:56+00:00
+! Version: 2.0.75.30
+! TimeUpdated: 2021-07-28T17:00:57+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -57,7 +57,6 @@
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
 ||feed.mikle.com^$third-party
-||feedage.net^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
 ||feedblitz.com^$third-party
@@ -72,6 +71,7 @@
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
+||hellobar.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
@@ -146,7 +146,6 @@
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
 ||traffim.com^$third-party
-||tuenti.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
 ||usablenet.com^$third-party
@@ -296,12 +295,13 @@
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
-||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||digg.com^$script,subdocument,third-party
 ||digitiminimi.com^$third-party
 ||facebook.com*/plugins/like.php?$third-party
+||facebook.com/plugins/activity.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
+||facebook.com/plugins/fan.php?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -310,10 +310,10 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
-||followistic.com^$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
+||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||lessbuttons.com^$third-party
@@ -388,7 +388,6 @@
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
 ||xing-share.com^$third-party
-||xing.com/img/buttons/$third-party
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
@@ -482,7 +481,6 @@
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
-||maison-travaux.fr/wp-content/themes/*/iframe-box-article.html
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -543,6 +541,7 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
+@@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
@@ -557,7 +556,6 @@
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
-@@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
@@ -613,7 +611,6 @@
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
 @@||fptplay.net/static/img/share/$image
-@@||gamingsociety.pl/wp-content/themes/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
 @@||golem.de/staticrl/images/icons-social.png
@@ -635,7 +632,6 @@
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
-@@||media-cache*.pinimg.com^$image,third-party
 @@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
