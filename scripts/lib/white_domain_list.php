@@ -251,7 +251,7 @@ return array(
     'stat.10jqka.com.cn' => 0, // #463
     'ozone.10jqka.com.cn' => 0, // #463
     'awstrack.me' => 0, // #467
-
+    'gleam.io' => 0, // #472
 
 
 
