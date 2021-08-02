@@ -1,8 +1,8 @@
-! Checksum: XR76r3/cbNeqywub6MH9ew
+! Checksum: vzD1PBgeIpcxC3h0X8iKxw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.47
-! TimeUpdated: 2021-07-31T21:00:55+00:00
+! Version: 2.0.75.48
+! TimeUpdated: 2021-08-02T14:40:47+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -26,11 +26,13 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
+||blogcatalog.com^$third-party
 ||blogtopsites.com^$third-party
 ||browser-updater.yandex.net^
 ||btn.createsend1.com^$third-party
 ||cdn-1.tstatic.net/js/copy.js
 ||celebjihad.com^$third-party
+||chameleon.ad^$third-party
 ||civicscience.com/widget/jspoll/$third-party
 ||clearbit.com^$third-party
 ||connect.ekomi.de^$third-party
@@ -55,6 +57,7 @@
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
+||factors.ai^$third-party
 ||feed.mikle.com^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
@@ -80,6 +83,7 @@
 ||jobs.thejobnetwork.com^$third-party
 ||justanswer.com^$third-party
 ||leadpages.co^$third-party
+||ligatus.com^$third-party
 ||lightboxcdn.com/vendor/$script,third-party
 ||linkwithin.com^$third-party
 ||live.primis.tech^$third-party
@@ -124,6 +128,7 @@
 ||rating-widget.com^$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
+||research.net^$third-party
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
@@ -143,6 +148,7 @@
 ||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
+||systeme.io^$third-party
 ||toolbar.complex.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
@@ -165,6 +171,7 @@
 ||worldgravity.com^$third-party
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
+||zergnet.com^$third-party
 ||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
@@ -256,7 +263,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||notify.solutions^$third-party
+||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -305,6 +312,7 @@
 ||facebook.com/plugins/activity.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
+||facebook.com/plugins/follow?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -313,6 +321,7 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
+||friends2follow.com^$subdocument,third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
@@ -368,6 +377,7 @@
 ||syndication.twimg.com/widgets/$third-party
 ||trendemon.com^$third-party
 ||tru.am^$third-party
+||tweetmeme.com^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
 ||twitter.com/*statuses/user_timeline/$third-party
@@ -391,6 +401,7 @@
 ||widgets.wp.com/likes/$third-party
 ||wykop.pl/dataprovider/diggerwidget/$third-party
 ||xing-share.com^$third-party
+||xing.com/img/buttons/$third-party
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
@@ -416,6 +427,7 @@
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
+||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
@@ -425,6 +437,7 @@
 ||jimstatic.com/ckies.js
 ||legalmonster.com^$third-party
 ||microsoft.com/mscc/
+||mycookies.it^$third-party
 ||myprivacy.dpgmedia.net/consent.js
 ||onetrust.com^$third-party
 ||onetrust.mgr.consensu.org^$third-party
@@ -433,10 +446,12 @@
 ||privacy-center.org^$third-party
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
+||pubtech.ai^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
+||sourcepoint.mgr.consensu.org^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
@@ -479,8 +494,10 @@
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
 ||next-immo.com/js/cookies.1.min.js
+||purevpn.com/loadGdprView
 ||stromnetz-hamburg.de/matomo/js/
 ||vinted.*/api/*/banners
+||fundingchoicesmessages.google.com^
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
@@ -524,6 +541,7 @@
 ||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
+||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
