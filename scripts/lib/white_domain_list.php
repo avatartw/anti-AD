@@ -253,6 +253,7 @@ return array(
     'awstrack.me' => 0, // #467
     'sogoucdn.com' => 0, // #471
     'gleam.io' => 0, // #472
+    'widget.gleamjs.io' => 0, // #472
 
 
 
