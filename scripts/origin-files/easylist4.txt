@@ -1,8 +1,8 @@
-! Checksum: 4DKXLmbeuTTF0GADYFSsHA
+! Checksum: 8Bvao+q14V/PFfnmRP3/xw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.58
-! TimeUpdated: 2021-08-04T17:00:53+00:00
+! Version: 2.0.75.72
+! TimeUpdated: 2021-08-07T13:00:51+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -78,6 +78,7 @@
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
+||img.fark.net/pub/$third-party
 ||insticator.com^$third-party
 ||internetdefenseleague.org^$third-party
 ||jobs.thejobnetwork.com^$third-party
@@ -91,7 +92,6 @@
 ||madmimi.com/signups/$third-party
 ||mail.bonnier-subscriptions.com^$subdocument
 ||mailerlite.com^$third-party
-||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
 ||misosoup.io^$third-party
@@ -99,6 +99,7 @@
 ||my.leadpages.net^$third-party
 ||my.sendinblue.com/users/subscribe/$third-party
 ||myvoicenation.com^$third-party
+||notifyon.com^$third-party
 ||opinary.com^$third-party
 ||opiniac.com^$third-party
 ||opinionbar.com^$third-party
@@ -140,6 +141,7 @@
 ||sg-autorepondeur.com^$third-party
 ||siteswithcontent.com^$third-party
 ||sleeknote.com^$third-party
+||smi.pp.ua^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
@@ -172,7 +174,6 @@
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
-||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
@@ -233,6 +234,7 @@
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
 ||wpush.biz^$third-party
+||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
 ||amazonaws.com/cdn.aimtell.com/
@@ -378,7 +380,6 @@
 ||syndication.twimg.com/widgets/$third-party
 ||trendemon.com^$third-party
 ||tru.am^$third-party
-||tweetmeme.com^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
 ||twitter.com/*statuses/user_timeline/$third-party
@@ -423,12 +424,12 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
+||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
-||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
@@ -453,6 +454,7 @@
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
 ||sourcepoint.mgr.consensu.org^$third-party
+||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
@@ -474,7 +476,6 @@
 ||indiatimes.com/pn/
 ||irishtimes.com/assets/js/notify.js
 ||push.api.bbci.co.uk^
-||rottentomatoes.com/service-worker/sw.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
 ||push.neko-san.fr^
@@ -539,7 +540,6 @@
 ||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
 ||interia.pl/rodo-iframe
-||orange.pl/ocp-http/map/js/cookies.js
 ||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
@@ -572,7 +572,6 @@
 @@||golem.de/wrapperMessagingWithoutDetection.js
 @@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
-@@||mangasaki.com/sites/all/modules/eu_cookie_compliance/$~third-party
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
@@ -644,7 +643,6 @@
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
 @@||golem.de/staticrl/images/icons-social.png
-@@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
@@ -652,6 +650,7 @@
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
+@@||itavisen.no/wp-content/uploads/$image
 @@||joyreactor.cc/images/icon_social.png
 @@||jsdelivr.net/npm/sharer.js
 @@||krunker.io/img/menu-icons/$image,~third-party
@@ -685,7 +684,6 @@
 @@||tabletowo.pl/wp-content/uploads/$image
 @@||teamquest.pl/img/static/$image
 @@||telepolis.pl/media/cache/resolve/content_box/images/$image
-@@||tf1.fr/public/*/universal-view-ui-button-share-$script,~third-party
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||thecompany.pl/graf/icons/youtube.png
