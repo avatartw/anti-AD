@@ -254,6 +254,11 @@ return array(
     'sogoucdn.com' => 0, // #471
     'gleam.io' => 0, // #472
     'widget.gleamjs.io' => 0, // #472
+    'ip-api.com' => 0, // #470
+    'ipstack.com' => 0, // #470
+    'd2r1yp2w7bby2u.cloudfront.net' => 0, // #470
+    'd3tsytm1wtjqo2.cloudfront.net' => 0, // #470
+    'whoami.akamai.net' => 0, // #208
 
 
 
