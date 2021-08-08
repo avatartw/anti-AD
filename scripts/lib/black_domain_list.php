@@ -1037,8 +1037,25 @@ return array(
     'tradplus.com' => array( // #444
         'tradplus.com',
     ),
-
-
+    'qutaovip.com' => array( // #473
+        'qutaovip.com',
+        'api-ads.qutaovip.com',
+    ),
+    '7moor.com' => array( // #464
+        '7moor.com',
+    ),
+    '7moor-fs1.com' => array( // #464
+        '7moor-fs1.com',
+    ),
+    'oray.com' => array( // #464
+        'tk.oray.com',
+        'pgy.oray.com',
+        'pgy-api.oray.com',
+        'sl-tk.oray.com',
+    ),
+    'oray.net' => array( // #464
+        'sl-log.oray.net',
+    ),
 
 
     // 批量添加域名
