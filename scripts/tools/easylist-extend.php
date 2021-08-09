@@ -267,6 +267,8 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||widget.1688.com^' => 1, // #469
     '@@||analytics.google.com^' => 1,
     '@@||widget.gleamjs.io^' => 1, // #472
+    '@@||form.ict-toshiba.jp^' => 1,
+    '@@||cart.matsuzaka-steak.com^' => 1,
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
