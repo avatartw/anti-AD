@@ -1,8 +1,8 @@
-! Checksum: 8Bvao+q14V/PFfnmRP3/xw
+! Checksum: BpaAho+FmhCHW+M5NeG91Q
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.72
-! TimeUpdated: 2021-08-07T13:00:51+00:00
+! Version: 2.0.75.80
+! TimeUpdated: 2021-08-09T13:01:26+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -102,7 +102,6 @@
 ||notifyon.com^$third-party
 ||opinary.com^$third-party
 ||opiniac.com^$third-party
-||opinionbar.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
 ||optimonk.com^$third-party
@@ -117,7 +116,6 @@
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
 ||postquare.com^$third-party
-||pressly.com^$third-party
 ||printfriendly.com^$~subdocument,third-party
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
@@ -197,7 +195,6 @@
 ||braze.com^$third-party
 ||cappushino.com^$third-party
 ||centrnotify.com^$third-party
-||contentsitesrv.com/js/push/$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
@@ -233,7 +230,6 @@
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
-||wpush.biz^$third-party
 ||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
@@ -265,8 +261,6 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||olgtex.com^$third-party
-||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -329,7 +323,6 @@
 ||houzz.com/buttonWidget?$third-party
 ||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
-||intagme.com/in/?u=$third-party
 ||jiathis.com^$third-party
 ||lessbuttons.com^$third-party
 ||likebtn.com^$third-party
@@ -382,9 +375,7 @@
 ||tru.am^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
-||twitter.com/*statuses/user_timeline/$third-party
 ||twitter.com/i/jot
-||twitter.com/javascripts/$third-party
 ||twitter.com/js/timeline.$script,third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
@@ -407,6 +398,7 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
+||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||californiatimes.com/gdpr/
@@ -661,7 +653,6 @@
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
-@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
