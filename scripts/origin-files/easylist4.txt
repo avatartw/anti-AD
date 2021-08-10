@@ -1,8 +1,8 @@
-! Checksum: BpaAho+FmhCHW+M5NeG91Q
+! Checksum: ZhAjqmmupndbT+Qj/IZC+Q
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.80
-! TimeUpdated: 2021-08-09T13:01:26+00:00
+! Version: 2.0.75.86
+! TimeUpdated: 2021-08-10T17:00:52+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -196,7 +196,6 @@
 ||cappushino.com^$third-party
 ||centrnotify.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
-||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -375,7 +374,9 @@
 ||tru.am^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
+||twitter.com/*statuses/user_timeline/$third-party
 ||twitter.com/i/jot
+||twitter.com/javascripts/$third-party
 ||twitter.com/js/timeline.$script,third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
@@ -455,6 +456,7 @@
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
+||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
@@ -471,6 +473,8 @@
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
 ||push.neko-san.fr^
+||rd.fi/sites/default/files/mini_banner.jpg
+||rd.fi/sites/default/files/vp-uutiskirje$image
 ||3dmark.com/proxycon/images/front-some-fb.png
 ||cloudfront.net/facebook/
 ||cloudfront.net/instagram/
@@ -489,7 +493,6 @@
 ||kayak.*/privacy/
 ||next-immo.com/js/cookies.1.min.js
 ||purevpn.com/loadGdprView
-||stromnetz-hamburg.de/matomo/js/
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
 ||push.cnnindonesia.com^
@@ -516,6 +519,7 @@
 ||aklamator.com^$third-party
 ||newsletters.vocento.com^
 ||share.baidu.com^
+||rd.fi/sites/default/files/vp-fbssa-banner$image
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
 ||draugiem.lv/business/ext/follow/$third-party
@@ -654,7 +658,6 @@
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
 @@||panzi.github.io/SocialSharePrivacy/
-@@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
