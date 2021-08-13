@@ -1,8 +1,8 @@
-! Checksum: ZhAjqmmupndbT+Qj/IZC+Q
+! Checksum: H/27kru2DTH9oyZ/XuGCUw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.75.86
-! TimeUpdated: 2021-08-10T17:00:52+00:00
+! Version: 2.0.75.98
+! TimeUpdated: 2021-08-13T17:00:50+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -52,11 +52,9 @@
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
-||embed.e2ma.net^$third-party
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
-||factors.ai^$third-party
 ||feed.mikle.com^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
@@ -65,6 +63,7 @@
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
 ||frizbit.com^$third-party
+||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
@@ -147,7 +146,6 @@
 ||streamspread.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
-||systeme.io^$third-party
 ||toolbar.complex.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
@@ -194,7 +192,6 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||centrnotify.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
@@ -218,7 +215,6 @@
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
-||pushvip.ru^$third-party
 ||pushwhy.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
@@ -229,6 +225,7 @@
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
+||wpush.biz^$third-party
 ||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
@@ -364,7 +361,6 @@
 ||simplesharebuttons.com^$third-party
 ||social9.com^$third-party
 ||socialannex.com^$third-party
-||spiceworks.com/share/$third-party
 ||spotify.com/follow/$third-party
 ||storeya.com/externalscript/$third-party
 ||stumbleupon.com/badge/$third-party
@@ -456,7 +452,6 @@
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
-||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
@@ -554,6 +549,7 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
+@@||alicdn.com/js/*/cookie-info.js$script
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
@@ -566,6 +562,7 @@
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
+@@||hktdc.com/resources/cookieconsent/$~third-party
 @@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
 @@||nectar.com/lib/cookieBanner.js
