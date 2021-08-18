@@ -260,6 +260,7 @@ return array(
     'd3tsytm1wtjqo2.cloudfront.net' => 0, // #470
     'whoami.akamai.net' => 0, // #208
     'insight.rapid7.com' => 0,
+    'exchange4media.com' => 0,
 
 
 
