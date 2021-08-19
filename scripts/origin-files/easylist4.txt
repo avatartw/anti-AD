@@ -1,8 +1,8 @@
-! Checksum: B7tVdDAyFi8w4emWNauHnw
+! Checksum: Ur532y0yWTA0euupDsE9OQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.76.12
-! TimeUpdated: 2021-08-16T17:01:02+00:00
+! Version: 2.0.76.29
+! TimeUpdated: 2021-08-19T17:00:53+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -54,6 +54,7 @@
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
+||factors.ai^$third-party
 ||feed.mikle.com^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
@@ -64,6 +65,7 @@
 ||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
+||getkudos.me^$third-party
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
 ||goroost.com^$third-party
@@ -136,7 +138,6 @@
 ||sg-autorepondeur.com^$third-party
 ||siteswithcontent.com^$third-party
 ||sleeknote.com^$third-party
-||smi.pp.ua^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
@@ -147,6 +148,7 @@
 ||toolbar.complex.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
+||topsy.com^$third-party
 ||traffim.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
@@ -170,7 +172,8 @@
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
-||cleversite.ru/client/default/sound/
+||chatango.com/pcache/sounds/
+||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
@@ -189,7 +192,6 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||checkpost.club^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
@@ -394,6 +396,7 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
+||analytics-consent-manager.azureedge.net^
 ||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
@@ -416,8 +419,8 @@
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
+||cookieq.com^$third-party
 ||cookiereports.com^$third-party
-||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
@@ -484,6 +487,7 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||medicalnewstoday.com/_next/chunks/modal-0cb79-legacy.js
 ||purevpn.com/loadGdprView
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
@@ -507,7 +511,6 @@
 ||news.net.finam.ru^$third-party
 ||static.smi2.net^$third-party
 ||top100.rambler.ru^$third-party
-||aklamator.com^$third-party
 ||newsletters.vocento.com^
 ||share.baidu.com^
 ||rd.fi/sites/default/files/vp-fbssa-banner$image
@@ -523,13 +526,15 @@
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
+||cookie.wieni.be^
 ||cookies.nos.nl^
 ||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
+||allegrostatic.com/opbox-rodo-consent-modal/
 ||interia.pl/rodo-iframe
 ||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
-||privacy.schibsted.com^
+||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -545,6 +550,7 @@
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||alicdn.com/js/*/cookie-info.js$script
+@@||alphavps.com/assets/js/services/CookiesConsent.min.js
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
@@ -665,6 +671,7 @@
 @@||softicons.com/download/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
+@@||static.jaatama.fi/thumbs/images/fb-$image
 @@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
