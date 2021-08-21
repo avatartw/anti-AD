@@ -261,6 +261,7 @@ return array(
     'whoami.akamai.net' => 0, // #208
     'insight.rapid7.com' => 0,
     'exchange4media.com' => 0,
+    'kaipuyun.cn' => 0, // #479
 
 
 
