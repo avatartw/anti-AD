@@ -262,6 +262,8 @@ return array(
     'insight.rapid7.com' => 0,
     'exchange4media.com' => 0,
     'kaipuyun.cn' => 0, // #479
+    'fraudmetrix.cn' => 1, // #480
+    'fp.tongdun.net' => 0, // #480
 
 
 
