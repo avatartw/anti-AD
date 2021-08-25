@@ -1,8 +1,8 @@
-! Checksum: 4TtloenylGYHIRNA1/A8eA
+! Checksum: jytA9mifXGgEPDMO6e8GMg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.76.42
-! TimeUpdated: 2021-08-22T17:00:55+00:00
+! Version: 2.0.76.56
+! TimeUpdated: 2021-08-25T13:00:57+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -117,6 +117,7 @@
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
 ||postquare.com^$third-party
+||pressly.com^$third-party
 ||printfriendly.com^$~subdocument,third-party
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
@@ -175,6 +176,7 @@
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||chatango.com/pcache/sounds/
+||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
@@ -193,6 +195,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||centrnotify.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
@@ -204,6 +207,7 @@
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
+||pushbots.com^$third-party
 ||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
@@ -281,7 +285,6 @@
 ||wonderpush.com^$third-party
 ||addthis.com^$third-party
 ||addtoany.com^$third-party
-||ahalogy.com^$third-party
 ||amazonaws.com/share.typeform.com/
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
@@ -476,9 +479,7 @@
 ||rd.fi/sites/default/files/mini_banner.jpg
 ||rd.fi/sites/default/files/vp-uutiskirje$image
 ||3dmark.com/proxycon/images/front-some-fb.png
-||cloudfront.net/facebook/
 ||cloudfront.net/instagram/
-||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
@@ -504,7 +505,6 @@
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
-||videosynd.kataweb.it^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
 ||smonitor.com.br^$third-party
@@ -551,6 +551,7 @@
 @@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
+@@||adblockplus.org/img/cookie-notice.svg$~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||alicdn.com/js/*/cookie-info.js$script
 @@||alphavps.com/assets/js/services/CookiesConsent.min.js
@@ -569,6 +570,7 @@
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
+@@||mangasaki.com/sites/all/modules/eu_cookie_compliance/$~third-party
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
