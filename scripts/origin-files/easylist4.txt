@@ -1,8 +1,8 @@
-! Checksum: CZ65D5cj+6s690gNtgf4/Q
+! Checksum: KsR8V5zjUIsrRYTJ4q6F0w
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.77.17
-! TimeUpdated: 2021-09-07T17:00:50+00:00
+! Version: 2.0.77.21
+! TimeUpdated: 2021-09-08T15:45:05+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -138,6 +138,7 @@
 ||sendsay.ru^$third-party
 ||service.signalr.net^$third-party
 ||siteswithcontent.com^$third-party
+||slashdot.org^$third-party
 ||sleeknote.com^$third-party
 ||smi.today^$third-party
 ||smi2.ru^$third-party
@@ -315,10 +316,12 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
+||followistic.com^$third-party
 ||getsocial.io/widget/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
+||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||lessbuttons.com^$third-party
@@ -374,7 +377,6 @@
 ||twitter.com/i/jot
 ||twitter.com/javascripts/$third-party
 ||twitter.com/js/timeline.$script,third-party
-||twittercounter.com^$third-party
 ||usocial.pro^$third-party
 ||vk.com/share.php?$third-party
 ||vk.com/widget_community.php$third-party
@@ -395,7 +397,6 @@
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
 ||analytics-consent-manager.azureedge.net^
-||app.livemarketshoppers.com^$script,third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||californiatimes.com/gdpr/
@@ -431,7 +432,6 @@
 ||microsoft.com/mscc/
 ||myprivacy.dpgmedia.net/consent.js
 ||onetrust.com^$third-party
-||onetrust.mgr.consensu.org^$third-party
 ||optanon.blob.core.windows.net^
 ||orangeclickmedia.com^$third-party
 ||privacy-center.org^$third-party
@@ -536,6 +536,7 @@
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 ||consent.themeteocompany.com^
+@@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||expedia.*/opinionlab/oo_engine.js$script
@@ -564,6 +565,7 @@
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
+@@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||golem.de/wrapperMessagingWithoutDetection.js
@@ -673,7 +675,6 @@
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
 @@||static.jaatama.fi/thumbs/images/fb-$image
-@@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
 @@||teamquest.pl/img/static/$image
