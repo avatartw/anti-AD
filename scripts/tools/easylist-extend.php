@@ -134,7 +134,7 @@ $ARR_MERGED_WILD_LIST = array(
 
 $ARR_REGEX_LIST = array(
     '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A|AAAA' => null,
-    '/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net' => null,
+    '/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com' => null,
     '/^([^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
     '/^([^\s\/]+\.)?afgr[\d]{1,2}\.com$/' => null,
     '/^([^\s\/]+\.)?analytics(\-|\.)/' => null,
