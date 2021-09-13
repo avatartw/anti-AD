@@ -1,8 +1,8 @@
-! Checksum: NQiZqi/q8emD9IZM0tXCNA
+! Checksum: OcxR7CLkOOj8IlLojWiy9w
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.77.32
-! TimeUpdated: 2021-09-10T17:00:51+00:00
+! Version: 2.0.77.45
+! TimeUpdated: 2021-09-13T17:00:58+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -68,7 +68,6 @@
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
 ||getwoohoo.com^$third-party
-||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
@@ -111,7 +110,6 @@
 ||optnmnstr.com^$third-party
 ||optnmstr.com^$third-party
 ||phoenix-widget.com^$third-party
-||pippity.com^$third-party
 ||placehold.it^$third-party
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
@@ -121,6 +119,7 @@
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
 ||purch.com^$script,third-party
+||qeryz.com^$third-party
 ||qualtrics.com^$third-party
 ||r42tag.com^$third-party
 ||rating-widget.com^$third-party
@@ -144,10 +143,13 @@
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
 ||streamspread.com^$third-party
+||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
+||technorati.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
+||topsy.com^$third-party
 ||traffim.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
@@ -168,14 +170,12 @@
 ||worldgravity.com^$third-party
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
-||zergnet.com^$third-party
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
-||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
@@ -186,9 +186,7 @@
 ||zdassets.com/web_widget/$media
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
-||amplify.outbrain.com^$third-party
-||outbrainimg.com^$third-party
-||widgets.outbrain.com^$third-party
+||outbrain.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
@@ -213,6 +211,7 @@
 ||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
+||pushnami.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
 ||pushpanda.io^$third-party
@@ -497,7 +496,6 @@
 ||edintorni.net^$third-party
 ||epeex.com^$third-party
 ||giornaledibrescia.it/newsletter/
-||reviews.shoppydoo.it^$third-party
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
@@ -663,6 +661,7 @@
 @@||passets-cdn.pinterest.com^
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
+@@||prezzibenzina.it/www2/images/btn_facebook_new.png
 @@||rambler.ru/public-icons/$image
 @@||restream.io/img/$image
 @@||s-media*.pinimg.com^$image,third-party
@@ -672,6 +671,7 @@
 @@||sharetv.com/images/social_login/$image,~third-party
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
+@@||softicons.com/download/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
 @@||static.jaatama.fi/thumbs/images/fb-$image
