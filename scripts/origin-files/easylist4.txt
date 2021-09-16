@@ -1,8 +1,8 @@
-! Checksum: OcxR7CLkOOj8IlLojWiy9w
+! Checksum: acRvfR09G4J/NKSqU0HhKQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.77.45
-! TimeUpdated: 2021-09-13T17:00:58+00:00
+! Version: 2.0.77.54
+! TimeUpdated: 2021-09-16T17:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -27,6 +27,7 @@
 ||blockmetrics.com^$third-party
 ||bloglines.com^$third-party
 ||blogtopsites.com^$third-party
+||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
 ||btn.createsend1.com^$third-party
 ||cdn-1.tstatic.net/js/copy.js
@@ -40,6 +41,7 @@
 ||convertflow.co^$third-party
 ||ctctcdn.com/js/signup-form-widget/$third-party
 ||cursors-4u.net^$third-party
+||customfit.ai^$third-party
 ||cxpublic.com^$third-party
 ||d2ip7iv1l4ergv.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
@@ -53,6 +55,7 @@
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
 ||exitintel.com^$third-party
+||factors.ai^$third-party
 ||feed.mikle.com^$third-party
 ||feedage.net^$third-party
 ||feedaty.com^$third-party
@@ -131,7 +134,6 @@
 ||sail-horizon.com^$third-party
 ||sail-personalize.com^$third-party
 ||sailthru.com^$third-party
-||scrolltotop.com^$third-party
 ||sendsay.ru^$third-party
 ||service.signalr.net^$third-party
 ||sg-autorepondeur.com^$third-party
@@ -142,7 +144,6 @@
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
-||streamspread.com^$third-party
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
@@ -174,8 +175,10 @@
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||chatango.com/pcache/sounds/
+||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
+||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||livechatinc.com/widget/static/media/
 ||reamaze.com/audio/
@@ -395,14 +398,13 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
-||analytics-consent-manager.azureedge.net^
 ||assetlab.io/consent/
 ||axept.io^$third-party
 ||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
+||clickiocdn.com/t/cmp/$third-party
 ||cmp.nextday.media^
-||consensu.org/gdpr/$third-party
 ||consent.truste.com^$third-party
 ||consentag.eu^$third-party
 ||consentframework.com^$third-party
@@ -412,6 +414,7 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
+||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
@@ -421,6 +424,7 @@
 ||cookiescript.info^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
+||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||goadopt.io^$third-party
 ||hs-banner.com^$third-party
@@ -441,7 +445,6 @@
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
-||sourcepoint.mgr.consensu.org^$third-party
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
@@ -513,7 +516,6 @@
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
-||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
@@ -529,6 +531,7 @@
 ||rcsobjects.it/rcs_cpmt/
 ||allegrostatic.com/opbox-rodo-consent-modal/
 ||interia.pl/rodo-iframe
+||rodo.agora.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 ||consent.themeteocompany.com^
@@ -573,7 +576,6 @@
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
-@@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
 @@||sm-sp.givemesport.com^$~third-party
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
