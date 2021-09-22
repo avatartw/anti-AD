@@ -1,8 +1,8 @@
-! Checksum: tGaXzDdTzEPQqupFJm/6OA
+! Checksum: BOgLyw8CCCpN1rWjcu1QHQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.77.65
-! TimeUpdated: 2021-09-19T01:00:53+00:00
+! Version: 2.0.77.70
+! TimeUpdated: 2021-09-22T09:01:00+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -29,7 +29,6 @@
 ||blogtopsites.com^$third-party
 ||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
-||btn.createsend1.com^$third-party
 ||cdn-1.tstatic.net/js/copy.js
 ||celebjihad.com^$third-party
 ||civicscience.com/widget/jspoll/$third-party
@@ -49,6 +48,7 @@
 ||data.tm-awx.com^$third-party
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
+||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
@@ -57,14 +57,12 @@
 ||exitintel.com^$third-party
 ||factors.ai^$third-party
 ||feed.mikle.com^$third-party
-||feedage.net^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
 ||feedblitz.com^$third-party
 ||feedburner.com^$image,third-party
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
-||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
@@ -103,7 +101,6 @@
 ||opiniac.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
-||optimonk.com^$third-party
 ||optinmonster.com^$third-party
 ||optkit.com^$third-party
 ||optmnstr.com^$third-party
@@ -112,6 +109,7 @@
 ||optnmstr.com^$third-party
 ||partner.dw.com^$third-party
 ||phoenix-widget.com^$third-party
+||pippity.com^$third-party
 ||placehold.it^$third-party
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
@@ -143,6 +141,7 @@
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
+||streamspread.com^$third-party
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
@@ -191,7 +190,6 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
-||centrnotify.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
@@ -206,7 +204,6 @@
 ||push.world^$third-party
 ||pushassist.com^$third-party
 ||pushbots.com^$third-party
-||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
 ||pushinpage.com^$third-party
@@ -301,7 +298,6 @@
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
-||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||digg.com^$script,subdocument,third-party
 ||digitiminimi.com^$third-party
@@ -349,7 +345,6 @@
 ||po.st/static/$third-party
 ||reactandshare.com^$third-party
 ||reddit.com/api/info.json?$third-party
-||reddit.com/button.js?$third-party
 ||reddit.com/static/$third-party
 ||scoop.it^$third-party
 ||share.itraffic.su^$third-party
@@ -437,6 +432,7 @@
 ||optanon.blob.core.windows.net^
 ||orangeclickmedia.com^$third-party
 ||privacy-center.org^$third-party
+||privacy.clion.agency^$third-party
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
 ||pubtech.ai^$third-party
@@ -501,6 +497,7 @@
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
+||videosynd.kataweb.it^$third-party
 ||wp.com/www.proiezionidiborsa.it/*/google-news-
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
@@ -515,6 +512,7 @@
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
+||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
@@ -525,8 +523,8 @@
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
 ||cookie.wieni.be^
+||cookies.jeugdjournaal.nl^
 ||cookies.nos.nl^
-||cookies.ster.nl^
 ||rcsobjects.it/rcs_cpmt/
 ||allegrostatic.com/opbox-rodo-consent-modal/
 ||interia.pl/rodo-iframe
@@ -573,6 +571,7 @@
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
+@@||privacypolicies.com/public/uploads/$image,~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
 @@||sm-sp.givemesport.com^$~third-party
@@ -654,7 +653,6 @@
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
-@@||meczyki.pl/images/instagram_blank.gif$~third-party
 @@||media-cache*.pinimg.com^$image,third-party
 @@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
