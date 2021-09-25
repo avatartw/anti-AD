@@ -1,8 +1,8 @@
-! Checksum: BOgLyw8CCCpN1rWjcu1QHQ
+! Checksum: UG4W6jXD8rvIlMe25NOQ1w
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.77.70
-! TimeUpdated: 2021-09-22T09:01:00+00:00
+! Version: 2.0.77.81
+! TimeUpdated: 2021-09-25T13:00:49+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -68,6 +68,7 @@
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
 ||getwoohoo.com^$third-party
+||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
@@ -88,6 +89,7 @@
 ||live.primis.tech^$third-party
 ||lpages.co/serve-leadbox/$third-party
 ||madmimi.com/signups/$third-party
+||mail.bonnier-subscriptions.com^$subdocument
 ||mailerlite.com^$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
@@ -101,6 +103,7 @@
 ||opiniac.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
+||optimonk.com^$third-party
 ||optinmonster.com^$third-party
 ||optkit.com^$third-party
 ||optmnstr.com^$third-party
@@ -217,7 +220,6 @@
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
 ||pushwhy.com^$third-party
-||quarepush.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
 ||sckxppzdm.com^$third-party
@@ -408,7 +410,6 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
-||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookielaw.org^$third-party
@@ -444,7 +445,6 @@
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
-||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
@@ -488,6 +488,7 @@
 ||onaregarde-pourvous.com/api/$third-party
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pcbeta.com/data/cache/blstGHLORZ.js
+||static.iqiyi.com/js/common/mars_v.js
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
@@ -565,7 +566,6 @@
 @@||golem.de/wrapperMessagingWithoutDetection.js
 @@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||mac4ever.com/min.php$script
-@@||mangasaki.com/sites/all/modules/eu_cookie_compliance/$~third-party
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||oddschecker.com/OC-B2B/platform-uk-gdpr-banner/$script
@@ -625,7 +625,6 @@
 @@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
-@@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
 @@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
@@ -663,15 +662,14 @@
 @@||rambler.ru/public-icons/$image
 @@||restream.io/img/$image
 @@||s-media*.pinimg.com^$image,third-party
-@@||staticwars.com/combo/_/wp-content/themes/$script
-@@||yaplakal.com/html/static/$image,~third-party
 @@||seeklogo.com/images/*-seeklogo.com.gif
 @@||sharetv.com/images/social_login/$image,~third-party
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
 @@||softicons.com/download/$image
-@@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
+@@||stadt-bremerhaven.de/wp-content/uploads/*/Facebook_$image
+@@||staticwars.com/combo/_/wp-content/themes/$script
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
 @@||teamquest.pl/img/static/$image
@@ -684,5 +682,6 @@
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
+@@||yaplakal.com/html/static/$image,~third-party
 @@||yastatic.net/share2/share.js$script
 @@||yougetsignal.com/img/*_igoogle.gif
