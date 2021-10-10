@@ -1,8 +1,8 @@
-! Checksum: kTm107jXPN+EOq7TGuPVFw
+! Checksum: DQv1JHHG/H+2UkGm6MBVAg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.39
-! TimeUpdated: 2021-10-07T17:00:57+00:00
+! Version: 2.0.78.54
+! TimeUpdated: 2021-10-10T17:01:06+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -43,10 +43,10 @@
 ||cxpublic.com^$third-party
 ||d2ip7iv1l4ergv.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
-||d9etzk30b05yg.cloudfront.net^
 ||data.tm-awx.com^$third-party
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
+||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
 ||dotmailer-surveys.com^$third-party
 ||download.skype.com/share/$third-party
 ||drivenetwork.ru^$third-party
@@ -96,9 +96,9 @@
 ||mixi.media^$third-party
 ||my.leadpages.net^$third-party
 ||my.sendinblue.com/users/subscribe/$third-party
-||notifyon.com^$third-party
 ||opinary.com^$third-party
 ||opiniac.com^$third-party
+||opinionbar.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
 ||optimonk.com^$third-party
@@ -170,6 +170,7 @@
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
+||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
@@ -192,6 +193,7 @@
 ||braze.com^$third-party
 ||cappushino.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
+||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -314,7 +316,6 @@
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
-||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||jsoon.digitiminimi.com^$third-party
@@ -477,6 +478,7 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||purevpn.com/loadGdprView
 ||t13.9to5google.com^
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
@@ -484,13 +486,11 @@
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
 ||onaregarde-pourvous.com/api/$third-party
-||pcbeta.com/data/cache/blstGHLORZ.js
 ||s1.hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js
 ||static.iqiyi.com/js/common/mars_v.js
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
-||epeex.com^$third-party
 ||giornaledibrescia.it/newsletter/
 ||reviews.shoppydoo.it^$third-party
 ||smiling.video^$third-party
