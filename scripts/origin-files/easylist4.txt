@@ -1,8 +1,8 @@
-! Checksum: DQv1JHHG/H+2UkGm6MBVAg
+! Checksum: 6IWZ7HY5arwgwiXwnzwrug
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.54
-! TimeUpdated: 2021-10-10T17:01:06+00:00
+! Version: 2.0.78.63
+! TimeUpdated: 2021-10-13T17:01:18+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -198,7 +198,6 @@
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
 ||notix.io^$third-party
-||ntvsw.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery.ethinking.de^
 ||push.esputnik.com^
@@ -304,6 +303,7 @@
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
+||facebook.com/plugins/follow.php$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -312,6 +312,7 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
+||followistic.com^$third-party
 ||getsocial.io/widget/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
@@ -425,6 +426,7 @@
 ||jimstatic.com/ckies.js
 ||legalmonster.com^$third-party
 ||microsoft.com/mscc/
+||mycookies.it^$third-party
 ||myprivacy.dpgmedia.net/consent.js
 ||onetrust.com^$third-party
 ||onetrust.mgr.consensu.org^$third-party
@@ -461,6 +463,7 @@
 ||indiatimes.com/pn/
 ||irishtimes.com/assets/js/notify.js
 ||push.api.bbci.co.uk^
+||ultimedia.com/js/common/notification.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
 ||3dmark.com/proxycon/images/front-some-fb.png
@@ -479,7 +482,6 @@
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
 ||purevpn.com/loadGdprView
-||t13.9to5google.com^
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
 ||push.cnnindonesia.com^
@@ -526,6 +528,7 @@
 ||allegrostatic.com/opbox-rodo-consent-modal/
 ||interia.pl/rodo-iframe
 ||rodo.agora.pl^
+||zgody.infor.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 ||consent.themeteocompany.com^
@@ -571,7 +574,6 @@
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
-@@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
@@ -645,6 +647,7 @@
 @@||fptplay.net/static/img/share/$image
 @@||freemake.com/frm/images/youtube_to_mp3/youtube.jpg
 @@||fyre.co/*/facebook_share_post.png
+@@||gamingsociety.pl/wp-content/themes/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||ge.tt/s/images/twitter-extension-icon.png
 @@||ge.tt/s/images/twitter-signin.png
@@ -657,7 +660,6 @@
 @@||hd-trailers.net/images/youtube.png
 @@||huffpost.com/images/social-profile/lightbox/snn_lightbox_close.png
 @@||iconfinder.com/data/icons/$~third-party
-@@||iconizer.net/files/*_social_$image
 @@||icons.iconarchive.com/icons/$image,~third-party
 @@||imgur.com/images/access/third-party-*.png
 @@||inoreader.com/images/login/but_facebook.png
