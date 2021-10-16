@@ -1,8 +1,8 @@
-! Checksum: +SZgtA9O/c3ADo3yBOeQLA
+! Checksum: 0OlIlWwfSpHSFL3awu2l5Q
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.71
-! TimeUpdated: 2021-10-15T17:00:56+00:00
+! Version: 2.0.78.75
+! TimeUpdated: 2021-10-16T17:01:03+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -144,7 +144,7 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
-||technorati.com^$third-party
+||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
 ||traffim.com^$third-party
@@ -173,7 +173,6 @@
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
 ||chatango.com/pcache/sounds/
-||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
@@ -202,7 +201,6 @@
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
-||pushbots.com^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
 ||pushinpage.com^$third-party
@@ -344,7 +342,6 @@
 ||po.st/static/$third-party
 ||reactandshare.com^$third-party
 ||reddit.com/api/info.json?$third-party
-||reddit.com/buttonlite.js$third-party
 ||reddit.com/static/$third-party
 ||scoop.it^$third-party
 ||share.itraffic.su^$third-party
@@ -578,7 +575,6 @@
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||cdp.pl/skin/*/cookies.js
-@@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
@@ -607,6 +603,7 @@
 @@||amazonaws.com/mibbit/gfx/youtube.png
 @@||app.degoo.com/assets/icons/$~third-party
 @@||apple.com/kb/resources/images/i_facebook.png
+@@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-twitter.svg
