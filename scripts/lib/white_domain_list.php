@@ -268,6 +268,10 @@ return array(
     'dfcfw.com' => 0, // #482
     'msedge.net' => 0, // #478
     'ecard.shenzhentong.com' => 0, // #486
+    'zconfig.alibabausercontent.com' => 0, // #495
+    'proofpoint.com' => 0, // #497
+    'mini.eastday.com' => 0, // #500
+    'dftoutiao.com' => 0, // #500
 
 
 
