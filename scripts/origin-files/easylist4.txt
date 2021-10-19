@@ -1,8 +1,8 @@
-! Checksum: 0OlIlWwfSpHSFL3awu2l5Q
+! Checksum: 6vOovCArm7OAuHDY6k4yng
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.75
-! TimeUpdated: 2021-10-16T17:01:03+00:00
+! Version: 2.0.78.86
+! TimeUpdated: 2021-10-19T17:00:57+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -24,7 +24,6 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
-||bloglines.com^$third-party
 ||blogtopsites.com^$third-party
 ||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
@@ -133,7 +132,6 @@
 ||sendsay.ru^$third-party
 ||service.signalr.net^$third-party
 ||siteswithcontent.com^$third-party
-||slashdot.org^$third-party
 ||sleeknote.com^$third-party
 ||smi.pp.ua^$third-party
 ||smi.today^$third-party
@@ -249,6 +247,7 @@
 ||getpushmonkey.com^$third-party
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
+||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
 ||mp3vizor.com^$third-party
@@ -256,6 +255,7 @@
 ||notifpush.com^$third-party
 ||notify.solutions^$third-party
 ||olgtex.com^$third-party
+||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -310,7 +310,6 @@
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
 ||followistic.com^$third-party
-||getsocial.io/widget/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
@@ -394,7 +393,6 @@
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/t/cmp/$third-party
 ||cmp.nextday.media^
-||consent.dk^$third-party
 ||consent.truste.com^$third-party
 ||consentag.eu^$third-party
 ||consentframework.com^$third-party
@@ -524,7 +522,6 @@
 ||rcsobjects.it/rcs_cpmt/
 ||allegrostatic.com/opbox-rodo-consent-modal/
 ||interia.pl/rodo-iframe
-||rodo.agora.pl^
 ||zgody.infor.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
@@ -566,7 +563,6 @@
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||privacypolicies.com/public/uploads/$image,~third-party
-@@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||trinitymedia.ai/player/$script,subdocument
@@ -676,6 +672,7 @@
 @@||letyshops.com/build/core/images/$image,~third-party
 @@||livescience.com/images/site/social/footer_*.gif
 @@||login.mos.ru^$image
+@@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
 @@||magic.link/images/share.svg
 @@||media-cache*.pinimg.com^$image,third-party

@@ -54,12 +54,14 @@
 @@||adv.asahi.com^
 @@||adv.asahi.com^$popup
 @@||adv.gg^
-@@||adv.gg^$popup
 @@||advert.kf5.com^
 @@||afi-b.com^
 @@||analytics.amplitude.com^
+@@||analytics.amplitude.com^$~third-party
+@@||analytics.itunes.apple.com^$~third-party
 @@||api.ad-gone.com^
 @@||api.ads.tvb.com^
+@@||api.nyda.pro^$websocket
 @@||apk.tw^$script,~third-party
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^
@@ -147,6 +149,7 @@
 @@||mc.*.exacttarget.com^
 @@||media-cache*.pinimg.com^
 @@||media-cache*.pinimg.com^$image,third-party
+@@||metrics.torproject.org^$~third-party
 @@||mi.cn^
 @@||minigame.qq.com^
 @@||mnighthk.net^$elemhide
@@ -158,6 +161,7 @@
 @@||official.paymaya.com^
 @@||omniture.walmart.com^
 @@||omsc.kpn.com^
+@@||ondemand.sas.com^$subdocument
 @@||oneline.nextday.media^
 @@||optout.networkadvertising.org^
 @@||optout.networkadvertising.org^$document
@@ -167,6 +171,8 @@
 @@||payload.cargocollective.com^$image,~third-party
 @@||phs.tanx.com^
 @@||pingjs.qq.com^$~third-party
+@@||player.sundaysky.com^$subdocument
+@@||plugins.matomo.org^$image,~third-party
 @@||promo.gramedia.com^
 @@||proto2ad.durasite.net^
 @@||pt.afl.rakuten.co.jp^
@@ -184,6 +190,7 @@
 @@||serve.netsh.org^$elemhide
 @@||sm-sp.givemesport.com^$~third-party
 @@||social.krunker.io^$~third-party
+@@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||speedtest.net^
 @@||str.hit.gemius.pl^
 @@||support-beacon.nakanohito.jp^
@@ -196,7 +203,9 @@
 @@||tuhu.cn^
 @@||vd.l.qq.com^
 @@||wgun.net^$elemhide
+@@||widget.myrentacar.me^$script,subdocument
 @@||wikia.nocookie.net^$stylesheet
+@@||ws.webcaster.pro^$websocket
 @@||www.googleadservices.com^
 @@||www.gsxt.gov.cn^
 @@||www.jdoqocy.com^
