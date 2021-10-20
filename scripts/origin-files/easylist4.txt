@@ -1,8 +1,8 @@
-! Checksum: 6vOovCArm7OAuHDY6k4yng
+! Checksum: eNSotqrLIaafG/Up3pCf2A
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.86
-! TimeUpdated: 2021-10-19T17:00:57+00:00
+! Version: 2.0.78.92
+! TimeUpdated: 2021-10-20T17:01:09+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -13,6 +13,7 @@
 ||activehosted.com^$third-party
 ||adobe-campaign.com^$third-party
 ||allpass.salemwebnetwork.com^$third-party
+||amazonaws.com/fby.js
 ||apester.com^$third-party
 ||api.branch.io^$third-party
 ||api.traq.li^$third-party
@@ -507,6 +508,7 @@
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
+||draugiem.lv/lapas/widgets/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
@@ -530,6 +532,7 @@
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||ebuddy.com/website/*social-icons.png
+@@||expedia.*/opinionlab/oo_engine.js$script
 @@||gismeteo.ru/images/rss/$image
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||ng.cengage.com/static/iloveapps/rssfeed/$script,~third-party
@@ -682,6 +685,7 @@
 @@||ndtv.com/css/Widget/comment/images/comment-share-icons.png
 @@||ndtv.com/social/static/comment-share-icons.png
 @@||nexoneu.com/common/icon-fb.gif
+@@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||nouvelobs.com/sites/all/themes/rue89base/css/img/share/bg-tools.png
 @@||ogdownloaderapk.com/images/og-youtube.png
 @@||panzi.github.io/SocialSharePrivacy/
