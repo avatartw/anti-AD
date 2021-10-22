@@ -1,11 +1,12 @@
-! Checksum: eNSotqrLIaafG/Up3pCf2A
+! Checksum: 9n84PhEfb/CYQqSXXgIhqg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.78.92
-! TimeUpdated: 2021-10-20T17:01:09+00:00
+! Version: 2.0.78.98
+! TimeUpdated: 2021-10-22T17:01:10+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
+||2kurl.com^$third-party
 ||37signals.com^$third-party
 ||a.mailmunch.co/app/$script,third-party
 ||accengage.net^$third-party
@@ -26,7 +27,6 @@
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
 ||blogtopsites.com^$third-party
-||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
 ||cdn-1.tstatic.net/js/copy.js
 ||celebjihad.com^$third-party
@@ -159,7 +159,6 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
-||widgets.recruitology.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
@@ -179,7 +178,6 @@
 ||static.widget.trengo.eu/assets/$media
 ||tawk.to/*/audio/
 ||tidiochat.com^$media
-||userway.org/widgetapp/sounds/
 ||zdassets.com/web_widget/$media
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
@@ -428,7 +426,6 @@
 ||optanon.blob.core.windows.net^
 ||orangeclickmedia.com^$third-party
 ||privacy-center.org^$third-party
-||privacy.clion.agency^$third-party
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
 ||pubtech.ai^$third-party
@@ -518,7 +515,6 @@
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
-||cookies.jeugdjournaal.nl^
 ||cookies.nos.nl^
 ||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
@@ -575,7 +571,6 @@
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||cdp.pl/skin/*/cookies.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
-@@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
@@ -587,6 +582,7 @@
 @@/wp-content/js/googleplus-sign-in.js$script
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
+@@/wp-content/plugins/socialauth-wp/*$~third-party
 @@/wp-content/plugins/super-socializer/css/front.css$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/commenting.js$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/sdk.js$~third-party
