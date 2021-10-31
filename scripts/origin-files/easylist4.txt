@@ -1,8 +1,8 @@
-! Checksum: PpyshIif1saG/73ZUBsZ4g
+! Checksum: 6nY8UJ8nPjJCEIU/DUhLjA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.24
-! TimeUpdated: 2021-10-28T17:00:57+00:00
+! Version: 2.0.79.42
+! TimeUpdated: 2021-10-31T17:01:02+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -69,6 +69,7 @@
 ||getwoohoo.com^$third-party
 ||goroost.com^$third-party
 ||govdelivery.com^$third-party
+||gravity.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
 ||healthgrades.com^$third-party
@@ -114,7 +115,6 @@
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
 ||postquare.com^$third-party
-||pressly.com^$third-party
 ||printfriendly.com^$~subdocument,third-party
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
@@ -437,12 +437,12 @@
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
-||sourcepoint.mgr.consensu.org^$third-party
 ||termly.io^$third-party
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
 ||usercentrics.eu^$third-party
+||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
@@ -538,6 +538,7 @@
 @@||phonearena.com/?b=$~third-party
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
+@@||thegrommet.com/js/onetrust-$script,~third-party
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
 @@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
@@ -549,6 +550,7 @@
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
+@@||consent2.express.de/wrapperMessagingWithoutDetection.js
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
@@ -569,9 +571,9 @@
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
+@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$~third-party
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
-@@||cdp.pl/skin/*/cookies.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
@@ -639,7 +641,6 @@
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
-@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||moneymorning.com/wp-content/plugins/mm-social-share/$stylesheet
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
