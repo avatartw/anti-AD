@@ -276,6 +276,9 @@ return array(
     'da.mmarket.com' => 0, // #501
     'log-upload.mihoyo.com' => 0, // #502
     'micpn.com' => 0,
+    'kqzyfj.com' => 0,
+    'ip-adress.com' => 0,
+    'flocktory.com' => 0,
 
 
 
