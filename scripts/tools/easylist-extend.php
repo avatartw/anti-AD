@@ -270,6 +270,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||form.ict-toshiba.jp^' => 1,
     '@@||cart.matsuzaka-steak.com^' => 1,
     '@@||api.huangye.miui.com^' => 1, // #476
+    '@@||ads.privacy.qq.com^' => 1, // #505
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
