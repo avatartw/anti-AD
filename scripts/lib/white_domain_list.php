@@ -272,6 +272,10 @@ return array(
     'proofpoint.com' => 0, // #497
     'mini.eastday.com' => 0, // #500
     'dftoutiao.com' => 0, // #500
+    'dcms.1688.com' => 0, // #499
+    'da.mmarket.com' => 0, // #501
+    'log-upload.mihoyo.com' => 0, // #502
+    'micpn.com' => 0,
 
 
 
