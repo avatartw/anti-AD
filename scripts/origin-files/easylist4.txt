@@ -1,8 +1,8 @@
-! Checksum: 6nY8UJ8nPjJCEIU/DUhLjA
+! Checksum: CEUn/6EcOHtBYzc04xlX4g
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.42
-! TimeUpdated: 2021-10-31T17:01:02+00:00
+! Version: 2.0.79.47
+! TimeUpdated: 2021-11-01T17:01:03+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -16,10 +16,10 @@
 ||allpass.salemwebnetwork.com^$third-party
 ||amazonaws.com/fby.js
 ||apester.com^$third-party
-||api.branch.io^$third-party
 ||api.traq.li^$third-party
 ||app.convertful.com^$third-party
 ||appboy.eu^$third-party
+||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||batch.com^$third-party
 ||beeketing.com^$third-party
@@ -544,7 +544,6 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
-@@||alicdn.com/js/*/cookie-info.js$script
 @@||cmp.heise.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
@@ -647,7 +646,7 @@
 @@||passets-cdn.pinterest.com^
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
-@@||prezzibenzina.it/www2/images/btn_facebook_new.png
+@@||podaj.to/images/$image,~third-party
 @@||qzonestyle.gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/act/icon-share.svg
 @@||rambler.ru/public-icons/$image
 @@||restream.io/img/$image
@@ -657,7 +656,6 @@
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
 @@||softicons.com/download/$image
-@@||spiceworks.com/assets/community/icons/social/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
 @@||staticwars.com/combo/_/wp-content/themes/$script
