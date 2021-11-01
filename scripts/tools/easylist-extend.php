@@ -282,6 +282,7 @@ $ARR_WHITE_RULE_BLK_LIST = array(
 $ARR_WILD_BLK_LIST = array(
     'cnt*rambler.ru' => null,
     'um*.com' => null,
+    'mkto-*.com' => null,
 );
 
 if(PHP_SAPI != 'cli'){
