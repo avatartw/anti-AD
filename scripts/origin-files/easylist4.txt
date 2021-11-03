@@ -1,8 +1,8 @@
-! Checksum: Ly8vulgehy7AwSz3454ujw
+! Checksum: +TmjToTfMDjgTxIFxxOpCg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.53
-! TimeUpdated: 2021-11-02T17:00:57+00:00
+! Version: 2.0.79.58
+! TimeUpdated: 2021-11-03T17:01:08+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -19,7 +19,6 @@
 ||api.traq.li^$third-party
 ||app.convertful.com^$third-party
 ||appboy.eu^$third-party
-||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||batch.com^$third-party
 ||beeketing.com^$third-party
@@ -92,7 +91,6 @@
 ||mailerlite.com^$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
-||mg2connext.com^$third-party
 ||misosoup.io^$third-party
 ||mixi.media^$third-party
 ||my.leadpages.net^$third-party
@@ -205,6 +203,7 @@
 ||pushassist.com^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
+||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
 ||pushnami.com^$third-party
@@ -559,7 +558,6 @@
 @@||golem.de/wrapperMessagingWithoutDetection.js
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||ksta.de/wrapperMessagingWithoutDetection.js
-@@||mac4ever.com/min.php$script
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
@@ -569,6 +567,7 @@
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
+@@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$~third-party
 @@||xmind.net/www/assets/vendor/js/js-cookie-
@@ -578,7 +577,6 @@
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
-@@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
@@ -592,7 +590,6 @@
 @@/wp-content/plugins/super-socializer/js/front/social_login/*$~third-party
 @@/wp-content/plugins/wordpress-social-login/*$~third-party
 @@/wp-content/plugins/wp-rocket/*$image,~third-party
-@@||4shared.com/images/icons/social-connect-buttons.png
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
 @@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
@@ -615,7 +612,6 @@
 @@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
-@@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
@@ -640,7 +636,6 @@
 @@||login.mos.ru^$image
 @@||logo.wine/a/logo/$image,~third-party
 @@||lublin112.pl/wp-content/uploads/$image
-@@||moneymorning.com/wp-content/plugins/mm-social-share/$stylesheet
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passets-cdn.pinterest.com^
