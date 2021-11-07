@@ -1,8 +1,8 @@
-! Checksum: LW3WYk/5zgpjTUMh8xHDew
+! Checksum: TWKTrbPG2aN1T0w159Ftsg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.65
-! TimeUpdated: 2021-11-05T01:00:58+00:00
+! Version: 2.0.79.77
+! TimeUpdated: 2021-11-07T13:00:57+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -18,7 +18,9 @@
 ||apester.com^$third-party
 ||api.traq.li^$third-party
 ||app.convertful.com^$third-party
+||app.e2ma.net^$third-party
 ||appboy.eu^$third-party
+||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||batch.com^$third-party
 ||beeketing.com^$third-party
@@ -87,7 +89,6 @@
 ||linkwithin.com^$third-party
 ||list-manage.com/subscribe/
 ||lpages.co/serve-leadbox/$third-party
-||madmimi.com/signups/$third-party
 ||mailerlite.com^$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
@@ -109,6 +110,7 @@
 ||optnmstr.com^$third-party
 ||partner.dw.com^$third-party
 ||phoenix-widget.com^$third-party
+||pippity.com^$third-party
 ||placehold.it^$third-party
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
@@ -137,7 +139,6 @@
 ||smi2.ru^$third-party
 ||smiinformeri.online^$third-party
 ||snapwidget.com^$third-party
-||streamspread.com^$third-party
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
@@ -191,7 +192,6 @@
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
-||notification.tubecup.net^
 ||notix.io^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery.ethinking.de^
@@ -251,12 +251,14 @@
 ||getpushmonkey.com^$third-party
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
+||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
+||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
@@ -364,6 +366,7 @@
 ||stumbleupon.com/hostedbadge$third-party
 ||syndication.twimg.com/widgets/$third-party
 ||trendemon.com^$third-party
+||twitcker.com^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
 ||twitter.com/*statuses/user_timeline/$third-party
@@ -411,10 +414,8 @@
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
-||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
-||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||goadopt.io^$third-party
 ||hs-banner.com^$third-party
@@ -440,6 +441,7 @@
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
+||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
@@ -489,10 +491,9 @@
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
-||giornaledibrescia.it/newsletter/
 ||reviews.shoppydoo.it^$third-party
 ||smiling.video^$third-party
-||trovaprezzi.it/buttons/$third-party
+||tools.net-parade.it^$third-party
 ||videosynd.kataweb.it^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
@@ -520,6 +521,7 @@
 ||cookies.nos.nl^
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||rcsobjects.it/rcs_cpmt/
+||allegrostatic.com/opbox-rodo-consent-modal/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||zgody.infor.pl^
@@ -572,6 +574,7 @@
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||ebok.vectra.pl/components/layout/cookie-bar/
+@@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
@@ -638,6 +641,7 @@
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passets-cdn.pinterest.com^
+@@||payco.com/share/js/$~third-party
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
 @@||podaj.to/images/$image,~third-party
@@ -663,7 +667,6 @@
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
-@@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
