@@ -1,8 +1,8 @@
-! Checksum: TWKTrbPG2aN1T0w159Ftsg
+! Checksum: lkte8uBE0OAgrXYk6nV5Mg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.77
-! TimeUpdated: 2021-11-07T13:00:57+00:00
+! Version: 2.0.79.95
+! TimeUpdated: 2021-11-10T17:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -92,6 +92,7 @@
 ||mailerlite.com^$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
+||mg2connext.com^$third-party
 ||misosoup.io^$third-party
 ||mixi.media^$third-party
 ||my.leadpages.net^$third-party
@@ -202,7 +203,6 @@
 ||pushassist.com^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
-||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
 ||pushnami.com^$third-party
@@ -213,6 +213,7 @@
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
+||pushwhy.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
 ||sckxppzdm.com^$third-party
@@ -223,7 +224,6 @@
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
 ||wpshsdk.com^$third-party
-||wpush.biz^$third-party
 ||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
@@ -251,14 +251,12 @@
 ||getpushmonkey.com^$third-party
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
-||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
@@ -443,7 +441,6 @@
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
-||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
@@ -491,7 +488,7 @@
 ||linker.hr^$third-party
 ||traffic.styria.hr^
 ||edintorni.net^$third-party
-||reviews.shoppydoo.it^$third-party
+||giornaledibrescia.it/newsletter/
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||videosynd.kataweb.it^$third-party
@@ -521,7 +518,6 @@
 ||cookies.nos.nl^
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||rcsobjects.it/rcs_cpmt/
-||allegrostatic.com/opbox-rodo-consent-modal/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||zgody.infor.pl^
@@ -544,35 +540,26 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
-@@||cmp.heise.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
-@@||consent2.express.de/wrapperMessagingWithoutDetection.js
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
-@@||derstandard.at/wrapperMessagingWithoutDetection.js$script,~third-party
-@@||derstandard.de/wrapperMessagingWithoutDetection.js$script,~third-party
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
-@@||golem.de/wrapperMessagingWithoutDetection.js
 @@||hktdc.com/resources/cookieconsent/$~third-party
-@@||ksta.de/wrapperMessagingWithoutDetection.js
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||sm-sp.givemesport.com^$~third-party
-@@||sourcepoint.n-tv.de/wrapperMessagingWithoutDetection.js
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
 @@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
-@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$~third-party
 @@||xmind.net/www/assets/vendor/js/js-cookie-
-@@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
