@@ -1,8 +1,8 @@
-! Checksum: lkte8uBE0OAgrXYk6nV5Mg
+! Checksum: UalrhfO6Yz2qw7sZWjU0DA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.79.95
-! TimeUpdated: 2021-11-10T17:00:56+00:00
+! Version: 2.0.80.1
+! TimeUpdated: 2021-11-11T17:00:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -89,7 +89,6 @@
 ||linkwithin.com^$third-party
 ||list-manage.com/subscribe/
 ||lpages.co/serve-leadbox/$third-party
-||mailerlite.com^$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
@@ -159,6 +158,7 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
+||widgets.recruitology.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
@@ -189,7 +189,6 @@
 ||cappushino.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||digipush.io^$third-party
-||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -227,7 +226,6 @@
 ||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
-||aimtell.com^$third-party
 ||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
@@ -327,6 +325,7 @@
 ||linksalpha.com^$third-party
 ||massrelevance.com^$third-party
 ||milotree.com^$third-party
+||networkedblogs.com^$third-party
 ||opensharecount.com^$third-party
 ||pepper.com^$third-party
 ||pinterest.com/images/$third-party
@@ -421,7 +420,6 @@
 ||jimstatic.com/ckies.js
 ||legalmonster.com^$third-party
 ||microsoft.com/mscc/
-||mycookies.it^$third-party
 ||myprivacy.dpgmedia.net/consent.js
 ||onetrust.com^$third-party
 ||onetrust.mgr.consensu.org^$third-party
@@ -456,7 +454,6 @@
 ||indiatimes.com/pn/
 ||irishtimes.com/assets/js/notify.js
 ||push.api.bbci.co.uk^
-||ultimedia.com/js/common/notification.js
 ||yahoo.com/manifest_desktop_
 ||dcnews.ro/sm-
 ||push.neko-san.fr^
@@ -491,6 +488,7 @@
 ||giornaledibrescia.it/newsletter/
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
+||trovaprezzi.it/buttons/$third-party
 ||videosynd.kataweb.it^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
@@ -553,6 +551,7 @@
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
+@@||se.com/myschneider/assets/onetrust.$~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
@@ -601,6 +600,7 @@
 @@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
+@@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||findicons.com/files/icons/$~third-party
@@ -654,6 +654,7 @@
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
+@@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
