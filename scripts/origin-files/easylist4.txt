@@ -1,8 +1,8 @@
-! Checksum: UalrhfO6Yz2qw7sZWjU0DA
+! Checksum: x1hSvCXFU8xCywt0NhORXQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.80.1
-! TimeUpdated: 2021-11-11T17:00:56+00:00
+! Version: 2.0.80.11
+! TimeUpdated: 2021-11-13T09:00:54+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -15,6 +15,7 @@
 ||adobe-campaign.com^$third-party
 ||allpass.salemwebnetwork.com^$third-party
 ||amazonaws.com/fby.js
+||amazonaws.com/mailmunch/$script
 ||apester.com^$third-party
 ||api.traq.li^$third-party
 ||app.convertful.com^$third-party
@@ -89,6 +90,7 @@
 ||linkwithin.com^$third-party
 ||list-manage.com/subscribe/
 ||lpages.co/serve-leadbox/$third-party
+||madmimi.com/signups/$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
@@ -187,6 +189,7 @@
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
+||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||digipush.io^$third-party
 ||ichecknotifyfriends.info^$third-party
@@ -202,6 +205,7 @@
 ||pushassist.com^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
+||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
 ||pushnami.com^$third-party
@@ -218,7 +222,6 @@
 ||sckxppzdm.com^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-||webpush.jp^$third-party
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
@@ -249,6 +252,7 @@
 ||getpushmonkey.com^$third-party
 ||gravitec.net^$third-party
 ||jeeng.com^$third-party
+||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
@@ -301,7 +305,6 @@
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
-||facebook.com/plugins/follow.php$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -420,7 +423,6 @@
 ||jimstatic.com/ckies.js
 ||legalmonster.com^$third-party
 ||microsoft.com/mscc/
-||myprivacy.dpgmedia.net/consent.js
 ||onetrust.com^$third-party
 ||onetrust.mgr.consensu.org^$third-party
 ||optanon.blob.core.windows.net^
@@ -538,6 +540,7 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
+@@||alicdn.com/js/*/cookie-info.js$script
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com^$image
@@ -551,13 +554,13 @@
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
+@@||privacypolicies.com/public/uploads/$image,~third-party
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
 @@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
-@@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
