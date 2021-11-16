@@ -1,8 +1,8 @@
-! Checksum: x1hSvCXFU8xCywt0NhORXQ
+! Checksum: dwpFV1fQPQOOh0EhRxa1Yw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.80.11
-! TimeUpdated: 2021-11-13T09:00:54+00:00
+! Version: 2.0.80.26
+! TimeUpdated: 2021-11-16T17:01:00+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -14,7 +14,6 @@
 ||activehosted.com^$third-party
 ||adobe-campaign.com^$third-party
 ||allpass.salemwebnetwork.com^$third-party
-||amazonaws.com/fby.js
 ||amazonaws.com/mailmunch/$script
 ||apester.com^$third-party
 ||api.traq.li^$third-party
@@ -46,7 +45,6 @@
 ||cxpublic.com^$third-party
 ||d2ip7iv1l4ergv.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
-||data.tm-awx.com^$third-party
 ||desipearl.com^$third-party
 ||dhpikd1t89arn.cloudfront.net^
 ||discordapp.com/api/servers/*/widget.json$third-party,xmlhttprequest
@@ -117,6 +115,7 @@
 ||platform.loyaltylion.com^
 ||plista.com^$third-party
 ||postquare.com^$third-party
+||pressly.com^$third-party
 ||printfriendly.com^$~subdocument,third-party
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
@@ -144,7 +143,6 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
-||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
 ||traffim.com^$third-party
@@ -161,6 +159,7 @@
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
 ||widgets.recruitology.com^
+||widgets.sprinkletxt.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
@@ -175,7 +174,6 @@
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
-||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||snapengage.com/sounds/
 ||static.widget.trengo.eu/assets/$media
@@ -192,6 +190,7 @@
 ||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||digipush.io^$third-party
+||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -216,6 +215,7 @@
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
 ||pushstack.it^$third-party
+||pushvip.ru^$third-party
 ||pushwhy.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
@@ -279,7 +279,6 @@
 ||webpu.sh^$third-party
 ||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
-||addnow.com^$third-party
 ||addthis.com^$third-party
 ||addtoany.com^$third-party
 ||ahalogy.com^$third-party
@@ -465,7 +464,6 @@
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
 ||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
-||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||cmp.infopro-digital.com^
@@ -474,7 +472,6 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
-||purevpn.com/loadGdprView
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
 ||push.cnnindonesia.com^
@@ -555,6 +552,7 @@
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||privacypolicies.com/public/uploads/$image,~third-party
+@@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
