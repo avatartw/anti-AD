@@ -10,7 +10,7 @@
 set_time_limit(0);
 
 error_reporting(7);
-
+date_default_timezone_set('Asia/Taipei');
 define('START_TIME', microtime(true));
 define('ROOT_DIR', dirname(__DIR__) . '/');
 define('LIB_DIR', ROOT_DIR . 'lib/');
