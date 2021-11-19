@@ -1,8 +1,8 @@
-! Checksum: dwpFV1fQPQOOh0EhRxa1Yw
+! Checksum: c2galwY+aBls9yZaYygM6A
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.80.26
-! TimeUpdated: 2021-11-16T17:01:00+00:00
+! Version: 2.0.80.41
+! TimeUpdated: 2021-11-19T17:00:58+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -29,6 +29,7 @@
 ||blockmetrics.com^$third-party
 ||bloglines.com^$third-party
 ||blogtopsites.com^$third-party
+||brightinfo.com^$third-party
 ||browser-updater.yandex.net^
 ||cdn-1.tstatic.net/js/copy.js
 ||celebjihad.com^$third-party
@@ -61,7 +62,6 @@
 ||feedburner.com^$image,third-party
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
-||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
@@ -143,6 +143,7 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
+||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
 ||traffim.com^$third-party
@@ -190,7 +191,6 @@
 ||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||digipush.io^$third-party
-||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -239,6 +239,7 @@
 ||cleverpush.com^$third-party
 ||cracataum.com^$third-party
 ||danorenius.com^$third-party
+||digitalpush.org^$third-party
 ||edrone.me^$third-party
 ||face-push.com^$third-party
 ||feedify.net^$third-party
@@ -277,7 +278,6 @@
 ||urbanairship.com^$third-party
 ||viapush.com^$third-party
 ||webpu.sh^$third-party
-||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
 ||addthis.com^$third-party
 ||addtoany.com^$third-party
@@ -303,7 +303,6 @@
 ||digg.com^$script,subdocument,third-party
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
-||facebook.com/plugins/fan.php?$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -440,6 +439,7 @@
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
+||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
@@ -464,6 +464,7 @@
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
 ||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
+||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||cmp.infopro-digital.com^
@@ -489,6 +490,7 @@
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
 ||videosynd.kataweb.it^$third-party
+||share.gree.jp^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
 ||smonitor.com.br^$third-party
@@ -502,7 +504,6 @@
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
-||draugiem.lv/lapas/widgets/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||cmp.tvspielfilm.de^
 ||consent-wrapper.jameda.de^
@@ -571,6 +572,7 @@
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/js/googleplus-sign-in.js$script
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
+@@/wp-content/plugins/facebook-page-promoter-lightbox/includes/featherlight/close.png$image,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/socialauth-wp/*$~third-party
 @@/wp-content/plugins/super-socializer/css/front.css$~third-party
@@ -649,7 +651,6 @@
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
 @@||teamquest.pl/img/static/$image
-@@||telepolis.pl/media/cache/resolve/content_box/images/$image
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||toneden.io/production/javascripts/social.js$script,~third-party
