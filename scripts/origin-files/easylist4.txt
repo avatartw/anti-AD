@@ -1,12 +1,11 @@
-! Checksum: c2galwY+aBls9yZaYygM6A
+! Checksum: iWtiAw6W90PINsusW7D0tA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.80.41
-! TimeUpdated: 2021-11-19T17:00:58+00:00
+! Version: 2.0.80.54
+! TimeUpdated: 2021-11-22T17:01:00+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
-||2kurl.com^$third-party
 ||37signals.com^$third-party
 ||a.mailmunch.co/app/$script,third-party
 ||accengage.net^$third-party
@@ -67,6 +66,7 @@
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
 ||getwoohoo.com^$third-party
+||goemotify.com^$third-party
 ||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravity.com^$third-party
@@ -204,10 +204,8 @@
 ||pushassist.com^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
-||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushkahouse.com^$third-party
-||pushnami.com^$third-party
 ||pushowl.com^$third-party
 ||pushpad.xyz^$third-party
 ||pushpanda.io^$third-party
@@ -324,7 +322,6 @@
 ||linkedin.com/countserv/$third-party
 ||linkedin.com/img/$third-party
 ||linksalpha.com^$third-party
-||massrelevance.com^$third-party
 ||milotree.com^$third-party
 ||networkedblogs.com^$third-party
 ||opensharecount.com^$third-party
@@ -376,7 +373,6 @@
 ||vk.com/widget_community.php$third-party
 ||vk.com/widget_community_messages.php?$third-party
 ||vk.com/widget_like.php$third-party
-||vkontakte.ru/share.php?$third-party
 ||vkontakte.ru/widget_like.php$third-party
 ||vuukle.com/widgets/emotes.html$third-party
 ||vuukle.com/widgets/powerbar.html$third-party
@@ -412,8 +408,8 @@
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
-||dmgmediaprivacy.co.uk^$third-party
 ||ecookie.nl^$third-party
+||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr.studybreakmedia.com^
 ||goadopt.io^$third-party
 ||hs-banner.com^$third-party
@@ -443,6 +439,7 @@
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
+||gamesindustry.biz/jobs-widget
 ||goodreads.com/sign_in_prompt
 ||mediafire.com/images/backgrounds/download/*promo
 ||wp.com/wp-content/mu-plugins/post-flair/
@@ -464,7 +461,6 @@
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
 ||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
-||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||cmp.infopro-digital.com^
@@ -473,13 +469,13 @@
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
 ||kayak.*/privacy/
+||privacy.claytonhomes.com^
 ||vinted.*/api/*/banners
 ||fundingchoicesmessages.google.com^
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
 ||onaregarde-pourvous.com/api/$third-party
-||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||s1.hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js
 ||static.iqiyi.com/js/common/mars_v.js
 ||linker.hr^$third-party
@@ -522,7 +518,6 @@
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||privacy.schibsted.com^
 ||consent.themeteocompany.com^
-@@/nk-sub.min.js$script,~third-party
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||expedia.*/opinionlab/oo_engine.js$script
@@ -547,7 +542,6 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
-@@||hktdc.com/resources/cookieconsent/$~third-party
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
@@ -574,7 +568,6 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/facebook-page-promoter-lightbox/includes/featherlight/close.png$image,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
-@@/wp-content/plugins/socialauth-wp/*$~third-party
 @@/wp-content/plugins/super-socializer/css/front.css$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/commenting.js$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/sdk.js$~third-party
@@ -651,6 +644,7 @@
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
 @@||teamquest.pl/img/static/$image
+@@||telepolis.pl/media/cache/resolve/content_box/images/$image
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||toneden.io/production/javascripts/social.js$script,~third-party
