@@ -279,6 +279,7 @@ return array(
     'kqzyfj.com' => 0,
     'ip-adress.com' => 0,
     'flocktory.com' => 0,
+    's1.wp.com' => 0, // #510
 
 
 
