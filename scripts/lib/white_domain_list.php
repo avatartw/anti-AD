@@ -280,6 +280,7 @@ return array(
     'ip-adress.com' => 0,
     'flocktory.com' => 0,
     's1.wp.com' => 0, // #510
+    'lc-cn-n1-shared.com' => 0, // #512
 
 
 
