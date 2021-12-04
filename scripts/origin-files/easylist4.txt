@@ -1,8 +1,8 @@
-! Checksum: xWaUTaU+9+vuC9nUq4GGtQ
+! Checksum: 8WFfOvPvZHt+WsJXXN1dpA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.80.97
-! TimeUpdated: 2021-12-01T17:00:58+00:00
+! Version: 2.0.81.10
+! TimeUpdated: 2021-12-04T13:00:55+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -26,6 +26,7 @@
 ||beopinion.com^$third-party
 ||bibblio.org^$third-party
 ||blockmetrics.com^$third-party
+||blogcatalog.com^$third-party
 ||bloglines.com^$third-party
 ||blogtopsites.com^$third-party
 ||brightinfo.com^$third-party
@@ -62,6 +63,7 @@
 ||feedburner.com^$image,third-party
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
+||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
 ||getresponse.com^$third-party
@@ -91,7 +93,6 @@
 ||list-manage.com/subscribe/
 ||lpages.co/serve-leadbox/$third-party
 ||madmimi.com/signups/$third-party
-||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
 ||misosoup.io^$third-party
@@ -129,6 +130,7 @@
 ||readability.com/embed.js$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
+||research.net^$third-party
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
@@ -146,6 +148,7 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
+||technorati.com^$third-party
 ||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
@@ -195,12 +198,10 @@
 ||cappushino.com^$third-party
 ||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
-||digipush.io^$third-party
 ||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
-||notification.tubecup.net^
 ||notix.io^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery.ethinking.de^
@@ -234,7 +235,6 @@
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
 ||wpshsdk.com^$third-party
-||wpush.biz^$third-party
 ||wpushsdk.com^$third-party
 ||accengage.net^$third-party
 ||aimtell.com^$third-party
@@ -264,7 +264,6 @@
 ||gravitec.net^$third-party
 ||heroesdom.com^$third-party
 ||jeeng.com^$third-party
-||kattepush.com^$third-party
 ||master-push.net^$third-party
 ||moengage.com^$third-party
 ||mp3vizor.com^$third-party
@@ -340,6 +339,7 @@
 ||milotree.com^$third-party
 ||networkedblogs.com^$third-party
 ||opensharecount.com^$third-party
+||patreon.com/becomePatronButton.bundle.js$third-party
 ||pepper.com^$third-party
 ||pinterest.com/images/$third-party
 ||pinterest.com/js/pinit_main.js$third-party
@@ -426,6 +426,7 @@
 ||cookielaw.org^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
+||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
@@ -529,7 +530,6 @@
 ||consent-wrapper.jameda.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
-||cmp.lemonde.fr/js/lemonde.min.js
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
@@ -540,7 +540,6 @@
 ||rcsobjects.it/rcs_cpmt/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
-||orange.pl/ocp-http/map/js/cookies.js
 ||rodo.agora.pl^
 ||zgody.infor.pl^
 ||remixshop.com/bg/site/ajaxCheckCookiePolicy
@@ -572,6 +571,7 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
+@@||hktdc.com/resources/cookieconsent/$~third-party
 @@||nectar.com/lib/cookieBanner.js
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
@@ -582,7 +582,6 @@
 @@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
-@@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
@@ -636,6 +635,7 @@
 @@||iconfinder.com/data/icons/$~third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
 @@||inoreader.com/images/login/but_facebook.png
+@@||inscience.news/svc/getscript.aspx$script,~third-party
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
 @@||itavisen.no/wp-content/uploads/$image
