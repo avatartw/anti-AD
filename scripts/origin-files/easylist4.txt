@@ -1,8 +1,8 @@
-! Checksum: eykl3IXgTHbTK0FcBccDbw
+! Checksum: BDriCagL9Lx7kdTmVpOxKA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.81.43
-! TimeUpdated: 2021-12-10T17:00:54+00:00
+! Version: 2.0.81.56
+! TimeUpdated: 2021-12-13T13:01:01+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -131,6 +131,7 @@
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
+||s3.amazonaws.com/scripts.hellobar.com/$third-party
 ||sail-horizon.com^$third-party
 ||sail-personalize.com^$third-party
 ||sailthru.com^$third-party
@@ -168,7 +169,6 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
-||widgets.recruitology.com^
 ||widgets.sprinkletxt.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
@@ -177,7 +177,6 @@
 ||xhamsterlive.com/api/external/$third-party
 ||yottos.com^$third-party
 ||zdassets.com/ekr/snippet.js
-||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||secondstreetapp.com/embed/$subdocument
 ||music.youtube.com^$csp=worker-src 'none'
@@ -186,6 +185,7 @@
 ||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.intercomcdn.com/audio/
+||livechatinc.com/widget/static/media/
 ||snapengage.com/sounds/
 ||static.widget.trengo.eu/assets/$media
 ||tawk.to/*/audio/
@@ -200,7 +200,6 @@
 ||cappushino.com^$third-party
 ||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
-||easyfeeed.com^$third-party
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
 ||mab.mediaset.es^$xmlhttprequest
@@ -233,7 +232,6 @@
 ||sckxppzdm.com^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-||webpush.jp^$third-party
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
@@ -271,6 +269,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
+||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
@@ -292,7 +291,6 @@
 ||wonderpush.com^$third-party
 ||addthis.com^$third-party
 ||addtoany.com^$third-party
-||ahalogy.com^$third-party
 ||amazonaws.com/share.typeform.com/
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
@@ -407,12 +405,11 @@
 ||youtube.com/subscribe_widget$third-party
 ||assetlab.io/consent/
 ||axept.io^$third-party
-||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/t/cmp/$third-party
 ||cmp.nextday.media^
-||consensu.org/gdpr/$third-party
+||consent.dk^$third-party
 ||consent.truste.com^$third-party
 ||consentag.eu^$third-party
 ||consentframework.com^$third-party
@@ -544,10 +541,8 @@
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||rodo.agora.pl^
-||remixshop.com/bg/site/ajaxCheckCookiePolicy
 ||cookies.teraz.sk^
 ||privacy.schibsted.com^
-||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -583,11 +578,11 @@
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||privacypolicies.com/public/uploads/$image,~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
-@@||se.com/myschneider/assets/onetrust.$~third-party
 @@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||xmind.net/www/assets/vendor/js/js-cookie-
+@@||bccroma.it/framework/js/cookies.dyn.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
@@ -629,11 +624,13 @@
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
 @@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
+@@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||fptplay.net/static/img/share/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
+@@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
@@ -656,6 +653,7 @@
 @@||media-cache*.pinimg.com^$image,third-party
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
+@@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
@@ -679,6 +677,7 @@
 @@||telepolis.pl/media/cache/resolve/content_box/images/$image
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
+@@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||torrentfreak.com/images/google-$~third-party
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
