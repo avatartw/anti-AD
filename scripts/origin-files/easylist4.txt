@@ -1,8 +1,8 @@
-! Checksum: jrGyFPnFLrzpSuLcjCirFg
+! Checksum: R6UEfNxpDd5mU989b/gvBw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.81.70
-! TimeUpdated: 2021-12-16T13:01:44+00:00
+! Version: 2.0.81.76
+! TimeUpdated: 2021-12-18T17:00:45+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -131,6 +131,7 @@
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
+||rsspump.com^$third-party
 ||s3.amazonaws.com/scripts.hellobar.com/$third-party
 ||sail-horizon.com^$third-party
 ||sail-personalize.com^$third-party
@@ -243,6 +244,7 @@
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
 ||bildirt.com^$third-party
+||bmfeed.ru^$third-party
 ||bosspush.com^$third-party
 ||cdn-sitegainer.com^$third-party
 ||cleverpush.com^$third-party
@@ -321,7 +323,6 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
-||followistic.com^$third-party
 ||google.com/_/+1/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
@@ -456,7 +457,6 @@
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
-||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
@@ -532,6 +532,7 @@
 ||consent-wrapper.jameda.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
+||cmp.lepoint.fr^
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
@@ -594,7 +595,6 @@
 @@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@/wp-content/plugins/facebook-page-promoter-lightbox/includes/featherlight/close.png$image,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/super-socializer/css/front.css$~third-party
 @@/wp-content/plugins/super-socializer/js/front/facebook/commenting.js$~third-party
@@ -657,7 +657,6 @@
 @@||panzi.github.io/SocialSharePrivacy/
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
-@@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
 @@||podaj.to/images/$image,~third-party
 @@||prezzibenzina.it/www2/images/btn_facebook_new.png
@@ -682,6 +681,7 @@
 @@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||torrentfreak.com/images/google-$~third-party
+@@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
