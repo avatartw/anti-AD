@@ -1615,11 +1615,21 @@ return array(
     'yjkyj.cn' => array('yjkyj.cn'),
     'zamar.cn' => array('zamar.cn'),
 
-    'uc.cn' => array( // dns日志提取
+    'uc.cn' => array( // dns日誌提取
         'coral-task.uc.cn',
         'applogios.uc.cn', // uc log
         'gjapplog.uc.cn', // #442
         'applog.ucdns.uc.cn', // #442
+    ),
+    'sm.cn' => array( // dns日誌提取
+        'huichuan-mc.sm.cn',
+        'huichuan.sm.cn',
+    ),
+    'alibaba.com' => array( // dns日誌提取
+        'fourier.alibaba.com',
+    ),
+    'jj.cn' => array( // dns日誌提取
+        'stat.m.jj.cn',
     ),
 
 );
