@@ -273,6 +273,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||api.huangye.miui.com^' => 1, // #476
     '@@||ads.privacy.qq.com^' => 1, // #505
     '@@||wl.spotify.com^' => 1, // #508
+    '@@||ad-putting.gw.zt-express.com^' => 1, // #534
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
