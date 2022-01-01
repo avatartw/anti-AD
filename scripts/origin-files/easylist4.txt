@@ -1,8 +1,8 @@
-! Checksum: jvqaeq3q7+uBtLLjrnI+rg
+! Checksum: KPRZJL389MW08xFSydQNHw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.35
-! TimeUpdated: 2021-12-31T13:00:45+00:00
+! Version: 2.0.82.39
+! TimeUpdated: 2022-01-01T13:00:44+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -171,7 +171,6 @@
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
 ||worldgravity.com^$third-party
-||xhamsterlive.com/api/external/$third-party
 ||yottos.com^$third-party
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
@@ -383,6 +382,7 @@
 ||stumbleupon.com/hostedbadge$third-party
 ||syndication.twimg.com/widgets/$third-party
 ||trendemon.com^$third-party
+||tweetmeme.com^$third-party
 ||twitcount.com^$third-party
 ||twitter-badges.s3.amazonaws.com^
 ||twitter.com/*statuses/user_timeline/$third-party
@@ -443,6 +443,7 @@
 ||cookiereports.com^$third-party
 ||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
+||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr.studybreakmedia.com^
@@ -582,7 +583,6 @@
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
 @@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
 @@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
@@ -615,7 +615,6 @@
 @@||raiplaysound.it/common/assets/js/cookieBanner.js$script
 @@||raiplaysound.it/dl/components/js/cookie.pack.js$script
 @@||raiplaysound.it/dl/components/js/cookiebanner/$script,xmlhttprequest
-@@||sso.ppapi.pl/rodo.js$xmlhttprequest
 @@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
