@@ -1,8 +1,8 @@
-! Checksum: KPRZJL389MW08xFSydQNHw
+! Checksum: RR//t77F2+y1hqQl1VZaqA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.39
-! TimeUpdated: 2022-01-01T13:00:44+00:00
+! Version: 2.0.82.42
+! TimeUpdated: 2022-01-02T09:00:45+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -124,7 +124,6 @@
 ||readability.com/embed.js$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
-||research.net^$third-party
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
@@ -441,7 +440,6 @@
 ||cookieinfoscript.com^$third-party
 ||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
-||cookiescript.info^$third-party
 ||dmgmediaprivacy.co.uk^$third-party
 ||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
@@ -586,21 +584,24 @@
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
 @@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
+@@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com/notice$script
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
+@@||dl.gmx.com/permission/oneTrust/consent/$~third-party
+@@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||hktdc.com/resources/cookieconsent/$~third-party
-@@||nectar.com/lib/cookieBanner.js
+@@||impossible3ds.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js$~third-party
+@@||nectar.com/lib/cookieBanner.js$~third-party
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
-@@||sm-sp.givemesport.com^$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||universumglobal.com/wp-content/plugins/cookie-law-info/
@@ -658,7 +659,6 @@
 @@||iconfinder.com/data/icons/$~third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
 @@||inoreader.com/images/login/but_facebook.png
-@@||inscience.news/svc/getscript.aspx$script,~third-party
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
 @@||itavisen.no/wp-content/uploads/$image
@@ -699,7 +699,6 @@
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
-@@||torrentfreak.com/images/google-$~third-party
 @@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
