@@ -1,8 +1,8 @@
-! Checksum: RR//t77F2+y1hqQl1VZaqA
+! Checksum: zbdfx5QSdvHUlGKa53rnrw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.42
-! TimeUpdated: 2022-01-02T09:00:45+00:00
+! Version: 2.0.82.54
+! TimeUpdated: 2022-01-04T17:00:44+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -117,6 +117,7 @@
 ||privy.com^$third-party
 ||promotions.newegg.com^$third-party
 ||purch.com^$script,third-party
+||qeryz.com^$third-party
 ||qualtrics.com^$third-party
 ||r42tag.com^$third-party
 ||rating-widget.com^$third-party
@@ -151,7 +152,6 @@
 ||top100.ru^$third-party
 ||topsy.com^$third-party
 ||traffim.com^$third-party
-||turnsocial.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
 ||usablenet.com^$third-party
@@ -170,6 +170,7 @@
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
 ||worldgravity.com^$third-party
+||xhamsterlive.com/api/external/$third-party
 ||yottos.com^$third-party
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
@@ -231,7 +232,6 @@
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
 ||wpshsdk.com^$third-party
-||wpushsdk.com^$third-party
 ||xedo.me^$third-party
 ||accengage.net^$third-party
 ||alertme.news^$third-party
@@ -284,6 +284,7 @@
 ||webpu.sh^$third-party
 ||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
+||joinsubtext.com^$subdocument,third-party
 ||lightboxcdn.com/vendor/$script,third-party
 ||sample.dragonforms.com^$subdocument,third-party
 ||secondstreetapp.com/embed/$subdocument
@@ -338,6 +339,7 @@
 ||linksalpha.com^$third-party
 ||markerly.com^$third-party
 ||massrelevance.com^$third-party
+||messengerpeople.com^$third-party
 ||milotree.com^$third-party
 ||networkedblogs.com^$third-party
 ||newsharecounts.com^$third-party
@@ -469,6 +471,7 @@
 ||trustarc.mgr.consensu.org^
 ||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
+||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ||api.qwant.com/*/homepage/trends?
 ||feedback.wwe.com/survey/
@@ -569,6 +572,7 @@
 ||zgody.infor.pl^
 ||cookies.teraz.sk^
 ||privacy.schibsted.com^
+||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -581,7 +585,7 @@
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
 @@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@||adobe.com/downloadcenter/*/cookies/cookies.js
+@@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
 @@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
 @@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
@@ -657,6 +661,7 @@
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
+@@||iconpedia.net/uploads/$image,third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
@@ -676,6 +681,7 @@
 @@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
 @@||payco.com/share/js/$~third-party
+@@||pioneerelectronics.com/piocda/templates/*.svg
 @@||platform.twitter.com/widgets/widget_iframe.$subdocument
 @@||podaj.to/images/$image,~third-party
 @@||qzonestyle.gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/act/icon-share.svg
@@ -709,3 +715,4 @@
 @@||yaplakal.com/html/static/$image,~third-party
 @@||yastatic.net/share2/share.js$script
 @@||yougetsignal.com/img/*_igoogle.gif
+@@||zdnet.de/wp-content/uploads/*-logo-$image,~third-party
