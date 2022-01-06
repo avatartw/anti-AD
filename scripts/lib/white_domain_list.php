@@ -292,6 +292,8 @@ return array(
     'x6img.com' => 0, // #537
     'p-l.play.aiseet.atianqi.com' => 0, // #538
     'news-l.play.aiseet.atianqi.com' => 0, // #538
+    'download.db-ip.com' => 0,
+    'db-ip.com' => 0,
 
 
 
