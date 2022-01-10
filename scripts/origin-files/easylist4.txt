@@ -1,8 +1,8 @@
-! Checksum: ri9y3QKwuSiTtcETUlIr5w
+! Checksum: pJ/j8J8YBtoevTHmDetXUQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.68
-! TimeUpdated: 2022-01-07T17:00:48+00:00
+! Version: 2.0.82.81
+! TimeUpdated: 2022-01-10T17:01:03+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -19,6 +19,7 @@
 ||app.convertful.com^$third-party
 ||app.e2ma.net^$third-party
 ||appboy.eu^$third-party
+||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||batch.com^$third-party
 ||beeketing.com^$third-party
@@ -33,6 +34,7 @@
 ||celebjihad.com^$third-party
 ||civicscience.com/widget/jspoll/$third-party
 ||clearbit.com^$third-party
+||cloudfront.net/js/slide.js
 ||coinhive.com^$third-party
 ||connect.ekomi.de^$third-party
 ||connect.nosto.com^$third-party
@@ -95,7 +97,6 @@
 ||mixi.media^$third-party
 ||my.leadpages.net^$third-party
 ||my.sendinblue.com/users/subscribe/$third-party
-||newsgator.com^$third-party
 ||opinary.com^$third-party
 ||opiniac.com^$third-party
 ||opinionbar.com^$third-party
@@ -205,6 +206,7 @@
 ||mab.mediaset.es^$xmlhttprequest
 ||notification.tubecup.net^
 ||notix.io^$third-party
+||ntvsw.com^$third-party
 ||push.daksham.in^$third-party
 ||push.delivery.ethinking.de^
 ||push.delivery^$third-party
@@ -245,6 +247,7 @@
 ||cdn-sitegainer.com^$third-party
 ||cleverpush.com^$third-party
 ||cracataum.com^$third-party
+||danorenius.com^$third-party
 ||digitalpush.org^$third-party
 ||edrone.me^$third-party
 ||face-push.com^$third-party
@@ -265,7 +268,6 @@
 ||najva.com^$third-party
 ||notifpush.com^$third-party
 ||notify.solutions^$third-party
-||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -322,7 +324,6 @@
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
 ||getsocial.io/widget/$third-party
-||google.com/_/+1/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
@@ -423,7 +424,6 @@
 ||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
-||clickiocdn.com/t/cmp/$third-party
 ||cmp.nextday.media^
 ||consent.dk^$third-party
 ||consent.truste.com^$third-party
@@ -436,6 +436,7 @@
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
 ||cookiehub.net^$third-party
+||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
 ||cookiepro.com^$third-party
@@ -462,6 +463,7 @@
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
+||smartcookies.it^$third-party
 ||sourcepoint.mgr.consensu.org^$third-party
 ||termly.io^$third-party
 ||truendo.com^$third-party
@@ -498,13 +500,14 @@
 ||crowdin.com/images/soc-btns/
 ||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
-||radiotunes.com/_papi/v1/radiotunes/timed_alerts$xmlhttprequest
 ||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
+||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
 ||cmp.cdn.thesun.ie^
 ||cmp.infopro-digital.com^
 ||cmp.osano.com^
+||cmp.parkers.co.uk^
 ||cmp.parool.nl^
 ||cmp.trouw.nl^
 ||consent.cmp.oath.com^
@@ -512,6 +515,7 @@
 ||gdpr.internetbrands.com^
 ||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
+||prada.com/utag/prada/
 ||purevpn.com/loadGdprView
 ||push-content.springernature.io^$script
 ||sourcepoint.avclub.com^
@@ -548,7 +552,6 @@
 ||top100.rambler.ru^$third-party
 ||aklamator.com^$third-party
 ||share.baidu.com^
-||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
 ||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
@@ -561,6 +564,7 @@
 ||tauschticket.de/js/cnst.js
 ||cmp.lepoint.fr^
 ||consent.prismamedia.com^
+||ratp.fr/modules/custom/ratp_tarteaucitron/
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cmp.deondernemer.nl^
@@ -586,11 +590,9 @@
 @@||reactandshare.com/plugin/rns.js$script
 @@||static.lci.fr/assets/scripts/modules/outbrain.js?$script,~third-party
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
-@@||mail.com/permission/oneTrust/*/otBannerSdk.js$script,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
-@@||blizzcon.com/static/scripts/bootstrap-blz-cookie-consent.js$script,~third-party
-@@||blizzcon.com/static/scripts/vendor/cookie-consent-filter-compat.js$script,~third-party
+@@||adtipp.de/js/cookiebanner.js
 @@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
@@ -600,6 +602,7 @@
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||dl.gmx.com/permission/oneTrust/consent/$~third-party
 @@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
+@@||exali.de/static/theme/assets/js/cookieBanner.js
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||hktdc.com/resources/cookieconsent/$~third-party
@@ -608,12 +611,14 @@
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
+@@||privacypolicies.com/public/uploads/$image,~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||universumglobal.com/wp-content/plugins/cookie-law-info/
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||bccroma.it/framework/js/cookies.dyn.js
+@@||cartabcc.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
 @@||idg.se/idg-consent.min.js$script
@@ -638,6 +643,7 @@
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
 @@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
+@@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
 @@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
