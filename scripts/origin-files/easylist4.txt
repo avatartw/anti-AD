@@ -1,8 +1,8 @@
-! Checksum: Ll+Le1kMi5BytzItmSyPqw
+! Checksum: V64A5Ij6QF7ENEJBIWzF1A
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.84
-! TimeUpdated: 2022-01-11T05:00:45+00:00
+! Version: 2.0.82.93
+! TimeUpdated: 2022-01-13T13:00:50+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -138,7 +138,6 @@
 ||sailthru.com^$third-party
 ||screenpopper.com^$third-party
 ||sendsay.ru^$third-party
-||service.signalr.net^$third-party
 ||siteswithcontent.com^$third-party
 ||slashdot.org^$third-party
 ||sleeknote.com^$third-party
@@ -180,6 +179,7 @@
 ||zoomanalytics.co^$third-party
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
+||acquire.io/assets/sound/
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
@@ -200,6 +200,7 @@
 ||braze.com^$third-party
 ||cappushino.com^$third-party
 ||checke.biz^$third-party
+||checkpost.club^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
@@ -207,7 +208,6 @@
 ||notification.tubecup.net^
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
-||push.daksham.in^$third-party
 ||push.delivery.ethinking.de^
 ||push.delivery^$third-party
 ||push.esputnik.com^
@@ -240,7 +240,6 @@
 ||xedo.me^$third-party
 ||accengage.net^$third-party
 ||aimtell.com^$third-party
-||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -269,7 +268,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||notify.solutions^$third-party
+||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -410,6 +409,7 @@
 ||yandex.st/share/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
+||acquire.io/assets/sound/
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
@@ -501,7 +501,6 @@
 ||cloudfront.net/instagram/
 ||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
-||di.fm/_papi/v1/di/timed_alerts$xmlhttprequest
 ||naturalnews.com/getviews2.
 ||7plus.com.au/js/CookieNotice
 ||appconsent.io^
@@ -555,6 +554,7 @@
 ||top100.rambler.ru^$third-party
 ||aklamator.com^$third-party
 ||share.baidu.com^
+||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
 ||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
@@ -575,12 +575,10 @@
 ||cookies.nos.nl^
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||cdn.gravito.net/cmp/$script
-||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||zgody.infor.pl^
-||cookies.teraz.sk^
 ||hemnet.se/assets/packs/consent.
 ||privacy.schibsted.com^
 ||wongnai.com/_api/consents/
@@ -647,7 +645,6 @@
 @@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
 @@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
-@@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-linkedin.svg
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-twitter.svg
@@ -668,10 +665,10 @@
 @@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
+@@||findicons.com/files/icons/$~third-party
 @@||fptplay.net/static/img/share/$image
 @@||garticphone.com/images/share/$image,~third-party
 @@||git-scm.com/images/company-project-logos/$image
-@@||google.*-youtube.jpg
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
@@ -709,6 +706,7 @@
 @@||softicons.com/download/$image
 @@||springboardplatform.com/storage/js/social_widget/$script
 @@||srf.ch/socialview-in/$~third-party
+@@||stadt-bremerhaven.de/wp-content/uploads/*/Facebook_$image
 @@||staticwars.com/combo/_/wp-content/themes/$script
 @@||swappa.com/static/icons/social/login_$image
 @@||tabletowo.pl/wp-content/uploads/$image
@@ -717,11 +715,11 @@
 @@||tf1.fr/public/*-share-$script,~third-party
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
-@@||thecompany.pl/graf/icons/youtube.png
 @@||toneden.io/production/javascripts/social.js$script,~third-party
 @@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
+@@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
 @@||y2mate.com/themes/images/tip-download-youtube.jpg$image
