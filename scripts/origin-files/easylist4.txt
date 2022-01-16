@@ -1,8 +1,8 @@
-! Checksum: V64A5Ij6QF7ENEJBIWzF1A
+! Checksum: lqAuBDscSIL7JNYXMu+jFg
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.82.93
-! TimeUpdated: 2022-01-13T13:00:50+00:00
+! Version: 2.0.83.2
+! TimeUpdated: 2022-01-16T13:00:48+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -44,7 +44,6 @@
 ||creativecommons.org^$image,third-party
 ||ctctcdn.com/js/signup-form-widget/$third-party
 ||cursors-4u.net^$third-party
-||customfit.ai^$third-party
 ||cxpublic.com^$third-party
 ||d2ip7iv1l4ergv.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
@@ -56,6 +55,7 @@
 ||drivenetwork.ru^$third-party
 ||emojics.com^$third-party
 ||emsecure.net^$subdocument,third-party
+||engage.im^$third-party
 ||exitintel.com^$third-party
 ||feed.mikle.com^$third-party
 ||feedaty.com^$third-party
@@ -91,6 +91,7 @@
 ||list-manage.com/subscribe/
 ||lpages.co/serve-leadbox/$third-party
 ||madmimi.com/signups/$third-party
+||mailjet.com/statics/js/widget.modal.js$third-party
 ||mailjet.com/widget/$third-party
 ||manychat.com^$third-party
 ||mg2connext.com^$third-party
@@ -125,7 +126,6 @@
 ||r42tag.com^$third-party
 ||rating-widget.com^$third-party
 ||rdstation.com.br^$third-party
-||readability.com/embed.js$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
 ||rightmessage.com^$third-party
@@ -136,7 +136,6 @@
 ||sail-horizon.com^$third-party
 ||sail-personalize.com^$third-party
 ||sailthru.com^$third-party
-||screenpopper.com^$third-party
 ||sendsay.ru^$third-party
 ||siteswithcontent.com^$third-party
 ||slashdot.org^$third-party
@@ -152,7 +151,6 @@
 ||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
-||topsy.com^$third-party
 ||traffim.com^$third-party
 ||uatu.newsquestdigital.co.uk^$third-party
 ||upscri.be^$third-party
@@ -184,7 +182,6 @@
 ||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.intercomcdn.com/audio/
-||livechatinc.com/widget/static/media/
 ||qualified.com/packs/$media
 ||snapengage.com/sounds/
 ||static.olark.com/jsclient/sounds/
@@ -268,7 +265,6 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -311,12 +307,12 @@
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
-||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||digg.com^$script,subdocument,third-party
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/plugins/facepile.php?$third-party
 ||facebook.com/plugins/fan.php?$third-party
+||facebook.com/plugins/follow.php$third-party
 ||facebook.com/plugins/like_box.php$third-party
 ||facebook.com/plugins/page.php?$third-party
 ||facebook.com/plugins/save.php?$third-party
@@ -329,7 +325,6 @@
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
-||instagramfollowbutton.com^$third-party
 ||instawidget.net^$third-party
 ||jiathis.com^$third-party
 ||jsoon.digitiminimi.com^$third-party
@@ -414,7 +409,6 @@
 ||cliengo.com^$media
 ||jivosite.com/sounds/
 ||js.intercomcdn.com/audio/
-||livechatinc.com/widget/static/media/
 ||qualified.com/packs/$media
 ||snapengage.com/sounds/
 ||static.olark.com/jsclient/sounds/
@@ -578,6 +572,7 @@
 ||rcsobjects.it/rcs_cpmt/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
+||orange.pl/ocp-http/map/js/cookies.js
 ||zgody.infor.pl^
 ||hemnet.se/assets/packs/consent.
 ||privacy.schibsted.com^
@@ -618,7 +613,6 @@
 @@||truste-svc.net/cookie_js/$subdocument
 @@||universumglobal.com/wp-content/plugins/cookie-law-info/
 @@||xmind.net/www/assets/vendor/js/js-cookie-
-@@||bccroma.it/framework/js/cookies.dyn.js
 @@||cartabcc.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||footroll.pl/js/vendor/cookiebox.min.js
@@ -662,6 +656,7 @@
 @@||edu.rosminzdrav.ru/bower_components/iron-icons/social-icons.html$xmlhttprequest
 @@||eff.org/sites/$image
 @@||europa.eu/webtools/*/share.png$image
+@@||fansshare.com/media/*social$image
 @@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fark.net/images/*/links/
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
@@ -716,6 +711,7 @@
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||toneden.io/production/javascripts/social.js$script,~third-party
+@@||torrentfreak.com/images/google-$~third-party
 @@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
