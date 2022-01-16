@@ -312,6 +312,7 @@ return array(
     'ztgame.com' => 0, #503
     'download.db-ip.com' => 0,
     'db-ip.com' => 0,
+    'yximgs.com' => 0, #554
 
 
 
