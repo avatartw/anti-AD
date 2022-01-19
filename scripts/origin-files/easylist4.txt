@@ -1,8 +1,8 @@
-! Checksum: lqAuBDscSIL7JNYXMu+jFg
+! Checksum: 4ZPCY4v4sNJoeX6phG49Kw
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.2
-! TimeUpdated: 2022-01-16T13:00:48+00:00
+! Version: 2.0.83.16
+! TimeUpdated: 2022-01-19T17:02:56+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -64,6 +64,7 @@
 ||feedburner.com^$image,third-party
 ||feefo.com^$third-party
 ||formstack.com/forms/$third-party
+||frizbit.com^$third-party
 ||garss.tv^$third-party
 ||georiot.com^$third-party
 ||getdrip.com^$third-party
@@ -103,7 +104,6 @@
 ||opinionbar.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
-||optimonk.com^$third-party
 ||optinmonster.com^$third-party
 ||optmnstr.com^$third-party
 ||optmstr.com^$third-party
@@ -131,7 +131,6 @@
 ||rightmessage.com^$third-party
 ||rokt.com^$third-party
 ||royapp.com^$third-party
-||rsspump.com^$third-party
 ||s3.amazonaws.com/scripts.hellobar.com/$third-party
 ||sail-horizon.com^$third-party
 ||sail-personalize.com^$third-party
@@ -164,14 +163,13 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
-||widgets.itunes.apple.com^$third-party
 ||widgets.sprinkletxt.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
 ||woobox.com^$third-party
 ||worldgravity.com^$third-party
 ||xhamsterlive.com/api/external/$third-party
-||yottos.com^$third-party
+||yimg.com/uq/syndication/
 ||zdassets.com/ekr/snippet.js
 ||zergnet.com^$third-party
 ||zoomanalytics.co^$third-party
@@ -181,6 +179,7 @@
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
+||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||qualified.com/packs/$media
 ||snapengage.com/sounds/
@@ -265,6 +264,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
+||olgtex.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -408,6 +408,7 @@
 ||chatango.com/pcache/sounds/
 ||cliengo.com^$media
 ||jivosite.com/sounds/
+||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||qualified.com/packs/$media
 ||snapengage.com/sounds/
@@ -421,6 +422,7 @@
 ||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
+||cmp.network-n.com^
 ||cmp.nextday.media^
 ||consent.dk^$third-party
 ||consent.truste.com^$third-party
@@ -496,7 +498,6 @@
 ||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
 ||naturalnews.com/getviews2.
-||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
@@ -537,7 +538,9 @@
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
+||videosynd.kataweb.it^$third-party
 ||share.gree.jp^$third-party
+||tweetbuzz.jp^$third-party
 ||kodcad.kr^$third-party
 ||getreview.pl^$third-party
 ||smonitor.com.br^$third-party
@@ -682,9 +685,9 @@
 @@||login.mos.ru^$image
 @@||lublin112.pl/wp-content/uploads/$image
 @@||media-cache*.pinimg.com^$image,third-party
+@@||meltyblood.typelumina.com/resources/img/common/$image,~third-party
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||panzi.github.io/SocialSharePrivacy/
-@@||passeidireto.com/website-anonymous/images/$image
 @@||passets-cdn.pinterest.com^
 @@||payco.com/share/js/$~third-party
 @@||pioneerelectronics.com/piocda/templates/*.svg
