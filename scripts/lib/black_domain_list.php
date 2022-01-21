@@ -1064,6 +1064,9 @@ return array(
     'byteimg.com' => array(
         'p6-ad-sign.byteimg.com', // #513 #524
     ),
+    'gvt2.com' => array(
+        'gvt2.com', // #558
+    ),
 
 
     // 批量添加域名
