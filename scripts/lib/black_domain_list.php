@@ -136,6 +136,7 @@ return array(
         'plugin.mobopay.baidu.com',
         'dj1.baidu.com',
         'isite.baidu.com',
+        'sjh.baidu.com', #367
     ),
     'youdao.com' => array('corp.youdao.com'),
     'crsspxl.com' => array('crsspxl.com'),
@@ -159,6 +160,7 @@ return array(
         'appcloud2.zhihu.com',
         'zhihu-web-analytics.zhihu.com',
         'event.zhihu.com',
+        'udd1i5.zhihu.com', #395
     ),
     'crashlytics.com' => array(
         'crashlytics.com',
@@ -253,7 +255,6 @@ return array(
         'adv.sec.miui.com',
         'api.brs.intl.miui.com',
         'api.newsfeed.intl.miui.com',
-        'huangye.miui.com',
         'browser.miui.com',
 
     ),
