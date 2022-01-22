@@ -1,18 +1,18 @@
-! Checksum: Qf6ibgqJ7p67V8haNoN96w
+! Checksum: ImsdBZ+HphWI+nKe27C4/w
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.18
-! TimeUpdated: 2022-01-20T01:00:45+00:00
+! Version: 2.0.83.20
+! TimeUpdated: 2022-01-20T09:00:59+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
-||37signals.com^$third-party
 ||a.mailmunch.co/app/$script,third-party
 ||accengage.net^$third-party
 ||actionbutton.co^$third-party
 ||activehosted.com^$third-party
 ||adobe-campaign.com^$third-party
 ||allpass.salemwebnetwork.com^$third-party
+||amazonaws.com/fby.js
 ||apester.com^$third-party
 ||api.branch.io^$third-party
 ||api.traq.li^$third-party
@@ -21,6 +21,7 @@
 ||appboy.eu^$third-party
 ||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
+||badgeville.com^$third-party
 ||batch.com^$third-party
 ||beeketing.com^$third-party
 ||beopinion.com^$third-party
@@ -72,6 +73,7 @@
 ||getsitecontrol.com^$third-party
 ||getwoohoo.com^$third-party
 ||goemotify.com^$third-party
+||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
@@ -105,6 +107,7 @@
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
 ||optinmonster.com^$third-party
+||optkit.com^$third-party
 ||optmnstr.com^$third-party
 ||optmstr.com^$third-party
 ||optnmnstr.com^$third-party
@@ -126,6 +129,7 @@
 ||r42tag.com^$third-party
 ||rating-widget.com^$third-party
 ||rdstation.com.br^$third-party
+||readability.com/embed.js$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
 ||rightmessage.com^$third-party
@@ -146,7 +150,6 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
-||technorati.com^$third-party
 ||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
@@ -163,6 +166,7 @@
 ||widget.pico.tools^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
+||widgets.itunes.apple.com^$third-party
 ||widgets.sprinkletxt.com^
 ||wisepops.com^$third-party
 ||wishpond.com^$third-party
@@ -205,12 +209,10 @@
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||push.delivery.ethinking.de^
-||push.delivery^$third-party
 ||push.esputnik.com^
 ||push.rollout.io^$third-party
 ||push.world^$third-party
 ||pushassist.com^$third-party
-||pushcentr.com^$third-party
 ||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
@@ -229,6 +231,8 @@
 ||sckxppzdm.com^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
+||system-notify.app^$third-party
+||webpush.jp^$third-party
 ||webpushr.com^$third-party
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
@@ -236,6 +240,7 @@
 ||xedo.me^$third-party
 ||accengage.net^$third-party
 ||aimtell.com^$third-party
+||alertme.news^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
@@ -419,7 +424,6 @@
 ||zdassets.com/web_widget/$media
 ||assetlab.io/consent/
 ||axept.io^$third-party
-||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||cmp.network-n.com^
@@ -458,6 +462,7 @@
 ||privacy-center.org^$third-party
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
+||pubtech.ai^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
@@ -468,7 +473,6 @@
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
-||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
@@ -507,6 +511,7 @@
 ||cmp.parkers.co.uk^
 ||cmp.parool.nl^
 ||cmp.trouw.nl^
+||consent.23g.io^
 ||consent.cmp.oath.com^
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
@@ -576,13 +581,13 @@
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||orange.pl/ocp-http/map/js/cookies.js
-||zgody.infor.pl^
 ||hemnet.se/assets/packs/consent.
 ||privacy.schibsted.com^
 ||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
+@@||ecache.vzw.com/imageFiles/Myacct/*/onlineopinionV5/
 @@||gismeteo.ru/images/rss/$image
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||phonearena.com/?b=$~third-party
@@ -606,6 +611,7 @@
 @@||golem.de/abo/setconsentcookie.php
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||impossible3ds.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js$~third-party
+@@||intersport.no/cookiewall?$~third-party
 @@||nectar.com/lib/cookieBanner.js$~third-party
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
@@ -717,7 +723,6 @@
 @@||torrentfreak.com/images/google-$~third-party
 @@||torrentfreak.com/images/reddit$image
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
-@@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||xing-share.com/plugins/$script,stylesheet
 @@||xkcd.com/comics/$image,~third-party
