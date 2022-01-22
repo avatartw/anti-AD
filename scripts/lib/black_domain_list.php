@@ -1067,6 +1067,9 @@ return array(
     'gvt2.com' => array(
         'gvt2.com', // #558
     ),
+    '95516.com' => array(
+        'ads.95516.com', // #552
+    ),
 
 
     // 批量添加域名
