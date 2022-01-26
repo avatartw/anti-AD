@@ -314,6 +314,7 @@ return array(
     'db-ip.com' => 0,
     'remind.me' => 0,
     'ipdata.co' => 0,
+    'fastly-analytics.com' => 0,
     'yximgs.com' => 0, #554
     'cdn.cnbj1.fds.api.mi-img.com' => 0, #556
     'browser.mi-img.com' => 0, #556
