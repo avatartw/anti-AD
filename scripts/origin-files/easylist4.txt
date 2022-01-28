@@ -1,11 +1,12 @@
-! Checksum: fQrz34liQIuxY5cKKI7cFg
+! Checksum: S76lP83/7qr0HkRA4aBh5g
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.26
-! TimeUpdated: 2022-01-25T17:00:48+00:00
+! Version: 2.0.83.36
+! TimeUpdated: 2022-01-27T17:00:53+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
+||37signals.com^$third-party
 ||a.mailmunch.co/app/$script,third-party
 ||accengage.net^$third-party
 ||actionbutton.co^$third-party
@@ -18,7 +19,6 @@
 ||app.convertful.com^$third-party
 ||app.e2ma.net^$third-party
 ||appboy.eu^$third-party
-||asterilivestream.com^$third-party
 ||autolinkmaker.itunes.apple.com^$third-party
 ||badgeville.com^$third-party
 ||batch.com^$third-party
@@ -57,6 +57,7 @@
 ||engage.im^$third-party
 ||exitintel.com^$third-party
 ||feed.mikle.com^$third-party
+||feedage.net^$third-party
 ||feedaty.com^$third-party
 ||feedbackify.com/f.js$third-party
 ||feedblitz.com^$third-party
@@ -266,7 +267,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
-||onepush.app^$third-party
+||olgtex.com^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -303,7 +304,6 @@
 ||bufferapp.com^$third-party
 ||button.like.co^$third-party
 ||buttons.github.io/buttons.js$third-party
-||buttons.reddit.com^$third-party
 ||cloudfront.net/*/facebook.png
 ||cloudfront.net/*/twitter.png
 ||connect.ok.ru^$third-party
@@ -419,7 +419,6 @@
 ||zdassets.com/web_widget/$media
 ||assetlab.io/consent/
 ||axept.io^$third-party
-||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||cmp.network-n.com^
@@ -503,6 +502,7 @@
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
+||cdn259.talksport.com^
 ||cmp.cdn.thesun.ie^
 ||cmp.infopro-digital.com^
 ||cmp.osano.com^
@@ -515,6 +515,7 @@
 ||gdpr.internetbrands.com^
 ||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
+||parliamentlive.tv/cookie/
 ||prada.com/utag/prada/
 ||purevpn.com/loadGdprView
 ||push-content.springernature.io^$script
@@ -575,6 +576,7 @@
 ||cookies.nos.nl^
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||cdn.gravito.net/cmp/$script
+||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
 ||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
@@ -619,7 +621,6 @@
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
-@@||universumglobal.com/wp-content/plugins/cookie-law-info/
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||cartabcc.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
