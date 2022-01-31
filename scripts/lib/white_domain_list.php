@@ -319,6 +319,7 @@ return array(
     'cdn.cnbj1.fds.api.mi-img.com' => 0, #556
     'browser.mi-img.com' => 0, #556
     'pic.imgdb.cn'=> 0, #565
+    'live-trace.bilibili.com'=> 0, #561
 
 
 
