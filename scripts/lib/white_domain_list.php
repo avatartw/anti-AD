@@ -310,16 +310,17 @@ return array(
     'xj-n-tax.gov.cn' => 0, #503
     'zazhipu.com' => 0, #503
     'ztgame.com' => 0, #503
-    'download.db-ip.com' => 0,
-    'db-ip.com' => 0,
-    'remind.me' => 0,
-    'ipdata.co' => 0,
-    'fastly-analytics.com' => 0,
+    'download.db-ip.com' => 0, #AdGuardSDNSFilter #863
+    'db-ip.com' => 0, #AdGuardSDNSFilter #863
+    'remind.me' => 0, #AdGuardSDNSFilter #875
+    'ipdata.co' => 0, #AdGuardSDNSFilter #878
+    'fastly-analytics.com' => 0, #AdGuardSDNSFilter #880
     'yximgs.com' => 0, #554
     'cdn.cnbj1.fds.api.mi-img.com' => 0, #556
     'browser.mi-img.com' => 0, #556
     'pic.imgdb.cn'=> 0, #565
     'live-trace.bilibili.com'=> 0, #561
+    'ip-tracker.org'=> 0, #AdGuardSDNSFilter #884
 
 
 
