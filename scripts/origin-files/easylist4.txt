@@ -1,8 +1,8 @@
-! Checksum: oIP7a7FxqB5Tv4Ul2JdZsw
+! Checksum: qYan9aqgm4F0kuxv7VvtdQ
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.38
-! TimeUpdated: 2022-01-31T17:00:46+00:00
+! Version: 2.0.83.43
+! TimeUpdated: 2022-02-01T17:00:47+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -208,6 +208,7 @@
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||push.delivery.ethinking.de^
+||push.delivery^$third-party
 ||push.esputnik.com^
 ||push.rollout.io^$third-party
 ||push.world^$third-party
@@ -433,6 +434,7 @@
 ||consentmanager.mgr.consensu.org^$third-party
 ||consentmanager.net^$third-party
 ||cookie-script.com^$third-party
+||cookie.support^$third-party
 ||cookieassistant.com^$third-party
 ||cookiebot.com^$third-party
 ||cookiefirst.com^$third-party
@@ -594,19 +596,15 @@
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adblockplus.org/img/cookie-notice.svg$~third-party
 @@||adtipp.de/js/cookiebanner.js
-@@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
 @@||consent-pref.trustarc.com^$subdocument
 @@||consent.trustarc.com/asset/$script
 @@||consent.trustarc.com/notice$script
 @@||consent.trustarc.com^$image
 @@||consent.truste.com/notice$script
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
-@@||dl.gmx.com/permission/oneTrust/consent/$~third-party
-@@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
 @@||exali.de/static/theme/assets/js/cookieBanner.js
 @@||golem.de/abo/setconsentcookie.php
 @@||hktdc.com/resources/cookieconsent/$~third-party
-@@||impossible3ds.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js$~third-party
 @@||intersport.no/cookiewall?$~third-party
 @@||nectar.com/lib/cookieBanner.js$~third-party
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
@@ -701,7 +699,6 @@
 @@||restream.io/img/$image
 @@||s-media*.pinimg.com^$image,third-party
 @@||seeklogo.com/images/*-seeklogo.com.gif
-@@||sharetv.com/images/social_login/$image,~third-party
 @@||social.krunker.io^$~third-party
 @@||socialblade.com/images/$image
 @@||softicons.com/download/$image
