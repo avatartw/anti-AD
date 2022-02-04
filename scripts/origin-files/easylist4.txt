@@ -1,8 +1,8 @@
-! Checksum: qYan9aqgm4F0kuxv7VvtdQ
+! Checksum: 3p/4fHP4oF83pJNl7lmjng
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.43
-! TimeUpdated: 2022-02-01T17:00:47+00:00
+! Version: 2.0.83.58
+! TimeUpdated: 2022-02-04T17:00:45+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -106,6 +106,7 @@
 ||opinionbar.com^$third-party
 ||opinionstage.com^$third-party
 ||opmnstr.com^$third-party
+||optimonk.com^$third-party
 ||optinmonster.com^$third-party
 ||optkit.com^$third-party
 ||optmnstr.com^$third-party
@@ -130,7 +131,6 @@
 ||r42tag.com^$third-party
 ||rating-widget.com^$third-party
 ||rdstation.com.br^$third-party
-||readability.com/embed.js$third-party
 ||reevoo.com^$third-party
 ||reftagger.com^$third-party
 ||rightmessage.com^$third-party
@@ -151,6 +151,7 @@
 ||subs.youmaker.com^$third-party
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
+||technorati.com^$third-party
 ||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
@@ -175,7 +176,6 @@
 ||worldgravity.com^$third-party
 ||xhamsterlive.com/api/external/$third-party
 ||zdassets.com/ekr/snippet.js
-||zergnet.com^$third-party
 ||zoomanalytics.co^$third-party
 ||acquire.io/assets/sound/
 ||chatango.com/pcache/sounds/
@@ -217,6 +217,7 @@
 ||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
+||pushinpage.com^$third-party
 ||pushinstruments.com^$third-party
 ||pushnami.com^$third-party
 ||pushowl.com^$third-party
@@ -290,7 +291,6 @@
 ||webpu.sh^$third-party
 ||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
-||joinsubtext.com^$subdocument,third-party
 ||lightboxcdn.com/vendor/$script,third-party
 ||sample.dragonforms.com^$subdocument,third-party
 ||secondstreetapp.com/embed/$subdocument
@@ -485,6 +485,7 @@
 ||google.*/async/promos?$xmlhttprequest
 ||mediafire.com/images/backgrounds/download/*promo
 ||newegg.com/newegg/survey/
+||walletinvestor.com/static/frontend/images/nys/
 ||wp.com/wp-content/mu-plugins/post-flair/
 ||alerts.ndtv.com^
 ||bdstatic.com/linksubmit/push.js
@@ -532,7 +533,6 @@
 ||push.cnnindonesia.com^
 ||mdsngpush.finanzen.net^
 ||avis-verifies.com^$third-party
-||onaregarde-pourvous.com/api/$third-party
 ||s1.hdslb.com/bfs/seed/jinkela/short/auto-append-spmid.js
 ||static.iqiyi.com/js/common/mars_v.js
 ||linker.hr^$third-party
@@ -566,6 +566,7 @@
 ||consent.gutefrage.net^
 ||tauschticket.de/js/cnst.js
 ||cmp.lepoint.fr^
+||consent.prismamedia.com^
 ||ratp.fr/modules/custom/ratp_tarteaucitron/
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
@@ -575,12 +576,10 @@
 ||cdn.gravito.net/cmp/$script
 ||creaweb.it/cookie/
 ||rcsobjects.it/rcs_cpmt/
-||cookie.gazeta.pl^
 ||interia.pl/rodo-iframe
 ||orange.pl/ocp-http/map/js/cookies.js
 ||hemnet.se/assets/packs/consent.
 ||privacy.schibsted.com^
-||wongnai.com/_api/consents/
 ||consent.themeteocompany.com^
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@||adfoc.us/*/interstitial.js$~third-party
@@ -671,7 +670,6 @@
 @@||google.*/images/google-$image,~third-party
 @@||gstatic.com/images/branding/$image
 @@||iconfinder.com/data/icons/$~third-party
-@@||iconpedia.net/uploads/$image,third-party
 @@||icons.iconarchive.com/icons/$image,~third-party
 @@||inoreader.com/images/login/but_facebook.png
 @@||instagram.com/p/$subdocument,third-party
