@@ -1,8 +1,8 @@
-! Checksum: 3p/4fHP4oF83pJNl7lmjng
+! Checksum: VBA4YaMrJRJsGf6+Q+G/Ew
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.58
-! TimeUpdated: 2022-02-04T17:00:45+00:00
+! Version: 2.0.83.70
+! TimeUpdated: 2022-02-07T17:00:47+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -71,13 +71,11 @@
 ||getresponse.com^$third-party
 ||getsitecontrol.com^$third-party
 ||getwoohoo.com^$third-party
-||goemotify.com^$third-party
 ||goroost.com^$third-party
 ||govdelivery.com^$third-party
 ||gravityrd-services.com^$third-party
 ||grvmedia.com^$third-party
 ||healthgrades.com^$third-party
-||hnbutton.appspot.com^$third-party
 ||honcode.ch^$third-party
 ||hsleadflows.net^$third-party
 ||httpschecker.net^$third-party
@@ -214,6 +212,7 @@
 ||push.world^$third-party
 ||pushassist.com^$third-party
 ||pushaya.com^$third-party
+||pushcentr.com^$third-party
 ||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pusherapp.com^$third-party
@@ -272,6 +271,7 @@
 ||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||notifpush.com^$third-party
+||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
@@ -325,6 +325,7 @@
 ||figshare.com^$third-party
 ||filamentapp.s3.amazonaws.com^$third-party
 ||flipboard.com/web/buttons/$third-party
+||getsocial.io/widget/$third-party
 ||gotchosen.com^$third-party
 ||graph.facebook.com/fql?q=SELECT$third-party
 ||houzz.com/buttonWidget?$third-party
@@ -422,9 +423,9 @@
 ||zdassets.com/web_widget/$media
 ||assetlab.io/consent/
 ||axept.io^$third-party
+||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
-||clickiocdn.com/t/cmp/$third-party
 ||cmp.network-n.com^
 ||cmp.nextday.media^
 ||consent.dk^$third-party
@@ -449,6 +450,7 @@
 ||dmgmediaprivacy.co.uk^$third-party
 ||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
+||fc2.com/share/js/gdpr/
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr.studybreakmedia.com^
 ||goadopt.io^$third-party
@@ -487,6 +489,7 @@
 ||newegg.com/newegg/survey/
 ||walletinvestor.com/static/frontend/images/nys/
 ||wp.com/wp-content/mu-plugins/post-flair/
+||9to5terminal.com/push.js
 ||alerts.ndtv.com^
 ||bdstatic.com/linksubmit/push.js
 ||indiatimes.com/pn/
@@ -504,6 +507,8 @@
 ||cloudfront.net/twitter/
 ||crowdin.com/images/soc-btns/
 ||naturalnews.com/getviews2.
+||sourceforge.net/social/
+||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
 ||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
@@ -514,6 +519,7 @@
 ||cmp.parkers.co.uk^
 ||cmp.parool.nl^
 ||consent.23g.io^
+||consent.amateurphotographer.co.uk^
 ||consent.cmp.oath.com^
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
@@ -537,6 +543,7 @@
 ||static.iqiyi.com/js/common/mars_v.js
 ||linker.hr^$third-party
 ||traffic.styria.hr^
+||edintorni.net^$third-party
 ||smiling.video^$third-party
 ||tools.net-parade.it^$third-party
 ||trovaprezzi.it/buttons/$third-party
@@ -610,7 +617,9 @@
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||privacypolicies.com/public/uploads/$image,~third-party
+@@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
+@@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||xmind.net/www/assets/vendor/js/js-cookie-
@@ -624,7 +633,6 @@
 @@||raiplaysound.it/common/assets/js/cookieBanner.js$script
 @@||raiplaysound.it/dl/components/js/cookie.pack.js$script
 @@||raiplaysound.it/dl/components/js/cookiebanner/$script,xmlhttprequest
-@@||raisport.rai.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@/angular-facebook.js
 @@/static/themes/*/img/icons/*$image,~third-party
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
