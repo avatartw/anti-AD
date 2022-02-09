@@ -321,6 +321,9 @@ return array(
     'pic.imgdb.cn'=> 0, #565
     'live-trace.bilibili.com'=> 0, #561
     'ip-tracker.org'=> 0, #AdGuardSDNSFilter #884
+    'tollfreeforwarding.com'=> 0, #AdGuardSDNSFilter #886
+    'coralogix.com'=> 0, #AdGuardSDNSFilter #888
+    'adcr.naver.com'=> 0, #AdGuardSDNSFilter #891
 
 
 
