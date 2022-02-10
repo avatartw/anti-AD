@@ -1,8 +1,8 @@
-! Checksum: VBA4YaMrJRJsGf6+Q+G/Ew
+! Checksum: OFm8bq9fJov5MeVDtjr7VA
 ! Title: Fanboy's Annoyances (Optimized)
 ! Description: Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.
-! Version: 2.0.83.70
-! TimeUpdated: 2022-02-07T17:00:47+00:00
+! Version: 2.0.83.86
+! TimeUpdated: 2022-02-10T17:00:51+00:00
 ! Expires: 4 days (update frequency)
 ||1worldonline.com^$third-party
 ||24smi.org^$third-party
@@ -34,7 +34,6 @@
 ||celebjihad.com^$third-party
 ||civicscience.com/widget/jspoll/$third-party
 ||clearbit.com^$third-party
-||cloudfront.net/js/slide.js
 ||coinhive.com^$third-party
 ||connect.ekomi.de^$third-party
 ||connect.nosto.com^$third-party
@@ -150,7 +149,6 @@
 ||substack.com/embed$third-party
 ||surveygizmo.com^$~subdocument,third-party
 ||technorati.com^$third-party
-||theoutplay.com^$third-party
 ||top100-images.rambler.ru^$third-party
 ||top100.ru^$third-party
 ||topsy.com^$third-party
@@ -182,6 +180,7 @@
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||qualified.com/packs/$media
+||raychat.io/assets/widget/audio/
 ||snapengage.com/sounds/
 ||static.olark.com/jsclient/sounds/
 ||static.widget.trengo.eu/assets/$media
@@ -198,6 +197,7 @@
 ||cappushino.com^$third-party
 ||checke.biz^$third-party
 ||checkpost.club^$third-party
+||conforama-push.com^$third-party
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||ichecknotifyfriends.info^$third-party
 ||krakenoptimize.com^$third-party
@@ -206,7 +206,6 @@
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||push.delivery.ethinking.de^
-||push.delivery^$third-party
 ||push.esputnik.com^
 ||push.rollout.io^$third-party
 ||push.world^$third-party
@@ -341,7 +340,6 @@
 ||massrelevance.com^$third-party
 ||messengerpeople.com^$third-party
 ||milotree.com^$third-party
-||networkedblogs.com^$third-party
 ||opensharecount.com^$third-party
 ||patreon.com/becomePatronButton.bundle.js$third-party
 ||pepper.com^$third-party
@@ -414,6 +412,7 @@
 ||js.driftt.com/conductor/assets/media/
 ||js.intercomcdn.com/audio/
 ||qualified.com/packs/$media
+||raychat.io/assets/widget/audio/
 ||snapengage.com/sounds/
 ||static.olark.com/jsclient/sounds/
 ||static.widget.trengo.eu/assets/$media
@@ -423,13 +422,14 @@
 ||zdassets.com/web_widget/$media
 ||assetlab.io/consent/
 ||axept.io^$third-party
-||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||cmp.network-n.com^
 ||cmp.nextday.media^
 ||consent.dk^$third-party
-||consent.truste.com^$third-party
+||consent.trustarc.com/notice$script
+||consent.trustarc.com/v2/notice$script
+||consent.truste.com/get?name=notice.js$script
 ||consentag.eu^$third-party
 ||consentframework.com^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
@@ -443,7 +443,6 @@
 ||cookieinformation.com/*/*.js
 ||cookieinformation.com^$subdocument,third-party
 ||cookieinfoscript.com^$third-party
-||cookiepro.com^$third-party
 ||cookiereports.com^$third-party
 ||cookiescript.info^$third-party
 ||cookiethough.dev^$third-party
@@ -471,12 +470,9 @@
 ||sddan.mgr.consensu.org^$third-party
 ||sharethis.mgr.consensu.org^$third-party
 ||sibboventures.mgr.consensu.org^$third-party
-||smartcookies.it^$third-party
 ||sourcepoint.mgr.consensu.org^$third-party
 ||termly.io^$third-party
 ||truendo.com^$third-party
-||trustarc.com^$third-party
-||trustarc.mgr.consensu.org^
 ||usercentrics.eu^$third-party
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
@@ -511,7 +507,6 @@
 ||7plus.com.au/js/CookieNotice
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
-||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
 ||cdn259.talksport.com^
 ||cmp.cdn.thesun.ie^
 ||cmp.infopro-digital.com^
@@ -523,7 +518,6 @@
 ||consent.cmp.oath.com^
 ||cookies.lmt.lv^
 ||gdpr.internetbrands.com^
-||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
 ||parliamentlive.tv/cookie/
 ||prada.com/utag/prada/
@@ -563,7 +557,6 @@
 ||share.baidu.com^
 ||plugins.mixi.jp/favorite.pl?$third-party
 ||draugiem.lv/business/ext/fans/$third-party
-||draugiem.lv/business/ext/follow/$third-party
 ||draugiem.lv/say/ext/like.php$third-party
 ||draugiem.lv/say/ext/recommend.php$third-party
 ||currenttime.tv/a/signup-sidebar-widget/
@@ -574,7 +567,6 @@
 ||tauschticket.de/js/cnst.js
 ||cmp.lepoint.fr^
 ||consent.prismamedia.com^
-||ratp.fr/modules/custom/ratp_tarteaucitron/
 ||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ||tv2a.dk/consent/
 ||cookie.vrt.be^
@@ -601,14 +593,8 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@||adblockplus.org/img/cookie-notice.svg$~third-party
-@@||adtipp.de/js/cookiebanner.js
-@@||consent-pref.trustarc.com^$subdocument
-@@||consent.trustarc.com/asset/$script
-@@||consent.trustarc.com/notice$script
-@@||consent.trustarc.com^$image
-@@||consent.truste.com/notice$script
 @@||demarches.interieur.gouv.fr/js/tarteaucitron/
-@@||exali.de/static/theme/assets/js/cookieBanner.js
+@@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||golem.de/abo/setconsentcookie.php
 @@||hktdc.com/resources/cookieconsent/$~third-party
 @@||intersport.no/cookiewall?$~third-party
@@ -616,12 +602,12 @@
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||onetrust.com/request/$xmlhttprequest
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
-@@||privacypolicies.com/public/uploads/$image,~third-party
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
+@@||tygodniksiedlecki.com/assets/mobile/cookiebar/jquery.cookiebar.js
 @@||xmind.net/www/assets/vendor/js/js-cookie-
 @@||cartabcc.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||ebok.vectra.pl/components/layout/cookie-bar/
@@ -645,7 +631,6 @@
 @@/wp-content/plugins/wp-rocket/*$image,~third-party
 @@||3dmark.com/proxycon/images/fb_icon.png
 @@||alienwarearena.com/bundles/spoutlet/js/SocialShare.min.js
-@@||alternativeto.net/dist/icons/$image
 @@||app.degoo.com/assets/icons/$~third-party
 @@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
 @@||authy.com/wp-content/themes/authy/assets/images/icons/footer-facebook.svg
