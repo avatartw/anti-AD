@@ -319,11 +319,15 @@ return array(
     'cdn.cnbj1.fds.api.mi-img.com' => 0, #556
     'browser.mi-img.com' => 0, #556
     'pic.imgdb.cn'=> 0, #565
-    'live-trace.bilibili.com'=> 0, #561
-    'ip-tracker.org'=> 0, #AdGuardSDNSFilter #884
+    'live-trace.bilibili.com'=> 0, #561, #517
+    'ip-tracker.org'=> 0, #AdGuardSDNSFilter #884, #578
     'tollfreeforwarding.com'=> 0, #AdGuardSDNSFilter #886
     'coralogix.com'=> 0, #AdGuardSDNSFilter #888
     'adcr.naver.com'=> 0, #AdGuardSDNSFilter #891
+    'is.snssdk.com' => 0, #579
+    'down.360safe.com' => 0, #577
+    'soup.v.qq.com' => 0, #576
+    'live800.com' => 0, #573
 
 
 
