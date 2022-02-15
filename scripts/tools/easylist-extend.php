@@ -276,6 +276,8 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||ad-putting.gw.zt-express.com^' => 1, // #534
     '@@||adm.crowdicity.com^' => 1, // #560
     '@@||iufostworldcongress-singapore.com^' => 1, // #563
+    '@@||ad.ext.azure.com^' => 1, // #581
+    '@@||ad.ext.azure.cn^' => 1, // #581
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
