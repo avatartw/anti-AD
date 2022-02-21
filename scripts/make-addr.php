@@ -1,6 +1,6 @@
 <?php
 /**
- * 根据下载的原始文件，生成dnsmasq的屏蔽广告用途的配置
+ * 根據下載的原始檔案，生成dnsmasq的屏蔽廣告用途的配置
  *
  * @file make-addr.php
  * @author gently
@@ -33,7 +33,7 @@ foreach($formatterList as $name => $formatObj){
         continue;
     }
     $arr_src_domains = array();
-    $arr_tmp_whitelist = array();//单次的白名单列表
+    $arr_tmp_whitelist = array();//單次的白名單列表
     if(is_array($formatObj['whitelist_attached']) && (count($formatObj['whitelist_attached']) > 0)){
         foreach($formatObj['whitelist_attached'] as $white_file => $white_attr){
             if(!array_key_exists("{$white_file}_{$white_attr['merge_mode']}", $arr_whitelist_cache)){

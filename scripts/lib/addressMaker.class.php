@@ -12,10 +12,10 @@
 
 class addressMaker{
 
-    const LINK_URL = 'https://github.com/privacy-protection-tools/anti-AD';
+    const LINK_URL = 'https://github.com/avatartw/anti-AD';
 
     /**
-     * 分離域名
+     * 分離網域名稱
      *
      * @param $str_domain
      * @return string
@@ -26,37 +26,40 @@ class addressMaker{
         }
 
         $str_reg = '/^(?:(?:[a-z0-9\-]*[a-z0-9]\.)*?|\.)?([a-z0-9\-]*[a-z0-9](';
-        /************start CN域名的特殊處理規則，其中包括了各行政區特別後綴的cn域名*****************************/
-        /*$str_reg .= '\.ac\.cn|\.ah\.cn|\.bj\.cn|\.com\.cn|\.cq\.cn|\.fj\.cn|\.gd\.cn|\.gov\.cn|\.gs\.cn';
+        /************start CN網域名稱的特殊處理規則，其中包括了各行政區特別後綴的cn網域名稱*****************************/
+        $str_reg .= '\.ac\.cn|\.ah\.cn|\.bj\.cn|\.com\.cn|\.cq\.cn|\.fj\.cn|\.gd\.cn|\.gov\.cn|\.gs\.cn';
         $str_reg .= '|\.gx\.cn|\.gz\.cn|\.ha\.cn|\.hb\.cn|\.he\.cn|\.hi\.cn|\.hk\.cn|\.hl\.cn|\.hn\.cn';
         $str_reg .= '|\.jl\.cn|\.js\.cn|\.jx\.cn|\.ln\.cn|\.mo\.cn|\.net\.cn|\.nm\.cn|\.nx\.cn|\.org\.cn';
         $str_reg .= '|\.qh\.cn|\.sc\.cn|\.sd\.cn|\.sh\.cn|\.sn\.cn|\.sx\.cn|\.tj\.cn|\.tw\.cn|\.xj\.cn';
-        $str_reg .= '|\.xz\.cn|\.yn\.cn|\.zj\.cn|\.edu.cn';*/
-        /************end CN域名的特殊處理規則，其中包括了各行政區特別後綴的cn域名******************************/
-        /*$str_reg .= '|\.cn|\.com|\.net|\.org|\.me|\.co|\.info|\.cc|\.tv';
-        $str_reg .= '|\.pw|\.biz|\.top|\.win|\.bid|\.cf|\.club|\.ne|\.de|\.la|\.us|\.mobi|\.hn|\.asia';
-        $str_reg .= '|\.jp|\.tw|\.am|\.hk|\.site|\.live|\.xyz|\.space|\.fr|\.es|\.nl|\.au|\.in|\.ru';
-        $str_reg .= '|\.su|\.world|\.io|\.trade|\.bet|\.im|\.fm|\.today|\.wang|\.rocks|\.vip|\.eu|\.run';
-        $str_reg .= '|\.online|\.website|\.cricket|\.date|\.men|\.ca|\.xxx|\.name|\.pl|\.be|\.il|\.gov|\.it';
-        $str_reg .= '|\.cl|\.tk|\.cz|\.hu|\.ro|\.vg|\.ws|\.nu|\.vn|\.lt|\.edu|\.lv|\.mx|\.by|\.gr|\.br|\.fi';
-        $str_reg .= '|\.pt|\.dk|\.se|\.at|\.id|\.ve|\.ir|\.ma|\.ch|\.nf|\.bg|\.ua|\.is|\.hr|\.shop|\.xin|\.si|\.or';
-        $str_reg .= '|\.sk|\.kz|\.tt|\.so|\.gg|\.ms|\.ink|\.pro|\.work|\.click|\.link|\.ly|\.ai|\.tech|\.kr|\.to';
-        $str_reg .= '|\.uk|\.ad|\.ac|\.md|\.ml|\.cm|\.re|\.ph|\.my|\.lu|\.network|\.sh|\.fun|\.az|\.cx|\.ga';
-        $str_reg .= '|\.ae|\.bz|\.gq|\.gs|\.pk|\.sex|\.stream|\.support|\.pub|\.nz|\.ng|\.zw|\.sx|\.studio|\.media|\.zone';
-        $str_reg .= '|\.icu|\.ie|\.li|\.bar|\.video|\.wiki|\.ltd|\.cash|\.pink|\.loan|\.gdn|\.app|\.ovh|\.land|\.st|\.how';
-        $str_reg .= '|\.kim|\.download|\.ag|\.technology|\.company|\.guru|\.gt|\.sg|\.photo|\.digital|\.one|\.tr';
-        $str_reg .= '|\.show|\.sncf|\.uz|\.as|\.ee|\.fyi|\.cloud|\.group|\.promo|\.party|\.services|\.life|\.no';
-        $str_reg .= '|\.watch|\.works|\.buzz|\.best|\.center|\.host|\.style|\.press|\.solutions|\.exchange|\.wtf';
-        $str_reg .= '|\.delivery|\.page|\.webcam|\.cam|\.supply|\.accountant|\.systems|\.agency|\.science|\.awe';
-        $str_reg .= '|\.gd|\.review|\.tc|\.mn|\.cool|\.monster|\.do|\.bi|\.news|\.boom|\.lol|\.events|\.jobs';
-        $str_reg .= '|\.ooo|\.social|\.ninja|\.blue|\.plus|\.racing|\.ht|\.tl|\.cat|\.tf|\.al|\.vc|\.cr|\.[a-z0-9_\-]+';*/
+        $str_reg .= '|\.xz\.cn|\.yn\.cn|\.zj\.cn|\.edu.cn';
+        /************end CN網域名稱的特殊處理規則，其中包括了各行政區特別後綴的cn網域名稱******************************/
+        $str_reg .= '|\.ac|\.academy|\.accountant|\.ad|\.ae|\.ag|\.agency|\.ai|\.al|\.am|\.app|\.art|\.as|\.asia|\.at|\.au';
+        $str_reg .= '|\.awe|\.az|\.ba|\.bar|\.be|\.best|\.bet|\.bg|\.bi|\.bid|\.biz|\.bl|\.blog|\.blue|\.bo|\.boom';
+        $str_reg .= '|\.br|\.buzz|\.bw|\.by|\.bz|\.ca|\.cam|\.camp|\.casa|\.cash|\.cat|\.cc|\.cd|\.center|\.cf|\.ch';
+        $str_reg .= '|\.city|\.cl|\.click|\.cloud|\.cloudfront|\.club|\.cm|\.cn|\.co|\.codes|\.com|\.company|\.cool|\.cr|\.cricket|\.cu';
+        $str_reg .= '|\.cx|\.cy|\.cyou|\.cz|\.date|\.de|\.deals|\.delivery|\.design|\.dev|\.digital|\.direct|\.dk|\.do|\.dog|\.download';
+        $str_reg .= '|\.ec|\.edu|\.ee|\.email|\.es|\.eu|\.events|\.exchange|\.fi|\.fm|\.foundation|\.fr|\.fun|\.fyi|\.ga|\.games';
+        $str_reg .= '|\.gd|\.gdn|\.ge|\.gg|\.gh|\.gift|\.glass|\.global|\.gold|\.gov|\.gq|\.gr|\.gratis|\.group|\.gs|\.gt';
+        $str_reg .= '|\.guru|\.hk|\.hn|\.host|\.house|\.how|\.hr|\.ht|\.hu|\.icu|\.id|\.ie|\.il|\.im|\.in|\.info';
+        $str_reg .= '|\.ink|\.io|\.ir|\.is|\.it|\.jo|\.jobs|\.jp|\.js|\.ki|\.kim|\.kr|\.kz|\.la|\.land|\.li';
+        $str_reg .= '|\.life|\.link|\.live|\.lk|\.loan|\.lol|\.love|\.lt|\.ltd|\.lu|\.lv|\.ly|\.ma|\.management|\.marketing|\.md';
+        $str_reg .= '|\.me|\.media|\.men|\.mg|\.mk|\.ml|\.mm|\.mn|\.mobi|\.moe|\.money|\.monster|\.ms|\.mx|\.my|\.mz';
+        $str_reg .= '|\.name|\.ne|\.net|\.network|\.news|\.nf|\.ng|\.ngo|\.ninja|\.nl|\.no|\.np|\.nu|\.nyc|\.nz|\.om';
+        $str_reg .= '|\.one|\.ong|\.online|\.ooo|\.or|\.org|\.ovh|\.pa|\.page|\.partners|\.party|\.pe|\.pet|\.ph|\.photo';
+        $str_reg .= '|\.photos|\.pink|\.pk|\.pl|\.plus|\.pm|\.porn|\.press|\.pro|\.promo|\.pt|\.pub|\.pw|\.racing|\.re|\.red';
+        $str_reg .= '|\.ren|\.report|\.rest|\.review|\.ro|\.rocks|\.rs|\.ru|\.run|\.sa|\.sbs|\.sc|\.school|\.science|\.se|\.services';
+        $str_reg .= '|\.sex|\.sexy|\.sg|\.sh|\.shop|\.show|\.si|\.singles|\.site|\.sk|\.sn|\.sncf|\.so|\.social|\.solutions|\.space';
+        $str_reg .= '|\.st|\.store|\.stream|\.studio|\.style|\.su|\.supply|\.support|\.surf|\.sx|\.systems|\.tc|\.team|\.tech|\.technology|\.tel';
+        $str_reg .= '|\.tf|\.tips|\.tj|\.tk|\.tl|\.tm|\.to|\.today|\.tools|\.top|\.tr|\.trade|\.tt|\.tv|\.tw|\.tz|\.ua|\.ug';
+        $str_reg .= '|\.uk|\.uno|\.us|\.uy|\.uz|\.vc|\.ve|\.vg|\.video|\.vip|\.vn|\.wang|\.watch|\.webcam|\.website|\.wiki';
+        $str_reg .= '|\.win|\.work|\.works|\.world|\.ws|\.wtf|\.xin|\.xn--fiqs8s|\.xn--io0a7i|\.xn--p1ai|\.xxx|\.xy|\.xyz|\.zip|\.zone|\.zw';
         $str_reg .= ')';
 
-        /*$str_reg .= '(\.hk|\.tw|\.uk|\.jp|\.kr|\.th|\.au|\.ua|\.so|\.br|\.sg|\.pt|\.ec|\.ar|\.my';
+        $str_reg .= '(\.hk|\.tw|\.uk|\.jp|\.kr|\.th|\.au|\.ua|\.so|\.br|\.sg|\.pt|\.ec|\.ar|\.my';
         $str_reg .= '|\.tr|\.bd|\.mk|\.za|\.mt|\.sm|\.ge|\.kg|\.ke|\.de|\.ve|\.es|\.ru|\.pk|\.mx';
-        $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';*/
+        $str_reg .= '|\.nz|\.py|\.pe|\.ph|\.pl|\.ng|\.pa|\.fj';
 
-        $str_reg .= '(\.[a-z0-9_\-]+)?)$/';
+        $str_reg .= ')?)$/';
         if(preg_match($str_reg, $str_domain, $matches)){
             return strval($matches[1]);
         }
@@ -66,10 +69,10 @@ class addressMaker{
     }
 
     /**
-     * 從 easylist類源文件中提取可用地址
+     * 從 easylist類源檔案中提取可用地址
      *
-     * @param String $str_easylist 原始的easylist列表字符串
-     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主域名，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
+     * @param String $str_easylist 原始的easylist列表字串
+     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主網網域名稱稱，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
      * @param Array $arr_whitelist 白名單列表
      * @return array
      */
@@ -97,11 +100,11 @@ class addressMaker{
 
             if(preg_match('/^\|\|([0-9a-z\-\.]+[a-z]+)\^(\$([^=]+?,)?(image|third-party|script)(,[^=]+)?)?$/', $line, $matches)){
 
-                if(substr($matches[1], 0, 4) == 'www.'){
-                    $row = substr($matches[1], 4);
-                }else{
+                //if(substr($matches[1], 0, 4) == 'www.'){
+                //    $row = substr($matches[1], 4);
+                //}else{
                     $row = $matches[1];
-                }
+                //}
                 $main_domain = self::extract_main_domain($matches[1]);
                 if($strict_mode && (!array_key_exists($main_domain, $arr_whitelist) || ($arr_whitelist[$main_domain] >= 1))){
                     $arr_domains[$main_domain] = array($main_domain);
@@ -115,10 +118,10 @@ class addressMaker{
     }
 
     /**
-     * 從hosts或dnsmasq類文件中提取地址
+     * 從hosts或dnsmasq類檔案中提取地址
      *
-     * @param String $str_hosts 原始的hosts字符串
-     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主域名，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
+     * @param String $str_hosts 原始的hosts字串
+     * @param Boolean $strict_mode 嚴格模式，啟用時將屏蔽該域所在的主網網域名稱稱，例如www.baidu.com，將獲取到baidu.com並寫入最終列表
      * @param Array $arr_whitelist 白名單
      * @return array
      */
@@ -136,7 +139,7 @@ class addressMaker{
             $end_pos = strpos($str_hosts, "\n", $i);
             $line = trim(substr($str_hosts, $i, $end_pos - $i));
             $i = $end_pos + 1;
-            if(empty($line) || ($line{0} == '#')){//註釋行忽略
+            if(empty($line) || ($line{0} == '#')){//註解行忽略
                 continue;
             }
             $line = strtolower(preg_replace('/[\s\t]+/', "/", $line));
@@ -173,7 +176,7 @@ class addressMaker{
     }
 
     /**
-     * 寫入結果到最終文件
+     * 寫入結果到最終檔案
      *
      * @param array $arr_src
      * @param $arr_format
@@ -202,7 +205,7 @@ class addressMaker{
                 continue;
             }
 
-            if(empty($main_domain)){//不匹配記錄（一般是不合法域名或者未收錄的後綴）
+            if(empty($main_domain)){//不對應記錄（一般是不合法網網域名稱稱或者未收錄的後綴）
                 continue;
             }
 
@@ -211,7 +214,7 @@ class addressMaker{
                 (1 !== $arr_format['full_domain'])
                 && (!array_key_exists($main_domain, $arr_whitelist))
                 && (in_array($main_domain, $arr_subdomains)
-                    || in_array('www.' . $main_domain, $arr_subdomains)
+                    //|| in_array('www.' . $main_domain, $arr_subdomains)
                     || in_array('.' . $main_domain, $arr_subdomains)
                     )
             ){

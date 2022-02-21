@@ -2,10 +2,10 @@
 //white_domain_list
 //白名單機制...，白名單是
 //@date 2018年12月23日
-//value=-1,代表失效本條規則，暫只支持單域名（針對引入外部白名單時的精確控制）,當處於strict_mode時，排除此key，單條關閉strict_mode
-//value=0,代表僅加白單條域名
-//value=1,代表其下級域名全部加白（例如3級域名，則其4級子域名全部加白）
-//value=2,代表僅加白主域名及其子域名，即如果是主域名，加白全部，如果是子域名，加白命中的單條
+//value=-1,代表失效本條規則，暫只支持單網域名稱（針對引入外部白名單時的精確控制）,當處於strict_mode時，排除此key，單條關閉strict_mode
+//value=0,代表僅加白單條網域名稱
+//value=1,代表其下級網域名稱全部加白（例如3級網域名稱，則其4級子網域名稱全部加白）
+//value=2,代表僅加白主網域名稱及其子網域名稱，即如果是主網域名稱，加白全部，如果是子網域名稱，加白命中的單條
 
 return array(
 
@@ -23,7 +23,7 @@ return array(
     //'googleadapis.l.google.com' => 0, //解決google字體下載異常
     //'gstaticadssl.l.google.com' => 0, //解決google字體下載異常
     'gvt2.com' => 1, //gvt2，安卓系統相關
-    'wangbase.com' => 1, //阮一峰同志的博客圖片顯示
+    'wangbase.com' => 1, //阮一峰同志的部落格圖片顯示
     'l.qq.com' => 0, //解決騰訊視頻無法播放
     'dldir1.qq.com' => 0, //qq下載安裝包路徑
     'cgi.connect.qq.com' => 0, //qq互聯
@@ -33,7 +33,7 @@ return array(
     'gia.jd.com' => 0, //京東滑動驗證碼
     'edge.yunjiasu.com' => 0, //百度雲加速javascript快速加載功能
     'cd.bendibao.com' => 0, //成都本地寶
-    'm.qpic.cn' => 0, // qq，微信，QQ空間等用到的靜態資源域名
+    'm.qpic.cn' => 0, // qq，微信，QQ空間等用到的靜態資源網域名稱
     'ipify.org' => 1, // 獲得公網 IP
     'pass.1688.com' => 0, // 阿里巴巴網站訪問不正常
     'cedexis.net' => 0, // windowsupdate CNAME
@@ -52,7 +52,7 @@ return array(
     't11.baidu.com' => 0, //百度圖片自有平台
     't12.baidu.com' => 0, //百度圖片自有平台
     'bytedance.com' => 0, //字節跳動
-    'tbskip.taobao.com' => 1, //淘寶訂單搜索相關
+    'tbskip.taobao.com' => 1, //淘寶訂單搜尋相關
     'wl.jd.com' => 0, //修復京東pc首頁加載異常
     'tanx.com' => 0, //餓了麼店舖異常
     'promotion.aliyun.com' => 0, //阿里雲控制台
@@ -121,7 +121,7 @@ return array(
     'data.video.iqiyi.com' => 0, // 愛奇藝電視投屏
     'cp81.ott.cibntv.net' => 0, // CIBN雲視聽異常 #107
     'sj.uukanshu.com' => 0, // 誤殺 #110
-    'e.shifen.com' => 0, // 百度的某個cname域名，誤殺嚴重
+    'e.shifen.com' => 0, // 百度的某個cname網域名稱，誤殺嚴重
     'gvt1.com' => 0, // google play #117
     'apiwz.midukanshu.com' => 0, // #120
     'api.jr.mi.com' => 0, // #121
@@ -218,7 +218,7 @@ return array(
     'mazu.3g.qq.com' => 0, // #340
     'umiwi.com' => 0, // #341
     'xmpush.xiaomi.com' => 0, // #343
-    'doublecklick.net' => 1, // 拼写错误的域名，https://github.com/privacy-protection-tools/anti-AD/pull/347/files
+    'doublecklick.net' => 1, // 拼寫錯誤的網域名稱，https://github.com/privacy-protection-tools/anti-AD/pull/347/files
     'issuecdn.baidupcs.com' => 0, // #350
     'duiba.com.cn' => 0, // #352
     'trib.al' => 0, // #357
@@ -328,6 +328,7 @@ return array(
     'down.360safe.com' => 0, #577
     'soup.v.qq.com' => 0, #576
     'live800.com' => 0, #573
+    'www.meipian7.cn' => 0, #586
 
 
 
@@ -349,11 +350,11 @@ return array(
     'cdn77.org' => -1,
     'cloudflare.net' => -1,
     'appspot.com' => -1,
-    'cpm.cm.kankan.com' => -1, //-1 失效本條規則，保持現狀，即不加白本域名
-    'deliver.ifeng.com' => -1, //保留的dead-hosts，為了縮減其子域名
-    'ad.xiaomi.com' => -1, //保留的dead-hosts，為了縮減其子域名
+    'cpm.cm.kankan.com' => -1, //-1 失效本條規則，保持現狀，即不加白本網域名稱
+    'deliver.ifeng.com' => -1, //保留的dead-hosts，為了縮減其子網域名稱
+    'ad.xiaomi.com' => -1, //保留的dead-hosts，為了縮減其子網域名稱
 
-    /**notracking 提議加白的一批域名 start**/
+    /**notracking 提議加白的一批網域名稱 start**/
     'scribol.com' => 0,
     'tracking.epicgames.com' => 0,
     'logrocket.com' => 0,
@@ -385,7 +386,7 @@ return array(
     'dynatrace.com' => 0,
     'auditude.com' => 0,
     'app.link' => 0,
-    /**notracking 提議加白的一批域名 end**/
+    /**notracking 提議加白的一批網域名稱 end**/
 
     'activate.adobe.com' => 0,
     'ereg.adobe.com' => 0,
