@@ -361,7 +361,7 @@ while(!feof($src_fp)){
         continue;
     }
 
-    if((substr($row, 0, 1) === '!')){
+    if(($row[0] === '!')){
         if(substr($row, 0, 13) === '!Total lines:'){
             $insert_pos = $written_size;
         }

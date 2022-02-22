@@ -94,7 +94,7 @@ class addressMaker{
                 continue;
             }
 
-            if($line{0} != '|' || $line{1} != '|'){
+            if($line[0] != '|' || $line[1] != '|'){
                 continue;
             }
 
@@ -139,7 +139,7 @@ class addressMaker{
             $end_pos = strpos($str_hosts, "\n", $i);
             $line = trim(substr($str_hosts, $i, $end_pos - $i));
             $i = $end_pos + 1;
-            if(empty($line) || ($line{0} == '#')){//註解行忽略
+            if(empty($line) || ($line[0] == '#')){//註解行忽略
                 continue;
             }
             $line = strtolower(preg_replace('/[\s\t]+/', "/", $line));
