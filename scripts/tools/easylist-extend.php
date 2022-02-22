@@ -17,17 +17,17 @@ define('LIB_DIR', ROOT_DIR . 'lib/');
 
 $black_domain_list = require_once LIB_DIR . 'black_domain_list.php';
 require_once LIB_DIR . 'addressMaker.class.php';
-define('WILDCARD_SRC', ROOT_DIR . 'origin-files/wildcard-src-easylist.txt');
-define('WHITERULE_SRC', ROOT_DIR . 'origin-files/whiterule-src-easylist.txt');
+const WILDCARD_SRC = ROOT_DIR . 'origin-files/wildcard-src-easylist.txt';
+const WHITERULE_SRC = ROOT_DIR . 'origin-files/whiterule-src-easylist.txt';
 
 $ARR_MERGED_WILD_LIST = array(
-    'ad*.udn.com' => null,
+    'ad*.udn.com$dnstype=A|AAAA|CNAME' => null,
     'p*-ad-sign.byteimg.com' => null, // #529
     '*.mgr.consensu.org' => null,
     'vs*.gzcu.u3.ucweb.com' => null,
     'ad*.goforandroid.com' => null,
     'bs*.9669.cn' => null,
-    '*serror*.wo.com.cn' => null,
+    '*serror*.wo.com.cn' => ['m' => '$dnstype=A|AAAA|CNAME'],
     '*mistat*.xiaomi.com' => null,
     'affrh20*.com' => null,
     'assoc-amazon.*' => null,
@@ -134,9 +134,9 @@ $ARR_MERGED_WILD_LIST = array(
 );
 
 $ARR_REGEX_LIST = array(
-    '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A|AAAA' => null,
-    '/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com' => null,
-    '/^([^\s\/]+\.)?affiliat(es|ion|e)\./' => null,
+    '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A|AAAA'],
+    '/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./' => ['m' => '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com'],
+    '/^([^\s\/]+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
     '/^([^\s\/]+\.)?afgr[\d]{1,2}\.com$/' => null,
     '/^([^\s\/]+\.)?analytics(\-|\.)/' => null,
     '/^([^\s\/]+\.)?counter(\-|\.)/' => null,
@@ -315,11 +315,7 @@ if(!is_file(WILDCARD_SRC) || !is_file(WHITERULE_SRC)){
     die(0);
 }
 
-$src_fp = fopen($src_file, 'r');
 $wild_fp = fopen(WILDCARD_SRC, 'r');
-$new_fp = fopen($src_file . '.txt', 'w');
-
-$wrote_wild = array();
 $arr_wild_src = array();
 
 while(!feof($wild_fp)){
@@ -336,159 +332,147 @@ while(!feof($wild_fp)){
     }
 
     $matched = false;
+    // TODO 此處對應似乎還不夠完美，需再次斟酌
     foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        $arr_regex = explode('/$', $regex_str);
-        $final_regex = $regex_str;
-        if(count($arr_regex) > 1){
-            $final_regex = $arr_regex[0] . '/';
-        }
-        if(preg_match($final_regex, str_replace('*', '',$matches[1]))){
-            $matched = true;
-        }
-    }
-    if($matched){
-        continue;
-    }
-    $arr_wild_src[$matches[1]] = $wild_row;
-}
-fclose($wild_fp);
-
-$arr_wild_src = array_merge($arr_wild_src, $ARR_MERGED_WILD_LIST);
-$insert_pos = $written_size = $line_count = 0;
-while(!feof($src_fp)){
-    $row = fgets($src_fp, 512);
-    if(empty($row)){
-        continue;
-    }
-
-    if(($row[0] === '!')){
-        if(substr($row, 0, 13) === '!Total lines:'){
-            $insert_pos = $written_size;
-        }
-        $written_size += fwrite($new_fp, $row);
-        continue;
-    }
-
-//    if(!preg_match('/^\|.+?/', $row)){
-//        $written_size += fwrite($new_fp, $row);
-//        continue;
-//    }
-
-    $matched = false;
-    foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        $arr_regex = explode('/$', $regex_str);
-        $final_regex = $regex_str;
-        if(count($arr_regex) > 1){
-            $final_regex = $arr_regex[0] . '/';
-        }
-        if(preg_match($final_regex, substr(trim($row), 2, -1))){
-            $matched = true;
-            if(!array_key_exists($regex_str, $wrote_wild)){
-                $written_size += fwrite($new_fp, "${regex_str}\n");
-                $line_count++;
-                $wrote_wild[$regex_str] = 1;
-            }
-        }
-    }
-
-    if($matched){
-        continue;
-    }
-
-    foreach($arr_wild_src as $core_str => $wild_row){
-        $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
-        if(!array_key_exists($core_str, $wrote_wild)){
-            $arr_wild_sub = explode('$', $core_str);
-            if(count($arr_wild_sub) > 1){
-                $written_size += fwrite($new_fp, "||${arr_wild_sub[0]}^\$${arr_wild_sub[1]}\n");
-            }else{
-                $written_size += fwrite($new_fp, "||${core_str}^\n");
-            }
-
-            $line_count++;
-            $wrote_wild[$core_str] = 1;
-        }
-        if(preg_match("/\|(\S+\.)?${match_rule}/", $row)){
+        if(preg_match($regex_str, str_replace('*', '', $matches[1]))){
             $matched = true;
             break;
         }
     }
-
     if($matched){
         continue;
     }
-    $written_size += fwrite($new_fp, $row);
-    $line_count++;
+    $arr_wild_src[$matches[1]] = [];
 }
+fclose($wild_fp);
+
+$arr_wild_src = array_merge($arr_wild_src, $ARR_MERGED_WILD_LIST);
+
+$written_size = $line_count = 0;
+
+$src_content = file_get_contents($src_file);
+$attached_content = '';
+$tmp_replaced_content = '';
 
 //按需寫入白名單規則
-$wrote_whitelist = array();
 $whiterule = file(WHITERULE_SRC, FILE_SKIP_EMPTY_LINES | FILE_IGNORE_NEW_LINES);
-$whiterule=array_fill_keys($whiterule, 0);
+$whiterule = array_fill_keys($whiterule, 0);
 $ARR_WHITE_RULE_LIST = array_merge($whiterule, $ARR_WHITE_RULE_LIST);
+$wrote_whitelist = [];
+$remained_white_rule = [];
 foreach($ARR_WHITE_RULE_LIST as $row => $v){
-    if(empty($row) || substr($row, 0, 1) !== '@' || substr($row, 1, 1) !== '@'){
+    if(empty($row) || $row[0] !== '@' || $row[1] !== '@'){
         continue;
     }
     $matches = array();
-    if(!preg_match('/@@\|\|([0-9a-z\.\-\*]+?)\^/', $row, $matches)){
+    if(!preg_match('/^@@\|\|([0-9a-z\.\-\*]+?)\^/', $row, $matches)){
         continue;
     }
 
     if(array_key_exists("@@||${matches[1]}^", $ARR_WHITE_RULE_BLK_LIST)){
         continue;
     }
+
+    if(array_key_exists($matches[1], $wrote_whitelist)){
+        continue;
+    }
+
     if($v === 1){
         $wrote_whitelist[$matches[1]] = null;
-        fwrite($new_fp, "@@||${matches[1]}^\n");
+        $attached_content .= "@@||${matches[1]}^\n";
         $line_count++;
         continue;
     }
 
-    foreach($wrote_wild as $core_str => $val){
-        if(substr($core_str, 0, 1) === '/'){
-            $match_rule = $core_str;
-            $arr_regex = explode('/$', $match_rule);
-        }else{
-            $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
-            $match_rule = "/^${match_rule}/";
-        }
-        
+    $origin_white_rule = $matches[1];
+    $wrote_whitelist[$origin_white_rule] = null;
+    $matches[1] = str_replace('*', '.abc.', $matches[1]);
+    $matches[1] = str_replace('..', '.', $matches[1]);
+    $extract_domain = addressMaker::extract_main_domain($matches[1]);
+    if(!$extract_domain){
+        $extract_domain = $matches[1];
+    }
 
-        $final_regex = $match_rule;
-        if(count($arr_regex) > 1){
-            $final_regex = $arr_regex[0] . '/';
-        }
+    // TODO 3級或以上網域名稱加白2級網域名稱的情況未納入
+    if(strpos($src_content, '|' . $extract_domain) === false){
+        $remained_white_rule[$origin_white_rule] = 1;
+        continue;
+    }
 
+    $attached_content .= "@@||${origin_white_rule}^\n";
+    $line_count++;
+}
 
-        if(preg_match($final_regex, $matches[1])){
-            $domain = addressMaker::extract_main_domain($matches[1]);
-            if(array_key_exists($domain, $black_domain_list)){
-                continue;
-            }
-            if(isset($black_domain_list[$domain])){
-            	if(is_array($black_domain_list[$domain])){
-            		if(in_array($matches[1], $black_domain_list[$domain])){
-            			continue;
-            		}
-            	}
-            }
-            if(array_key_exists($matches[1], $wrote_whitelist)){
-                continue;
-            }
-            $wrote_whitelist[$matches[1]] = null;
-            fwrite($new_fp, "@@||${matches[1]}^\n");
+unset($wrote_whitelist);
+
+// 清洗正則表達式對應
+foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
+    $php_regex = str_replace(array('/^', '$/'), array('/^\|\|', '\^'), $regex_str);
+    $php_regex = preg_replace('/(.+?[^$])\/$/', '\1.*\^', $php_regex);
+    $php_regex .= "\n/m";
+
+    $tmp_replaced_content = preg_replace($php_regex, '', $src_content);
+    if($tmp_replaced_content === $src_content){
+        continue;
+    }
+    $src_content = $tmp_replaced_content;
+    $tmp_replaced_content = '';
+    $attached_content .= $regex_str;
+    if($regex_row && is_array($regex_row) && $regex_row['m']){
+        $attached_content .= $regex_row['m'];
+    }
+    $attached_content .= "\n";
+    $line_count++;
+
+    foreach($remained_white_rule as $rmk => $rmv){
+        if(preg_match($php_regex, '||' . str_replace('*', '123', $rmk) . "^\n\n")){
+            $attached_content .= '@@||' . $rmk . "^\n";
             $line_count++;
+            unset($remained_white_rule[$rmk]);
         }
     }
 }
 
-if(($insert_pos > 0) && (fseek($new_fp, $insert_pos) === 0)){
-    fwrite($new_fp, "!Total lines: {$line_count}\n");
+// 清洗*號模糊對應
+$wrote_wild_list = array();
+foreach($arr_wild_src as $wild_rule => $wild_value){
+
+    if(array_key_exists($wild_rule, $wrote_wild_list)){
+        continue;
+    }
+
+    $php_regex = '/^\|\|(\S+\.)?' . str_replace(array('.', '*', '-'), array('\\.', '.*', '\\-'), $wild_rule) . "\^\n/m";
+    $tmp_replaced_content = preg_replace($php_regex, '', $src_content);
+    if($tmp_replaced_content == $src_content){
+        continue;
+    }
+
+    $wrote_wild_list[$wild_rule] = 1;
+
+    $src_content = $tmp_replaced_content;
+    $tmp_replaced_content = '';
+    $attached_content .= '||' . $wild_rule;
+    if($wild_value && is_array($wild_value) && $wild_value['m']){
+        $attached_content .= '^' . $wild_value['m'] . "\n";
+    }else{
+        $attached_content .= "^\n";
+    }
+
+    $line_count++;
+
+    foreach($remained_white_rule as $rmk => $rmv){
+        if(preg_match($php_regex, '||' . str_replace('*', '123', $rmk) . "^\n\n")){
+            $attached_content .= '@@||' . $rmk . "^\n";
+            $line_count++;
+            unset($remained_white_rule[$rmk]);
+        }
+    }
 }
 
-fclose($src_fp);
-fclose($new_fp);
-rename($src_file . '.txt', $src_file);
+$line_count += substr_count($src_content, "\n");
+$correct_magic = preg_match_all("/^\!.+?$/m", $src_content);
+$src_content = str_replace("!Total lines: 00000\n", '!Total lines: ' . ($line_count - $correct_magic) . "\n" . $attached_content, $src_content);
+
+file_put_contents($src_file, $src_content);
 file_put_contents($src_file . '.md5', md5_file($src_file));
 echo 'Time cost:', microtime(true) - START_TIME, "s, at ", date('m-d H:i:s'), "\n";
