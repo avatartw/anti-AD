@@ -463,10 +463,15 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
 
         if(preg_match($final_regex, $matches[1])){
             $domain = addressMaker::extract_main_domain($matches[1]);
-            if(array_key_exists($domain, $black_domain_list) ||
-                (is_array($black_domain_list[$domain]) && in_array($matches[1], $black_domain_list[$domain]))
-            ){
+            if(array_key_exists($domain, $black_domain_list)){
                 continue;
+            }
+            if(isset($black_domain_list[$domain])){
+            	if(is_array($black_domain_list[$domain])){
+            		if(in_array($matches[1], $black_domain_list[$domain])){
+            			continue;
+            		}
+            	}
             }
             if(array_key_exists($matches[1], $wrote_whitelist)){
                 continue;
