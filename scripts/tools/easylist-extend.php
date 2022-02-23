@@ -3,7 +3,7 @@
  * easylist extend
  *
  * @file easylist-extend.php
- * @date 2019-12-24
+ * @date 2021-05-01 23:14:30
  * @author gently
  *
  */
@@ -110,8 +110,10 @@ $ARR_MERGED_WILD_LIST = array(
     'adsystem*.*' => null,
     'adwords*.*' => null,
     'analysis*.*' => null,
+    'analytics*.clickdimensions.com' => null,
     'applovin*.*' => null,
     'appsflyer*.*' => null,
+    'counter*.freecounter.ovh' => null,
     'domob*.*' => null,
     'duomeng*.*' => null,
     'dwtrack*.*' => null,

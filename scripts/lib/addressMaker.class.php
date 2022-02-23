@@ -39,11 +39,11 @@ class addressMaker{
         $str_reg .= '|\.city|\.cl|\.click|\.cloud|\.cloudfront|\.club|\.cm|\.cn|\.co|\.codes|\.com|\.company|\.cool|\.cr|\.cricket|\.cu';
         $str_reg .= '|\.cx|\.cy|\.cyou|\.cz|\.date|\.de|\.deals|\.delivery|\.design|\.dev|\.digital|\.direct|\.dk|\.do|\.dog|\.download';
         $str_reg .= '|\.ec|\.edu|\.ee|\.email|\.es|\.eu|\.events|\.exchange|\.fi|\.fm|\.foundation|\.fr|\.fun|\.fyi|\.ga|\.games';
-        $str_reg .= '|\.gd|\.gdn|\.ge|\.gg|\.gh|\.gift|\.glass|\.global|\.gold|\.gov|\.gq|\.gr|\.gratis|\.group|\.gs|\.gt';
+        $str_reg .= '|\.gd|\.gdn|\.ge|\.gg|\.gh|\.gift|\.gifts|\.glass|\.global|\.gold|\.gov|\.gq|\.gr|\.gratis|\.group|\.gs|\.gt';
         $str_reg .= '|\.guru|\.hk|\.hn|\.host|\.house|\.how|\.hr|\.ht|\.hu|\.icu|\.id|\.ie|\.il|\.im|\.in|\.info';
         $str_reg .= '|\.ink|\.io|\.ir|\.is|\.it|\.jo|\.jobs|\.jp|\.js|\.ki|\.kim|\.kr|\.kz|\.la|\.land|\.li';
         $str_reg .= '|\.life|\.link|\.live|\.lk|\.loan|\.lol|\.love|\.lt|\.ltd|\.lu|\.lv|\.ly|\.ma|\.management|\.marketing|\.md';
-        $str_reg .= '|\.me|\.media|\.men|\.mg|\.mk|\.ml|\.mm|\.mn|\.mobi|\.moe|\.money|\.monster|\.ms|\.mx|\.my|\.mz';
+        $str_reg .= '|\.me|\.media|\.men|\.museum|\.mg|\.mk|\.ml|\.mm|\.mn|\.mobi|\.moe|\.money|\.monster|\.ms|\.mx|\.my|\.mz';
         $str_reg .= '|\.name|\.ne|\.net|\.network|\.news|\.nf|\.ng|\.ngo|\.ninja|\.nl|\.no|\.np|\.nu|\.nyc|\.nz|\.om';
         $str_reg .= '|\.one|\.ong|\.online|\.ooo|\.or|\.org|\.ovh|\.pa|\.page|\.partners|\.party|\.pe|\.pet|\.ph|\.photo';
         $str_reg .= '|\.photos|\.pink|\.pk|\.pl|\.plus|\.pm|\.porn|\.press|\.pro|\.promo|\.pt|\.pub|\.pw|\.racing|\.re|\.red';
@@ -51,7 +51,7 @@ class addressMaker{
         $str_reg .= '|\.sex|\.sexy|\.sg|\.sh|\.shop|\.show|\.si|\.singles|\.site|\.sk|\.sn|\.sncf|\.so|\.social|\.solutions|\.space';
         $str_reg .= '|\.st|\.store|\.stream|\.studio|\.style|\.su|\.supply|\.support|\.surf|\.sx|\.systems|\.tc|\.team|\.tech|\.technology|\.tel';
         $str_reg .= '|\.tf|\.tips|\.tj|\.tk|\.tl|\.tm|\.to|\.today|\.tools|\.top|\.tr|\.trade|\.tt|\.tv|\.tw|\.tz|\.ua|\.ug';
-        $str_reg .= '|\.uk|\.uno|\.us|\.uy|\.uz|\.vc|\.ve|\.vg|\.video|\.vip|\.vn|\.wang|\.watch|\.webcam|\.website|\.wiki';
+        $str_reg .= '|\.uk|\.uno|\.us|\.uy|\.uz|\.vc|\.ve|\.vg|\.video|\.vip|\.vn|\.wang|\.wasm|\.watch|\.webcam|\.website|\.wiki';
         $str_reg .= '|\.win|\.work|\.works|\.world|\.ws|\.wtf|\.xin|\.xn--fiqs8s|\.xn--io0a7i|\.xn--p1ai|\.xxx|\.xy|\.xyz|\.zip|\.zone|\.zw';
         $str_reg .= ')';
 

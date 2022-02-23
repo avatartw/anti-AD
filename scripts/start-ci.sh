@@ -5,14 +5,14 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://filters.adtidy.org/extension/chromium/filters/101_optimized.txt"
-  "https://filters.adtidy.org/extension/chromium/filters/104_optimized.txt"
-  "https://filters.adtidy.org/extension/chromium/filters/118_optimized.txt"
+##  "https://filters.adtidy.org/extension/chromium/filters/101_optimized.txt"
+##  "https://filters.adtidy.org/extension/chromium/filters/104_optimized.txt"
+##  "https://filters.adtidy.org/extension/chromium/filters/118_optimized.txt"
 #  "https://raw.githubusercontent.com/avatartw/avatartw/main/219_optimized.txt"
 #  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
-  "https://filters.adtidy.org/extension/chromium/filters/220_optimized.txt"
+##  "https://filters.adtidy.org/extension/chromium/filters/220_optimized.txt"
 #  "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt"
-  "https://filters.adtidy.org/extension/chromium/filters/122_optimized.txt"
+##  "https://filters.adtidy.org/extension/chromium/filters/122_optimized.txt"
 #  "https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_annoyance_thirdparty.txt"
 #  "https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_notifications_thirdparty.txt"
 #  "https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_social_thirdparty.txt"
@@ -26,7 +26,7 @@ easylist=(
 #  "https://raw.githubusercontent.com/easylist/easylist/master/easylist_cookie/easylist_cookie_international_specific_block.txt"
 #  "https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_annoyance_allowlist.txt"
 #  "https://raw.githubusercontent.com/easylist/easylist/master/easylist_cookie/easylist_cookie_allowlist.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
+##  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 )
 
 hosts=(
@@ -134,8 +134,8 @@ cat dead-hosts*.txt | grep -v -E "^(#|\!|\*|\/)" \
 cat easylist*.txt | grep -E "^\|\|[^\*\^\/]+?\^" | sort | uniq >base-src-easylist.txt
 cat easylist*.txt | grep -E "^\|\|([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >wildcard-src-easylist.txt
 cat easylist*.txt | grep -E "^@@[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >whiterule-src-easylist.txt
-cat easylist100.txt | grep -E "^\|\|([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
-cat easylist100.txt | grep -E "^@@" | sort | uniq >>e0-wildcard-whiterule.txt
+#cat easylist100.txt | grep -E "^\|\|([^\^=\/:]+)?\*([^\^=\/:]+)?\^" | sort | uniq >e0-wildcard-whiterule.txt
+cat easylist100.txt | grep -E "^@@" | sort | uniq >e0-wildcard-whiterule.txt
 cat easylist100.txt | grep -v -E "^\!|^\|\|.*\^$" >e-easylist.txt
 #cat easylist100.txt | grep -E "\$(\S+,)*(client|dnstype|dnsrewrite|important|badfilter|ctag)" | sort | uniq >rule-modifiers.txt
 #cat easylist100.txt | grep -E "^[^@!]\S*[^\^]$" | sort | uniq >>base-src-easylist.txt
