@@ -13,6 +13,8 @@ define('ROOT_DIR', __DIR__ . '/');
 define('ORIG_DIR', ROOT_DIR . 'origin-files/');
 set_time_limit(600);
 error_reporting(0);
+date_default_timezone_set('Asia/Taipei');
+define('START_TIME', microtime(true));
 
 if(PHP_SAPI != 'cli'){
     die('nothing.');
@@ -70,4 +72,5 @@ foreach($formatterList as $name => $formatObj){
     $arr_output[] = '[' . $name . ']:' . addressMaker::write_to_file($arr_src_domains, $formatObj, $arr_tmp_whitelist);
 }
 
+echo 'Time cost:', microtime(true) - START_TIME, "s, at ", date('m-d H:i:s'), "\n";
 echo join(',', $arr_output);
