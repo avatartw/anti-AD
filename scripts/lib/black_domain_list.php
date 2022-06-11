@@ -249,7 +249,6 @@ return array(
         'adv.sec.miui.com',
         'api.brs.intl.miui.com',
         'api.newsfeed.intl.miui.com',
-        'browser.miui.com',
 
     ),
     'jd.com' => array(
@@ -399,7 +398,6 @@ return array(
     ),
     'aliyuncs.com' => array(
         'sspmiaoshuo.cn-hangzhou.log.aliyuncs.com', //日誌收集
-        'arms-retcode.aliyuncs.com',
     ),
 
     '186078.com' => array(

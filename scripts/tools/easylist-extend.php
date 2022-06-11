@@ -283,6 +283,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||api.browser.miui.com^' => 1, // #585
     '@@||pixel.prime.amazon.dev^' => 1, // #604
     '@@||track.landmarkglobal.com^' => 1, // #631
+    '@@||microsoftazuresponsorships.com^' => 1, // #648
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
