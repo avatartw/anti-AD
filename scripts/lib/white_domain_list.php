@@ -369,6 +369,7 @@ return array(
     'adashx.ut.dingtalk.com' => 0, #662
     'sv.aq.qq.com' => 0, #664
     'ctrip.com' => 0, #666
+    'nmobi.kuwo.cn' => 0, #665
 
 
 
