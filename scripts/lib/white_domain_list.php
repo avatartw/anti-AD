@@ -370,6 +370,8 @@ return array(
     'sv.aq.qq.com' => 0, #664
     'ctrip.com' => 0, #666
     'nmobi.kuwo.cn' => 0, #665
+    'www.meipian7.cn' => 0, #672
+    'govdelivery.com' => 0, #674
 
 
 
