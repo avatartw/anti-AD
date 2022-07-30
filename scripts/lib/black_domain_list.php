@@ -1205,6 +1205,12 @@ return array(
         'mclean.50union.com', // https://github.com/deep-bhatt/huawei-block-list/blob/badc2ffe5ba651bfba7c8b92c5009a79d609c7eb/huawei-block-host.txt#L31
         'mvconf.50union.com', // https://github.com/deep-bhatt/huawei-block-list/blob/badc2ffe5ba651bfba7c8b92c5009a79d609c7eb/huawei-block-host.txt#L32
     ),
+    'swallowcrockerybless.com' => array( // #673
+        'swallowcrockerybless.com',
+    ),
+    'entirelysacrament.com' => array( // #673
+        'entirelysacrament.com',
+    ),
 
 
     // 批量添加域名
