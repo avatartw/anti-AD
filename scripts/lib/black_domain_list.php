@@ -44,7 +44,7 @@ return array(
         'report.qq.com',
         'rcgi.video.qq.com',
         'rlog.video.qq.com',
-
+        'ad.browser.qq.com', // #682
     ),
     'openstorage.cn' => array(
         'iflyad.bjb.openstorage.cn'
@@ -1210,6 +1210,12 @@ return array(
     ),
     'entirelysacrament.com' => array( // #673
         'entirelysacrament.com',
+    ),
+    '2345.cc' => array( // #683
+        '2345.cc',
+    ),
+    'yes115.com' => array( // #683
+        'yes115.com',
     ),
 
 

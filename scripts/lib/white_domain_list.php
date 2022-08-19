@@ -373,6 +373,9 @@ return array(
     'meipian7.cn' => 0, #672
     'govdelivery.com' => 0, #674
     'jimdo.com' => 0, #675
+    'as.mgtv.com' => 0, #678
+    'gm.mmstat.com' => 0, #680
+    'adobe-campaign.com' => 0, #681
 
 
 

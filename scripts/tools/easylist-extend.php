@@ -286,6 +286,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||microsoftazuresponsorships.com^' => 1, // #648
     '@@||adashx.ut.dingtalk.com^' => 1, // #662
     '@@||h-adashx.ut.dingtalk.com^' => 1, // #662
+    '@@||ku.dk^' => 1, // #684
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
