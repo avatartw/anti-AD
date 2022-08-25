@@ -376,6 +376,10 @@ return array(
     'as.mgtv.com' => 0, #678
     'gm.mmstat.com' => 0, #680
     'adobe-campaign.com' => 0, #681
+    'profile.csdnimg.cn' => 0, #687
+    'meitubeauty.meitudata.com' => 0, #688
+    'my-material.zone1.meitudata.com' => 0, #688
+    'ssl-cdn.static.browser.mi-img.com' => 0, #689
 
 
 
