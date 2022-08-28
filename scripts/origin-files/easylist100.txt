@@ -3,14 +3,18 @@
 ! Description: Filter composed of several other filters (AdGuard DNS filter, StevenBlack hosts, anti-AD, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-08-25T17:21:33.930Z
+! Last modified: 2022-08-28T17:21:36.165Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.14
 !
 /^[a-z]{11,15}$/
 /^[a-z]{7,10}$/$ctag=device_tv
+/wsf.+gov\.xyz/
+/\S{3}gov\.(com|tv|me)/
+/tw\S{2}gov\.com/
 devsystms.click^
 charlestownwyllie.oaklawnnonantum.com^
+/tw.{3}gov\.com/
 |r.i.ua^
 |mine.torrent.pw^
 |lgtvsdp.com^
@@ -250,6 +254,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||push.yuedu.163.com^
 ||yaolu.yuedu.163.com^
 ||adgeo.163.com^
+||adimg.163.com^
 ||analytics.163.com^
 ||bobo.163.com^
 ||crash.163.com^
@@ -2245,7 +2250,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||5.5ppt.net^
 ||www.5rocks.io^
 ||www.5thavenue.com^
-||w3c.5txs.com^
 ||www.5u.com^
 ||www.5udt.com^
 ||cspb1.5w5w.com^
@@ -2258,7 +2262,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||union.6.cn^
 ||www.600ad.com^
 ||t1.612.com^
-||t2.612.com^
 ||m.62mao.com^
 ||m.649649.com^
 ||wwww.649649.com^
@@ -2279,6 +2282,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||www.69er.de^
 ||www.69net.de^
 ||www.6amateure.net^
+||www.6autumns.com^
 ||www.6ftlady.com^
 ||www.6kwan.com^
 ||www.6ox.de^
@@ -2427,6 +2431,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||down.91wangmeng.com^
 ||m.91xiaodu.top^
 ||a.91zhongkao.com^
+||bdjs.91zhuti.com^
 ||www.925.lt^
 ||js.92aliyun.com^
 ||2.92caijing.com^
@@ -2697,7 +2702,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||azabu-u.ac.jp^
 ||ddlakava.ac.ug^
 ||imrt.ac.in^
-||kodencherycollege.ac.in^
 ||yu.ac.kr^
 ||b94ea798af.ac2e81c7b8.com^
 ||e.ac56.xyz^
@@ -6270,6 +6274,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cdn2.auditude.com^
 ||otcdn2.auditude.com^
 ||www.auditude.com^
+||metrics.audius.co^
 ||sync.audsp.com^
 ||sync.audtd.com^
 ||sync2.audtd.com^
@@ -6796,7 +6801,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||changan.bama555.com^
 ||j.baminw.cn^
 ||www.bananarepubic.com^
-||www.banatfive.com^
 ||adsgen.bangbros.com^
 ||adsrv.bangbros.com^
 ||metrics.bangbros.com^
@@ -6895,6 +6899,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||b1.baomihua.com^
 ||djs.baomihua.com^
 ||dq.baomihua.com^
+||resource.baomihua.com^
 ||log.baomoi.com^
 ||w-api.baomoi.com^
 ||za.baomoi.com^
@@ -7498,7 +7503,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||server.bittads.com^
 ||mobile.bitterstrawberry.org^
 ||ads.bittorrent.com^
-||img1.biyan8.com^
 ||www.biz-offer.com^
 ||www.freevideo.biz.nf^
 ||freevideo.biz.nf^
@@ -7555,6 +7559,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||api.tr.blismedia.com^
 ||tr.blismedia.com^
 ||cdn.blisspointmedia.com^
+||blitz-analytics-batch-server.blitz.gg^
 ||pixel.blivenyc.com^
 ||ads.blixem.nl^
 ||click.em.blizzard.com^
@@ -7815,6 +7820,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||client.botchk.net^
 ||stat.botdetector.ru^
 ||reklama.botevgrad.com^
+||plausible.bots.gg^
 ||www.bottleguy.com^
 ||click.bounceads.net^
 ||api.bounceexchange.com^
@@ -8084,7 +8090,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lululemonspna.btttag.com^
 ||events.btw.so^
 ||jc.bubbleandyeson.com^
-||www.bubblefootballeurope.de^
 ||ad.bubblestat.com^
 ||campaign.budgethyve.com^
 ||www.budsinc.com^
@@ -8686,6 +8691,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sdk.cferw.com^
 ||c.cfjump.com^
 ||t.cfjump.com^
+||h1.cfxinxi.cn^
 ||update.cg100iii.com^
 ||ads.cgchannel.com^
 ||ad.cgi.cz^
@@ -9426,7 +9432,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d14pdm1b7fi5kh.cloudfront.net^
 ||d15cjcet1djbmv.cloudfront.net^
 ||d15gt9gwxw5wu0.cloudfront.net^
-||d15jg7068qz6nm.cloudfront.net^
 ||d15kdaxu5c0hfw.cloudfront.net^
 ||d15kdpgjg3unno.cloudfront.net^
 ||d15nyyrvgr35tv.cloudfront.net^
@@ -9467,7 +9472,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d1clmik8la8v65.cloudfront.net^
 ||d1clufhfw8sswh.cloudfront.net^
 ||d1cr9zxt7u0sgu.cloudfront.net^
-||d1crt12zco2cvf.cloudfront.net^
 ||d1cw0c50l8jv65.cloudfront.net^
 ||d1cykymlllue3h.cloudfront.net^
 ||d1czd1q73kbu32.cloudfront.net^
@@ -9695,7 +9699,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d2taktuuo4oqx.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
-||d2tkdzior84vck.cloudfront.net^
 ||d2tnx644ijgq6i.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
 ||d2uap9jskdzp2.cloudfront.net^
@@ -9832,6 +9835,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d3p2b5qewrnsyv.cloudfront.net^
 ||d3pel2vlstnlu9.cloudfront.net^
 ||d3phbp7p78bdk9.cloudfront.net^
+||d3phzb7fk3uhin.cloudfront.net^
 ||d3pk579obpqv7b.cloudfront.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
 ||d3plfjw9uod7ab.cloudfront.net^
@@ -9947,6 +9951,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dlrioxg1637dk.cloudfront.net^
 ||dltqxz76sim1s.cloudfront.net^
 ||dlvds9i67c60j.cloudfront.net^
+||dlxk2dj1h3e83.cloudfront.net^
 ||dm7gsepi27zsx.cloudfront.net^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmeq7blex6x1u.cloudfront.net^
@@ -9987,6 +9992,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dtv5loup63fac.cloudfront.net^
 ||dtxtngytz5im1.cloudfront.net^
 ||dtyry4ejybx0.cloudfront.net^
+||du01z5hhojprz.cloudfront.net^
 ||du2uh7rq0r0d3.cloudfront.net^
 ||du4rq1xqh3i1k.cloudfront.net^
 ||du8783wkf05yr.cloudfront.net^
@@ -10082,7 +10088,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stat.cncenter.cz^
 ||ms.cnczjy.com^
 ||ss.cnczjy.com^
-||analytics.cnd-motionmedia.de^
 ||sp3.cndm.com^
 ||ad.download.cnet.com^
 ||www.cnetdirectintl.com^
@@ -10742,7 +10747,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stats.telegraph.co.uk^
 ||webtrends.telegraph.co.uk^
 ||log.tf.co.kr^
-||wwwlog.thebell.co.kr^
 ||www.thebigoutdoors.co.uk^
 ||ngd.thesun.co.uk^
 ||pac.thesun.co.uk^
@@ -10857,7 +10861,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||captify.co.uk^
 ||cashback.co.uk^
 ||cgmt.co.id^
-||chezalice.co.za^
 ||click4assistance.co.uk^
 ||clickcompare.co.uk^
 ||clickguardian.co.uk^
@@ -10869,6 +10872,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||contentclick.co.uk^
 ||coolnovelties.co.uk^
 ||coreglead.co.uk^
+||destinymc.co.za^
 ||dhauzja511.co.cc^
 ||dianomioffers.co.uk^
 ||dmastermovers.co.za^
@@ -10962,7 +10966,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||netcore.co.in^
 ||netinsight.co.kr^
 ||netmag.co.uk^
-||networkwheels.co.za^
 ||nicorette.co.kr^
 ||noordhoekmedical.co.za^
 ||notrecommended.co.uk^
@@ -11000,7 +11003,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||roxedltd.co.id^
 ||rs0.co.uk^
 ||rtrk.co.nz^
-||sainzim.co.za^
 ||saletrack.co.uk^
 ||sayutracking.co.uk^
 ||scgis.co.uk^
@@ -11020,10 +11022,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||targetpush.co.kr^
 ||thaivictory.co.th^
 ||theestatehouse.co.uk^
+||thekassia.co.uk^
 ||themusicnetwork.co.uk^
 ||theswimshop.co.za^
 ||throwingsevens.co.uk^
-||timamollo.co.za^
 ||tntclix.co.uk^
 ||tobecoaching.co.uk^
 ||tomsonguitars.co.uk^
@@ -11543,7 +11545,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tr.price.com.hk^
 ||analytics.productreview.com.au^
 ||www.promo.com.au^
-||blog.raceng.com.br^
 ||p.raidmedia.com.cn^
 ||u.raidmedia.com.cn^
 ||wss.rand.com.ru^
@@ -11850,7 +11851,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cdbs.com.tr^
 ||centralwestwater.com.au^
 ||ceysaenerji.com.tr^
-||chaledooleo.com.br^
 ||chanet.com.cn^
 ||channelvue.com.au^
 ||check-activity.com.ru^
@@ -11917,7 +11917,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||flowtec.com.br^
 ||foone.com.br^
 ||forever-k.com.cn^
-||forgione.com.ar^
 ||freshmate.com.cn^
 ||futengbao.com.cn^
 ||g7.com.tw^
@@ -11976,7 +11975,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mbn.com.ua^
 ||mediatraffic.com.ua^
 ||meishiba.com.cn^
-||metalgas.com.ar^
 ||mevlutacik.com.tr^
 ||ming-dun.com.tw^
 ||minka.com.mx^
@@ -12027,6 +12025,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qichetuoyun.com.cn^
 ||qq789.com.cn^
 ||quanrunze.com.cn^
+||radioboua.com.br^
 ||rand.com.ru^
 ||rang.com.ua^
 ||rayli.com.cn^
@@ -12069,6 +12068,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||topsites.com.br^
 ||travelhub.com.sg^
 ||tuxi.com.cn^
+||twoje-nagrody.com.pl^
 ||txwhds.com.cn^
 ||ventanasyaluminios.com.mx^
 ||w8.com.cn^
@@ -12360,7 +12360,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ad.cooks.com^
 ||ad2.cooks.com^
 ||lp.cooktracking.com^
-||www.coolbeer.com^
 ||www.coolconcepts.nl^
 ||www.coolemailnames.com^
 ||archive.coolerads.com^
@@ -13112,6 +13111,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||asq.d6shiiwz.pw^
 ||www.d77777777.com^
 ||m.d8qu.com^
+||p2.d9media.cn^
 ||www.da-ads.com^
 ||l.da-te.jp^
 ||counter.daara.kr^
@@ -13491,6 +13491,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||www.defaultinternet.com^
 ||stats.defense.gov^
 ||www.deflorationvirgins.com^
+||anmooq.deiicatedate.net^
 ||e.deimm.com^
 ||vlogs.deja.media^
 ||web2.deja.com^
@@ -14697,7 +14698,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hits.e.cl^
 ||analytics.e1.ru^
 ||analytics.e2estudios.com^
-||embed.e2ma.net^
 ||562fe635d3.e5bbd2cdb0.com^
 ||mangler3.generals.ea.com^
 ||mangler4.generals.ea.com^
@@ -14937,7 +14937,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||log.dav.edu.vn^
 ||mail.imamu.edu.sa^
 ||sea.net.edu.cn^
-||summer.ntua.edu.tw^
 ||pdns.nudt.edu.cn^
 ||counter.theconversation.edu.au^
 ||mail.tsinghua.edu.cn^
@@ -18895,6 +18894,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||static.hoptopboy.com^
 ||ads.hornypharaoh.com^
 ||delivery.hornyspots.com^
+||www.horotellernb.xyz^
 ||www.horrorscopeme.ml^
 ||ads.horsehero.com^
 ||ad.horvitznewspapers.net^
@@ -19579,7 +19579,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||events.il.fi^
 ||adserver.ilango.de^
 ||www.ili.net^
-||220822234519090.sbt.ili88.fun^
 ||tracking.ilinkmd.com^
 ||www.ilkwork.com^
 ||advertising.illinimedia.com^
@@ -19677,7 +19676,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pyk.in-neo.cn^
 ||server.easysalepage.in.th^
 ||tracker.stats.in.th^
-||fse.in.ua^
 ||newsnet.in.ua^
 ||panscollections.in.th^
 ||truehits.in.th^
@@ -21034,7 +21032,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mpb2.iteye.com^
 ||rabc1.iteye.com^
 ||rabc2.iteye.com^
-||stat.iteye.com^
 ||www.forum.ithealth.ru^
 ||spell.itim.vn^
 ||dlv.itmedia.jp^
@@ -21604,7 +21601,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adapter.kaffnet.com^
 ||api.kaffnet.com^
 ||analytics.kaggle.io^
-||cynkon.kairoscs.net^
 ||www.kaitongyewu.com^
 ||bdjs.kaixin100.com^
 ||cdn.kaizenplatform.net^
@@ -21779,7 +21775,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||a-counter.kiev.ua^
 ||banner.kiev.ua^
 ||api.kiip.me^
-||bbs.kiiqnnx.cn^
 ||clientmetrics.kik.com^
 ||clientmetrics-augmentum.kik.com^
 ||stat.kika-backend.com^
@@ -23397,6 +23392,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||users.maxcluster.net^
 ||hda.maxli.cn^
 ||device.maxmind.com^
+||www.maxmoney.com^
 ||www.maxonclick.com^
 ||ifa.maxpornlive.com^
 ||www.maxregistrycleaner.com^
@@ -23752,7 +23748,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||www.mellowads.com^
 ||app.meltwater.com^
 ||ins-services.meltwater.com^
-||oleholeh.memangbeda.website^
 ||cdn.memo.co^
 ||elsa.memoinsights.com^
 ||perso.menara.ma^
@@ -24074,6 +24069,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||www.mijifen.com^
 ||www.mijnbladopdemat.nl^
 ||www.mikaeljigmo.com^
+||isaac.mikhailmotoringschool.com^
 ||feed.mikle.com^
 ||www.mikras.nl^
 ||post.mil-gov.space^
@@ -24656,7 +24652,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ads.monetize-me.com^
 ||app.monetrack.com^
 ||www.mongoosemetrics.com^
-||www.moninediy.com^
 ||wtm.monitoringservice.co^
 ||www.monitoringservice.co^
 ||uptime.monitorus.ru^
@@ -25748,7 +25743,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pf.newegg.com^
 ||promotions.newegg.com^
 ||ads.newgrounds.com^
-||52d0dcb9.schedule.newhomessection.com^
 ||www.newlimitedoffer.com^
 ||add.newmedia.cz^
 ||ads.newmedia.cz^
@@ -26587,6 +26581,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trk.olnl.net^
 ||tracking.olx-st.com^
 ||ads.olx.com^
+||insight.olx.ba^
 ||tracking.olx.com^
 ||ninja.data.olxcdn.com^
 ||ads.omaha.com^
@@ -26861,6 +26856,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ascendeum-d.openx.net^
 ||bid.openx.net^
 ||coed-d.openx.net^
+||didna-d.openx.net^
 ||indium.openx.net^
 ||kiosked-d.openx.net^
 ||monetengine-d.openx.net^
@@ -27002,7 +26998,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||banner.org.ua^
 ||blackqpid.org.uk^
 ||bmss.org.in^
-||borntobefree.org.za^
 ||browser-update.org.top^
 ||cryptopay.org.za^
 ||greatfireoflondon.org.uk^
@@ -27016,7 +27011,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lntyjjh.org.cn^
 ||nectartrust.org.uk^
 ||okclub.org.uk^
-||pns.org.pk^
 ||rinaefoundation.org.za^
 ||sensor.org.ua^
 ||yaba.org.cn^
@@ -27411,13 +27405,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wy.5.p2l.info^
 ||yt.5.p2l.info^
 ||adv.p2pbg.com^
-||stats-*.p2pnow.ru^
-||stats-org.p2pnow.ru^
 ||player-feedback.p7s1video.net^
 ||tracking.pacharge.com^
 ||tools.pacinocash.com^
 ||counter.packa2.cz^
 ||w1jesu6.package12.com^
+||www.packsdechicas.online^
 ||analytics.paddle.com^
 ||go.padsdel.com^
 ||go.padsdelivery.com^
@@ -27667,8 +27660,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||collector-*.perimeterx.net^
 ||collector-org.perimeterx.net^
 ||collector-pxel3l4xih.perimeterx.net^
-||collector-pxuarm9b04.perimeterx.net^
-||px-conf.perimeterx.net^
 ||ad.period-calendar.com^
 ||ads.periodistadigital.com^
 ||p.permalink-system.com^
@@ -28205,6 +28196,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ad.pornimg.xyz^
 ||linkcounter.pornosite.com^
 ||iframes.pornprosnetwork.com^
+||www.pornsite123.com^
 ||tgp.pornsponsors.com^
 ||www.pornsponsors.com^
 ||aphrodite.porntrack.com^
@@ -28877,6 +28869,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cleaningmovies.analytics.qlook.net^
 ||imagedvdreview.analytics.qlook.net^
 ||umamistreet.analytics.qlook.net^
+||analytics.qlook.net^
 ||myunion1.qm120.com^
 ||m.qmlcdlo.cn^
 ||a.qncye.net^
@@ -29281,6 +29274,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ta.qq.com^
 ||tajs.qq.com^
 ||taobao.qq.com^
+||tcss.qq.com^
 ||tdc.qq.com^
 ||trace.qq.com^
 ||updatecenter.qq.com^
@@ -32796,6 +32790,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||smart.synergy-e.com^
 ||stat.synergy-e.com^
 ||unitus.synergy-e.com^
+||my-v-file.syno-ds.de^
 ||www.synovite-scripts.com^
 ||tracking.synthasite.net^
 ||healthfood.syoutikubai.com^
@@ -33428,9 +33423,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ece5stats1.theglobeandmail.com^
 ||ecestats.theglobeandmail.com^
 ||visit.theglobeandmail.com^
-||2d58.state.thegshrevolution.com^
-||8205.state.thegshrevolution.com^
-||a946.state.thegshrevolution.com^
+||7700.state.thegshrevolution.com^
+||804b.state.thegshrevolution.com^
+||e986.state.thegshrevolution.com^
 ||beacon.www.theguardian.com^
 ||hits.theguardian.com^
 ||ophan.theguardian.com^
@@ -33483,7 +33478,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||buy-phentermine.thepizza.net^
 ||www.thepornsurvey.com^
 ||www.thepounder.com^
-||15e3.activation.thepowerofhiswhisper.com^
 ||go.theregister.com^
 ||y653.theridgefieldpress.com^
 ||www.theroamingjew.com^
@@ -34704,7 +34698,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adserver.ugo.nl^
 ||mediamgr.ugo.com^
 ||wtsdc.uhc.com^
-||vendor.uhurubay.com^
 ||wa.ui-portal.de^
 ||trace.svc.ui.com^
 ||bdjs.uimg.cn^
@@ -34850,6 +34843,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||userreporting.cloud.unity3d.com^
 ||thind-gke-euw.prd.data.corp.unity3d.com^
 ||events.iap.unity3d.com^
+||prd-lender.cdp.internal.unity3d.com^
 ||ads-game-configuration-master.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -36816,7 +36810,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||a.stat.xiaomi.com^
 ||sec-cdn.static.xiaomi.net^
 ||register.xmpush.xiaomi.com^
-||ad.xiaomi.com^
 ||mistat.xiaomi.com^
 ||shenghuo.xiaomi.com^
 ||ssp.xiaomi.com^
@@ -37064,6 +37057,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ard.xxxblackbook.com^
 ||geo.xxxblackbook.com^
 ||tour.xxxblackbook.com^
+||www.xxxbullet.com^
 ||counter.xxxcool.com^
 ||amateur.xxxcounter.com^
 ||c1.xxxcounter.com^
@@ -37195,6 +37189,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ts.richmedia.yahoo.com^
 ||ads-wc.v.ssp.yahoo.com^
 ||app.ssp.yahoo.com^
+||c2shb.ssp.yahoo.com^
 ||bats.video.yahoo.com^
 ||visit.webhosting.yahoo.com^
 ||ads.yap.yahoo.com^
@@ -37789,8 +37784,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gt.yy.com^
 ||ad.api.yyapi.net^
 ||global.yyapi.net^
-||220823014938821.pyu.yza85.shop^
-||220823192609046.pyu.yza85.shop^
+||q1.yyxwzx.com^
 ||www.yzaosite.com^
 ||install.yzapi.top^
 ||t.yzwr588.com^
@@ -38037,6 +38031,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vipwx.zhong-zhu.com^
 ||jy.zhongxues.com^
 ||p1.zhongyoo.com^
+||yan.zhouguanchen.com^
 ||bd.zhpxkl.cn^
 ||hapic1.zhuangxiu22.com^
 ||1.zhuangxiu567.com^
@@ -38397,6 +38392,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||0xxd.com^
 ||0zz0.com^
 ||1-1ads.com^
+||1-2fly-befragung.de^
 ||1-free-share-buttons.com^
 ||1-pregnant-sex.com^
 ||1-xredbet93636.top^
@@ -38409,7 +38405,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||1000su.com^
 ||1001lingerie.com^
 ||1001movies.com^
-||1001paixnidia.fr^
 ||1002.men^
 ||100669.com^
 ||10086yule.com^
@@ -38648,7 +38643,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||1pamm.ru^
 ||1payxperxinst1.com^
 ||1pel.com^
-||1percent.fr^
 ||1perpersqe1.com^
 ||1phads.com^
 ||1priest1nun.com^
@@ -38721,6 +38715,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||21736.xyz^
 ||217wo.com^
 ||21cnbm.com^
+||21fit3-wnro.cn^
 ||21fsdf.com^
 ||21gebd.store^
 ||21jewelry.com^
@@ -38769,7 +38764,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||244019.cc^
 ||245026.cc^
 ||24695.com^
-||247-inc.net^
 ||247blinds.fr^
 ||247ilabs.com^
 ||247lyrics.com^
@@ -38832,7 +38826,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||28wangmeng.com^
 ||29299892.com^
 ||293870.com^
-||294e463a18.com^
 ||29525187.com^
 ||29873398.com^
 ||2999.store^
@@ -38904,7 +38897,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||2pxg8bcf.top^
 ||2qj7mq3w4uxe.com^
 ||2rich4bitches.com^
-||2roueselectrique.fr^
 ||2s11.com^
 ||2sexy.ro^
 ||2site.com^
@@ -39004,13 +38996,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||3400.org^
 ||341073be6e9db7d2.com^
 ||34283078.com^
+||348wd7etbann.com^
 ||34pavouhj7.com^
 ||354664.top^
 ||355262.com^
 ||35baba.cn^
 ||35kds.com^
 ||3600.com^
-||360366.net^
 ||360640.com^
 ||360ads.com^
 ||360adshost.com^
@@ -39027,7 +39019,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||365339.top^
 ||365cf.vip^
 ||365dmp.com^
-||365redirect.co^
 ||365syt.cn^
 ||36c4.net^
 ||36g.top^
@@ -39057,6 +39048,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||39dvd-999.com^
 ||39jz.com^
 ||39mob.com^
+||3adae883b0.com^
 ||3alian.net^
 ||3am.info^
 ||3angelsvideo.com^
@@ -39074,6 +39066,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||3daed168ad.com^
 ||3date.de^
 ||3dbluerayplayer.com^
+||3dcgfx.net^
 ||3dcn.me^
 ||3dk.tech^
 ||3dlivestats.com^
@@ -39181,7 +39174,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||4ever.cc^
 ||4excel.cn^
 ||4f0b6fddef.com^
-||4f370501ac.com^
 ||4g0.cc^
 ||4ggame8.com^
 ||4girlsfingerpaint.com^
@@ -39391,7 +39383,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||5e00bd6c36.com^
 ||5egk.com^
 ||5etv.com^
-||5f6dmzflgqso.com^
 ||5fcc5e7d92.com^
 ||5finder.com^
 ||5forex.ru^
@@ -39538,6 +39529,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||666772.xyz^
 ||666773.xyz^
 ||666774.xyz^
+||666775.xyz^
 ||6667778882021.site^
 ||6668078.com^
 ||6669667.com^
@@ -39547,7 +39539,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||66996.top^
 ||66997.top^
 ||66998.top^
-||66av.cc^
 ||66cn.com^
 ||66e7b94f96.com^
 ||66wen.com^
@@ -39686,9 +39677,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||7dah8.com^
 ||7daystodie.cn^
 ||7dlm.cn^
+||7f403e402a.com^
 ||7fb.ru^
 ||7fkm2r4pzi.com^
-||7frenchweb.fr^
 ||7g9m3r.com^
 ||7gfs.com^
 ||7gg.cc^
@@ -39696,6 +39687,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||7gustis.xyz^
 ||7iouh9y.cn^
 ||7kjfbgkjbfgb.club^
+||7krvbn.com^
 ||7kzod8.cn^
 ||7mb.nl^
 ||7metasearch.com^
@@ -39804,6 +39796,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||8910.la^
 ||8911101.com^
 ||892155.com^
+||89522f8d3f.com^
 ||8989u.com^
 ||899v.com^
 ||89coins.org^
@@ -39889,7 +39882,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||9391434.com^
 ||93ta.cn^
 ||9405876.xyz^
-||941adu.com^
 ||9453hot.com^
 ||94ab.com^
 ||94cdn.com^
@@ -40040,7 +40032,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||a7lrf.xyz^
 ||a7shun.com^
 ||a8.net^
-||a85.info^
 ||a8a8altrk.com^
 ||a8cd.com^
 ||a8ww.net^
@@ -40067,6 +40058,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aaapvu.cn^
 ||aaaurgentcare.net^
 ||aaaw.xyz^
+||aab94f698f36684c5a852a2ef272e031bb.com^
 ||aabelle.com^
 ||aac-lyon.fr^
 ||aaddcount.com^
@@ -40091,7 +40083,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aarbur.com^
 ||aaronabel.com^
 ||aaronautosandtrucks.com^
-||aarsaindustries.com^
 ||aarth.net^
 ||aashyamayro.com^
 ||aasrs.info^
@@ -40134,13 +40125,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||abcdlm.com^
 ||abcdserver.com^
 ||abcgbindgetpyo.com^
-||abchina.fr^
 ||abckj123.com^
 ||abckzo.cn^
 ||abclauncher.com^
 ||abclnks.com^
 ||abcompteur.com^
-||abcounter.de^
 ||abcsex.dk^
 ||abcstats.com^
 ||abctoppictures.net^
@@ -40198,11 +40187,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||abrutel.fr^
 ||absentstream.com^
 ||absenttwilly.com^
-||abshop.fr^
 ||abskursin.com^
 ||absolute-live.com^
 ||absoluteroute.com^
-||absolutewrite.fr^
 ||absorbedexistence.com^
 ||absorbingband.com^
 ||absorbingconstitution.com^
@@ -40221,11 +40208,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||abwang.xyz^
 ||abwhyag.com^
 ||abyssesbathman.com^
-||abyssmedia.fr^
 ||abz.com^
 ||ac-crerteil.fr^
-||ac-strasboourg.fr^
-||ac-versdailles.fr^
 ||aca-languedoc.fr^
 ||acacdn.com^
 ||academy-internet.net^
@@ -40269,11 +40253,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||acdgte.com^
 ||acecounter.com^
 ||aceekroo.net^
+||acefinance.asia^
 ||acemo.vip^
 ||acenar.com^
 ||acertb.com^
 ||acesbashlyk.com^
-||acessoires-electromenager.fr^
 ||acetrk.com^
 ||acexedge.com^
 ||acezsoftware.com^
@@ -40300,7 +40284,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aclickads.com^
 ||aclientiret.club^
 ||aclytatcula.ga^
-||acmen.fr^
 ||acneforums.com^
 ||acnenomor.com^
 ||acobnnvet.com^
@@ -40338,16 +40321,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ||actionnooz.com^
 ||actionsplash.com^
 ||activa-ghana.com^
-||active-folders.com^
 ||active-tracking.de^
 ||active-trk7.com^
 ||active24stats.nl^
-||activebeat.fr^
 ||activeconversion.com^
 ||activehosted.com^
 ||activeideas.net^
 ||activemeter.com^
 ||activemetering.com^
+||activeoffbracelet.com^
 ||activepr.ru^
 ||activeprospects.com^
 ||activewatch.ro^
@@ -40470,6 +40452,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adadapted.com^
 ||adadvisor.net^
 ||adagency.digital^
+||adalgard-wol.com^
 ||adalliance.io^
 ||adalso.com^
 ||adalyser.com^
@@ -40608,7 +40591,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||addshoppers.com^
 ||addthief.com^
 ||addthis.com^
-||addthis.fr^
 ||addthiscdn.com^
 ||addthisedge.com^
 ||addtoany.com^
@@ -40656,6 +40638,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adform.com^
 ||adform.net^
 ||adformdsp.net^
+||adforyounews.com^
 ||adfpoint.com^
 ||adfunds.org^
 ||adfurikun.jp^
@@ -40860,7 +40843,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adnimation.com^
 ||adnium.com^
 ||adnotbad.com^
-||adnow.cc^
 ||adnsrv.name^
 ||adnuntius.com^
 ||adnxs.com^
@@ -40908,6 +40890,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adparlor.com^
 ||adpaths.com^
 ||adpatrof.com^
+||adpay.network^
 ||adpeepshosted.com^
 ||adpenguin.biz^
 ||adpepper.dk^
@@ -40979,6 +40962,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adro.pro^
 ||adroitpmps.com^
 ||adrokt.com^
+||adrolays.de^
 ||adroll.com^
 ||adrotate.de^
 ||adrotator.com^
@@ -41017,7 +41001,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ads4cheap.com^
 ||ads4g.pl^
 ||ads4homes.com^
-||ads4pc.com^
 ||ads5-adnow.com^
 ||ads8.com^
 ||ads80.com^
@@ -41095,7 +41078,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adsfirm.com^
 ||adsflame.com^
 ||adsforfaucets.com^
-||adsforindians.com^
 ||adsforyour.com^
 ||adsgig.com^
 ||adsglow.net^
@@ -41281,6 +41263,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aduanasctpp.com^
 ||aduic.com^
 ||adult.xyz^
+||adult-dating-finder1.com^
 ||adultadspy.com^
 ||adultadvertising.com^
 ||adultadworld.com^
@@ -41553,7 +41536,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||afraidlanguage.com^
 ||afrazanna.com^
 ||africaewgrhdtb.com^
-||africancasting.fr^
 ||afriet.com^
 ||afrigale.co^
 ||afrikad.com^
@@ -41568,6 +41550,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||agacelebir.com^
 ||agaenteitor.com^
 ||againd.name^
+||againirksomefutile.com^
 ||agamagcargoan.com^
 ||agathazanna.com^
 ||agatystuffs.com^
@@ -41576,7 +41559,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||agdm.ml^
 ||ageacavnrnwijh.xyz^
 ||ageistlutists.com^
-||agelocer.fr^
 ||agenduret.com^
 ||agentinteractive.com^
 ||aggestose.com^
@@ -41592,7 +41574,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||agisdayra.com^
 ||agjy6.com^
 ||agkn.com^
-||agla.fr^
 ||agle21xe2anfddirite.com^
 ||agletmagilp.com^
 ||agloowie.com^
@@ -41870,7 +41851,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||alexine.net^
 ||alexius-ber.com^
 ||alexxxxpages.info^
-||alexyu.fr^
 ||alf-img.com^
 ||alfa-img.com^
 ||alfa-medosmotr.ru^
@@ -41908,7 +41888,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||alightbornbell.com^
 ||alightin.com^
 ||alignclamstram.com^
-||alignmentdisabled.net^
 ||alikeaddition.com^
 ||alikearm.com^
 ||alilaspa.cn^
@@ -41938,7 +41917,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aliyunp.xyz^
 ||aliyunwang.top^
 ||aliyunxin.com^
-||aljamaa.fr^
 ||aljassarengineering.com^
 ||alklinker.com^
 ||all-in-company.com^
@@ -41956,7 +41934,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||alldk.com^
 ||allegianceenableselfish.com^
 ||allengao.top^
-||allerdelphin.com^
 ||allergiques.com^
 ||allergycenter.info^
 ||alleviatepracticableaddicted.com^
@@ -41970,12 +41947,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||alliedthirteen.com^
 ||allinoneshopbd.com^
 ||allkindlecloud.com^
-||allkpop.fr^
 ||alllget.com^
 ||allluck.cn^
 ||allmygoodlife.com^
+||allo-sexe.com^
 ||allocnie.fr^
-||allogarages.fr^
 ||allomine.fr^
 ||allornamenti.com^
 ||allosponsor.com^
@@ -42017,6 +41993,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||alright.network^
 ||alrr.club^
 ||alsedu.tech^
+||alslduoemdsjzd.com^
 ||alstrome9riya10.com^
 ||altabold1.com^
 ||altadefinizone.*^
@@ -42051,6 +42028,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||amarfa.ir^
 ||amarketing.top^
 ||amarktflow.com^
+||amata-syb.com^
 ||amateurdevils.com^
 ||amateurinduced.com^
 ||amateursconvert.com^
@@ -42076,6 +42054,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||amazy.ru^
 ||ambercrow.com^
 ||amberdub.com^
+||ambhiwnloxdqcg.com^
 ||ambientplatform.vn^
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
@@ -42095,6 +42074,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||amillionads.com^
 ||aminopay.net^
 ||amiok.org^
+||amirapache.ir^
 ||amirteeg.com^
 ||amitaephapse.com^
 ||ammankeyan.com^
@@ -42127,6 +42107,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||amygdalbrittle.com^
 ||amynx.com^
 ||amyrinunshoed.com^
+||amzon-serviceaccountunsualacitiviteam.com^
 ||amzstudy.com^
 ||an-donut.com^
 ||anabcd.xyz^
@@ -42151,6 +42132,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytic.rocks^
 ||analytics.bl^
 ||analytics.blue^
+||analytics-cdiscount.com^
 ||analytics-egain.com^
 ||analytics-engine.net^
 ||analyticsip.net^
@@ -42182,11 +42164,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||andrewrobertsllc.info^
 ||andrewsolicitors.com^
 ||andriesshied.com^
+||android-style.com^
+||anduongjsc.com^
 ||andydill.com^
 ||andyhoppe.com^
 ||anelexpres.club^
 ||anephangja.com^
 ||anepszava.com^
+||aneralflas.club^
 ||anews.cc^
 ||anewyoufitness.com^
 ||anfcadf.cn^
@@ -42205,6 +42190,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||angelsinuniform.com^
 ||angers-radioloagie.fr^
 ||anglended.club^
+||anglewinks.com^
 ||angryme.cn^
 ||angsrvr.com^
 ||angularconstitution.com^
@@ -42304,6 +42290,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||anyview.wang^
 ||anyysz.com^
 ||aobde.com^
+||aodepuo.cn^
 ||aoidf3.com^
 ||aolusb.com^
 ||aomde.com^
@@ -42360,6 +42347,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||app-c.net^
 ||app-maasdam.nl^
 ||app-measurement.com^
+||app-trackings.com^
 ||app0003.xyz^
 ||appadhoc.com^
 ||appads.com^
@@ -42379,6 +42367,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||appdatum.com^
 ||appdriver.cn^
 ||appealsfini.com^
+||appelamule.com^
 ||appendixwarmingauthors.com^
 ||appfile.cc^
 ||appfixing.space^
@@ -42390,10 +42379,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||appier.net^
 ||appintop.com^
 ||appjiagu.com^
+||appleleaveit.co^
 ||applequan.com^
 ||applez.fr^
 ||application-best-mine-installs.cyou^
 ||applicationgrabb.net^
+||applicationpremium70.club^
 ||applific.net^
 ||applifier.com^
 ||applift.com^
@@ -42410,6 +42401,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||appnow.sbs^
 ||appodeal.com^
 ||appodealx.com^
+||appointedstereotype.com^
 ||appointments-online.com^
 ||appollo.jp^
 ||appollo-plus.com^
@@ -42466,7 +42458,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ara-choob.com^
 ||arabdevastatingpatty.com^
 ||arabianpdfbooks.info^
-||arablucidlygrease.com^
 ||arabnews365.com^
 ||aragontrack.com^
 ||aralego.com^
@@ -42497,6 +42488,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||area52.fr^
 ||arealx.com^
 ||areapebeg.club^
+||arearmark.club^
 ||areasnap.com^
 ||arechassista.top^
 ||arecio.work^
@@ -42514,6 +42506,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||arianelab.com^
 ||ariboo.com^
 ||aripplebeluga.com^
+||arisannafarms.com^
 ||ariseboundary.com^
 ||arisedammiral.com^
 ||aristianewr.club^
@@ -42524,9 +42517,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||arizonapuzzle.com^
 ||arkayne.com^
 ||arkfacialdaybreak.com^
+||arkinsoftware.in^
 ||arklighting.co^
 ||arkn81.com^
 ||arkonziv.com^
+||arlbper.cn^
 ||arlime.com^
 ||arlottencert.club^
 ||armaimapt.club^
@@ -42543,6 +42538,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||arrayshift.com^
 ||arrivalist.com^
 ||arrowpushengine.com^
+||arsinvest.it^
 ||arsonexchangefly.com^
 ||arswabluchan.com^
 ||art-offer.com^
@@ -42564,6 +42560,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||artpever.com^
 ||arts-cloud.net^
 ||artsmalle.pro^
+||artursemth.com^
 ||arushagems.com^
 ||arzanphearse.com^
 ||as5000.com^
@@ -42586,6 +42583,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||asemblee-nationale.fr^
 ||asemskull.com^
 ||asentia.fr^
+||aservices.party^
 ||asewlfjqwlflkew.com^
 ||asextube.net^
 ||asf56165.xyz^
@@ -42595,6 +42593,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||asgclickpp.com^
 ||ashaidbit.club^
 ||ashallaim.club^
+||asharbutdints.info^
 ||ashcdn.com^
 ||ashierbowler.com^
 ||ashleyfires.fr^
@@ -42635,6 +42634,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||asrety.com^
 ||asrop.xyz^
 ||assandart.site^
+||assembled-battery.com^
 ||assemblyexchange.com^
 ||assertnourishingconnection.com^
 ||assigned.cn^
@@ -42657,6 +42657,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||astaticglib.com^
 ||astcarbinkom.com^
 ||astep.info^
+||aster18cdn.nl^
 ||asterilivestream.com^
 ||asteriresearch.com^
 ||astoapsu.com^
@@ -42682,8 +42683,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||atemda.com^
 ||aterroppop.com^
 ||atevaccination.com^
+||atfitreasonyou.live^
 ||athenainstitute.biz^
 ||athenea.fr^
+||athercompet.club^
 ||atherenoth.info^
 ||athirstinwind.cam^
 ||atilohdxsg.com^
@@ -42727,6 +42730,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||attemptinghorace.com^
 ||attemptsbetween.com^
 ||attendantsteakfax.com^
+||attenhance.com^
 ||attentioniau.com^
 ||atti.com^
 ||atticwicket.com^
@@ -42793,6 +42797,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||auntants.com^
 ||auntietraumatizemobile.com^
 ||auogiv.cn^
+||auqcmkubxjmeeyf.ru^
 ||aurallyhypaton.com^
 ||aureate.com^
 ||auriro.net^
@@ -42807,11 +42812,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||austinareahomeschoolers.com^
 ||autchoog.net^
 ||autcokncufjp.com^
+||autcxfcdlev.com^
 ||auteboon.net^
 ||auth.bz^
 ||auth-google.site^
 ||authcaptcha.com^
 ||authedmine.com^
+||authedmine.eu^
 ||authedwebmine.cz^
 ||authenticangry.com^
 ||authenticated-origin.com^
@@ -42819,6 +42826,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||authorne.info^
 ||auto-bannertausch.de^
 ||auto-entrereneur.fr^
+||auto-overview.com^
 ||auto-ping.com^
 ||autoads.asia^
 ||autoaffiliatenetwork.com^
@@ -42877,6 +42885,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||avis-verifies.com^
 ||avitocars.ru^
 ||avixxx.com^
+||avjreajk.com^
 ||avkyu1tesnwy.com^
 ||avkzarabotok.info^
 ||avmws.com^
@@ -42886,6 +42895,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||avocet.io^
 ||avogov.com^
 ||avoidaroid.com^
+||avon-severozapad.ru^
 ||avon-ukraine.com^
 ||avosstart.fr^
 ||avpayments.com^
@@ -42911,7 +42921,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||awbbjmp.com^
 ||awbbsat.com^
 ||awcrpu.com^
-||awdigit.info^
 ||awecr.com^
 ||awecre.com^
 ||aweinkbum.com^
@@ -42923,6 +42932,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aweprt.com^
 ||awept.com^
 ||awesomeagreement.com^
+||awesomeattack.com^
 ||awesomelytics.com^
 ||awestatic.com^
 ||awetd.club^
@@ -42940,6 +42950,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||awprt.com^
 ||awptjmp.com^
 ||awptlpu.com^
+||aws-ajax.com^
 ||aws-update.net^
 ||awscloudfront.ml^
 ||awsimiledarent.xyz^
@@ -42969,6 +42980,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||axiomaticalley.com^
 ||axiomszanjona.com^
 ||axisbank.co^
+||axiwyni.cn^
 ||axoncoho.tk^
 ||axonix.com^
 ||axpvy.cn^
@@ -42994,6 +43006,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aynalfahadboursa.com^
 ||ayqxx.com^
 ||aysbody.com^
+||aysccnn.cn^
 ||ayst.love^
 ||ayuki.ink^
 ||ayunzhizuo.ltd^
@@ -43017,7 +43030,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aztracking.net^
 ||aztsefz.cn^
 ||azulcw7.com^
+||azulerie.it^
 ||azureus.es^
+||azvjudwr.info^
 ||b-click.net^
 ||b-m.xyz^
 ||b00.xyz^
@@ -43037,6 +43052,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||b2pk.com^
 ||b2xy4m.xyz^
 ||b32e499621.com^
+||b32lx7qjk0.cn^
 ||b34rightym.com^
 ||b38.info^
 ||b3d.com^
@@ -43061,10 +43077,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||b8e437d3a3.com^
 ||baaomenaltho.com^
 ||babator.com^
+||babies-bottles.com^
 ||bablace.com^
 ||babouche-maroc.fr^
 ||babylyst.com^
 ||babyniceshark.com^
+||babywantsbling.com^
 ||bac-reunion.fr^
 ||bacanal.cl^
 ||back.dog^
@@ -43078,6 +43096,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||backlink4u.net^
 ||backlinkdino.de^
 ||backlinkwatch.com^
+||backlusjumpdur.club^
 ||backofficellc.com^
 ||backpaininstantrelief.com^
 ||backvids.com^
@@ -43099,6 +43118,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||badlnniop.top^
 ||badloniop.top^
 ||badmniop.top^
+||badsbads.com^
 ||badsender.fr^
 ||badshores.com^
 ||badskies.com^
@@ -43171,6 +43191,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bakteso.ru^
 ||balancebreath.com^
 ||balancemailbox.com^
+||balancewreckpoint.com^
 ||baldbaptismrisk.com^
 ||baledenseabbreviation.com^
 ||baleiambwee.com^
@@ -43194,7 +43215,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bamperbolspb.ru^
 ||ban-host.ru^
 ||bananarepubic.com^
-||banatfive.com^
 ||banbf.com^
 ||banbw.com^
 ||banclip.com^
@@ -43228,12 +43248,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||banjuanmao.com^
 ||bankerconcludeshare.com^
 ||bankingconcede.com^
+||bankportal.net^
 ||banmamedia.com^
 ||banmd.com^
 ||banmeng.com^
 ||bannanarepublic.com^
 ||banner.cz^
 ||banner-exchange-24.de^
+||banner-media.ru^
 ||bannerads.de^
 ||banneradsday.com^
 ||bannerboo.com^
@@ -43278,6 +43300,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||baogames.cn^
 ||baojiada.vip^
 ||baolanke.top^
+||baolutongwuye.cn^
 ||baomay01.com^
 ||baomeidiaosu.cn^
 ||baopengys.vip^
@@ -43293,6 +43316,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bapsel.com^
 ||baptisttop1000.com^
 ||baradoot.com^
+||baramije.net^
 ||barbarousnerve.com^
 ||barbedabout.com^
 ||barbelskerugma.com^
@@ -43307,6 +43331,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||barilliance.net^
 ||barleylatestinches.com^
 ||barlo.xyz^
+||barmillevani.it^
 ||barnabaslinger.com^
 ||barneysunsharp.com^
 ||barreraxyloid.com^
@@ -43329,7 +43354,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bastingestival.com^
 ||batbuilding.com^
 ||batch.com^
-||bathyalmalkin.com^
 ||batmenmessily.website^
 ||batmobil.net^
 ||batteusp2hilenor.com^
@@ -43361,10 +43385,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||baypops.com^
 ||bayunblocked.eu^
 ||baywednesday.com^
+||baywttgdhe.download^
 ||bayyinah.fr^
 ||bazhangda.shop^
 ||bazhigu.com^
 ||bazinga12138.online^
+||bazpoorsi-markezi.tk^
 ||bb-delivery.icu^
 ||bb3u9.com^
 ||bbbx.xyz^
@@ -43397,6 +43423,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bdash-cloud.com^
 ||bdcanef.cn^
 ||bde3d.com^
+||bdfxakyhhiq.com^
 ||bdmhqgm.cn^
 ||bdp.cn^
 ||bdpuaw.com^
@@ -43405,6 +43432,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bdstatic.org^
 ||bdsyimg.com^
 ||bdtao.vip^
+||bdvwidxfiextwof.ru^
 ||bdwst1.xyz^
 ||bdzkrl.cn^
 ||be-funk.com^
@@ -43422,6 +43450,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beamedshipwreck.com^
 ||beamfuloakwood.com^
 ||beamincrease.com^
+||beanbounce.net^
 ||beanstalkdata.com^
 ||beanstock.com^
 ||bearsg.cn^
@@ -43436,6 +43465,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beautylamp.cn^
 ||beautylicieuse.fr^
 ||beautytemple.fr^
+||beauvoir.buzz^
 ||beavertron.com^
 ||beb2644a65.com^
 ||bebasads.com^
@@ -43460,7 +43490,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beeabouttown.com^
 ||beeaimaid.com^
 ||beeashale.club^
-||beeferzak.com^
 ||beeketing.com^
 ||beelantemahyp.gq^
 ||beemray.com^
@@ -43483,6 +43512,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||behave.com^
 ||behavioralengine.com^
 ||behe.com^
+||behojxrdlfr.top^
 ||beholdascared.com^
 ||behootpokeys.com^
 ||beibhw.cn^
@@ -43529,6 +43559,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||belezaedieta.com^
 ||belickitungchan.com^
 ||beliebtestewebseite.de^
+||beliefindefinite.com^
 ||belierlaine.com^
 ||believegrandpa.com^
 ||believersheet.com^
@@ -43554,6 +43585,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bendibao.site^
 ||bendingalliance.com^
 ||beneficialbeef.com^
+||benefitsorganic.com^
 ||benfkw.cn^
 ||benfly.net^
 ||bengbaly.fun^
@@ -43587,6 +43619,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beqyexeqof.com^
 ||ber2g8e3keley.com^
 ||berangkasilmu.com^
+||berateveng.ru^
 ||berg-6-82.com^
 ||bergeresdefrance.fr^
 ||berlipurplin.com^
@@ -43600,22 +43633,40 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beside-u.xyz^
 ||besmeargleor.com^
 ||besocial.online^
-||bessioutdrew.com^
 ||besstahete.info^
 ||besstbuy.com^
 ||best-dating-clubs1.com^
 ||best-dating-expert3.com^
 ||best-dating-finder1.com^
+||best-dating-for-you2.com^
 ||best-dating-girls3.com^
+||best-dating-spot-here1.com^
+||best-dating-spot-here2.com^
 ||best-dating-spot-here4.com^
+||best-dating-you1.com^
 ||best-dating-zones.com^
+||best-datingforyou2.com^
+||best-datinghere.com^
 ||best-datinghotties3.com^
+||best-datings-foryou.com^
+||best-datings-here1.com^
+||best-datingsnow1.com^
+||best-datingzone1.com^
 ||best-eye.cn^
+||best-horny-girl-here1.com^
+||best-hotladies2.com^
 ||best-lovelady.com^
 ||best-lucky-cat.xyz^
 ||best-offer-for-you.com^
+||best-online-profits1.life^
+||best-online-profits2.life^
 ||best-prize.com^
+||best-prize-2019.com^
+||best-prize2020.com^
+||best-prizes-all2020.com^
 ||best-prizes-house.life^
+||best-prizes-spot2.life^
+||best-prizes2020.com^
 ||best-realprizes.life^
 ||best-sexy-partner1.com^
 ||best-top.de^
@@ -43650,8 +43701,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bestcopys.com^
 ||bestcpmnetwork.com^
 ||bestcripto.xyz^
+||bestdatings.life^
 ||bestdatings-4you2.com^
 ||bestdatingshere.life^
+||bestdatingsnow1.com^
 ||bestdealfor20.life^
 ||bestdealfor33.life^
 ||bestdisplaycontent.com^
@@ -43660,6 +43713,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bestfoods.co^
 ||bestgames-2022.com^
 ||bestgirls4fuck.com^
+||bestgoldenretrieverbreeder.com^
 ||bestgong.top^
 ||bestgore.com^
 ||bestgore.fun^
@@ -43685,9 +43739,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bestorican.com^
 ||bestporn.vip^
 ||bestprize-places-here1.life^
+||bestprize2020.com^
 ||bestprizeday.life^
 ||bestprizesday2.life^
+||bestprizesday3.life^
 ||bestprofits-for-you1.life^
+||bestreal-dating.com^
 ||bestrevenuenetwork.com^
 ||bestreview.site^
 ||bestsearch.com^
@@ -43705,6 +43762,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bestwebpillplace.com^
 ||bestwesterne.fr^
 ||bestwinexperience.com^
+||bestwing.org^
 ||bestwinterclck.name^
 ||bestwm.info^
 ||bestxxxclubforhookup3.com^
@@ -43732,6 +43790,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||betotodilea.com^
 ||betpromo247.com^
 ||betrad.com^
+||betrustkelping.com^
 ||betshucklean.com^
 ||betsonsport.ru^
 ||better-explorer.com^
@@ -43779,6 +43838,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bgtop100.com^
 ||bhaagya.app^
 ||bhabgrqjjhn.com^
+||bhaoea.cn^
 ||bhcumsc.com^
 ||bhicxb.cn^
 ||bhj691.com^
@@ -43793,6 +43853,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bhyblanket.cn^
 ||bhyddc.com^
 ||bhyuu.com^
+||bhzejltg.info^
 ||bian123.icu^
 ||bianceance.com^
 ||biandaosheng.com^
@@ -43839,8 +43900,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bidvol.com^
 ||biercloud.love^
 ||biexsite.net^
+||bifjicdigchgihajabb.ru^
 ||big-bang-ads.com^
 ||big-bonus-house2.life^
+||big-hot-men1.com^
 ||bigappboi.com^
 ||bigbangmedia.com^
 ||bigbolz.com^
@@ -43857,6 +43920,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||biggestgiftrewards.com^
 ||bighop.com^
 ||bighow.net^
+||biglittleday.com^
 ||biglovers5.com^
 ||biglovers6.com^
 ||bigmining.com^
@@ -43864,11 +43928,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bigosext69.com^
 ||bigpenisguide.com^
 ||bigpipes.co^
+||bigprize-4you1.life^
 ||bigprizesonline.com^
 ||bigreal.org^
 ||bigrourg.net^
 ||bigsauron.ru^
 ||bigseatsout.net^
+||bigsharkmedia.com^
 ||bigspaces-forsuperkiss2.com^
 ||bigstats.net^
 ||bigtracker.com^
@@ -43888,7 +43954,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||billypub.com^
 ||bilsyndication.com^
 ||bimathyphy.com^
-||bimbim.com^
 ||bimlocal.com^
 ||bin-tds.site^
 ||binadroid.com^
@@ -43922,10 +43987,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||biroads.com^
 ||birthcaker.cn^
 ||bisafniv.space^
+||biscuit-taste.net^
 ||bisleyserrano.com^
 ||bismuni.com^
 ||bit-ad.com^
 ||bit8.com^
+||bitanalysis.net^
 ||bitclub.network^
 ||bitclubnetwork.com^
 ||bitcoadz.io^
@@ -44014,6 +44081,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bl0uxepb4o.com^
 ||bla01.com^
 ||blablacam.fr^
+||black-bricks.net^
 ||black-diamond.asia^
 ||black6adv.com^
 ||black77854.com^
@@ -44040,6 +44108,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||blekko.com^
 ||blender3d.fr^
 ||bliink.io^
+||blindlydivision.com^
 ||blingbling.wiki^
 ||blingbucks.com^
 ||blis.com^
@@ -44082,6 +44151,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||blogrankers.com^
 ||blogranking.net^
 ||blogreaderproject.com^
+||blogreseller.net^
 ||blogroll.click^
 ||blogscounter.com^
 ||blogsontop.com^
@@ -44195,6 +44265,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bo4news.biz^
 ||boacheeb.com^
 ||boahoupi.com^
+||boakauso.com^
 ||boaphaps.net^
 ||boardgamearena.fr^
 ||boattraider.com^
@@ -44265,9 +44336,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bonnieradnetwork.se^
 ||bonpugubabo.gq^
 ||bontech-zh.com^
+||bonus-club-foru.life^
 ||bonus-for-you.life^
+||bonus-house.life^
 ||bonus-house1.life^
 ||bonus-point1.life^
+||bonus4millionaire1.life^
 ||bonusclub-forme.life^
 ||bonuscontract.com^
 ||bonuscounter.de^
@@ -44293,6 +44367,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bootstraplugin.com^
 ||boowang.com^
 ||bopstermedia56.com^
+||bordsnewsjule.com^
 ||boredborder.com^
 ||boredcrown.com^
 ||borgelin.org^
@@ -44315,6 +44390,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bosspush.com^
 ||bostopago.com^
 ||bot-checker.com^
+||botiktoranj.ir^
 ||botscanner.com^
 ||botsvisit.com^
 ||bottleguy.com^
@@ -44336,6 +44412,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bousedirect.fr^
 ||boustahe.com^
 ||boutique-papillon.fr^
+||bouygiestelecom.fr^
 ||bowbackcoyote.com^
 ||bowei666.xyz^
 ||boweineng.cn^
@@ -44343,6 +44420,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bowlgirl.com^
 ||box-en.com^
 ||boxadstop.com^
+||boxes-mix.net^
 ||boxin1688.cn^
 ||boxix.online^
 ||boxofficeliterally.com^
@@ -44373,6 +44451,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bracalemusic.com^
 ||braccom.ch^
 ||braincash.com^
+||braincdn.org^
 ||braincf.com^
 ||brainfox.com^
 ||brainian.club^
@@ -44436,6 +44515,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||breedingunspeakableplaice.com^
 ||breedtagask.com^
 ||breemi.com^
+||breezybath.com^
 ||breg.fr^
 ||breitbart.fr^
 ||breizh-ile.fr^
@@ -44509,11 +44589,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||browsergames2018.com^
 ||browsergames2019.com^
 ||browsermine.com^
+||browserprotecter.com^
 ||browserr.top^
 ||browsesentinel.com^
 ||browsiprod.com^
 ||browsobsolete.com^
 ||brsrvr.com^
+||brstke.top^
 ||brucelead.com^
 ||bruisebaseball.com^
 ||bruiserbodies.com^
@@ -44529,6 +44611,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bsaq5.cn^
 ||bsbaduacvwoeee.com^
 ||bsdev.cn^
+||bsfishing.cn^
 ||bshare.cn^
 ||bshrdr.com^
 ||bsjgc.com^
@@ -44539,12 +44622,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bsshw.net^
 ||bstats.org^
 ||bstn-14-ma.com^
+||bsyauqwerd.party^
 ||bsytjc.com^
 ||bsytkas.cn^
 ||bszmpfaj.com^
 ||bt-xd.com^
 ||btaawy.cn^
 ||btbuckets.com^
+||btbuyerapp.com^
 ||btcadtop.com^
 ||btcbto.com^
 ||btcclicks.com^
@@ -44575,15 +44660,18 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bubblesmedia.ru^
 ||bubblesmoke.net^
 ||bubblestat.com^
+||bubblesweetcake.com^
 ||bucketbean.com^
 ||budapebluest.com^
 ||budapest1873.net^
 ||buddygays.com^
+||budurl.com^
 ||budvawshes.ru^
 ||bufamy.com^
 ||bufan.in^
 ||bufan.space^
 ||bufetgarrigosa.com^
+||buffalogoesout.com^
 ||bufferapp.com^
 ||bugcreator.cn^
 ||bugleczmoidgxo.com^
@@ -44593,6 +44681,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||buhatfjrk9dje10eme.com^
 ||buikolered.com^
 ||builderredirect.com^
+||buildingcarpet.com^
 ||buildsintellecttweak.com^
 ||buildyourdata.com^
 ||builfico.de^
@@ -44649,6 +44738,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||busyserviceinc.com^
 ||butalksuw9dj10.com^
 ||butashasp.site^
+||butcalve.com^
 ||butendecatholicparish.com^
 ||butou.cn^
 ||buttcandy.com^
@@ -44657,7 +44747,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||butterdogchange.com^
 ||buy-banner.com^
 ||buy-targeted-traffic.com^
-||buyagift.fr^
 ||buydee.org^
 ||buyihao.com^
 ||buyingedge.com^
@@ -44683,10 +44772,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||buzzoola.com^
 ||buzzvids-direct.com^
 ||bv8888.com^
+||bvcxd.com^
 ||bvfmdoo.cn^
 ||bvlgarijapan.com^
 ||bvmcdn.net^
 ||bvmtogo.com^
+||bvrloslwgc.com^
 ||bvtuuewvwi.com^
 ||bvuuv.com^
 ||bwin2808.com^
@@ -44707,7 +44798,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||byet.org^
 ||byfft.top^
 ||byloudwalk.live^
-||byowner.fr^
 ||bypass.jp^
 ||bypasser.net^
 ||bypassprofessordemonstrate.com^
@@ -44728,7 +44818,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||c-martinique.fr^
 ||c-o-u-n-t.com^
 ||c-piscine.fr^
-||c-rennes.fr^
 ||c-rings.net^
 ||c02o3mpych.com^
 ||c0563.com^
@@ -44756,19 +44845,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||c4tw.net^
 ||c50021876c67fd14.com^
 ||c5b39ff13b3259df.com^
-||c5b8d9d52f.com^
 ||c60china.com^
 ||c6890.cn^
 ||ca-biepicardie.fr^
-||ca-briepcardie.fr^
-||ca-cantreloire.fr^
 ||ca-centtreloire.fr^
 ||ca-conv.jp^
 ||ca-czntrefrance.fr^
-||ca-languedo.fr^
 ||ca-nm.fr^
-||ca-pac.fr^
-||ca-touloue31.fr^
 ||ca-vb.fr^
 ||ca6ac9b0e5.com^
 ||ca88b.cn^
@@ -44796,12 +44879,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cadsimz.com^
 ||cadsuta.net^
 ||caduka.cn^
-||caeauxfolies.fr^
 ||caeory.com^
-||cafe-express.fr^
 ||cafecoc.com^
-||cafj.fr^
-||cafranchecomte.fr^
 ||cagelrib.net^
 ||caglaikr.net^
 ||cagothie.net^
@@ -44816,7 +44895,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||caiteesh.net^
 ||caithamo.net^
 ||caiwuwang.ltd^
-||caixabankapp.digital^
+||caixaessigne.com^
 ||caiyifz.com^
 ||cajasdigitalreporting.net^
 ||calamityfortuneaudio.com^
@@ -44847,7 +44926,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||calvali.com^
 ||calworthingtonford.com^
 ||cam4tracking.com^
-||camaieur.fr^
 ||camarondo.com^
 ||cambonanza.com^
 ||cambrianter.club^
@@ -44863,9 +44941,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||campaignmonitor.com^
 ||campartner.com^
 ||camping-la-bien-assise.fr^
-||camping-oreedelocean.fr^
-||camping-pinede.fr^
-||campinglespins.fr^
 ||camplace.fr^
 ||campongprecant.com^
 ||campus-forprof.fr^
@@ -44918,7 +44993,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||caphaiks.com^
 ||caphyon-analytics.com^
 ||capitaloneshooping.com^
-||capitalregionusa.fr^
 ||capodannoinversilia.com^
 ||cappushino.com^
 ||capriciouscorn.com^
@@ -44960,18 +45034,17 @@ charlestownwyllie.oaklawnnonantum.com^
 ||carmuffler.net^
 ||carnataldez.ml^
 ||carnegienet.net^
-||carniferou.club^
 ||caroda.io^
 ||carolinebeverly.com^
 ||carpcw.com^
 ||carpentercomparison.com^
 ||carpenterexplorerdemolition.com^
-||carpi3fnusbetgu5lus.com^
 ||carrfefour.fr^
 ||carriagecan.com^
 ||carrialferes.com^
 ||carroceriasmartin.com^
 ||carrotraining.com^
+||cars-to-buy.com^
 ||carscannon.com^
 ||carset.vip^
 ||carsnspeed.net^
@@ -44986,7 +45059,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||casalmedia.com^
 ||casamuseoayerbe.co^
 ||casavasstamnoi.com^
-||cascinamolinodellapaglia.it^
 ||casee.cn^
 ||cash-ads.com^
 ||cash4members.com^
@@ -45024,7 +45096,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||castelli-cycling.fr^
 ||castllypay.com^
 ||castoola.com^
-||castortama.fr^
 ||castpallium.com^
 ||castplatform.com^
 ||casualdatingandyou.com^
@@ -45176,10 +45247,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cdtbox.rocks^
 ||cdu.cc^
 ||cdweikebaba.xin^
+||cdxewmikygmku.com^
 ||cdxyb.cn^
 ||cdynxqqckkxof.com^
 ||cdzimeijia.com^
-||ce-marketing.fr^
 ||ce33m7.com^
 ||ceai.xyz^
 ||cebadu.com^
@@ -45189,6 +45260,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cedexis.com^
 ||cedexis-radar.net^
 ||ceehimur.uk^
+||ceeleeca.com^
 ||ceeviwep.com^
 ||cehbf.com^
 ||cehbg.com^
@@ -45206,14 +45278,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||celestia.es^
 ||celestia.fr^
 ||celestinfreinet.mx^
+||celgov.com^
 ||celine-japan.com^
 ||celltick.com^
-||cellu-clean.fr^
 ||celtra.com^
 ||cementencourage.com^
 ||cenceevent.club^
 ||cengbalx.fun^
-||cengolio.fr^
 ||center.io^
 ||centerfind.com^
 ||centerpointmedia.com^
@@ -45225,7 +45296,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||centraltag.com^
 ||centuriesactionperfectly.com^
 ||ceppartner.com^
-||cepterunlogic.com^
 ||cer43asett2iu5m.com^
 ||cerdmann.com^
 ||cerebrifetors.com^
@@ -45237,7 +45307,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||certifiedwinners.today^
 ||ceruchina.com^
 ||cervell.io^
-||cesdeals.fr^
 ||ceshi10.ink^
 ||ceshi2.ink^
 ||ceshi5.ink^
@@ -45267,6 +45336,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cfts1tifqr.com^
 ||cfyao.club^
 ||cgassociates.pk^
+||cgdiqvn.cn^
 ||cgdjy.top^
 ||cggf.xyz^
 ||cgiale.com^
@@ -45283,8 +45353,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||chairscrack.com^
 ||chaisesprivee.fr^
 ||chali.info^
-||chaliehebdo.fr^
-||challeges.fr^
 ||challengecircuit.com^
 ||chameleon.ad^
 ||championmachinery-cn.com^
@@ -45317,7 +45385,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||charleslee.cc^
 ||charlotteyeon.com^
 ||charmflirt.com^
-||charmstroy.info^
 ||chart.dk^
 ||chartaca.com^
 ||chartbeat.com^
@@ -45341,12 +45408,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||che0.com^
 ||cheapapartmentsaroundme.com^
 ||cheaterboss.com^
-||cheaters-dating-place4.com^
 ||check-best-prizes-here.*^
 ||check-best-prizes-here.org^
 ||check-now.online^
 ||check-out-this.site^
 ||check-update-today.com^
+||check-your-datings.com^
 ||checke.biz^
 ||checkeffect.at^
 ||checkfreevideos.net^
@@ -45419,11 +45486,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||chicaudo.com^
 ||chicken18.com^
 ||chickensstation.com^
+||chickenwaves.com^
 ||chicks4date.com^
 ||chicoryapp.com^
 ||chidir.com^
 ||chidsimp.com^
-||chienvoyageur.fr^
 ||chikhanos.info^
 ||childlikecook.com^
 ||childlikecrowd.com^
@@ -45491,11 +45558,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||christiantop1000.com^
 ||christineinteriordesign.com^
 ||christmalicious.com^
-||chrliehebdo.fr^
 ||chslwea.top^
 ||chsrkred.com^
 ||chu-bordeau.fr^
-||chu-morlaix.fr^
 ||chuangjulm.cn^
 ||chuangmeiteyi.net^
 ||chuantu.biz^
@@ -45522,6 +45587,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||chyxyrothi.com^
 ||cialisforsalecialiscostcye.com^
 ||cialismed.com^
+||cialiswithoutadoctor.net^
 ||cibersexo.eu^
 ||cic-epargnrsalariale.fr^
 ||ciceklioglu.com^
@@ -45531,7 +45597,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ciems.xyz^
 ||cienum.fr^
 ||cif.su^
-||cifw.fr^
 ||cig-arrete.com^
 ||cigar.pt^
 ||cigarette-online.com^
@@ -45553,9 +45618,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cinelario.com^
 ||cinema3satu.com^
 ||cinemabio.com^
-||cinemasouslesetoiles.fr^
 ||cinepro.com^
-||cinforama.fr^
 ||cingualr.com^
 ||cintnetworks.com^
 ||cioco-froll.com^
@@ -45620,6 +45683,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ckstatic.com^
 ||ckwlurries.com^
 ||cl0udh0st1ng.com^
+||clackavarian.com^
 ||claclasse.fr^
 ||claiks.com^
 ||claimfreerewards.com^
@@ -45815,7 +45879,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||clipcentric.com^
 ||clipelis.lol^
 ||clipgroups.com^
-||clippertonmedical.ro^
 ||cliquesteria.net^
 ||clivads.com^
 ||clixcount.com^
@@ -45869,6 +45932,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cloudcoins.co^
 ||cloudcrown.com^
 ||clouddream.ltd^
+||cloudflane.com^
 ||cloudflare.solutions^
 ||cloudflareinsights.com^
 ||cloudfrale.com^
@@ -45894,6 +45958,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||clrstm.com^
 ||clrt.ai^
 ||clscsbcj.com^
+||club-of-prize.life^
 ||clubcollector.com^
 ||clubloading.net^
 ||clubwinnerz.com^
@@ -45932,7 +45997,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cncflpfw.com^
 ||cncnails.net^
 ||cnco.me^
-||cncsdn.cn^
 ||cncy8.com^
 ||cndaizi.com^
 ||cndeccsqtmjyh.com^
@@ -45951,7 +46015,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cnn.cm^
 ||cnn-africa.co^
 ||cnnected.org^
-||cnnews.fr^
 ||cnnic.cn^
 ||cnnic.net^
 ||cnnnew.com^
@@ -45976,7 +46039,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cnxunkewang.info^
 ||cnxweb.com^
 ||cnyibs.com^
-||cnywhcuyvjc.com^
 ||cnzhqs.com^
 ||cnzz.com^
 ||cnzz.net^
@@ -46025,7 +46087,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||codez.cloud^
 ||cody.services^
 ||coenobeullucu.com^
-||coetusnappers.com^
 ||coffee2go.org^
 ||cofounderspecials.com^
 ||cogivea.com^
@@ -46090,11 +46151,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||coldcertainchannel.com^
 ||coldcode.fun^
 ||colddry.com^
-||coldpacific.com^
 ||coldwellbanker.net^
 ||coliassfeurytheme.com^
 ||colintoxicate.com^
-||colisismo.fr^
 ||collarity.com^
 ||collectfasttracks.com^
 ||collectiable.com^
@@ -46151,8 +46210,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||commander1.com^
 ||commandersact.com^
 ||commandwalk.com^
-||commax.fr^
-||commdev.fr^
 ||commercialvalue.org^
 ||commindo-media-ressourcen.de^
 ||commission-junction.com^
@@ -46226,7 +46283,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||conduit.com^
 ||conduit-services.com^
 ||conectar-caixabank.com^
-||coneenpien.com^
 ||confdatabase.com^
 ||confg.fr^
 ||confidethirstyfrightful.com^
@@ -46250,11 +46306,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||connexionsafe.com^
 ||connexity.net^
 ||connextra.com^
+||conoret.com^
 ||conpewitedes.ga^
 ||consciouschairs.com^
 ||consciouscheese.com^
 ||consciousdirt.com^
-||conseil-coaching-jardinage.fr^
 ||conseildentaire.fr^
 ||consensad.com^
 ||consensu.org^
@@ -46264,7 +46320,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||consequentlyinmate.com^
 ||consideunde.xyz^
 ||consistpotato.com^
-||consorsbank.fr^
 ||constintptr.com^
 ||consultant-online.ru^
 ||consulturias.com^
@@ -46284,6 +46339,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||contalyze.com^
 ||contatoreaccessi.com^
 ||contaxe.com^
+||contaxe.de^
 ||contehos.com^
 ||contemplatereunitededgy.com^
 ||contemporaryceremonies.ca^
@@ -46354,7 +46410,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||coodawei.cn^
 ||cooguo.com^
 ||coojaiku.com^
-||cookeatshare.fr^
 ||cookevegas.com^
 ||cookie-law-enforcement-qq.xyz^
 ||cookie-script.com^
@@ -46392,7 +46447,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||coordinatedcoat.com^
 ||coordinatedcub.com^
 ||coordino.com^
-||coothupu.net^
 ||cootlogix.com^
 ||coozoaji.net^
 ||copeforcing.com^
@@ -46415,12 +46469,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||coremotives.com^
 ||corlsblt.cyou^
 ||cornplus.cn^
+||corp-downloads.com^
 ||correctchaos.com^
 ||corscania.com^
 ||corycj.top^
 ||cosiloon.com^
 ||cosmi.io^
-||cosmopolian.fr^
 ||cosmopolita.fr^
 ||cosmosjackson.com^
 ||cost1action.com^
@@ -46503,6 +46557,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cozesplacebo.com^
 ||cozyrepeatedlycowardly.com^
 ||cpa-optimizer.online^
+||cpaclickoffer.com^
 ||cpactions.com^
 ||cpaevent.ru^
 ||cpagrip.com^
@@ -46514,7 +46569,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cpcmanager.com^
 ||cpcmart.com^
 ||cpdsalerno.com^
-||cplelangues.fr^
 ||cpm-ad.com^
 ||cpm10.com^
 ||cpm20.com^
@@ -46598,7 +46652,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||crazyprotocol.com^
 ||crbbgate.com^
 ||crcrzqiedhur.com^
-||crdp-strsbourg.fr^
 ||crdrjs.info^
 ||cre99.com^
 ||creakversionfort.com^
@@ -46637,7 +46690,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||criteo.com^
 ||criteo.net^
 ||critictruck.com^
-||critiquefilm.fr^
 ||crittercism.com^
 ||crjpingate.com^
 ||crjshop.com^
@@ -46647,7 +46699,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||crmmetrixwris.com^
 ||crocopop.com^
 ||croea.com^
-||croissieres.fr^
 ||cromo.name^
 ||cross-a.net^
 ||cross-system.com^
@@ -46667,7 +46718,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||crowdscience.com^
 ||crowdskout.com^
 ||crowdynews.com^
-||crpo.fr^
 ||crptentry.com^
 ||crrepo.com^
 ||crsgd.xyz^
@@ -46796,7 +46846,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||culsauwou.com^
 ||cultergoy.com^
 ||cultidifficient.info^
-||culturalfoundation.fr^
 ||culturaltracking.ru^
 ||culturedcrayon.com^
 ||cumbersomecake.com^
@@ -46804,20 +46853,18 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cumbersomecloud.com^
 ||cumc-hmb.com^
 ||cumshots.com^
-||cundumbagroom.com^
 ||cuntador.com^
 ||cuntwars.com^
 ||cunyiesus.com^
 ||cuoss.com^
 ||cupbiologicaljourney.com^
+||cupcognatekaleidoscope.com^
 ||cupidonmedia.com^
 ||cupoabie.net^
 ||curacaohaloing.website^
 ||curalate.com^
 ||curarmbin.club^
-||curbimpress.com^
 ||curdlecobiron.com^
-||curdlesgazump.com^
 ||curedonswab.com^
 ||curfiositystream.com^
 ||curietplatly.com^
@@ -46838,6 +46885,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||curvedsquirrel.com^
 ||curverainstorm.website^
 ||curvycry.com^
+||cusara.xyz^
 ||cuseccharm.com^
 ||cusecwhitten.com^
 ||cusptumbak.com^
@@ -46904,8 +46952,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cyberfaery.com^
 ||cybermecca.com^
 ||cybermonitor.com^
-||cyberpanel.fr^
 ||cyberprotection.pro^
+||cyberscat.com^
 ||cybertown.ru^
 ||cybertronads.com^
 ||cyberzine.com^
@@ -46916,11 +46964,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cyclismpeddled.cam^
 ||cycytea.cn^
 ||cydoor.com^
-||cyfe.fr^
 ||cyfyb2.site^
 ||cygnus.com^
 ||cyih0e43aty7.com^
-||cyjaruvndimgaa.com^
 ||cyl3h68.cn^
 ||cylenceprotect.com^
 ||cylish.com^
@@ -46999,7 +47045,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dachadu.cn^
 ||dacmaiss.com^
 ||dacounter.com^
-||dadabhoy.pk^
 ||dadawm.cc^
 ||daddychess.online^
 ||daddygangz.com^
@@ -47025,6 +47070,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||daikuanfanli.com^
 ||dailiq.cn^
 ||dailiqing.net^
+||daily-adulthookup.com^
 ||daily-prize-best.life^
 ||dailycamera.com^
 ||dailygame.fr^
@@ -47072,6 +47118,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dandiesvicua.com^
 ||danmeneldur.com^
 ||danoblab.com^
+||dansho.tk^
 ||dantbritingd.club^
 ||daofuw.cn^
 ||daokejs.com^
@@ -47108,6 +47155,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dat8.cc^
 ||data-dynamic.net^
 ||data-ero-advertising.com^
+||data-formula.com^
 ||data8a8altrk.com^
 ||databerries.com^
 ||databrain.com^
@@ -47127,6 +47175,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dataprovider.biz^
 ||datarating.com^
 ||dataroid.com^
+||datasecu.download^
 ||datasign.co^
 ||datasteam.io^
 ||datatechonert.com^
@@ -47144,7 +47193,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||datedate.today^
 ||datedats2.com^
 ||dateddeed.com^
+||datefindlocal.com^
 ||datefindlocal1.com^
+||datesforever2.com^
 ||datesritual.com^
 ||dateszone.net^
 ||datetime-here2.com^
@@ -47153,7 +47204,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dating-herenow3.com^
 ||dating-hot-ladys.com^
 ||dating-hotfantasies1.com^
-||dating-hotladies.com^
 ||dating-m.xyz^
 ||dating-markets2.com^
 ||dating-space.top^
@@ -47164,14 +47214,16 @@ charlestownwyllie.oaklawnnonantum.com^
 ||datingapp.live^
 ||datingdeserving.com^
 ||datingfinder.bar^
-||datingforlife454.com^
 ||datingfornaughties.com^
+||datingforone.info^
 ||datinghot4you2.com^
 ||datinglives-19.com^
 ||datingnearby.space^
 ||datings-for4you1.com^
 ||datingshouse-here3.com^
 ||datingstyle.top^
+||datingsun-finder.com^
+||datingtoday.top^
 ||datismelysee.com^
 ||datouniao.com^
 ||datvantage.com^
@@ -47353,6 +47405,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||denetsuk.com^
 ||dengage.com^
 ||dengbalt.fun^
+||dengteng.me^
 ||dengzhou.us^
 ||denizealgific.com^
 ||densgauche.com^
@@ -47361,7 +47414,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dentallearning.net^
 ||dentech.pl^
 ||dentistsinyourarea.com^
-||denx.fr^
+||dentofinauk.shop^
 ||deostr.com^
 ||dep.tc^
 ||dep-x.com^
@@ -47372,7 +47425,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||depictimproperdenunciation.com^
 ||depirsmandk5.com^
 ||deployads.com^
-||depositphotos.fr^
 ||deqwas.net^
 ||deqwas-dsp.net^
 ||dereferer.co^
@@ -47459,7 +47511,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dfseafood.com^
 ||dfsvhv88.com^
 ||dftoutiao.com^
-||dfuy.fun^
 ||dfwskw7.com^
 ||dfydnyk.cn^
 ||dg-hospital.com^
@@ -47467,6 +47518,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dgauda.com^
 ||dgbaozhuang.cn^
 ||dgchengyu.xyz^
+||dgeneration.in^
 ||dgfggy.com^
 ||dgjjkkla.cn^
 ||dglscm.cn^
@@ -47550,7 +47602,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||digiaquascr.com^
 ||digicub.fr^
 ||digipote.fr^
-||digipsote.fr^
 ||digital-metric.com^
 ||digitaladvertisingalliance.org^
 ||digitaladvisor.dk^
@@ -47562,7 +47613,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||digitalpush.org^
 ||digitaltarget.ru^
 ||digitalthrottle.com^
-||digitfoto.fr^
 ||digitru.st^
 ||dignow.org^
 ||digrice.xyz^
@@ -47586,7 +47636,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dingibley.pro^
 ||dingjianlm.com^
 ||dinglixuan.cn^
-||dinterperson.xyz^
 ||diogene99.com^
 ||diomedia.fr^
 ||dipan.com^
@@ -47596,7 +47645,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||diptaich.com^
 ||diqkldlh.com^
 ||dircont3.com^
-||direct-moonprize.life^
 ||direct-space.com^
 ||direct-xxx-access.com^
 ||directaclick.com^
@@ -47620,7 +47668,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||directxex.com^
 ||dirgywhacks.com^
 ||diritymirkish.com^
-||dirtmountainbike.fr^
 ||dirty-fantasy-here3.com^
 ||dirtyasmr.com^
 ||dirtyje.ws^
@@ -47666,7 +47713,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||discordxnitro.org^
 ||discorx.gift^
 ||discount-deal.org^
-||discountads.net^
 ||discountclick.com^
 ||discountminds.com^
 ||discover-path.com^
@@ -47683,7 +47729,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dishesha.net^
 ||disloquerent.website^
 ||dismantlepenantiterrorist.com^
-||disneyholidays.fr^
 ||disordgift.*^
 ||disordgift.org^
 ||disparagethence.com^
@@ -47744,6 +47789,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dj0ts1x.cn^
 ||dj57.club^
 ||dj930.cn^
+||djdecsdwjdgemj.com^
 ||djers.com^
 ||djfiln.com^
 ||djfwuer.xyz^
@@ -47757,6 +47803,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||djsn888.com^
 ||djsrp.com^
 ||djss-design.cn^
+||djugoogs.com^
 ||djuyawu.cn^
 ||djxfar6.com^
 ||djy518.com^
@@ -47770,7 +47817,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dkitikosi.com^
 ||dkjdnq.cn^
 ||dkqapp.cn^
-||dkrvagvsqwcx.com^
 ||dkuiefdtuwnfo.com^
 ||dkvuey.xyz^
 ||dkxobcs.cn^
@@ -47844,11 +47890,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dnsdelegation.io^
 ||dnskuu.com^
 ||dnslogs.net^
-||dnsmachinefork.com^
 ||dnsri.com^
 ||dnt-userreport.com^
 ||dntchnyghet.com^
 ||dnupzdn.cn^
+||dnythgt.com^
 ||do-global.com^
 ||do-not-tracker.org^
 ||do09.net^
@@ -47866,7 +47912,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||doclix.com^
 ||docodoco.jp^
 ||docomo-analytics.com^
-||docs-downloading.com^
 ||doctopdftech.com^
 ||doctor-alex.com^
 ||doctor-groups.com^
@@ -47887,9 +47932,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dogjb.com^
 ||doglobal.com^
 ||doglobal.net^
-||dogry.fr^
 ||dogsshoes.com^
-||dogtrace.fr^
 ||doigtepyramid.com^
 ||doitformom.com^
 ||dojomojo.ninja^
@@ -47907,7 +47950,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dolphincdn.xyz^
 ||domain-control.net^
 ||domainanalyticsapi.com^
-||domaine-voyance.fr^
 ||domainfwd.com^
 ||domainfwding.com^
 ||domaining.in^
@@ -47930,7 +47972,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||domparce.pro^
 ||domsearch.net^
 ||domslc.com^
-||don403deblakda.store^
 ||donbaham.com^
 ||dondolino.it^
 ||doneeinvict.com^
@@ -47983,7 +48024,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dotzup.com^
 ||dou777.com^
 ||double.net^
-||double-earnmoney.life^
 ||doubleadserve.com^
 ||doubleadv.com^
 ||doubleclick.com^
@@ -48054,6 +48094,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dqcztxmu.com^
 ||dqruhue.cn^
 ||dqsft.com^
+||dqupwlanxmjhtx.com^
 ||drabsize.com^
 ||dracenic-gravinyl.icu^
 ||draconiancurve.com^
@@ -48066,7 +48107,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||drailsaculeus.com^
 ||drakejones.xyz^
 ||drakorindo.club^
-||dramatic-challenge.com^
 ||dramaticcondition.com^
 ||dramaticdirection.com^
 ||dratingmaject.com^
@@ -48166,7 +48206,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dsxteqljrwqxeo.com^
 ||dt243100.com^
 ||dtc-v6t.com^
-||dtcc.fr^
 ||dtcstcltwzuno.com^
 ||dthmkahofppmr.com^
 ||dti-ranker.com^
@@ -48233,6 +48272,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dvnfo.com^
 ||dvr8.com^
 ||dvtnrwppxk.com^
+||dvunyhdjacox.com^
 ||dvv9dkv.site^
 ||dvypar.com^
 ||dw998.com^
@@ -48270,7 +48310,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dydd.xyz^
 ||dydyhg.com^
 ||dyexwcqllw.top^
-||dyhs52.com^
 ||dyjcydn.cloud^
 ||dylanwong.com^
 ||dynad.net^
@@ -48312,7 +48351,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||e-contenta.com^
 ||e-demx.com^
 ||e-kaiseki.com^
-||e-kern.fr^
 ||e-lords.fr^
 ||e-m.fr^
 ||e-pagerank.net^
@@ -48403,6 +48441,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||easydating.top^
 ||easydatingwhit.site^
 ||easyflier.fr^
+||easygoingtouchybribe.com^
 ||easyhash.de^
 ||easyhash.io^
 ||easyhitcounters.com^
@@ -48432,6 +48471,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ebhruifaomypdi.com^
 ||ebjvu.cn^
 ||eblastengine.com^
+||eblgh-sanae.tk^
 ||eblytohxbgvxt.xyz^
 ||ebocornac.com^
 ||ebtmarketing.com^
@@ -48473,6 +48513,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ecpms.net^
 ||ecsfunhget.com^
 ||ecuc123.net^
+||ecudsc.cn^
 ||ecustomeropinions.com^
 ||ecybnxxpeq.com^
 ||edaa.eu^
@@ -48521,6 +48562,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||edysn.cn^
 ||edzyhx.cn^
 ||ee035.cn^
+||eebuwr.cn^
 ||eecd179r3b.com^
 ||eeco.xyz^
 ||eeeap.cn^
@@ -48597,7 +48639,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||egyenesen.com^
 ||egypolice.com^
 ||egyveleg.com^
-||eh8jq4cmq8j9g5.com^
 ||ehbbeikveqgmtj.com^
 ||ehprnuo.cn^
 ||ehsanenterprises.com^
@@ -48661,7 +48702,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||elevisions.biz^
 ||elfcoexistbird.com^
 ||elfinsande.website^
-||elisakwin.com^
 ||elitedollars.com^
 ||elitehookupshere3.com^
 ||elitetoplist.com^
@@ -48679,10 +48719,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||elonreptiloid.com^
 ||eloqua.com^
 ||elsbfby.com^
+||elsewherebuckle.com^
 ||elthamely.com^
 ||eltrafiko.com^
 ||elxont.com^
-||elyses.fr^
 ||elzaservis.cz^
 ||emagicone.fr^
 ||email-match.com^
@@ -48748,7 +48788,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||encouragingvase.com^
 ||encouragingwilderness.com^
 ||endangersquarereducing.com^
-||endicia.fr^
 ||endingthefed.com^
 ||endloseporno.com^
 ||endorsebilateralpancreas.com^
@@ -48774,7 +48813,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||engineseeker.com^
 ||englandhogmane.com^
 ||englerbraw.com^
-||englishcentral.fr^
 ||engpeng.cn^
 ||enhance.com^
 ||enheir.com^
@@ -48803,7 +48841,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ensighten.com^
 ||ensinger964.site^
 ||entailresponded.com^
-||entek.fr^
 ||entercasino.com^
 ||enterprise327.site^
 ||entertainingeyes.com^
@@ -48830,11 +48867,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||envyindebted.com^
 ||enyayinxiang.com^
 ||eo62cocntx.com^
+||eoemyywmjx.com^
 ||eofemms.cn^
 ||eoidr.cn^
 ||eom-nv.com^
 ||eondershare.fr^
-||eondunpea.com^
 ||eonsmedia.com^
 ||eonwayaha.com^
 ||eoopersed.one^
@@ -48865,7 +48902,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||eqsstvfotd.com^
 ||equallyyolked.com^
 ||equilibrios.ga^
-||equitaine.fr^
 ||equityjesusdisappointment.com^
 ||eqy.link^
 ||erabaru.net^
@@ -48891,8 +48927,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ernoddenkn.pics^
 ||ero-advertising.com^
 ||eroadvertising.com^
-||erobot-pisicne.fr^
-||erogames.fr^
 ||erogen-x.shop^
 ||eroo.shop^
 ||erop.store^
@@ -48900,7 +48934,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||erosyndc.com^
 ||erotikcounter.org^
 ||erotop.lv^
-||erpyfubgt.com^
 ||erraticreaction.com^
 ||errcarsvex.casa^
 ||erringcrambly.com^
@@ -48932,7 +48965,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||eslprologmvp.com^
 ||eslprotourmvp.com^
 ||esm1.net^
-||esmoutonsenrages.fr^
 ||esmystem.com^
 ||esomniture.com^
 ||esoterik-lenormand.com^
@@ -48958,6 +48990,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||esyzdb.com^
 ||et-code.ru^
 ||et363.com^
+||etacontent.com^
 ||etahub.com^
 ||etargetnet.com^
 ||etcher.download^
@@ -48973,7 +49006,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||eth-pocket.eu^
 ||ethadepic.club^
 ||ethan.wang^
-||ethanslayton.com^
 ||ether-give21.net^
 ||ethereum-cashcard.com^
 ||ethereum-cashcard.de^
@@ -49016,6 +49048,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||euleriancdn.net^
 ||euliglsp.space^
 ||eum-appdynamics.com^
+||eumnxwvp.ink^
 ||euniverseads.com^
 ||euphe-gun.com^
 ||eupornstar.info^
@@ -49033,7 +49066,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||europuls.net^
 ||euros4click.de^
 ||eurospanker.com^
-||eurospoprt.fr^
 ||eurostatsafetyshoes.tw^
 ||eurosystemsrl.eu^
 ||eusta.de^
@@ -49066,7 +49098,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||everythingisstory.com^
 ||everywheresavourblouse.com^
 ||evidon.com^
-||eviebot.fr^
 ||evil69.com^
 ||evilsbedont.de^
 ||eviltracker.net^
@@ -49079,7 +49110,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||evroteplo.ru^
 ||ewasadirec.com^
 ||ewcgnifqlm.com^
-||ewea.fr^
 ||ewebanalytics.com^
 ||ewebcounter.com^
 ||ewerhodub.com^
@@ -49101,7 +49131,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||exchangead.com^
 ||exchangeclicksonline.com^
 ||exchangediscreditmast.com^
-||exchangemarket.fr^
 ||excitead.com^
 ||excited.me^
 ||exclusivebrass.com^
@@ -49188,7 +49217,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||extractsight.com^
 ||extrafastip.xyz^
 ||extrahoney.net^
-||extrashop.fr^
 ||extreme-dm.com^
 ||extremereach.com^
 ||extremereach.io^
@@ -49212,7 +49240,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||eyeota.net^
 ||eyereturn.com^
 ||eyes.by^
-||eyesightladsregiment.com^
 ||eyevfswxtcij.com^
 ||eyeviewads.com^
 ||eyewonder.com^
@@ -49239,7 +49266,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ezula.com^
 ||ezytrack.com^
 ||f-counter.net^
-||f-voyance.fr^
 ||f05.xyz^
 ||f1190.com^
 ||f1721037a5.com^
@@ -49256,10 +49282,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||f853150605ccb.com^
 ||f8ij9.life^
 ||f9pennsy3glvkm6ania.com^
-||faa39957a3.com^
 ||faachen.cn^
 ||faai-international.com^
-||fabhabitat.fr^
 ||fabric.io^
 ||fabricww.com^
 ||fabrouter.com^
@@ -49275,7 +49299,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||faceboko.com^
 ||facebook.cm^
 ||facebook-drm-server3.com^
-||facebookj.fr^
 ||facebookloginsignin.com^
 ||facebookteens.com^
 ||facebookunblocking.com^
@@ -49302,7 +49325,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fadskis.com^
 ||fadverdirect.com^
 ||fafafa1.com^
-||fafarge.fr^
 ||faggotry.com^
 ||faggotsnulled.com^
 ||faggrim.com^
@@ -49368,13 +49390,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fangbaba.xyz^
 ||fangfeeling.com^
 ||fangfeng001.xyz^
+||fangfeng005.xyz^
 ||fanghua2.cn^
 ||fangirlmag.com^
 ||fangjslc.com^
 ||fangniaowang.net^
 ||fangshan.us^
 ||fangzhixinxi.cn^
-||fanjetrecoil.com^
 ||fanjin.name^
 ||fankwmgxe.com^
 ||fanli.in^
@@ -49405,7 +49427,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fast-redirecting.com^
 ||fast-travel.org^
 ||fast21profit1.life^
-||fastaccesone.com^
 ||fastanalytic.com^
 ||fastandslut.com^
 ||fastapi.net^
@@ -49446,7 +49467,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fathomdns.com^
 ||fathomseo.com^
 ||fatlossremedies.com^
-||fatpop.net^
 ||fatsosjogs.com^
 ||fattykettleinexpedient.com^
 ||fatwalkinger.club^
@@ -49477,7 +49497,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fclb.fr^
 ||fcluqg.cn^
 ||fcouvtlwzocok.com^
-||fcrbsqtsuvexcsy.com^
 ||fcrdb.com^
 ||fcs.ovh^
 ||fcuit.com^
@@ -49530,6 +49549,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||feefouga.com^
 ||feegozoa.com^
 ||feelbad.online^
+||feelbonesbag.com^
 ||feelmore.site^
 ||feelmyfile.info^
 ||feeloshu.com^
@@ -49584,7 +49604,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fervorsslutted.com^
 ||fervortracer.com^
 ||fessoovy.com^
-||festicolor.fr^
 ||festinus.xyz^
 ||festivefranchisetorrent.com^
 ||fesurvivial.club^
@@ -49619,6 +49638,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fh259by01r25.com^
 ||fhaixh.cn^
 ||fhfgg.com^
+||fhgdfad.ml^
 ||fhgh9sd.com^
 ||fhisownkindt.xyz^
 ||fhits.xyz^
@@ -49627,7 +49647,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fhoa365.com^
 ||fhsiqk.xyz^
 ||fhsmtrnsfnt.com^
-||fichier-pdfr.fr^
 ||ficinvesses.com^
 ||fictiongroin.com^
 ||ficusoid.xyz^
@@ -49636,7 +49655,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fiercedental.com^
 ||fieslobwg.com^
 ||fifthborder.com^
-||figato.fr^
 ||fighsfg.cn^
 ||figshare.com^
 ||figyelo-net.com^
@@ -49650,6 +49668,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||filese.me^
 ||fileshare-storage.com^
 ||filetarget.net^
+||filetick.pro^
 ||filezilla.fr^
 ||fili.cc^
 ||fili.tv^
@@ -49668,7 +49687,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||finalizeforce.com^
 ||find-a.jp^
 ||find-datings.life^
-||find-datings-here1.com^
 ||find-ip-address.org^
 ||find-me-now.com^
 ||find-sex-partner-now.com^
@@ -49678,6 +49696,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||find-yourman1.com^
 ||findallgainssurvey.top^
 ||findallgainsurvey.top^
+||findbandsnearme.com^
 ||findbetterresults.com^
 ||findcommerce.com^
 ||finddatinglives2.com^
@@ -49851,6 +49870,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||flippingcharts.com^
 ||flirt-dateshere4.com^
 ||flirt-dating-girls1.com^
+||flirt-ladyhere.com^
 ||flirt4free.com^
 ||flitions-sealteger.com^
 ||flixprice.com^
@@ -49934,6 +49954,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||foisonbetises.com^
 ||folicgare.com^
 ||followercounter.com^
+||followistic.com^
 ||followmalnutritionjeanne.com^
 ||folloyu.com^
 ||foncc.cn^
@@ -49991,7 +50012,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||formfulerses.com^
 ||formisimo.com^
 ||formulawire.com^
-||formumactif.fr^
 ||forrealzpiratebay.org^
 ||forrerri.com^
 ||forshrd.com^
@@ -50023,7 +50043,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fourfork.com^
 ||fourtuneo.fr^
 ||fout.jp^
-||foutuneo.fr^
 ||fovccjwc.com^
 ||fowft.cn^
 ||foxcounter.com^
@@ -50034,6 +50053,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||foxrevenue.com^
 ||foxx.to^
 ||foxypp.com^
+||fpapi.io^
 ||fpaux.net^
 ||fpavx.net^
 ||fpaxu.net^
@@ -50067,7 +50087,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||frailoffer.com^
 ||framentyder.pro^
 ||frameworkdeserve.com^
-||francebootball.fr^
 ||francelbleu.fr^
 ||franchemduty.work^
 ||francoistsjacqu.info^
@@ -50082,7 +50101,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fraudmetrix.cn^
 ||frbcmq.cn^
 ||freakads.com^
-||frecnhweb.fr^
 ||free-banners.com^
 ||free-box.fr^
 ||free-cheaters-dating3.com^
@@ -50112,7 +50130,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||freebanner.com^
 ||freebitco.in^
 ||freebloghitcounter.com^
-||freebos.fr^
 ||freebuy.top^
 ||freecamerasource.com^
 ||freecamsexposed.com^
@@ -50127,6 +50144,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||freecounter.ovh^
 ||freecountercode.com^
 ||freecounterstat.com^
+||freedailydownload.com^
 ||freedatehookup5.com^
 ||freedatinghookup.com^
 ||freediscordnitro.*^
@@ -50134,7 +50152,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||freedlinestore.com^
 ||freedomart.cz^
 ||freedominfo.net^
-||freedon.fr^
 ||freedownloadfiles.org^
 ||freedvddept.com^
 ||freefiles23.xyz^
@@ -50192,7 +50209,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fref.fr^
 ||freihit.de^
 ||fremaks.net^
-||frenchbweb.fr^
 ||frenchequal.pro^
 ||frenesies.fr^
 ||fresh-tv.biz^
@@ -50218,9 +50234,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fristminyas.com^
 ||frivol-ads.com^
 ||frizbit.com^
-||frnafinance.fr^
 ||frnwvialjbey.xyz^
-||froancefootball.fr^
 ||froggyinter.com^
 ||frolnk.com^
 ||fromjoytohappiness.com^
@@ -50259,6 +50273,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fsoft4down.com^
 ||fspark-ap.com^
 ||fstats.xyz^
+||fstaw.com^
 ||fstrk.net^
 ||fsyc.xyz^
 ||fsyzcs.com^
@@ -50297,6 +50312,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fugufeimaotui.cn^
 ||fuhaimuye.cn^
 ||fuigixk.cn^
+||fujhi.com^
 ||fujiladder.com^
 ||fujincenter.com^
 ||fukkad.com^
@@ -50467,10 +50483,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||g2546417787.com^
 ||g2575096355.co^
 ||g2921554487.com^
-||g2play.fr^
 ||g33ktr4ck.com^
 ||g35.cc^
 ||g3ao2q.cn^
+||g3j2wzmon8b.com^
 ||g3user.com^
 ||g77776666.com^
 ||g792337340.co^
@@ -50501,7 +50517,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gagpetwet.com^
 ||gagy.fr^
 ||gahapule.pro^
-||gaiaherbs.fr^
 ||gaigroak.com^
 ||gaijiglo.net^
 ||gaimoupy.net^
@@ -50565,9 +50580,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gammamaximum.com^
 ||gammamkt.com^
 ||gammaplatform.com^
-||gamonic.fr^
 ||gaoduan.cc^
 ||gaoguai.com^
+||gaojiedesign.cn^
 ||gaothings.com^
 ||gaoyuhu.top^
 ||gaozhuang.xyz^
@@ -50580,7 +50595,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gardendeur.site^
 ||gardoult.com^
 ||garibamarmose.com^
-||garlandnaninflict.com^
 ||garmentsdraught.com^
 ||garminsmapupdate.com^
 ||garminupdatenow.online^
@@ -50603,7 +50617,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gaubau.info^
 ||gaudybeginner.com^
 ||gaug.es^
-||gautmont.fr^
 ||gauvaiho.net^
 ||gavnogeeygaika.com^
 ||gavvia.com^
@@ -50620,6 +50633,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gbitcoin.cn^
 ||gblcdn.com^
 ||gbotvisit.com^
+||gbpofla.cn^
 ||gbqofs.com^
 ||gbscript.com^
 ||gbvqblkpxmzji.com^
@@ -50751,7 +50765,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||get-link.xyz^
 ||get-me-wow.*^
 ||get-me-wow.org^
-||get-prizesnow3.life^
 ||get-quadcleaner.com^
 ||get-things-done.net^
 ||get-your-prize.life^
@@ -50940,7 +50953,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||githb.co^
 ||gitpw.com^
 ||gitwnd.cn^
-||giulli.fr^
 ||giupich.org^
 ||giving-weekly-free-instant.rest^
 ||gixiluros.com^
@@ -50971,7 +50983,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||glassboxcdn.com^
 ||glassboxdigital.io^
 ||glassesofwine.com^
-||glassjaw.fr^
 ||glassmilheart.com^
 ||glasstaken.com^
 ||glaurtas.com^
@@ -51002,13 +51013,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||glizauvo.net^
 ||gloalrie.com^
 ||gloansad.com^
-||global-profit-for-your1.life^
-||global-redirect.net^
+||global-revenue-method.net^
 ||globaladmedia.net^
 ||globalcharge.com^
 ||globaldrugsurvey.fr^
 ||globalismedia.com^
-||globalnews247.net^
 ||globalsiteanalytics.com^
 ||globalso.biz^
 ||globaltakeoff.net^
@@ -51143,7 +51152,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||goat.cx^
 ||goatcounter.com^
 ||goatse.bz^
-||goatse.ca^
 ||goatse.cx^
 ||goatse.ru^
 ||goatsegirl.org^
@@ -51172,7 +51180,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||godrix.com^
 ||godsadvice.com^
 ||godynamo.co^
-||goemotify.com^
 ||goforexvps.com^
 ||gofun.info^
 ||goggl.com^
@@ -51208,7 +51215,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gomain.pro^
 ||gomain2.pro^
 ||gomakemerich1.com^
-||gommoneusato.it^
 ||gomnlt.com^
 ||gondolagnome.com^
 ||goneleft.com^
@@ -51224,14 +51230,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||goodcasino.uno^
 ||goodcounter.org^
 ||gooddaywith-captcha.top^
-||goodgamesmanship.com^
 ||goodgle.com^
 ||goodgoodluck.cn^
 ||goodkee.cn^
 ||goodkino.biz^
 ||goodluckdog.space^
 ||goodmarijuanaseeds.nl^
-||goodreader.fr^
 ||goodsky.shop^
 ||googfle.com^
 ||google-analytics.com^
@@ -51266,7 +51270,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||goojara.in^
 ||goolegames.com^
 ||goolges.com^
-||goolgueule.fr^
 ||goolpter.com^
 ||goomaphy.com^
 ||goonline13.online^
@@ -51332,12 +51335,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||govgift.com^
 ||govguangxi.cn^
 ||govhebie.cn^
-||govhechi.cn^
 ||govkunming.cn^
 ||govlihu.cn^
 ||govmetric.com^
-||govqingdao.cn^
 ||govshangxi.cn^
+||govshanxi.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
 ||govxinjing.cn^
@@ -51376,6 +51378,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gralovuba.com^
 ||gramombird.com^
 ||gramscien.xyz^
+||granddaughterrepresentationintroduce.com^
 ||grandeweddings.com^
 ||grandioseguide.com^
 ||grandmods.com^
@@ -51383,7 +51386,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||grandoads.com^
 ||grandprov.com^
 ||grandslammedia.com^
-||grandtheftwiki.fr^
 ||grangilo.net^
 ||granify.com^
 ||grapheffect.com^
@@ -51450,7 +51452,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||greetham.net^
 ||greetpanda.org^
 ||greetzebra.com^
-||greffetc-paris.fr^
 ||gremimedia.pl^
 ||grepdata.com^
 ||grepr.com^
@@ -51539,6 +51540,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gtcqbnu.cn^
 ||gtcslt-di2.com^
 ||gtifund.cn^
+||gtis.cf^
 ||gtop.ro^
 ||gtopstats.com^
 ||gtradersoft.com^
@@ -51572,12 +51574,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gugulm.net^
 ||guiaconsumidor.com^
 ||guide2poker.com^
-||guidelon.fr^
 ||guigankj.cn^
 ||guildofangels.net^
 ||guile.jp^
 ||guiltlessbasketball.com^
-||guiltygear.fr^
 ||guiltypattern.com^
 ||guirui-clothes.com^
 ||guitargrandmother.com^
@@ -51588,7 +51588,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gulf-industrial.com^
 ||guliangli.online^
 ||gulliblecamp.com^
-||gulliblecontextsteed.com^
 ||gullibleguitar.com^
 ||gumbolersgthb.com^
 ||gumgo.cn^
@@ -51621,7 +51620,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gushifanyi.com^
 ||gusion.space^
 ||gussbkpr.website^
-||gustomagro.it^
 ||gutiumhypoxic.website^
 ||gutouwang.net^
 ||guxin.me^
@@ -51747,7 +51745,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||habtcng.cn^
 ||habulex.com^
 ||habyc.com^
-||hackconsole.fr^
 ||hackeraa.xyz^
 ||hackersweb.org^
 ||hackerz.ir^
@@ -51767,6 +51764,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||haihaime.net^
 ||hailiao520.com^
 ||hainancaishui.online^
+||hairnaturalhairstudio.com^
 ||hairoak.com^
 ||haishengwh123.cn^
 ||haitaochen.xyz^
@@ -51790,6 +51788,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hallohaus.co^
 ||halltrasy.com^
 ||hallucinatecompute.com^
+||hallucinatepromise.com^
 ||halstats.com^
 ||haltegourmande.com^
 ||haltingbadge.com^
@@ -51814,6 +51813,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hangfly.net^
 ||hangoutairbags.com^
 ||hanjw1988.com^
+||hanldsw.cn^
 ||hanlinzhijia.net^
 ||hanmiyong.com^
 ||hannode.xyz^
@@ -51860,7 +51860,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||happycastle.me^
 ||happydays05.site^
 ||happydays06.site^
-||happyfresh.fr^
 ||happyhs.club^
 ||happyyong.com^
 ||harahero.top^
@@ -51878,7 +51877,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||harperhouseproducts.com^
 ||harrenmedia.com^
 ||harrenmedianetwork.com^
-||hartamann.fr^
 ||harthatforsin.pro^
 ||hartim.com^
 ||harvesttheory.com^
@@ -52000,7 +51998,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||healthsmd.com^
 ||healthy001.top^
 ||healthy007.top^
-||healthydiet4all.com^
 ||healthykids-food.com^
 ||heap.com^
 ||heapanalytics.com^
@@ -52061,6 +52058,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hellomobile.fr^
 ||hellosherpa.com^
 ||helloworldisbeautiful.net^
+||helloyour-prizes1.life^
 ||helltraffic.com^
 ||helmprecision.com^
 ||helooworld.us^
@@ -52101,7 +52099,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||here-best-dating2.com^
 ||herepackagine.info^
 ||herespepla.com^
-||heritagebathrooms.fr^
 ||heritagetrust.co^
 ||herman.ink^
 ||hermesmax.com^
@@ -52110,6 +52107,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||heroesdom.com^
 ||heroesofrpg.com^
 ||hertforthatharrigh.pro^
+||herthyptal.com^
 ||hertzsales.com^
 ||heshebei.com^
 ||heshun365.cn^
@@ -52124,7 +52122,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hetaruwg.com^
 ||hetchi.com^
 ||heukwasanasse.com^
-||hewkpvsrdk.com^
 ||hewmjifrn4gway.com^
 ||hexagon-analytics.com^
 ||hexcan.com^
@@ -52242,7 +52239,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||himediadx.com^
 ||himicrosoft.com^
 ||himselvesobr.club^
-||himselvethe.info^
 ||hindurinning.pro^
 ||hinoidczarist.com^
 ||hinotoenh.online^
@@ -52262,7 +52258,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hirmatrix.hu^
 ||hirorigo.net^
 ||hirozon.info^
-||hirsch-ille.fr^
 ||hirtop.in^
 ||hirzona24.com^
 ||hisainog.com^
@@ -52319,7 +52314,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hitsprocessor.com^
 ||hitstation.nl^
 ||hitstatus.com^
-||hitsteps.com^
 ||hittail.com^
 ||hittracker.com^
 ||hitugou.com^
@@ -52333,6 +52327,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hjgd.ltd^
 ||hjgen.cn^
 ||hjhbhddren.com^
+||hjjkk66.xyz^
 ||hjjnpx.com^
 ||hjmreljsqhq.com^
 ||hjqkwjyu.com^
@@ -52433,7 +52428,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hocgeese.com^
 ||hockeyhavoc.com^
 ||hockeystack.com^
-||hocolats-voisin.fr^
 ||hoemasfat.site^
 ||hoerbird.net^
 ||hognaivee.com^
@@ -52464,7 +52458,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||homewares.org^
 ||homeyloanedmes.work^
 ||homfen.me^
-||hommetendance.fr^
 ||homomqmfbomoy.com^
 ||homrdepot.com^
 ||homuradu.com^
@@ -52499,9 +52492,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||honorablehydrant.com^
 ||honorableland.com^
 ||honqdyg.cn^
-||hoohavoa.com^
 ||hookedmediagroup.com^
 ||hookup-4locators.com^
+||hookups11.com^
 ||hooliganmedia.com^
 ||hoophaub.com^
 ||hooqy.com^
@@ -52511,7 +52504,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hoptopboy.com^
 ||horacomerciar.com^
 ||hormebets.info^
-||horny-sisgirls.com^
 ||horny-vipchicks1.com^
 ||hornygirlhere1.com^
 ||hornytraffic.com^
@@ -52539,7 +52531,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hosting24.com^
 ||hostingcloud.bid^
 ||hostingcloud.date^
-||hostingcloud.faith^
 ||hostingcloud.loan^
 ||hostingcloud.party^
 ||hostingcloud.racing^
@@ -52565,13 +52556,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hotchatdate.com^
 ||hotcounter.de^
 ||hotdatenight10.com^
-||hotdesertknights.fr^
 ||hotejgetmoney.icu^
 ||hotel-leparc.fr^
 ||hoteldesventesantilles.fr^
 ||hotelfroma.fun^
 ||hotelhadieh.ir^
-||hotelissimo.fr^
 ||hotgiftzone.com^
 ||hotgirlsignupfree-datenow.fun^
 ||hotgirlsignupfree-dating.fun^
@@ -52585,7 +52574,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hotpornfile.org^
 ||hotsimulator.com^
 ||hottracker.biz^
-||hotvideos.fr^
 ||hotwords.com^
 ||hotxfans.com^
 ||hotzxgirl.com^
@@ -52597,7 +52585,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||houseatthebeachinoc.com^
 ||housejomadkc.com^
 ||housemaiddevolution.com^
-||houseofkids.fr^
 ||housesfurniture.com^
 ||housewedding.cn^
 ||housewifehaunted.com^
@@ -52691,9 +52678,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||htjsk.com^
 ||htl.bid^
 ||htlbid.com^
-||htmlmetrics.com^
 ||htnr3qm.cn^
 ||htownbars.com^
+||htsgov.com^
 ||htsj.vip^
 ||htsysltuujfjcb.com^
 ||httpaccess.com^
@@ -52701,7 +52688,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||httpool.com^
 ||httpp.gdn^
 ||httpschecker.net^
-||httpwwwadserver.com^
 ||htxourpo.com^
 ||htyfmm.com^
 ||huaerdadi.com^
@@ -52741,7 +52727,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hueads.com^
 ||hueadsortb.com^
 ||hueadsxml.com^
-||huffingtopost.fr^
 ||huge-cocks.biz^
 ||huge-gay-cock.com^
 ||hugedomains.com^
@@ -52762,6 +52747,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||huimee.net^
 ||huipulianfood.com^
 ||huisatu.xyz^
+||huishangjituan.cn^
 ||huishenghuiying.com^
 ||huishij.net^
 ||huishunhang.net^
@@ -52814,6 +52800,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||huojub.com^
 ||huojuf.com^
 ||huojugg.com^
+||huojutt.com^
 ||huomob.com^
 ||huoxingtan66.com^
 ||huoying666.com^
@@ -52864,6 +52851,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hxnfgzotzkhbpw.com^
 ||hxnzyy.com^
 ||hxqu.com^
+||hxskjll.cn^
 ||hxspc.com^
 ||hxsq.app^
 ||hxssj.cn^
@@ -53035,7 +53023,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||iche88.cn^
 ||ichecknotifyfriends.info^
 ||ichgcp.com^
-||ichisushi.fr^
 ||ichlnk.com^
 ||icilyassertiveindoors.com^
 ||icityfind.com^
@@ -53048,7 +53035,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||icoawhou.com^
 ||icolor8.com^
 ||iconcnd.net^
-||iconfitness.fr^
 ||iconpeak2trk.com^
 ||iconworkshop.cn^
 ||icoocash.com^
@@ -53059,7 +53045,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||icracks.net^
 ||ics0.com^
 ||icstats.nl^
-||icyrd.com^
 ||iczgls.cn^
 ||id-visitors.com^
 ||id1.cn^
@@ -53071,7 +53056,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||idanrehualib.ga^
 ||idasai.com^
 ||idcot.com^
-||idcqi.com^
 ||iddpop.com^
 ||ideahealkeeper.com^
 ||idealadvertising.net^
@@ -53179,7 +53163,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||iijls.com^
 ||iipbuas.cn^
 ||iirpvchv.cn^
-||iiueuenutuhaf.com^
 ||iivt.com^
 ||ijir.cn^
 ||ijqgefuq.com^
@@ -53223,13 +53206,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||illuminatelocks.com^
 ||illustcutesy.com^
 ||illustriousoatmeal.com^
+||ilmwaqf.cn^
 ||ilmwi.cn^
 ||ilogbox.com^
 ||ilovemakingpics.com^
 ||ilovemobi.com^
 ||iloveyouxi.com^
 ||ilstcnaeuhso.com^
-||iltgkgiepf.com^
 ||ilusors.com^
 ||ilvjp.com^
 ||ilyf4amifh.com^
@@ -53237,11 +53220,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||image-rentracks.com^
 ||imageadvantage.net^
 ||imagecash.net^
-||imagecenter.fr^
 ||imageprostyle-communication.fr^
 ||images9999.com^
 ||imageter.com^
-||imago-tv.fr^
 ||imarker.com^
 ||imarker.ru^
 ||imarketservices.com^
@@ -53375,7 +53356,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||individuad.net^
 ||indold.com^
 ||indoleads.com^
-||indonesias.me^
 ||indooritalian.com^
 ||indpolice.com^
 ||indrasbikaner.com^
@@ -53405,9 +53385,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||info-sectes.fr^
 ||infobbs.xyz^
 ||infocollect.dk^
-||infodjour.fr^
 ||infogiovanialtopavese.it^
-||infographicworld.fr^
 ||infolinks.com^
 ||infopaypal.com^
 ||infopicked.com^
@@ -53475,13 +53453,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||innovationlizard.com^
 ||innovationthinkingslick.com^
 ||innovativemasonry.net^
-||innoveox.fr^
 ||innovid.com^
 ||innvitor.com^
 ||innyweakela.co^
 ||inone517.com^
 ||inoradde.com^
-||inoreader.fr^
 ||inpage-push.com^
 ||inpagepush.com^$important
 ||inpagepush.com^
@@ -53493,7 +53469,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||inquisitiveinvention.com^
 ||inrdeals.com^
 ||inrhyhorntor.com^
-||inseee.fr^
 ||insenz.com^
 ||inservinea.com^
 ||insgly.net^
@@ -53516,6 +53491,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||inspectorstrongerpill.com^
 ||inspirationhistorical.com^
 ||insta-hookup.com^
+||insta-hookup-club1.com^
 ||insta-hookups.com^
 ||instabook.fr^
 ||instaboom-hello.site^
@@ -53533,7 +53509,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||installrenewedsupertheproduct.vip^
 ||installsophisticatedoverlytheproduct.vip^
 ||installstronghighlythefile.vip^
-||installsuperoriginaltheproduct.vip^
+||installtracker.cfd^
 ||installtracker.com^
 ||instalocal-hookup.com^
 ||instant.page^
@@ -53610,7 +53586,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||interhomes.fr^
 ||interia-ek.ru^
 ||interieurarchitect-maasdam.nl^
-||interimairesssante.fr^
 ||intermarkets.net^
 ||intermediaceli.com^
 ||intermediads.com^
@@ -53635,9 +53610,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||interstitial-08.com^
 ||intertakekuhy.info^
 ||intervigil.com^
-||intevry.fr^
 ||intextad.net^
 ||intnotif.club^
+||intorterraon.com^
 ||intowow.com^
 ||intrack.pl^
 ||intrastats.com^
@@ -53769,6 +53744,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||irtyd.com^
 ||irtyf.com^
 ||iruad.com^
+||irvate.com^
 ||irxcm.com^
 ||iryazan.ru^
 ||irzeemn.cn^
@@ -53789,7 +53765,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||islamipedia.org^
 ||islamiyaat.com^
 ||islecolloquial.com^
-||isles.cn^
 ||isletachoisya.cam^
 ||ism2trk.com^
 ||ismailersoz.com^
@@ -53840,8 +53815,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||itinerarymonarchy.com^
 ||itineraryupper.com^
 ||itjie.xyz^
-||itlunlajqum.xyz^
 ||itnuzleafan.com^
+||itnxqd.xyz^
 ||itnxxa.xyz^
 ||itop.cz^
 ||itpatratr.com^
@@ -53870,7 +53845,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||iuwzdf.com^
 ||iuyuwh.cn^
 ||ivfihumeajjmbc.com^
-||ivgault.fr^
 ||ivitrack.com^
 ||ivoirmixdj.fr^
 ||ivqd8oi.cn^
@@ -53898,7 +53872,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ixodidsupdives.com^
 ||ixqfughrynmfh.com^
 ||ixspublic.com^
-||iybasketball.info^
 ||iyfnz.com^
 ||iyfnzgb.com^
 ||iyfubh.com^
@@ -53930,6 +53903,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||j05ot.online^
 ||j07773.com^
 ||j1503.com^
+||j1ybkf.cn^
 ||j45.xyz^
 ||j46.xyz^
 ||j46rwh.site^
@@ -53944,12 +53918,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||j93557g.com^
 ||ja2n2u30a6rgyd.com^
 ||ja9377.com^
+||jaavnacsdw.com^
 ||jab88.com^
 ||jabra.id^
 ||jacbridge.com^
 ||jackielovedogs.com^
 ||jacksonyee.club^
-||jacques-brinat.fr^
 ||jacquieclark.com^
 ||jadcenter.com^
 ||jadedjoke.com^
@@ -53982,7 +53956,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||japlatec.com^
 ||japscat.org^
 ||japtron.es^
-||jardinonssolsvivant.fr^
 ||jarsquatter.com^
 ||jarvispopsu.com^
 ||jashautchord.com^
@@ -54069,14 +54042,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jerredsite.pro^
 ||jesamcorp.com^
 ||jesgoo.com^
-||jessicalaurax.com^
 ||jessieemys.com^
 ||jessieu.fr^
 ||jetem.fr^
 ||jetrun.jp^
 ||jettrujole.com^
 ||jetx.info^
-||jeu-jeux.fr^
 ||jeupicard.fr^
 ||jeuuhu.cn^
 ||jewelryedu.cn^
@@ -54086,7 +54057,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jewsondirect.com^
 ||jf71qh5v14.com^
 ||jfashop.net^
-||jfcqucxvvpwgp.com^
 ||jfduv7.com^
 ||jfecfzzuwevyqc.com^
 ||jfjsp.com^
@@ -54262,7 +54232,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jixie.io^
 ||jixing.cc^
 ||jixing8.com^
-||jixing8.net^
 ||jiyan.net^
 ||jiyuanzixun.com^
 ||jiztini.com^
@@ -54322,7 +54291,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jnachb.com^
 ||jnbd43jh.world^
 ||jnbd43jh.xyz^
-||jnborycvjjk.com^
 ||jnbvckgophfkop.com^
 ||jncacp.cn^
 ||jndczg.com^
@@ -54344,7 +54312,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||joastous.com^
 ||jobcity.com^
 ||jobfilletfortitude.com^
-||jobfreelance.fr^
 ||joblessdrum.com^
 ||jobrave.live^
 ||jocowhab.com^
@@ -54363,12 +54330,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||joker6.fun^
 ||jokoshep.com^
 ||jolecyclist.com^
+||jollyembodyclassified.com^
 ||jollyspring.com^
 ||jomtingi.net^
 ||jomwihn.cn^
 ||jonpoor.com^
 ||joodoush.com^
-||joomlaworks.fr^
 ||joomxer.fun^
 ||jootizud.net^
 ||joredi.com^
@@ -54407,6 +54374,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jqeyvtgelo.com^
 ||jqsex.com^
 ||jquery-cdn.cc^
+||jquery-cdn.download^
 ||jquery-uim.download^
 ||jquerycdn.host^
 ||jqueryget.com^
@@ -54415,7 +54383,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jqwww.download^
 ||jqyde7msbro2.com^
 ||jqyexkcsd.com^
-||jr-software-web.net^
 ||jrdkc.com^
 ||jrfa.net^
 ||jrfurnace.com^
@@ -54503,14 +54470,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||judjetheminos.com^
 ||juedische-kammerphilharmonie.de^
 ||jueditt.top^
-||juegosdechicas.fr^
 ||juergeninez.com^
 ||jufenglc.com^
 ||jufengputao.com^
 ||jugao.com^
 ||jugerfowells.com^
 ||jugust.com^
-||juhepen.com^
 ||juhuiguoji.wang^
 ||juhuisuan.com^
 ||juhuitongcheng.life^
@@ -54593,7 +54558,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jvpook.cn^
 ||jwalf.com^
 ||jwdhoxw.cn^
-||jwduahujge.ru^
 ||jwhfkj.cn^
 ||jwiyr.com^
 ||jwmfxp.xyz^
@@ -54695,7 +54659,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ka5188.com^
 ||kaafu.cn^
 ||kabobitacism.com^
-||kabookk.fr^
 ||kadkaxjfeh.com^
 ||kaffnet.com^
 ||kagdf.com^
@@ -54730,13 +54693,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kanasmeedful.com^
 ||kanclick.com^
 ||kanenobi.com^
+||kanfaxing.com^
 ||kang08.com^
 ||kangaroohiccups.com^
 ||kanglaijd.cn^
 ||kangxifan.com^
 ||kanjiaqun.cn^
 ||kankokukopi.com^
-||kanojo.fr^
 ||kanoodle.com^
 ||kanseen.com^
 ||kanshu.buzz^
@@ -54764,7 +54727,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kataprius.com^
 ||katecrochetvanity.com^
 ||katelin.top^
-||katia-paliotti.com^
 ||kattepush.com^
 ||katukaunamiss.com^
 ||kau.li^
@@ -54850,7 +54812,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ketq.site^
 ||kevinhewu.com^
 ||kevinley.com^
-||kevlaardiet.fr^
 ||keweifuwu.shop^
 ||kewhulawi.com^
 ||keyade.com^
@@ -54914,9 +54875,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ki47.com^
 ||ki74.com^
 ||kiabo.fr^
-||kiaby.fr^
-||kiassure.fr^
-||kicherchekoi.fr^
 ||kick-lake.ga^
 ||kickass.cd^
 ||kickfire.com^
@@ -54949,7 +54907,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kindjalvitalic.com^
 ||kindleloving.com^
 ||kindnessmarshalping.com^
-||kined.tk^
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
 ||kingdeecn.cn^
@@ -54992,7 +54949,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kj-gov.cn^
 ||kj733.com^
 ||kjbbc.net^
-||kjbipwznkbtybs.com^
 ||kjbyuguv12.com^
 ||kjcenter.com^
 ||kjcnve.xyz^
@@ -55001,7 +54957,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kjhfy.com^
 ||kjhzwvq.cn^
 ||kjjzx.cn^
-||kjkhgtwft.com^
 ||kjldh.top^
 ||kjltxn.com^
 ||kjlzt.cn^
@@ -55052,6 +55007,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kmbikv.cn^
 ||kmd365.com^
 ||kmeukiygmr.com^
+||kmfcxq.cn^
 ||kmgfjc.cn^
 ||kmindex.ru^
 ||kmpkedsbdb.com^
@@ -55079,6 +55035,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||knowledgevine.net^
 ||knownwarn.com^
 ||knowseminar.com^
+||knr-bv.be^
 ||knutenegros.pro^
 ||koalaspringb.xyz^
 ||koalaups.com^
@@ -55281,7 +55238,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kvkaa.com^
 ||kvlzsbxn.com^
 ||kvors.com^
-||kvsoloutions.ru^
 ||kw3y5otoeuniv7e9rsi.com^
 ||kwbtgame.com^
 ||kwdgudw.cn^
@@ -55319,7 +55275,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kzqjwdxxussshe.net^
 ||kzsha.com^
 ||kzzs.shop^
-||l-histoire.fr^
 ||l-kingmall.com^
 ||l14.xyz^
 ||l2.io^
@@ -55335,20 +55290,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ||la3c05lr3o.com^
 ||laagersmascons.com^
 ||laatribune.fr^
-||labanquepoqtale.fr^
 ||labanqueposttale.fr^
 ||labeldollars.com^
 ||labelle.om^
-||laboiteorse.fr^
 ||laborates.com^
 ||laborex.hu^
-||lacentrrale.fr^
 ||lacerate.club^
-||lacetrale.fr^
 ||lackadaisicalkite.com^
 ||lackystars.com^
 ||lactell.fr^
-||ladepehe.fr^
 ||ladiestofuck.com^
 ||ladnet.co^
 ||ladnova.info^
@@ -55367,7 +55317,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lady177.com^
 ||ladybugsweb.site^
 ||ladyclicks.ru^
-||ladylovers-club.com^
 ||ladymetro.com^
 ||ladyphapty.com^
 ||ladyye.site^
@@ -55380,7 +55329,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lagazette-dgi.fr^
 ||lagginleapful.com^
 ||lagoonolivia.com^
-||lagranderecr.fr^
 ||lahair.biz^
 ||laiberation.fr^
 ||laifu365.com^
@@ -55392,14 +55340,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lajeshuru.pro^
 ||lajidewanyi.top^
 ||lajimeiguo.top^
-||lajna.fr^
 ||lakequincy.com^
 ||lakusdvroa.com^
 ||lakvandula.com^
 ||lalaaal.cn^
 ||laladui.buzz^
 ||laloorna.com^
-||lama-ole-nydahl.fr^
 ||lambdafoobar.de^
 ||lamberserer.club^
 ||lambingsyddir.com^
@@ -55408,7 +55354,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lameletters.com^
 ||lamiflor.xyz^
 ||lamimi.cn^
-||lamlsace.fr^
 ||lammasbananas.com^
 ||lamp-shade.net^
 ||lampholder.tw^
@@ -55442,7 +55387,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||laoliulaoliu.com^
 ||laoma.ltd^
 ||laoyg.com^
-||laphoceen.fr^
+||lapblra5do4j7rfit7e.com^
 ||lapiden.com^
 ||lapre28rmcat2.com^
 ||lapsebreak.com^
@@ -55456,14 +55401,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||laratlacrestot.pro^
 ||laredoutee.fr^
 ||laredoutre.fr^
-||lareplubliquedespyrenees.fr^
 ||large-format.net^
 ||largeordier.fun^
 ||lariod.com^
 ||larivieracasino.com^
 ||larossola.it^
 ||larrenworld.pro^
-||larusse.fr^
 ||las4srv.com^
 ||laserstat.com^
 ||laserveradedomaina.com^
@@ -55472,6 +55415,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||last-chainleash.net^
 ||lasticalsdeb.xyz^
 ||lastimaners.ug^
+||lastwarrior2022to2023.xyz^
 ||latamdcs.com^
 ||lataurir.com^
 ||latcoy.com^
@@ -55494,35 +55438,31 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lavanetwork.net^
 ||lavatoryhitschoolmaster.com^
 ||lavishvanish.com^
-||lavoixedunord.fr^
 ||lawful.wang^
 ||lawhulophe.com^
 ||lawlowvat.net^
 ||lawsaddthoroughfare.com^
 ||lawscagetroy.com^
 ||lawumi.cn^
-||laxifoot.fr^
 ||layer-ad.de^
 ||layer-ad.org^
 ||layer-ads.de^
 ||layerprotect.com^
-||layoutfill.com^
 ||layyi.com^
 ||lbampvjuvfv.com^
 ||lbbyft.cn^
 ||lbck.fun^
 ||lbn.ru^
+||lbrtry.com^
 ||lbts.ltd^
 ||lc-cn-n1-shared.com^
 ||lc442.com^
-||lcastorama.fr^
 ||lccnkspairqeem.com^
 ||lcdwjuzdkpxnss.com^
 ||lceventos.net^
 ||lcloc.com^
 ||lcmnyfk.cn^
 ||lcmqyl.cn^
-||lcolissimo.fr^
 ||lcpr.fr^
 ||lcttty.top^
 ||lcvfar.com^
@@ -55534,8 +55474,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ldpsfa.com^
 ||ldsage.top^
 ||lduhtrp.net^
-||le-chineur.fr^
-||le-recendement-et-moi.fr^
 ||le-recenement-et-moi.fr^
 ||le-tchat-bdsm.fr^
 ||le123.cn^
@@ -55602,7 +55540,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||leavehomego.com^
 ||lebilui.ru^
 ||leboncoan.fr^
-||lebopncoin.fr^
 ||lecap-services.fr^
 ||lecuiwangluo.com^
 ||ledampenergy.net^
@@ -55617,13 +55554,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||leerilypimelea.com^
 ||leeyuo.com^
 ||leezoama.net^
-||leficaro.fr^
 ||lefigarao.fr^
 ||lefigarop.fr^
 ||lefiogaro.fr^
-||lefirgaro.fr^
 ||lefos.net^
-||lefsechos.fr^
 ||leftliquid.com^
 ||leftnetarenning.pro^
 ||leftoverdense.com^
@@ -55659,7 +55593,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lemmatechnologies.com^
 ||lemmotx.cn^
 ||lemnisk.co^
-||lemnode.fr^
 ||lemoncai.xyz^
 ||lemondde.fr^
 ||lemonparty.biz^
@@ -55672,7 +55605,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lengthcalk.com^
 ||lenkmio.com^
 ||lenmit.com^
-||lensesunduke.website^
 ||lentainform.com^
 ||lentduskyscold.com^
 ||lenzmx.com^
@@ -55685,27 +55617,18 @@ charlestownwyllie.oaklawnnonantum.com^
 ||leoyan.top^
 ||leoyard.com^
 ||lepaidaren.com^
-||leparirien.fr^
-||leparisein.fr^
-||leparisin.fr^
-||lepatisien.fr^
 ||lephaush.net^
 ||lepoinf.fr^
-||leponde.fr^
 ||lepubs.com^
 ||leroymerln.fr^
-||leroymrlin.fr^
 ||les-bagatelles.fr^
 ||les-crisis.fr^
 ||les-experts.com^
-||les-oncheres.fr^
 ||les-toiles-cinema.fr^
 ||lesecchos.fr^
 ||lesechoss.fr^
 ||leserservice-tracking.de^
 ||leshu.com^
-||lesindesradio.fr^
-||lesmonde.fr^
 ||lessbuttons.com^
 ||lessite.pro^
 ||letaikay.net^
@@ -55806,9 +55729,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||libecki.net^
 ||libedgolart.com^
 ||libentao.club^
-||liberatiuon.fr^
-||liberaztion.fr^
-||liberland.fr^
 ||libertycdn.com^
 ||libertystmedia.com^
 ||libihimu.com^
@@ -55826,18 +55746,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lidebo.com^
 ||lidjetsyak.com^
 ||lie2anyone.com^
-||lieberation.fr^
 ||liebian888.site^
 ||liegelygosport.com^
-||liemonde.fr^
-||lien-social.fr^
 ||lieqitianxia.cn^
 ||lieying.cn^
 ||lifearchaicwhipped.com^
 ||lifebotl.com^
-||lifefoot.fr^
 ||lifeimpressions.net^
-||lifeofpie.fr^
 ||lifestyle24h.com^
 ||lifiads.com^
 ||lifigaro.fr^
@@ -55899,7 +55814,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lindanmiaoxiang.cn^
 ||lindasys.xyz^
 ||lindenlaugh.pro^
-||lindependnant.fr^
 ||lindependnt.fr^
 ||lindiankj.com^
 ||lindnerelektroanlagen.de^
@@ -55908,7 +55822,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lingamretene.com^
 ||lingd.cn^
 ||linghangshouji.com^
-||lingintirejohny.club^
 ||lingjingya.cn^
 ||lingke02.xyz^
 ||lingke03.top^
@@ -55984,7 +55897,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lismcanalys.fun^
 ||listc.cn^
 ||listen-heres.com^
-||listenonrepeat.fr^
 ||listenother.com^
 ||listinsteats.cn^
 ||listrakbi.com^
@@ -55999,7 +55911,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||littlecutecats.com^
 ||littlecutedogs.com^
 ||littlecutelions.com^
-||littleduck.fr^
 ||litusher.com^
 ||liuchengming.com^
 ||liufenghua.com^
@@ -56055,7 +55966,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||livemz.com^
 ||liverail.com^
 ||livere.com^
-||liveredwilton.com^
 ||liversely.com^
 ||liversely.net^
 ||livesegmentservice.com^
@@ -56073,7 +55983,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||liveyield.com^
 ||livezfoot.fr^
 ||livezombymil.com^
-||livreral.fr^
 ||livrval.fr^
 ||liwanting0305.com^
 ||lixiangmo.com^
@@ -56122,7 +56031,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||llnsmu.com^
 ||llog.pl^
 ||lloogg.com^
-||llqss.top^
 ||lltckjyxgs.com^
 ||lltrck.com^
 ||lm213.com^
@@ -56201,7 +56109,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||loanglide.com^
 ||lobby-x.eu^
 ||lobimax.com^
-||lobmoprob.com^
 ||loboclick.com^
 ||local-city-chicks1.com^
 ||local-datings-space1.com^
@@ -56209,10 +56116,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||localbestdating1.com^
 ||localchick-here.com^
 ||localesaftaba.com^
-||localgirl-hookuper.com^
 ||localhookupclub1.com^
 ||locallchickshere2.com^
-||localo.fr^
 ||localsexfinderxxx4.com^
 ||localsexy11.top^
 ||localsnapsext.com^
@@ -56246,7 +56151,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||loggatscowbyre.com^
 ||logger.pw^
 ||loginhood.io^
-||logitrave.fr^
 ||lognormal.net^
 ||logoduoduo.com^
 ||logoestulles.com^
@@ -56258,7 +56162,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||logxp.ru^
 ||logystowtencon.info^
 ||logz.ru^
-||loirs.fr^
 ||lokggprixs.xyz^
 ||lokuai.com^
 ||lol.to^
@@ -56319,7 +56222,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lorenfreeman.xyz^
 ||lorenzourban.com^
 ||lorlsblh.cyou^
-||lornardchr.club^
 ||lorybnfh.com^
 ||losecounter.de^
 ||losingfoundation.com^
@@ -56380,7 +56282,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lowtyroguer.com^
 ||lowtyruntor.com^
 ||loxitdat.com^
-||loytec.fr^
 ||lp3tdqle.com^
 ||lp4.io^
 ||lpcloudsvr302.com^
@@ -56407,7 +56308,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lr-in.com^
 ||lr-ingest.io^
 ||lrevfhmp.cn^
-||lrpoint.fr^
 ||lrqugqq.cn^
 ||lrswl.com^
 ||ls-droid.com^
@@ -56431,8 +56331,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ltg69t.com^
 ||ltht.tech^
 ||lthwsj.com^
-||lthzd.cn^
 ||ltk.pw^
+||lttgov.tv^
 ||ltwrkbxgnsc.com^
 ||ltziyuyjoq.com^
 ||luassane.cn^
@@ -56446,7 +56346,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lucklayed.info^
 ||lucktoday.club^
 ||lucktui.com^
-||lucky-day-uk.com^
 ||lucky4wins.club^
 ||luckyforbet.com^
 ||luckyforworlds.com^
@@ -56469,7 +56368,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lumaktoys.com^
 ||lumanajaska.ml^
 ||lumberamount.com^
-||luminae.fr^
 ||luminate.com^
 ||luminosoocchio.com^
 ||luminouspneuma.com^
@@ -56579,7 +56477,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lylfj.cn^
 ||lylifa.com^
 ||lynr.com^
-||lyophililse.fr^
 ||lypn.com^
 ||lypn.net^
 ||lyraik.cn^
@@ -56645,7 +56542,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||maanageo.fr^
 ||maatch.com^
 ||maaxmarket.com^
-||mabtech.fr^
 ||macads.net^
 ||macatawa.org^
 ||maccleanersecurity.com^
@@ -56688,7 +56584,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||madslimz.com^
 ||madsone.com^
 ||madvertise.de^
-||madwell.fr^
 ||madyna.ru^
 ||maewan.fr^
 ||mafenggo.club^
@@ -56725,7 +56620,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||magnify360.com^
 ||magnus-beo.com^
 ||magrie.pw^
-||magyarkozosseg.net^
 ||magyarnep.me^
 ||magyarokvagyunk.com^
 ||mahalowood.com^
@@ -56733,13 +56627,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mahigifts.com^
 ||mahimeta.com^
 ||mahindrainsurance.com^
-||maia-asso.fr^
 ||maicaoren.cn^
 ||maicv.cn^
 ||maihehd.com^
 ||maikashu.net^
 ||maikiki.com^
-||mail-en-marche.fr^
 ||mailboxleadsphone.com^
 ||mailboxmeeting.com^
 ||maillots-ffoot-actu.fr^
@@ -56763,13 +56655,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mainroll.com^
 ||mainsite.in^
 ||mainsite.us^
-||mainstream-spot-here.life^
 ||maio.jp^
 ||mairuan.cn^
 ||mairuan.com^
 ||mairuan.net^
 ||mairuanwang.com^
-||maisonstravaux.fr^
 ||maisonvalentina.fr^
 ||maist.jp^
 ||majestydeference.com^
@@ -56780,7 +56670,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||majorworkertop.com^
 ||makarswrig.com^
 ||makeding.com^
-||makeitmedia.fr^
 ||makemoneyrobot.com^
 ||makemyvids.com^
 ||makerblog.fr^
@@ -56792,9 +56681,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||makuzeko.xyz^
 ||maldini.xyz^
 ||malect.com^
-||malepills-area.life^
 ||malest.com^
 ||maliciousmusic.com^
+||malictuiar.com^
 ||malinesmanses.com^
 ||malkm.com^
 ||mals.shop^
@@ -56811,7 +56700,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||managedweb.net^
 ||managestrongintenselythefile.vip^
 ||mandatorycaptaincountless.com^
-||mandialrelay.fr^
 ||mandistreet.top^
 ||mandljigeografija.xyz^
 ||manggo.fun^
@@ -56823,6 +56711,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mantisadnetwork.com^
 ||manualcasketlousy.com^
 ||manualdrain.com^
+||manufacta-italia.it^
 ||manychat.com^
 ||manygoodnews.com^
 ||manyou.com^
@@ -56840,7 +56729,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||maploco.com^
 ||mapmyuser.com^
 ||mapping.fun^
-||mappyt.fr^
 ||mapqueat.com^
 ||mapquestt.com^
 ||mapquuest.com^
@@ -56860,9 +56748,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||marfeelcache.com^
 ||margaretanddavid.com^
 ||margarinereverend.com^
-||marie-gerardmer.fr^
 ||marincr.com^
-||marinescence.fr^
 ||marinsm.com^
 ||mario-sunjic.com^
 ||marionettespuppets.co^
@@ -56897,11 +56783,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||marootrack.co^
 ||marphezis.com^
 ||marquesvogt.com^
+||marriedbelief.com^
 ||martafatass.pro^
 ||martingrant.com^
 ||martinsmith.nl^
 ||marvedesderef.info^
 ||marvelrespectableinset.com^
+||maryket-in.tk^
 ||masakeku.com^
 ||masdsmt.com^
 ||mashinkhabar.com^
@@ -56922,7 +56810,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||masture.mobi^
 ||matchaix.net^
 ||matchcraft.com^
-||matcheendirect.fr^
 ||matchendirectr.fr^
 ||matchendiredt.fr^
 ||matchmyip.com^
@@ -56949,6 +56836,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||matterlytics.com^
 ||matthewsery.com^
 ||mauchopt.net^
+||maudamee.net^
 ||maudau.com^
 ||mauptaub.com^
 ||maustiwy.net^
@@ -56984,6 +56872,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mayie.xyz^
 ||mayif.xyz^
 ||mayig.xyz^
+||mayketdosisigherell.tk^
+||mayketdostyabesighe.tk^
+||mayketdostyabisiighe.tk^
 ||maymooth-stopic.com^
 ||maysunmedia.com^
 ||mayuting0821.ltd^
@@ -57024,10 +56915,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mcdupe.com^
 ||mcfarland.cn^
 ||mcfpsn.xyz^
-||mciegroup.ru^
 ||mcix.cn^
-||mckinneytighe.com^
-||mcleaks.fr^
 ||mcleanvahomes.com^
 ||mcloudglobal.com^
 ||mcloudjs.com^
@@ -57047,6 +56935,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mct01.com^
 ||mcteu.cn^
 ||mcvvhacopov.com^
+||mczahprdql.com^
 ||mczbf.com^
 ||md-nx.com^
 ||mdapp01.com^
@@ -57121,6 +57010,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||medialytics.com^
 ||medialytics.io^
 ||mediamath.com^
+||medianews.ge^
 ||mediaoaktree.com^
 ||mediapalmtree.com^
 ||mediaplan.ru^
@@ -57136,7 +57026,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mediaserf.net^
 ||mediasmart.io^
 ||mediastinct.com^
-||mediaterre.fr^
 ||mediatext.com^
 ||mediative.ca^
 ||mediative.com^
@@ -57148,12 +57037,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mediavoice.com^
 ||mediawayss.com^
 ||mediaweaver.jp^
-||mediawhirl.net^
 ||mediba.jp^
 ||medibaad.com^
 ||medical-offer.com^
 ||medicalcircle.net^
-||medicalhero.fr^
 ||mediego.com^
 ||medio.com^
 ||mediterraneanroom.org^
@@ -57219,7 +57106,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mellowtin.com^
 ||melodicminute.com^
 ||melredirnxt.top^
-||melthy.fr^
 ||members-formeets.com^
 ||memeaisese.com^
 ||memecosmetic.fr^
@@ -57229,7 +57115,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||memorableordealstranger.com^
 ||memorizeneck.com^
 ||memorycobweb.com^
-||men-findering.com^
 ||menandpowerpills3.com^
 ||mendoc.cn^
 ||mengbalh.fun^
@@ -57263,13 +57148,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||meritiny.top^
 ||merrrrrry.top^
 ||merryholidays.org^
-||merrymilkfoods.com^
+||merylaural.info^
 ||mes-bon-plans.fr^
 ||meshagreeable.com^
 ||meshare.site^
 ||meshpetrols.com^
 ||messagenovice.com^
-||messagerie-lcl.fr^
 ||messagetag.com^
 ||messardu.com^
 ||messenger-notify.digital^
@@ -57289,7 +57173,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||metartmoney.com^
 ||metaversn.site^
 ||metavertising.com^
-||meteof.fr^
 ||meteon.org^
 ||meteorclashbailey.com^
 ||meteorsolutions.com^
@@ -57315,7 +57198,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||metriweb.be^
 ||metro114.com^
 ||metroaverage.com^
-||metrx.fr^
 ||metsaubs.net^
 ||mettelindberg.dk^
 ||meuble-bois-massif.fr^
@@ -57347,6 +57229,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mgogo.com^
 ||mgpl.fr^
 ||mgs123.com^
+||mgsue.cn^
 ||mgtcw.top^
 ||mguide-piscine.fr^
 ||mgwcn.com^
@@ -57417,7 +57300,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mieyisi.com^
 ||mifeng.buzz^
 ||mightreservoir.com^
-||mightyfungi.fr^
 ||mightylottrembling.com^
 ||mightymagoo.com^
 ||mightyspiders.com^
@@ -57425,7 +57307,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||migrantspiteconnecting.com^
 ||miidi.net^
 ||miixtocmpfjwlw.com^
-||mije.fr^
 ||mijifen.com^
 ||mikhailmotoringschool.com^
 ||mikopi.com^
@@ -57446,6 +57327,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||milkygoodness.xyz^
 ||millennialmedia.com^
 ||millioncounter.com^
+||millionsview.com^
 ||millustry.top^
 ||millwardbrownacsr.com^
 ||milotree.com^
@@ -57472,11 +57354,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mindopu.com^
 ||mindshareworld.fr^
 ||mindtake.com^
-||mineacraft.fr^
-||minecraft-frannce.fr^
 ||minecraftfrance.fr^
 ||minecraftr.fr^
-||minecraftt.fr^
 ||minecrunch.co^
 ||minefieald.fr^
 ||minekitten.io^
@@ -57540,7 +57419,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||miserve-chanics.com^
 ||mishishoka.pro^
 ||misosoup.io^
-||missdiva.fr^
 ||missetam.fr^
 ||missionfed.com^
 ||misslinkvocation.com^
@@ -57662,7 +57540,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mncarteam.com^
 ||mncvz.top^
 ||mndsrv.com^
-||mnecraft.fr^
 ||mnemicguaza.cam^
 ||mnet-ad.net^
 ||mng-ads.com^
@@ -57672,7 +57549,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mnsuseumco.xyz^
 ||mntewzlornifzt.com^
 ||mntzrlt.net^
-||mnutan.fr^
 ||mnuy56.site^
 ||mnvde.com^
 ||mnver.xyz^
@@ -57710,7 +57586,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mobgold.com^
 ||mobiads.ru^
 ||mobicow.com^
-||mobile-browser.me^
 ||mobile-click.biz^
 ||mobile-global-apps-store.life^
 ||mobile333.com^
@@ -57794,6 +57669,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mokeylife.cn^
 ||mokklachookla.com^
 ||mokopoio.shop^
+||moksoxos.com^
 ||mokuz.ru^
 ||mol11.biz^
 ||mol14.biz^
@@ -57809,23 +57685,21 @@ charlestownwyllie.oaklawnnonantum.com^
 ||momdola.com^
 ||momently.com^
 ||momentspa.fr^
+||momerfds.buzz^
 ||momijoy.ru^
 ||mommygravelyslime.com^
 ||momn.site^
 ||momzs.com^
-||mon-conertisseur.fr^
 ||monad.network^
 ||monadplug.com^
 ||monarchads.com^
 ||monarchy.nl^
-||monbureaunumeriques.fr^
 ||moncialrelay.fr^
 ||monclerdown2014.com^
 ||moncoerbb.com^
 ||mondaymornings.co^
 ||mondespersistants.fr^
 ||mondialrealy.fr^
-||mondiarelay.fr^
 ||monerise.com^
 ||monero-miner.com^
 ||monero-miner.net^
@@ -57900,7 +57774,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||morgdm.ru^
 ||mori.ink^
 ||morlsbli.cyou^
-||morning-croissant.fr^
 ||morning-maps.com^
 ||morningdigit.com^
 ||morningsex.space^
@@ -57922,7 +57795,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||motionspots.com^
 ||motivation-go.com^
 ||motivesbreastchopped.com^
-||motoetloisir.fr^
 ||motohelpr.com^
 ||motohem.com^
 ||motominer.com^
@@ -57960,7 +57832,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||moviesflix4k.work^
 ||moviesflix4k.xyz^
 ||moviesprofit.com^
-||moviestarpllanet.fr^
 ||movii-loft.cn^
 ||movsflix.com^
 ||mowfruit.com^
@@ -58022,7 +57893,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mryang.cloud^
 ||mrzfjsbjj.com^
 ||mrzikj.com^
-||ms-debug-services.com^
+||ms-downloading.com^
 ||ms-mvp.org^
 ||ms-pipes-service.com^
 ||ms-shoponline.top^
@@ -58066,6 +57937,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mtcat.cn^
 ||mthdqs.cn^
 ||mtk.pub^
+||mtlkwvaybo.com^
 ||mtmob.com^
 ||mtoalv.cn^
 ||mtqdji.cn^
@@ -58121,7 +57993,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mumulian.com^
 ||munchenviableski.com^
 ||mundanepollution.com^
-||mundilite.fr^
 ||municalcurit.xyz^
 ||munsterduke.com^
 ||muoo.xyz^
@@ -58133,7 +58004,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||murkymeeting.com^
 ||murthydigitals.com^
 ||musan.love^
-||musculaation.fr^
 ||mushesarrear.com^
 ||music611.com^
 ||musiccounter.ru^
@@ -58155,13 +58025,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||muzhiying.xyz^
 ||muzotur.info^
 ||muzsj.com^
-||mv0129.stream^
 ||mvdkcfyhtsq.com^
 ||mvilivestats.com^
 ||mvlkvth.cn^
 ||mvlzxlcmsrqjc.com^
 ||mvonline.com^
 ||mvpnba.com^
+||mvspjwd.com^
 ||mvtmkpysz.com^
 ||mvtracker.com^
 ||mwbiwypvprg.com^
@@ -58233,7 +58103,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mycleanmymac.com^
 ||mycleanpc.com^
 ||mycloudbook.xyz^
-||mycnal.fr^
 ||mycounter.ua^
 ||mycruhmeaoy.com^
 ||mydailynewz.com^
@@ -58245,7 +58114,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mydirtytinders.com^
 ||mydreamday.fr^
 ||mydreamdegree.com^
-||myedebred.fr^
 ||myexclusiverewards.com^
 ||myezads.com^
 ||myfastcdn.com^
@@ -58281,6 +58149,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mylink-today.com^
 ||mylivejasmin.org^
 ||mylocalhookup1.com^
+||myloved-ch1ck1.com^
 ||mylovelypet.net^
 ||mymediarecommendations.com^
 ||mymeetings.site^
@@ -58299,7 +58168,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||myornamenti.com^
 ||mypagerank.net^
 ||mypagerank.ru^
-||myphamcuatui.com^
 ||myphamnganbinh.com^
 ||mypornsnap.top^
 ||mypowermall.com^
@@ -58398,7 +58266,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||n0909.com^
 ||n12qga4ld3zk.com^
 ||n13x4nfw8frika.com^
-||n149adserv.com^
 ||n152adserv.com^
 ||n156adserv.com^
 ||n161adserv.com^
@@ -58428,7 +58295,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||naiadsystems.com^
 ||naifei.shop^
 ||naisoops.net^
-||naissaance.fr^
 ||naj.sk^
 ||najlepszedlaciebie.com^
 ||najlepszeterapie.pl^
@@ -58457,7 +58323,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nanofine.cn^
 ||nanosterile.eu^
 ||nanovisor.io^
-||nantesmetrople.fr^
 ||nantilus.fr^
 ||nantongle.com^
 ||naomiterner.com^
@@ -58487,7 +58352,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nativclick.com^
 ||native.ai^
 ||native-track.com^
-||nativeadmatch.com^
 ||nativeadsfeed.com^
 ||nativeleads.net^
 ||nativemedia.rs^
@@ -58506,7 +58370,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||naturaltracking.com^
 ||naturephotographie.fr^
 ||naucaish.net^
-||nauf.fr^
 ||naughtyadserve.com^
 ||navdmp.com^
 ||navegg.com^
@@ -58520,6 +58383,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nawyhinu.pro^
 ||naytev.com^
 ||nazhenkj.com^
+||nazi-naz-nakon.tk^
 ||nazreghadir.ir^
 ||nbads.com^
 ||nbbull.com^
@@ -58539,6 +58403,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nby360.com^
 ||nc0.co^
 ||ncaudienceexchange.com^
+||ncecafvdeu.shop^
 ||ncernedas.one^
 ||ncesprin.buzz^
 ||ncgywud.cn^
@@ -58550,7 +58415,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ncore.ink^
 ||ncorecc.me^
 ||ncoremeghivo.net^
-||ncsf.fr^
 ||nctracking.com^
 ||nctylivpwhpby.com^
 ||ncwckj.com^
@@ -58608,7 +58472,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||neihan.co^
 ||nejmqianyan.cn^
 ||neki.org^
-||neko-scan.fr^
 ||nellads.com^
 ||nemewagro.com^
 ||nend.net^
@@ -58620,9 +58483,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||neogaeakasher.com^
 ||neokbu.cn^
 ||neon.today^
-||neon-genesis-evangelion-online.fr^
 ||neornad.cn^
-||neowordprss.fr^
 ||nephef.com^
 ||ner-de-mi-nis-6.info^
 ||nerdolac.com^
@@ -58710,10 +58571,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||neverthelessdepression.com^
 ||new-casual-dating1.com^
 ||new-dates-now1.com^
-||new-dating-today2.com^
-||new-grandwinner.life^
 ||new-incoming.email^
-||new-ladies-4you3.com^
 ||new-ladies-4you4.com^
 ||new-lady-4you1.com^
 ||new-lady-for-your.com^
@@ -58723,6 +58581,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||newandfresh.com^
 ||newchange.io^
 ||newclick.com^
+||newclk.com^
 ||newcracks.net^
 ||newdisplayformats.com^
 ||newdomain.center^
@@ -58741,7 +58600,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||newmedsdeal.eu^
 ||newnudecash.com^
 ||newoctads.com^
-||newouest.fr^
 ||newrelic.com^
 ||newrrb.bid^
 ||news-37876-mshome.com^
@@ -58764,6 +58622,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||news6health.com^
 ||newsadsppush.com^
 ||newsbreakshere.com^
+||newscurrent.info^
 ||newscurve.com^
 ||newsharecounts.com^
 ||newsinform.net^
@@ -58776,7 +58635,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||newsokos.com^
 ||newspolovb.info^
 ||newsprofin.com^
-||newsquest.fr^
 ||newssocial.org^
 ||newstarads.com^
 ||newsunads.com^
@@ -58792,7 +58650,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nexac.com^
 ||nexage.com^
 ||nexeps.com^
-||nexioniect.com^
 ||next-channel.xyz^
 ||nextbdom.ru^
 ||nextclick.pl^
@@ -58802,6 +58659,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nextgenstats.com^
 ||nextlover.space^
 ||nextoptim.com^
+||nextpsh.top^
 ||nextstat.com^
 ||nextyourcontent.com^
 ||nexusbytes.com^
@@ -58866,6 +58724,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nigelmidnightrappers.com^
 ||nigerianang.com^
 ||night-timedate.com^
+||nightdating-today.life^
 ||nighter.club^
 ||nightfallroad.com^
 ||nigov.tw^
@@ -58897,7 +58756,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ninestats.com^
 ||nineteenthdipper.com^
 ||ningbojipiao.com^
-||ningseriencess.pics^
 ||ningxiayy.com^
 ||ninthdecimal.com^
 ||nipmucktwicer.com^
@@ -58961,7 +58819,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nld0jsg9s9p8.com^
 ||nlqqrsgr.com^
 ||nlqznsleo.com^
-||nlyekvc.cn^
 ||nlyeoehgdhhe.com^
 ||nlyjs2015.com^
 ||nmanateex.top^
@@ -59005,7 +58862,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nobrain.dk^
 ||nobuomo.it^
 ||noclef.com^
-||noella-voyance.fr^
 ||noerwe5gianfor19e4st.com^
 ||noesbsnt.com^
 ||noextramoney.com^
@@ -59030,7 +58886,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nonestolesantes.com^
 ||nonewnews.name^
 ||nonfattoplike.com^
-||nonfictionrobustchastise.com^
 ||nongchanlianhe.top^
 ||nongfumg.com^
 ||nongsonx.uno^
@@ -59045,6 +58900,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nord-raum.com^
 ||nordicresearch.com^
 ||nordvpnhosting.com^
+||norespar.ru^
 ||norlsbly.cyou^
 ||normanstaximan.com^
 ||northbase.club^
@@ -59093,6 +58949,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||novosti247.com^
 ||novostimira.biz^
 ||now-instahookups2.com^
+||now-online.net^
 ||nowinteract.com^
 ||nowtrk.com^
 ||nozawashoten.com^
@@ -59116,7 +58973,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nr1234.com^
 ||nr7.us^
 ||nrbztakre.com^
-||nrelate.com^
 ||nrelievedbrand.com^
 ||nrged.com^
 ||nrich.ai^
@@ -59124,6 +58980,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nrvkwqaatl.com^
 ||nrxduw5.com^
 ||nryb.com^
+||nrysogsic.uno^
 ||ns-zhy.com^
 ||ns003.com^
 ||ns1p.net^
@@ -59133,7 +58990,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nscontext.com^
 ||nsdfsfi1q8asdasdzz.com^
 ||nsdzrhsb.com^
-||nsecretaflicti.info^
 ||nsfwadds.com^
 ||nshkedu.com^
 ||nsmartad.com^
@@ -59214,6 +59070,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||nunscawamok.icu^
 ||nuqqcgb.cn^
 ||nuqwe.com^
+||nursecompellingsmother.com^
 ||nuseek.com^
 ||nuslzkb.cn^
 ||nutabuse.com^
@@ -59290,7 +59147,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||o2vcb5uw.site^
 ||o333o.com^
 ||o3sndvzo25.com^
-||o3tlsrdpgoodssl.top^
 ||o4uxrk33.com^
 ||o5team.com^
 ||oa129.com^
@@ -59302,7 +59158,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oafishobservation.com^
 ||oaftaijo.net^
 ||oagnatch.com^
-||oagudsey.uk^
 ||oahaurti.com^
 ||oajxkah.cn^
 ||oakapsot.com^
@@ -59380,9 +59235,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oeyiamwpj.com^
 ||of-soft.com^
 ||of3d.fr^
-||ofdb.fr^
 ||offaces-butional.com^
 ||offclaydolon.com^
+||offer.camp^
 ||offerforge.com^
 ||offergo.net^
 ||offerimage.com^
@@ -59480,6 +59335,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||olarshalrolli.com^
 ||olc0.cn^
 ||olcdn.com^
+||old-glasses.net^
 ||oldart.shop^
 ||oldgyhogola.com^
 ||oldharper.xyz^
@@ -59564,13 +59420,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||onekeyedu.com^
 ||onelnk.com^
 ||onemacusa.com^
-||onemanga.fr^
 ||onemboaran.com^
 ||onemerelyingisr.club^
 ||oneminuteplayfestival.org^
 ||onenetworkdirect.com^
 ||onenetworkdirect.net^
-||onepager.fr^
 ||onepush.app^
 ||onerror.ml^
 ||onesoft.im^
@@ -59593,18 +59447,17 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ongsono.com^
 ||oniad.com^
 ||oniekg.top^
-||onilne.fr^
 ||onkibirw.com^
 ||onlinadverts.com^
 ||online-dating.top^
 ||online-datingstarts.com^
 ||online-dn.com^
 ||online-metrix.net^
-||online-office365.com^
 ||online-protection-now.com^
 ||onlineadmin.net^
 ||onlinecash.com^
 ||onlinecashmethod.com^
+||onlinedatings-service2.com^
 ||onlinedownloads.org^
 ||onlinenotcenter.com^
 ||onlineplus.click^
@@ -59619,7 +59472,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||onlyfang.cn^
 ||onlyfreelesbianporn.com^
 ||onlyfreetoonporn.com^
-||onlyhot-girls3.com^
 ||onlylovetyt.space^
 ||onlysexydate1.com^
 ||onmarshtompor.com^
@@ -59636,7 +59488,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||onwardclick.com^
 ||onwey.com^
 ||onyxalliance.org^
-||onyxboox.fr^
 ||onyxinfocom.com^
 ||oo00.biz^
 ||oodrampi.com^
@@ -59659,7 +59510,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ooredi.com^
 ||oorlsblk.cyou^
 ||oostotsu.com^
-||ooutube.fr^
 ||oovgov.com^
 ||oovofcsyxayy.com^
 ||oowelamdgta.com^
@@ -59730,7 +59580,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||opqsr.com^
 ||oproi.com^
 ||opsivesh.net^
-||opsoomet.net^
 ||opstag.com^
 ||opt8.co^
 ||optad360.io^
@@ -59782,17 +59631,16 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oranegfodnd.com^
 ||orangeads.fr^
 ||orangeclickmedia.com^
-||orangemali.fr^
 ||orangeoperation.com^
 ||oranges88.com^
 ||orangf.fr^
 ||orangunset.com^
 ||orays.co^
+||orbitcarrot.com^
 ||orbiyz.com^
 ||orbsclawand.com^
 ||orbsrv.com^
 ||orcapia.com^
-||orchidreducedbleak.com^
 ||orcjagpox.com^
 ||ordersildenafil.com^
 ||ordidc.com^
@@ -59806,7 +59654,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oribi.io^
 ||oriceline.com^
 ||orientalocean.mobi^
-||orientationpour-tous.fr^
 ||origer.info^
 ||origunix.com^
 ||orner.fr^
@@ -59825,7 +59672,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ositracker.com^
 ||oslixj.cn^
 ||osniffer.pro^
-||osonscomprendre.fr^
 ||ospicalad.buzz^
 ||ospzbro.cn^
 ||osqa.com^
@@ -59889,11 +59735,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ourtoolbar.com^
 ||ourzitemu.com^
 ||oustoope.com^
+||outaiu.cn^
 ||outbarwonna.casa^
 ||outbidashes.com^
 ||outboundlink.me^
 ||outbrain.com^
-||outdoortacklebox.com^
 ||outerinfo.com^
 ||outfunnel.com^
 ||outgateniceish.com^
@@ -59957,6 +59803,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||owlsr.us^
 ||owlsyumducal.com^
 ||owltiphem.club^
+||own-eu-cloud.com^
 ||owncutone.com^
 ||owneduntwind.com^
 ||owneriq.net^
@@ -60014,10 +59861,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||pa-oa.com^
-||pa-voyance.fr^
 ||pa5ka.com^
 ||paalp.fr^
 ||pabidding.io^
+||packsdechicas.online^
 ||packsss.com^
 ||paclitor.com^
 ||pactionpolab.com^
@@ -60055,7 +59902,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pageranking-counter.de^
 ||pageranktop.com^
 ||pages-annuaire.fr^
-||pages-perso-orange.fr^
 ||pages05.net^
 ||pagesense.com^
 ||pagesense.io^
@@ -60114,6 +59960,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pandasloveforlife.com^
 ||pandasummerb.xyz^
 ||panel-cn.com^
+||panelsave.com^
 ||pangle.io^
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao-b.com^
@@ -60159,7 +60006,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||parentful.club^
 ||parikhinfosolutions.in^
 ||paripartner.com^
-||paris-banlieue-meetinggame.fr^
 ||parisianmacao.bet^
 ||parisjeroleinpg.com^
 ||parkcircularpearl.com^
@@ -60171,7 +60017,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||parlaka.com^
 ||parlorscenes.com^
 ||parrable.com^
-||parringepigene.com^
+||parronnotandone.info^
 ||parrotbay.net^
 ||parsely.com^
 ||parsimoniouspolice.com^
@@ -60185,10 +60031,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||partnercash.de^
 ||partnerearning.com^
 ||partplanes.com^
-||partypartners.com^
 ||partypoker.com^
 ||parumal.com^
-||pas-rahav.com^
 ||paslsa.com^
 ||pass-1234.com^
 ||passengerpage.com^
@@ -60197,7 +60041,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||passfixx.com^
 ||passionfruitads.com^
 ||passivemarcoanyhow.com^
-||passportindex.fr^
 ||passtechusa.com^
 ||passworddrunkenheating.com^
 ||passwordscompound.com^
@@ -60210,7 +60053,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||patalogs.com^
 ||patgsrv.com^
 ||pathforpoints.com^
-||pathful.com^
 ||pathosacetals.com^
 ||patinesgaulin.com^
 ||patiotheoretical.com^
@@ -60238,8 +60080,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||paypalcz.cz^
 ||paypaypay.org^
 ||paypopup.com^
-||paysdepieces.fr^
-||paytel.fr^
 ||pazashevy.com^
 ||pazppsim.cn^
 ||pbaucpamdtnarz.com^
@@ -60272,7 +60112,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pc6cda10.com^
 ||pc768.com^
 ||pcads.ru^
-||pcblibraries.fr^
 ||pccleaner.com^
 ||pccleanerpro.com^
 ||pcfdgc.cn^
@@ -60314,10 +60153,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pdxgfnnoan.com^
 ||peaceablefitsfamily.com^
 ||peacebanana.com^
+||peacepowder.com^
 ||peacockdienook.com^
+||peacto.com^
 ||peakclick.com^
 ||peakcounter.dk^
-||pearlfeet.fr^
 ||pearno.com^
 ||pebblemedia.be^
 ||pebx.pl^
@@ -60342,6 +60182,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pegloang.com^
 ||peiceline.com^
 ||peigbv.cn^
+||peinados.top^
 ||peircing-street.fr^
 ||peirs5tbakchios.com^
 ||pekingpk10.com^
@@ -60357,12 +60198,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pennilesscomingall.com^
 ||pennynetwork.com^
 ||pennyweb.com^
-||penseedepascal.fr^
 ||pension-pentacon.de^
 ||penspade.com^
 ||pentaxaws.cn^
 ||penxiangge.com^
-||peomod.fr^
 ||peoplefinders.fr^
 ||peoplemarketing.co^
 ||peovideo.ru^
@@ -60372,11 +60211,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pepperjamnetwork.com^
 ||peppertreefrosty.com^
 ||peppy2lon1g1stalk.com^
-||percantil.fr^
 ||perceivequarter.com^
 ||percentmobile.com^
 ||percycle.com^
-||peremiere.fr^
 ||perf-serving.com^
 ||perfalytics.com^
 ||perfdrive.com^
@@ -60438,7 +60275,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pestequitch.com^
 ||petametrics.com^
 ||petasusawber.com^
-||petboarding-cambodia.com^
 ||petchesa.net^
 ||petitelady.top^
 ||petiteumbrella.com^
@@ -60504,7 +60340,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||philipdattilo.com^
 ||philippschoch.ch^
 ||phiriaxi.com^
-||phising-initiative.fr^
 ||phloxsub73ulata.com^
 ||phluant.com^
 ||phoalard.net^
@@ -60538,7 +60373,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||phoudson.com^
 ||phouvemp.net^
 ||php4you.biz^
-||phpancake.com^
 ||phpape.com^
 ||phpstat.com^
 ||phqgmqwajabb.xyz^
@@ -60565,10 +60399,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||piclick.kr^
 ||picsmaker.com^
 ||pictela.net^
+||picura.it^
 ||pidoco.fr^
-||piecediscount24.fr^
 ||piedpiperdesigns.com^
-||pier-import.fr^
 ||pierisrapgae.com^
 ||pierlinks.com^
 ||pierremarkeraffliction.com^
@@ -60576,7 +60409,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||piet2eix3l.com^
 ||pietexture.com^
 ||pigath.com^
+||pigi-ed.tk^
 ||pignuwoa.com^
+||pigre-edti.tk^
 ||pigspie.com^
 ||pigtre.com^
 ||piilvhtu.cn^
@@ -60705,11 +60540,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plaicecaught.com^
 ||plainplayground.com^
 ||plainrequest.com^
-||plains.fr^
 ||plainwrk.name^
 ||planesorder.com^
 ||planetdisinfect.com^
-||planetside2.fr^
 ||planningunavoidablenull.com^
 ||planscul.com^
 ||plantapizzazz.com^
@@ -60722,10 +60555,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plasmatv4free.com^
 ||plasmid904.site^
 ||plastic-wood.cn^
-||plasticker.fr^
 ||platesworked.com^
 ||platformpanda.com^
-||platinmods.fr^
 ||platitudefivesnack.com^
 ||platitudezeal.com^
 ||plavxml.com^
@@ -60743,7 +60574,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||playinvaders.com^
 ||playlink.pl^
 ||playlott.com^
-||playmobill.fr^
 ||playorigin.com^
 ||playrefinedheavilythefile.vip^
 ||playsataion.com^
@@ -60755,6 +60585,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||playukinternet.com^
 ||playzee.fr^
 ||pleasantpump.com^
+||pleaseusenew.net^
 ||pleasewait.co^
 ||plecki.com^
 ||plehimselves.info^
@@ -60791,7 +60622,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plumcandied.com^
 ||plumposterity.com^
 ||plusclick.biz^
-||plusjamaisdacne.fr^
 ||plutothejewel.com^
 ||plutusads.com^
 ||plwan.com^
@@ -60830,14 +60660,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pocketsonic.com^
 ||pocli.click^
 ||pocofh.com^
-||pocoty.fr^
 ||podiumpresto.com^
 ||podosupsurge.com^
 ||podsolnu9hi10.com^
 ||poedlov.cn^
-||poemhunter.fr^
 ||poereawer.top^
-||poetryfoundation.fr^
 ||poetsofthefall.fr^
 ||poewage.top^
 ||pofang.com^
@@ -60874,12 +60701,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||polimer.xyz^
 ||politegoldfish.com^
 ||politicalopinionsurvey.com^
+||politicianbusplate.com^
 ||politiquemania.fr^
 ||polkoa.com^
 ||pollet-rauen.de^
 ||polluxnetwork.com^
 ||poltbassa.com^
 ||polyad.net^
+||polyhymnia-mar.com^
 ||polymorphicads.jp^
 ||pomp-buerotechnik.de^
 ||pon-prairie.com^
@@ -60903,6 +60732,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||popads.net^
 ||popadscdn.net^
 ||popagency.net^
+||popander.mobi^
 ||popcash.com^
 ||popcash.net^
 ||popcent.net^
@@ -60941,6 +60771,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||popunder.online^
 ||popunder.ru^
 ||popunderz.com^
+||popunderzone.com^
 ||popup-traffic.com^
 ||popupaval.com^
 ||popupclick.ru^
@@ -60967,6 +60798,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pornokartel.nl^
 ||pornomasse.com^
 ||pornostunde.com^
+||pornsite123.com^
 ||pornstargals.com^
 ||porntrack.com^
 ||porntraff.com^
@@ -60975,7 +60807,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||port-connection.com^
 ||portalisimmo.com^
 ||portantreadedagree.info^
-||portdusoleil.fr^
 ||portfold.com^
 ||portoteamo.com^
 ||portredirect.net^
@@ -60996,7 +60827,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||postaffiliatepro.com^
 ||postback.info^
 ||posthog.com^
-||postis.fr^
 ||postitial.com^
 ||postlnk.com^
 ||postmasterdirect.com^
@@ -61058,7 +60888,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ppj338.cn^
 ||ppoi.org^
 ||pppbr.com^
-||pprocessor.net^
 ||ppslsa.com^
 ||ppt100.site^
 ||pptte.com^
@@ -61144,7 +60973,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||presetrabbits.com^
 ||presidentialagent.com^
 ||presidentrestoration.com^
-||pressealgerei.fr^
 ||pressesdesciences-po.fr^
 ||pressize.com^
 ||pressizer.net^
@@ -61216,6 +61044,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||prize-right-now.life^
 ||prizes4you.life^
 ||prizesforyou.com^
+||prizesuperlist3.life^
 ||prizesworldcenter.com^
 ||prjcq.com^
 ||prjslxhtx005.top^
@@ -61227,13 +61056,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||prnetwork.de^
 ||prnx.net^
 ||pro.cn^
-||pro-accesssoires.fr^
 ||pro-advertising.com^
 ||pro-market.net^
 ||pro-prize-here.life^
 ||pro100news.ru^
 ||proadscdn.com^
-||probikesshop.fr^
 ||problem-detection.info^
 ||probns.com^
 ||probtn.com^
@@ -61259,6 +61086,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||profilesnitch.com^
 ||profiline-berlin.de^
 ||profit-btc.org^
+||profit-method-here.click^
 ||profit-strategy.life^
 ||profitablecpmgate.com^
 ||profitablecpmnetwork.com^
@@ -61277,7 +61105,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||progmxs.com^
 ||programattik.com^
 ||programma-di-fidelizzazione.top^
-||programmatictrader.com^
 ||prograph.club^
 ||prohibited.cn^
 ||proidees.fr^
@@ -61297,7 +61124,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||promo-bc.com^
 ||promobenef.com^
 ||promocionesweb.com^
-||promogrim.fr^
 ||promokrot.com^
 ||promopassage.com^
 ||promoreclame.info^
@@ -61322,7 +61148,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||proper.io^
 ||propermessage.io^
 ||propertypotato.com^
-||propitea.fr^
 ||proposedpartly.com^
 ||propositiondisinterested.com^
 ||props.id^
@@ -61357,7 +61182,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||protovid.com^
 ||protraffic.com^
 ||proudprose.com^
-||provence-ouyillage.fr^
 ||provenfeedback.com^
 ||provenpixel.com^
 ||proverbnoncommittalvault.com^
@@ -61427,7 +61251,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||psughooy.com^
 ||psurigrabi.com^
 ||psychaltuxes.com^
-||psycho-test.fr^
 ||pszsri.com^
 ||pt-xb.xyz^
 ||pt21na.com^
@@ -61558,13 +61381,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||purchasefastidiouswindfall.com^
 ||purchaserteddy.com^
 ||purchasesuggestion.com^
-||purchasingpower.fr^
 ||purchathough.com^
 ||pureadexchange.com^
 ||pureairhits.com^
 ||purebushesprop.com^
 ||purebusts.com^
-||purepods.fr^
 ||purevideo.com^
 ||purgrobi.com^
 ||puroclean.com^
@@ -61656,7 +61477,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||putrrorg.com^
 ||puwpush.com^
 ||puzzlingproperty.com^
-||pv-energy.net^
 ||pv4b.com^
 ||pv4u.com^
 ||pvclouds.com^
@@ -61668,7 +61488,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pvobumsfxacarh.com^
 ||pvranking.com^
 ||pvrtx.net^
-||pvxymnz.cn^
 ||pvzdrx.cn^
 ||pw321.com^
 ||pwbstpjjkovpy.com^
@@ -61714,10 +61533,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pziad.com^
 ||pzimff.com^
 ||pznqjhh.life^
+||pzoifaum.info^
 ||pzrj6.top^
 ||pzsq.xyz^
 ||pzuth.cn^
-||pzz.events^
 ||q-counter.com^
 ||q-stats.nl^
 ||q1connect.com^
@@ -61741,7 +61560,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qbgrmsk.cn^
 ||qbittorrent.com^
 ||qbj8.com^
-||qbjsymmi0w.cn^
 ||qbkybab.cn^
 ||qbop.com^
 ||qbxaebqkg.com^
@@ -61764,6 +61582,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qdcode.com^
 ||qdcusfff.com^
 ||qddrusjdrjuj.com^
+||qdefwrgbewf.xyz^
 ||qdftsac.cn^
 ||qdglzx.com^
 ||qdhhdsw.cn^
@@ -61777,6 +61596,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qdxsodq.cn^
 ||qdyazc.com^
 ||qdzyspjx.com^
+||qertewrt.com^
 ||qeryz.com^
 ||qevcxo.cn^
 ||qewoysy.cn^
@@ -61833,6 +61653,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qichegongxiang.xyz^
 ||qichenx.com^
 ||qicqn.cn^
+||qiditrade.com^
 ||qidou.com^
 ||qids.xyz^
 ||qienews.cn^
@@ -61923,6 +61744,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||qmz931.com^
 ||qncphvc.cn^
 ||qndown.com^
+||qndvbgqc.com^
 ||qndytvy.cn^
 ||qnipkk.xyz^
 ||qnmvqdl.cn^
@@ -62003,7 +61825,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||quacksquirrel.com^
 ||quad-cleaner.com^
 ||quadran.eu^
-||quaidesbulles.fr^
 ||quaintborder.com^
 ||quaintcan.com^
 ||qualaroo.com^
@@ -62054,11 +61875,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||quick-counter.net^
 ||quickanalytics.ca^
 ||quickbrowsersearch.com^
-||quickchess.fr^
 ||quickdates1.com^
 ||quickdomainfwd.com^
 ||quickeryes.com^
 ||quickfilmz.com^
+||quickhot-dateshere1.com^
 ||quickkoala.io^
 ||quickmessage.us^
 ||quickorange.com^
@@ -62100,6 +61921,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||quxiangkeji.cn^
 ||quyaoya.com^
 ||qv566.cn^
+||qvbwras.cn^
 ||qvorcqfon.com^
 ||qvpublish.com^
 ||qvqcfau.cn^
@@ -62278,6 +62100,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rbtwo.bid^
 ||rbywg.com^
 ||rc-room.com^
+||rccgthebrooks.org^
 ||rccsekuitas.com^
 ||rcdn.pro^$badfilter
 ||rchamrevolu.xyz^
@@ -62372,10 +62195,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||realmedia.com^
 ||realnetnews.com^
 ||realplayz.com^
+||realprizesday.life^
 ||realprizeshere.life^
 ||realpush.media^
 ||realsrv.com^
-||realstar.fr^
 ||realtechnetwork.com^
 ||realtime-bid.com^
 ||realtimeads.com^
@@ -62421,7 +62244,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||recordervesttasting.com^
 ||recordingshipping.com^
 ||recoset.com^
-||recreationhiddenmosque.com^
 ||recreativ.ru^
 ||recruitics.com^
 ||red12flyw2.site^
@@ -62435,7 +62257,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||redemptionengine.com^
 ||redemptionphrase.com^
 ||redewdit.pro^
-||redf.fr^
 ||redfast.com^
 ||redfastlabs.com^
 ||redianad.com^
@@ -62454,8 +62275,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||redirectconnection.net^
 ||redirecteur.net^
 ||redirecting.download^
+||redirecting-url.com^
 ||redirectingat.com^
-||redirectit.net^
 ||redirectnet.net^
 ||redirector77.icu^
 ||redirectprotocol.net^
@@ -62466,7 +62287,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||redirekted.com^
 ||redistats.com^
 ||redlele.com^
-||redline-boutique.fr^
 ||redlog.cl^
 ||redmag-dz.com^
 ||redmix.me^
@@ -62478,7 +62298,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||redprocesal.org^
 ||redretarget.com^
 ||redrix.xyz^
-||redrocks.fr^
 ||redroomnetwork.com^
 ||redshell.io^
 ||redsheriff.com^
@@ -62621,10 +62440,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||reninet.com^
 ||renormaliseras.xyz^
 ||renov-landes.fr^
-||renovatesystem.com^
 ||rensovetors.info^
 ||rentacars.fr^
-||rentamotorcycle.fr^
 ||rentfromart.com^
 ||rentracks.jp^
 ||renxinghuan.com^
@@ -62632,7 +62449,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||reoxclick.com^
 ||repairedbringstale.com^
 ||repeatsweater.com^
+||rephartertonelin.info^
 ||repixel.co^
+||replacementportugueserecollection.com^
 ||replaceroute.com^
 ||reporo.net^
 ||report-uri.io^
@@ -62667,12 +62486,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||resetoccultkeeper.com^
 ||reshake-official.com^
 ||residenceseeingstanding.com^
-||residentialsize.com^
 ||resistcorrectly.com^
-||reskins.fr^
 ||resniks.pro^
 ||resnikscdn.pro^
 ||resolutekey.com^
+||resolvingserver.com^
 ||reson8.com^
 ||resonance.pk^
 ||resonantbrush.com^
@@ -62696,7 +62514,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||restore-pc.com^
 ||restoring.club^
 ||restrictbench.com^
-||resulabi.fr^
 ||resultatspmu.fr^
 ||resultlinks.com^
 ||resultplus.jp^
@@ -62706,7 +62523,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||resxctyre.com^
 ||retagro.com^
 ||retailads.net^
-||retaildetail.fr^
 ||retailelectricprovider.com^
 ||retailexpertscloud.com^
 ||retarget2core.com^
@@ -62717,7 +62533,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||retdaz.fun^
 ||retentionscience.com^
 ||retreatregular.com^
-||retrofuture.fr^
 ||returnpath.net^
 ||reussissonsensemble.fr^
 ||rev-stripe.com^
@@ -62727,7 +62542,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||revcatch.com^
 ||revcontent.com^
 ||revdepo.com^
-||revengemeantjackpot.com^
 ||revenue.com^
 ||revenuecpmnetwork.com^
 ||revenuedirect.com^
@@ -62780,6 +62594,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rfihub.net^
 ||rfity.com^
 ||rfjckj.cn^
+||rflvxoexouyftg.com^
 ||rfpx1.com^
 ||rftqvbgisqke.com^
 ||rftslb.com^
@@ -62850,11 +62665,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rigidrobin.com^
 ||rigill.com^
 ||rigxpadydyveja.com^
-||rijd.fun^
 ||rilelogicbuy.com^
 ||rilenews.com^
 ||riluaneth.com^
 ||rimaje.nl^
+||rimefatling.com^
 ||riminghoggoofy.com^
 ||rimnow.fr^
 ||rimpirbtmxg.com^
@@ -62873,6 +62688,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ripplestika.site^
 ||riptukri.net^
 ||riqu2015.com^
+||risafniz.space^
 ||risausso.com^
 ||rishenglaw.cn^
 ||riskid.security^
@@ -62899,7 +62715,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rjhtrjb.cn^
 ||rjigj.cn^
 ||rjnjjin.cn^
-||rjstusbx.com^
 ||rkcdmve.cn^
 ||rkdms.com^
 ||rkohksa.cn^
@@ -62992,7 +62807,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||roispy.com^
 ||roistat.com^
 ||roitesting.com^
-||roivant.fr^
 ||rojadirectatv.fr^
 ||roksa.sx^
 ||rokt.com^
@@ -63032,7 +62846,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rosafondente.it^
 ||roselip-fetish.com^
 ||rosesforus.com^
-||rosiyife.com^
 ||rossel.tech^
 ||rossoad.com^
 ||rosteldicycle.cam^
@@ -63043,7 +62856,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rotate5url.com^
 ||rothermophony.com^
 ||rothetafulpe.cf^
-||rottentomatoes.fr^
 ||rotumal.com^
 ||rou1.xyz^
 ||roughroll.com^
@@ -63065,7 +62877,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rowoardog.com^
 ||roxot-panel.com^
 ||roxr.net^
-||roxyaffiliates.com^
 ||royaimaii.com^
 ||royalcactus.com^
 ||royalcount.de^
@@ -63257,7 +63068,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rylcbwg.cn^
 ||ryllae.com^
 ||ryre.cn^
-||ryther.fr^
 ||ryumrc.cn^
 ||rywnvzd.cn^
 ||ryxfyjvcdugdf.com^
@@ -63279,7 +63089,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||s2blosh.com^
 ||s2d6.com^
 ||s2strk.info^
-||s3-ap-southeast-1-amazonaws.com^
 ||s3blog.org^
 ||s3s-main.net^
 ||s4d.in^
@@ -63296,7 +63105,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sa669.com^
 ||saambaa.com^
 ||sabafon.info^
-||sabaistsubmit.com^
 ||sabavision.com^
 ||sabio.us^
 ||sablesmile.com^
@@ -63321,7 +63129,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||safepccleaner.com^
 ||safestcontentgate.com^
 ||safestgatetocontent.com^
-||safesync.com^
 ||safety1connection.com^
 ||safetygear.pk^
 ||saffronflourmill.com^
@@ -63331,8 +63138,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sagetrc.com^
 ||saggrowledetc.com^
 ||sagroagh.com^
+||sahamdarisod.tk^
 ||sahara.work^
-||saicmotor.fr^
 ||saicom.org^
 ||sail-horizon.com^
 ||sail-personalize.com^
@@ -63344,7 +63151,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||saishait.net^
 ||saitef.cn^
 ||sajagosta.pro^
-||sajour.fr^
 ||sakcguwb.com^
 ||sakuraquant.com^
 ||sakuraset.top^
@@ -63363,6 +63169,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||salinasbhut.com^
 ||sallyfundamental.com^
 ||salsify-ecdn.com^
+||saltateblit.com^
 ||saltyapplepie.com^
 ||salutationcheerlessdemote.com^
 ||salync.com^
@@ -63417,7 +63224,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sareeshaper.com^
 ||sartagesampi.com^
 ||sartolutus.com^
-||sartoriz.fr^
 ||sas15k01.com^
 ||sascentral.com^
 ||sasdiskcleaner.com^
@@ -63430,9 +63236,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||saucilytalwood.cam^
 ||saunasupposedly.com^
 ||sautemoo.net^
-||sautreesned.com^
 ||sauwoaptain.com^
-||save-plan.com^
 ||saviourketonic.com^
 ||savoryorange.com^
 ||savorystructure.com^
@@ -63507,7 +63311,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||schemeabsolutejanuary.com^
 ||schjmp.com^
 ||schlaftabletten.cn^
-||schlaukopf.fr^
 ||schoic.com^
 ||scholarovertakealimony.com^
 ||schoolyeargo.com^
@@ -63547,7 +63350,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||screen-mates.com^
 ||screencast-o-matic.fr^
 ||screenpopper.com^
-||scribbens.fr^
 ||scrippscontroller.com^
 ||scrippsnetworks.com^
 ||script.ag^
@@ -63664,7 +63466,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||secureanalytic.com^
 ||securecd-smnd.com^
 ||secureclickers.com^
-||securecloud-dt.com^
 ||securecloud-smart.com^
 ||secureconv-dl.com^
 ||securedopen-bp.com^
@@ -63749,8 +63550,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||semantiqo.com^
 ||semasa.icu^
 ||semasio.net^
-||semgfavce.com^
-||semi-cod.com^
 ||semiclose.com^
 ||semifiboolongs.com^
 ||semiglorifyseek.com^
@@ -63772,7 +63571,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sendyou123.com^
 ||seniorweekoc.net^
 ||senmu123.com^
-||sensahome.fr^
 ||sensiblemuggy.com^
 ||sensic.net^
 ||sensorsdata.cn^
@@ -63811,7 +63609,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||serdaive.com^
 ||sered.net^
 ||serenityspokenrust.com^
-||serff.fr^
 ||serfle.com^
 ||serie-vostfr.com^
 ||seriencev.com^
@@ -63839,10 +63636,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||service-hotfantasies1.com^
 ||service-updater.com^
 ||servicesbooster.com^
+||serviceshelpers.com^
 ||servicesrc.org^
 ||serving-sys.com^
 ||servingcdn.net^
-||servpro.fr^
 ||servsave.com^
 ||servustats.com^
 ||sessioncam.com^
@@ -63976,9 +63773,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shar3yourf1le.com^
 ||share-bnb.com^
 ||share-server.com^
+||share-stores.com^
 ||shareadspace.com^
 ||shareaholic.com^
 ||shareaza.com^
+||sharecash.org^
 ||sharedaddomain.com^
 ||sharedcount.com^
 ||sharedid.org^
@@ -64042,7 +63841,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shigl.top^
 ||shiguangyx.cn^
 ||shihoult.com^
-||shiiva.fr^
 ||shijauns.com^
 ||shijiezhidao.com^
 ||shijixinrui.cn^
@@ -64051,6 +63849,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shillivee.pro^
 ||shilong.xyz^
 ||shinasi.info^
+||shindyadmittancemeal.com^
 ||shinearmor.space^
 ||shinebliss.com^
 ||shinedns.net^
@@ -64065,7 +63864,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shiruru.cn^
 ||shiryharu.pro^
 ||shise.me^
-||shishishiguixinfangfuzhuangshanghan.cn^
 ||shisuh.com^
 ||shitcustody.com^
 ||shitiphu.com^
@@ -64087,7 +63885,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sholke.com^
 ||shomershabes.com^
 ||shonretimus.com^
-||shop-pharmaccie.fr^
 ||shop-sis.com^
 ||shop265.com^
 ||shopart.me^
@@ -64097,7 +63894,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shopfix.fr^
 ||shopigo.fr^
 ||shopimind.com^
-||shopkeep.fr^
 ||shoplytics.com^
 ||shopnetic.com^
 ||shopnsave.world^
@@ -64109,7 +63905,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shoppingminds.net^
 ||shoppingsurveysonline.com^
 ||shopsales2022.com^
-||shopsm.fr^
 ||shopsplumbing.com^
 ||shoptimally.com^
 ||shoptrends.fr^
@@ -64172,7 +63967,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shukriya90.com^
 ||shumanwu.info^
 ||shumsooz.net^
-||shunda321.com^
 ||shunxinyuancaiwu.cn^
 ||shuqistat.com^
 ||shuqw.com^
@@ -64192,6 +63986,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||siamtheo.online^
 ||siamzone.com^
 ||sibautomation.com^
+||siblesectiveal.club^
 ||sibulla.com^
 ||sicentlife.com^
 ||sickrage.ca^
@@ -64200,6 +63995,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sienns.com^
 ||sieuthiphutungxenang.com^
 ||sifakaoshi360.com^
+||sifang.info^
 ||sift.com^
 ||siftscience.com^
 ||sighash.info^
@@ -64251,6 +64047,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||simplesidewalk.com^
 ||simplewebanalysis.com^
 ||simpli.fi^
+||simplicitystoppercolonel.com^
 ||simplisticstem.com^
 ||simplycast.com^
 ||simplycast.us^
@@ -64359,7 +64156,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sizesidewalk.com^
 ||sizmek.com^
 ||sizzlejs.com^
-||sj-consulting.biz^
 ||sj88.com^
 ||sjaidu.com^
 ||sjgnskf.com^
@@ -64377,13 +64173,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||skbao.co^
 ||skeettools.com^
 ||sketchinferiorunits.com^
+||skfjdf.xyz^
 ||skillfuldrop.com^
 ||skillfulsock.com^
 ||skillsforest.net^
 ||skinkexchange.com^
 ||skinstrip.net^
 ||skiptheadz.com^
-||skmtyaw.cn^
 ||skocz.pl^
 ||skouns.club^
 ||skwenq.cn^
@@ -64407,7 +64203,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||slashdot.org^
 ||slashstar.net^
 ||slavre.com^
-||slavyangrad.fr^
 ||slayinglance.com^
 ||slaysweater.com^
 ||slcgngo.cn^
@@ -64419,7 +64214,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||slgo.club^
 ||slibindy.top^
 ||slicktext.com^
-||slideboc.fr^
 ||slidecaffeinecrown.com^
 ||slideff.com^
 ||slieindy.top^
@@ -64442,7 +64236,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||slivindy.top^
 ||slizindy.top^
 ||sljkj.com^
-||sllate.fr^
 ||slogantrend.de^
 ||slopeaota.com^
 ||sloppycalculator.com^
@@ -64488,8 +64281,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||smart4ads.com^
 ||smartaccess.biz^
 ||smartadserver.com^
+||smartadv.ru^
 ||smartcanvas.net^
-||smartcart.fr^
 ||smartclick.net^
 ||smartclip.com^
 ||smartclip.net^
@@ -64550,7 +64343,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||smithwick.net^
 ||smitionsory.co^
 ||smitt.nl^
-||smjdkmvhar.com^
+||smkn3depok.com^
 ||smljmp.com^
 ||smncden.cn^
 ||smoggysnakes.com^
@@ -64598,7 +64391,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||snapmobile.asia^
 ||snapmobileasia.net^
 ||snapwidget.com^
-||snd.tc^
 ||sneakerheadclub.com^
 ||sneakersjapanu.com^
 ||sneakyboy.com^
@@ -64693,7 +64485,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||soholfit.com^
 ||sohu999.com^
 ||sohulink.cc^
-||soidog.fr^
 ||soilenthusiasmshindig.com^
 ||sokmil-ad.com^
 ||sokrati.com^
@@ -64702,9 +64493,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||solamor.com^
 ||solarswitch4all.com^
 ||solartia.com^
-||solarwindow.fr^
 ||solemik.com^
 ||solemnherald.com^
+||solemnmanarchie.com^
 ||solenica.com^
 ||soliads.net^
 ||solicita.info^
@@ -64712,11 +64503,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||solitudeelection.com^
 ||solitudepeeves.com^
 ||solocpm.com^
-||soloprodottiitaliani.fr^
 ||solosegment.com^
 ||soltitate.site^
 ||solty.biz^
-||soluclim.fr^
 ||soluth.com^
 ||solutionscore.com^
 ||solutionshindsight.net^
@@ -64769,11 +64558,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sophomoreclassicoriginally.com^
 ||sophosdefence.com^
 ||sophus3.com^
-||soports.fr^
 ||soquan.xyz^
 ||soraad.jp^
 ||sorbone.fr^
 ||sordidsmile.com^
+||sordorcourtin.com^
 ||soresneeze.com^
 ||sorethunder.com^
 ||soretrain.com^
@@ -64818,6 +64607,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sp-trk.com^
 ||spacash.com^
 ||space-formeets.com^
+||spacebridemag.com^
 ||spacedrain.site^
 ||spacehits.net^
 ||spaceleadster.com^
@@ -64830,6 +64620,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||spadework.org^
 ||spaf.jp^
 ||spaleswairsh.com^
+||spannersalesman.com^
 ||spanuletubings.com^
 ||sparechange.io^
 ||sparklesleet.com^
@@ -64838,6 +64629,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sparksne.com^
 ||sparkstudios.com^
 ||sparkyinchun.com^
+||sparnove.com^
 ||spatterjointposition.com^
 ||spaung.cn^
 ||spawnpredicatemutual.com^
@@ -64865,7 +64657,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||specilized.com^
 ||spectate.com^
 ||speead.jp^
-||speechpad.fr^
 ||speed-trap.com^
 ||speedboink.com^
 ||speedcount.de^
@@ -64881,7 +64672,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||speedshiftmedia.com^
 ||speedtracker.de^
 ||speedup.cyou^
-||speedycourse.fr^
 ||speedyfox.io^
 ||speedynews.xyz^
 ||speedyrhino.co^
@@ -64893,7 +64683,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||spendpest.com^
 ||spensa.co^
 ||sperans-beactor.com^
-||spetsesyachtcharter.gr^
 ||spewyelks.com^
 ||spezialreporte.de^
 ||sphntyj.cn^
@@ -64943,6 +64732,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||spookysleet.com^
 ||spookyslope.com^
 ||spoonsilk.com^
+||sportbets.su^
 ||sportradarserving.com^
 ||sportreisen.de^
 ||sports-live-streams.club^
@@ -64952,6 +64742,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sportsinteraction.com^
 ||sportstream365.com^
 ||sportupdates.info^
+||spotchannel02.com^
 ||spotlesscaterer.com^
 ||spotlessstamp.com^
 ||spotofspawn.com^
@@ -65016,6 +64807,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sqlnetcat.com^
 ||sqpgncbm.com^
 ||sqr3.xyz^
+||sqsiddqvq.com^
 ||sqszs.top^
 ||squashfriction.com^
 ||squeakzinc.com^
@@ -65057,8 +64849,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||srvtrck.com^
 ||srwww1.com^
 ||srxy.xyz^
+||srysogsib.uno^
 ||ss-01.com^
 ||ss229.com^
+||ss2a.top^
 ||ssaa.cc^
 ||ssbyysdaj.com^
 ||sscefsol.com^
@@ -65122,6 +64916,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||standartsheet.com^
 ||standingnest.com^
 ||standingsack.com^
+||standstock.net^
 ||standtrouble.com^
 ||stankyrich.com^
 ||star-advertising.com^
@@ -65133,6 +64928,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||starffa.com^
 ||stargame.com^
 ||starkshrewd.com^
+||starreturned.com^
 ||start1999.com^
 ||startapp.com^
 ||startappexchange.com^
@@ -65251,6 +65047,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stellarium.fr^
 ||stellaservice.com^
 ||stenadewy.pro^
+||stephens-laughlin.com^
 ||stepnation.com^
 ||steppesshirvan.com^
 ||stepplane.com^
@@ -65259,7 +65056,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stereotypedclub.com^
 ||stereotypedsugar.com^
 ||stetic.com^
-||steveberry.fr^
 ||stevoglutu.com^
 ||stewlinedull.com^
 ||stfyygv.cn^
@@ -65275,7 +65071,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stiffstem.com^
 ||stilfb.com^
 ||stillval.com^
-||stilnovo.fr^
 ||stils-top.space^
 ||stimtavy.net^
 ||stimulateartificial.com^
@@ -65316,6 +65111,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stormiq.com^
 ||stormreader.cn^
 ||stormyachiever.com^
+||stormyshock.com^
 ||storoukr.net^
 ||storygize.net^
 ||storystack.com^
@@ -65343,12 +65139,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||streamplay.me^
 ||streamsb.net^
 ||streamssitesearch.com^
+||streamtvbox.net^
 ||streetcoddiffident.com^
 ||streetmetrics.io^
 ||stremanp.com^
 ||strepenboweled.com^
 ||stretchedcreepy.com^
 ||stretchsister.com^
+||strigh.com^
 ||strikeiron.com^
 ||stringsmile.com^
 ||stripedburst.com^
@@ -65356,6 +65154,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||strivenramplor.com^
 ||strivesidewalk.com^
 ||stroeerdigitalmedia.de^
+||strong-male-pills.life^
 ||strossle.com^
 ||stroublederaa.club^
 ||stroveraved.com^
@@ -65370,6 +65169,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sttrr.top^
 ||sttvisa.com^
 ||studiomugnaini.eu^
+||studiostack.com^
 ||studyeffect.com^
 ||studytest.icu^
 ||stuiop.com^
@@ -65385,6 +65185,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stygg.xyz^
 ||styleja.com^
 ||styleui.ru^
+||suaibsan.id^
 ||suangtianw.com^
 ||sub2tech.com^
 ||subcreation.fr^
@@ -65423,8 +65224,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sufficientretiredbunker.com^
 ||sugarcurtain.com^
 ||sugoicounter.com^
+||suhunsoo.uk^
 ||suhusushi.com^
-||suicidaltendencies.fr^
 ||suigeng.shop^
 ||suitesbahrag.icu^
 ||suliglsr.space^
@@ -65439,7 +65240,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||summerxzp.xyz^
 ||sumnxwvr.ink^
 ||sumo.com^
-||sumofus.fr^
 ||sumome.com^
 ||sumpki.com^
 ||sumshaggy.com^
@@ -65453,6 +65253,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sundaysky.com^
 ||sundxs.com^
 ||sunglasseslollipopoperating.com^
+||sunglassesmentallyproficient.com^
 ||sungong1987.com^
 ||sunhd.info^
 ||sunios.de^
@@ -65564,7 +65365,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||suurvend.ee^
 ||suwoj.com^
 ||suzamense.com^
-||suzukiauto.fr^
 ||sv2.biz^
 ||svarkon.ru^
 ||svava.eu^
@@ -65587,6 +65387,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sweepia.com^
 ||sweepprolong.com^
 ||sweepsheep.com^
+||sweet-localhookup.com^
 ||sweet-water.org^
 ||sweetbook.net^
 ||sweetchicks.net^
@@ -65599,10 +65400,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||swfhostltd.com^
 ||swfstats.com^
 ||swiftmining.win^
-||swiftype.fr^
 ||swimslope.com^
 ||swimsunleisure.com^
-||swingingcommunity.com^
 ||swinity.com^
 ||swiss-counter.com^
 ||swisslide.fr^
@@ -65666,6 +65465,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sybsybe.xyz^
 ||sycbbs.com^
 ||sydneygfpink.com^
+||sydswxx.com^
 ||sydz.tw^
 ||syiae.com^
 ||syjjd.club^
@@ -65683,6 +65483,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||symbolizebeast.com^
 ||symboltech.com^
 ||sympna.com^
+||symrkwcn76.cn^
 ||synacast.com^
 ||sync.tv^
 ||sync-share.com^
@@ -65726,6 +65527,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||systematixinfotech.fr^
 ||systemizecoat.com^
 ||systemleadb.com^
+||systemtrees.com^
 ||systemupdatesy.life^
 ||systemupdatix.club^
 ||systerwithing.info^
@@ -65747,6 +65549,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||szblcad.com^
 ||szdxc.net^
 ||szdzbx.com^
+||szemlelo.com^
 ||szfhl99.com^
 ||szfr.fr^
 ||szhdhbz.com^
@@ -65859,10 +65662,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tajir.com^
 ||tajxgs.com^
 ||take-best-prize.life^
+||take-prizehere2.life^
+||take-prizes-now2.com^
+||take-yourprize-here.life^
 ||take2prize.life^
 ||takebigbonus3.life^
+||takebonus-prizesnow2.life^
 ||takechaukr.com^
 ||takefast-prizeshere.life^
+||takehotprizzes3.live^
 ||takemore-prizes.life^
 ||takeoneaudio.jp^
 ||takespecial-prizenow3.life^
@@ -65976,6 +65784,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||taroads.com^
 ||tarotien.com^
 ||tarrilyathenee.com^
+||tarsuscaul.com^
 ||tartarsharped.com^
 ||tartator.com^
 ||tarttendency.com^
@@ -65990,6 +65799,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tatpek.com^
 ||tatsumi-sys.jp^
 ||tattepush.com^
+||tattooshaha.info^
 ||tauvoojo.net^
 ||tavelscape.com^
 ||tawdryson.com^
@@ -66012,6 +65822,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tc600.com^
 ||tcache.ml^
 ||tcactivity.net^
+||tcadops.ca^
 ||tcads.net^
 ||tcbdd.cn^
 ||tccb71h.cn^
@@ -66030,7 +65841,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tczzzlwpss.com^
 ||td1h.cn^
 ||td553.com^
-||td563.com^
 ||td573.com^
 ||tda.io^
 ||tdain.com^
@@ -66038,6 +65848,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tdblazing.com^
 ||tdbwgrm.cn^
 ||tdcoincore.org^
+||tdedqqv.cn^
 ||tdjc.shop^
 ||tdk.ink^
 ||tdmd.us^
@@ -66056,7 +65867,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tealium.com^
 ||tealiumiq.com^
 ||teamder.org^
-||teamsport-philipp.fr^
 ||tearpilotzoo.com^
 ||tebaidu.cn^
 ||techahv.com^
@@ -66066,11 +65876,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||techclicks.net^
 ||techexpert.site^
 ||techgadgetsy.com^
+||techhelping.net^
 ||techlab-cdn.com^
+||techms-shop.su^
 ||technical-service.net^
 ||technicalconsumerreports.com^
 ||technocite.fr^
-||technoit.fr^
 ||technoob.info^
 ||technoratimedia.com^
 ||techques.com^
@@ -66106,7 +65917,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||telefoniabologna.it^
 ||telemetric.dk^
 ||telemetryverification.net^
-||telephone-voyance.fr^
 ||telephoneinclination.com^
 ||telephoner-voyance.fr^
 ||teletarget.ru^
@@ -66116,7 +65926,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tellapart.com^
 ||tellaparts.com^
 ||tellmadeirafireplace.com^
-||telpay.fr^
 ||telusplanet.net^
 ||tembetanymil.com^
 ||temelio.com^
@@ -66137,7 +65946,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tendersugar.com^
 ||tendertest.com^
 ||tengbaiwan.com^
-||tenispro.fr^
 ||tenmax.io^
 ||tenoad.com^
 ||tenping.kr^
@@ -66153,6 +65961,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tercept.com^
 ||terciogouge.com^
 ||teresacd.cn^
+||terethat.ru^
 ||terlaby.com^
 ||termadodad.com^
 ||termly.io^
@@ -66164,14 +65973,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||terrasdsdstd.com^
 ||terratraf.com^
 ||terriblethumb.com^
-||terricole.fr^
 ||terrificgoose.com^
 ||terrifictooth.com^
 ||terrout9.biz^
 ||tertqm.cn^
 ||terttalkinhitin.pro^
 ||test.vast^
-||testbook.fr^
+||testargames.cl^
 ||testbooksolutions.com^
 ||testcombatverge.com^
 ||testedtouch.com^
@@ -66189,7 +65997,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||text-link-ads.com^
 ||textad.net^
 ||textads.biz^
-||textbrokr.fr^
 ||textglow.net^
 ||textlinks.com^
 ||texto.click^
@@ -66199,7 +66006,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tf111.xyz^
 ||tf58.com^
 ||tfag.de^
-||tfdnncmhx.com^
 ||tffkroute.com^
 ||tfla.xyz^
 ||tfosrv.com^
@@ -66218,20 +66024,20 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tgpsew.com^
 ||tgptraffic.biz^
 ||tgtag.io^
+||tgtvbngp.ru^
 ||tguomcq.cn^
 ||tgvtlpi.cn^
 ||tgwopez.cn^
-||tgzobwoutuwn.com^
 ||th-make.com^
 ||th21333.com^
 ||th7.cn^
-||thackgooder.com^
 ||thaickoo.net^
 ||thaiguxu.com^
 ||thailandtravel.live^
 ||thainationalparks.fr^
 ||thainews.asia^
 ||thalasur.fr^
+||thallus.net^
 ||thamescom.com^
 ||thandiphotography.com^
 ||thaninncoos.com^
@@ -66243,6 +66049,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thapsooz.net^
 ||tharbadir.com^
 ||thathechoxe.com^
+||thathislitt.ru^
 ||thatohegly.com^
 ||thatsjustgay.com^
 ||thatsouh.com^
@@ -66256,6 +66063,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thawheek.com^
 ||thdifferuken.com^
 ||the-adblocker.website^
+||the-best-ladies1.com^
 ||the-best-track.com^
 ||the-binary-trader.biz^
 ||the-counter.net^
@@ -66302,6 +66110,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thefreehitcounter.com^
 ||theherohomes.in^
 ||thehomo.org^
+||theirsvendor.com^
 ||thejierou.net^
 ||thekat.se^
 ||thelastpicture.show^
@@ -66315,7 +66124,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||themoneytizer.net^
 ||thenceafeard.com^
 ||thench.net^
-||thenewswire.fr^
 ||theonecdn.com^
 ||theoremreach.com^
 ||theotime.net^
@@ -66339,6 +66147,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||theshemalesurvey.com^
 ||theship.club^
 ||theshoparound.com^
+||thesimplestairs.com^
 ||thesimsresource.fr^
 ||thespecialsearch.com^
 ||thestat.net^
@@ -66370,6 +66179,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thidrump.net^
 ||thienlongcnc.com^
 ||thietbisukiengiare.vn^
+||thietkelq.com^
 ||thindsoo.cn^
 ||thingrealtape.com^
 ||thingsafterthought.com^
@@ -66421,7 +66231,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thruport.com^
 ||thterras.com^
 ||thuexevanphong.com^
-||thully.com^
 ||thump-night-stand.com^
 ||thumpssleys.com^
 ||thumser-online.de^
@@ -66467,7 +66276,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tick-tock.net^
 ||ticketaunt.com^
 ||ticketforchange.fr^
-||ticketspy.fr^
 ||ticketswinning.com^
 ||ticklesign.com^
 ||tickmatureparties.com^
@@ -66485,10 +66293,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tiexing.com^
 ||tiffybetween.website^
 ||tigerpush.net^
+||tigustolanostracucina.it^
 ||tihushuo.com^
+||tiigov.tv^
 ||tiku.io^
 ||tiltgardenheadlight.com^
+||tiltott.net^
 ||timberlande.fr^
+||time-4-dating3.com^
+||time-for-your-dating2.com^
 ||time4news.net^
 ||timefornews.online^
 ||timelesscelebrity.com^
@@ -66519,11 +66332,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tinystat.ir^
 ||tinytendency.com^
 ||tipcatscarola.com^
-||tiplanet.fr^
 ||tipsurf.com^
 ||tiqcdn.com^
 ||tirescymlin.com^
 ||tiresomethunder.com^
+||tiringjollyhalfmoon.com^
 ||tirongtech.cn^
 ||tirreleaseavailan.xyz^
 ||tisafnii.space^
@@ -66573,7 +66386,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tlprxzujk.com^
 ||tlsessfomrq.com^
 ||tlsgq.cn^
-||tluumnjyrc.com^
 ||tlvmedia.com^
 ||tlwl1.cn^
 ||tlwl2.cn^
@@ -66595,6 +66407,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tngmn.com^
 ||tnkexchange.com^
 ||tnkfactory.com^
+||tnlvnnvlsrabywk.com^
 ||tnpads.xyz^
 ||tns-counter.ru^
 ||tns-cs.net^
@@ -66602,8 +66415,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tnwyjsgypjpc.com^
 ||tny.so^
 ||to6s.biz^
+||toanthaybac.com^
 ||toateeli.net^
 ||tobaltoyon.com^
+||tobepure.com^
 ||tobmyfile.info^
 ||toboads.com^
 ||tobymenviolins.casa^
@@ -66619,6 +66434,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||toecircle.com^
 ||toedrawer.com^
 ||toemowwbvf.com^
+||toftinhapsandrit.info^
 ||togenron.com^
 ||toggletools.com^
 ||toglooman.com^
@@ -66659,6 +66475,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tongxinren.co^
 ||tongzhan.info^
 ||tonnn.com^
+||tontwiredat.info^
 ||tonydong.com^
 ||tooasthmaloose.com^
 ||tookcheckout.com^
@@ -66680,8 +66497,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||top-casting-termine.de^
 ||top-games.me^
 ||top-kopi.net^
+||top-menspot-here.com^
 ||top-muse.com^
 ||top-performance.top^
+||top-prizes-now.life^
 ||top-ro.ro^
 ||top-site-list.com^
 ||top100.ru^
@@ -66710,6 +66529,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||topconsumergifts.com^
 ||topcpmnetwork.com^
 ||topdealad.com^
+||topdemaroc.com^
 ||topdepo.com^
 ||topdisplaycontent.com^
 ||topdisplayformat.com^
@@ -66748,6 +66568,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||toprevenuecpmnetwork.com^
 ||toprevenuenetwork.com^
 ||toprxshopplace.com^
+||topservicehelper.com^
+||topservicesbooster.com^
+||topservicesecurity.com^
 ||topservicesupdate.com^
 ||topshape.me^
 ||topsir.com^
@@ -66773,10 +66596,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||torrent-protection.com^
 ||torrentsafeguard.com^
 ||torrenty-org.pl^
+||torresquinterocorp.com^
 ||torvind.com^
 ||toryburchoutlet.info^
 ||tossm.com^
-||totaldebrid.fr^
 ||totalnicefeed.com^
 ||totaltopposts.com^
 ||totalwownews.com^
@@ -66831,9 +66654,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tpvjycisbqklu.com^
 ||tqlkg.com^
 ||tqlyjz.cn^
+||tqmibkqlwqdysi.com^
 ||tr1net.com^
 ||tr553.com^
 ||tr691.cn^
+||traaaack.com^
 ||tracc.it^
 ||tracdelight.com^
 ||tracdelight.io^
@@ -66918,7 +66743,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tradedealvip.su^
 ||tradedoubler.com^
 ||tradeexchanging.com^
-||tradeinn.fr^
 ||tradelab.fr^
 ||tradelax.com^
 ||tradem.com^
@@ -67020,12 +66844,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tramemedea.com^
 ||trandlife.info^
 ||trangamcoached.com^
-||tranisere.fr^
 ||tranquilside.com^
 ||transactionale.com^
 ||transcend.io^
 ||transfer-rate.com^
 ||transferlights.com^
+||transferwiser.io^
 ||transientspecialowl.com^
 ||translateoatmeal.com^
 ||transpera.com^
@@ -67097,6 +66921,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trendingpatrol.com^
 ||trendmd.com^
 ||trendnews.com^
+||trendsymbol.net^
 ||trenhdg.com^
 ||trfcbooost.com^
 ||trflog.com^
@@ -67120,7 +66945,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||triggit.com^
 ||trigs-sockets.com^
 ||trilns.com^
-||trilogyed.com^
 ||trimbrushed.com^
 ||tringotv.com^
 ||trinylium.com^
@@ -67169,12 +66993,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trouveunfilm.fr^
 ||trovi.com^
 ||trqvelocity.com^
+||trrgov.com^
 ||trs.cn^
 ||trstplse.com^
 ||trtjigpsscmv9epe10.com^
 ||tru.am^
 ||truckstomatoes.com^
 ||truconversion.com^
+||truecrimesss.com^
 ||truecrypt.fr^
 ||truehits.net^
 ||truenat.bid^
@@ -67189,6 +67015,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trusearch.net^
 ||trustaffs.com^
 ||trustaproiam.de^
+||trustbummler.com^
 ||trustedcpmrevenue.com^
 ||trustedgatetocontent.com^
 ||trusterejecta.com^
@@ -67206,8 +67033,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trw12.com^
 ||trwl1.com^
 ||trx-hub.com^
+||trx625.com^
 ||trys5.com^
 ||trysera.com^
+||trysogsii.uno^
 ||tryzens-analytics.com^
 ||trznrug.cn^
 ||ts-group.com^
@@ -67253,6 +67082,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ttlm.cc^
 ||ttlxieoguhtrs.com^
 ||ttoc8ok.com^
+||ttr3p.com^
 ||ttrace.ru^
 ||tttxx.cn^
 ||ttwitter.com^
@@ -67262,6 +67092,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ttxknb.com^
 ||ttxs8.xyz^
 ||ttylmex.cn^
+||ttyvdilxsuorg.com^
 ||ttyyeastfeukuf.xyz^
 ||ttyyuuoo.com^
 ||ttz.com^
@@ -67329,7 +67160,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||turboeagle.co^
 ||turbolion.io^
 ||turdgasm.com^
-||turfomani.fr^
 ||turkeyrank.com^
 ||turkishairines.info^
 ||turmoilragcrutch.com^
@@ -67344,6 +67174,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tuwo-audio.cn^
 ||tuwuzaci.xyz^
 ||tuxbpnne.com^
+||tuyennvtb.com^
 ||tuzik09cat.site^
 ||tuzufsi.cn^
 ||tv1s4d6klh4n.com^
@@ -67367,10 +67198,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||twcount.com^
 ||twcouponcenter.com^
 ||tweetdeck.fr^
+||tweetelonmusk.ir^
 ||tweitter.com^
 ||twentyalight.com^
 ||twentycolander.com^
 ||twentycustomimprovement.com^
+||twfgfjgov.shop^
 ||twh5.com^
 ||twiktter.com^
 ||twinpinenetwork.com^
@@ -67393,21 +67226,26 @@ charlestownwyllie.oaklawnnonantum.com^
 ||twjxmd.com^
 ||twltter.com^
 ||twnb.xyz^
+||twnjkgov.com^
 ||twoj-typ.pl^
 ||twoj-voucher.com^
 ||twoje-nagrody.pl^
 ||twojszczesliwydzien.com^
 ||twpasol.com^
 ||twrank.com^
+||twsgov.me^
 ||twskype.com^
 ||twtiq.xyz^
 ||twttr.com^
+||twtwdfjgov.xyz^
 ||twuafbj.cn^
 ||twuekgl.cn^
 ||twuitter.com^
 ||twutter.com^
 ||twwitter.com^
+||twxgov.com^
 ||twyn.com^
+||twysgov.com^
 ||twzui6.com^
 ||txcmjo.com^
 ||txdwc.cn^
@@ -67433,6 +67271,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tyjnwg.top^
 ||tyjnwj.top^
 ||tyjryuk.cn^
+||tyjuphiaht.com^
 ||tykinggowd.com^
 ||tykor.net^
 ||tylll.com^
@@ -67440,7 +67279,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tymukyno.xyz^
 ||tynnikhb.com^
 ||tynt.com^
-||typewriter.fr^
 ||typicalairplane.com^
 ||typicalteeth.com^
 ||typiccor.com^
@@ -67453,7 +67291,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tyxo.bg^
 ||tyxo.com^
 ||tz-dsp.com^
-||tz284.com^
 ||tz88.store^
 ||tzbtw.com^
 ||tzcfyre.cn^
@@ -67479,6 +67316,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||u0071.com^
 ||u0075.com^
 ||u0078.com^
+||u0079.com^
 ||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
@@ -67592,7 +67430,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uii.io^
 ||uimserv.net^
 ||uinusr.monster^
-||uiqakwjmugofbuu.com^
 ||uiqjcpt.cn^
 ||uisafnit.space^
 ||uissm.com^
@@ -67621,6 +67458,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ulmdb.cn^
 ||ulminicbawty.com^
 ||ulmoyc.com^
+||ulnawoyyzbljc.ru^
 ||ulogin-stats.ru^
 ||ulourgaz.net^
 ||ulqihfr.cn^
@@ -67691,7 +67529,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||underdog.media^
 ||undergiveto54.com^
 ||underminesprout.com^
-||understandablejoggleawakened.com^
 ||understandintimidate.com^
 ||understoodadjoiningarab.com^
 ||understoodocean.com^
@@ -67730,7 +67567,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uniformery.club^
 ||unifyaddition.com^
 ||unigogo.co^
-||uniguide.fr^
 ||unilife.top^
 ||unimhk.com^
 ||uninterestedquarter.com^
@@ -67755,11 +67591,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||univ-murs.fr^
 ||univ-paris-didero.fr^
 ||univ-pars1.fr^
-||univ6lehavre.fr^
 ||universalplastoind.com^
 ||universalsearches.com^
 ||universaltrackingcontainer.com^
-||univevry.fr^
 ||uniworldgroup.asia^
 ||unjointbobbed.com^
 ||unkindvanilla.com^
@@ -67889,13 +67723,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uqidian.com^
 ||uquholhm.cn^
 ||uqz.com^
-||urbact.fr^
 ||urbanproxy.eu^
 ||urgente.eu^
 ||urgesick.com^
 ||urgoldpie.club^
 ||uri6.com^
-||urimteku.com^
 ||uriqirelle.xyz^
 ||uriren.pw^
 ||url.ms^
@@ -67923,7 +67755,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||urmilan.info^
 ||urnawareflan.com^
 ||uroffer.link^
-||urssff.fr^
 ||urstats.de^
 ||urtirepor.com^
 ||urtutb.cn^
@@ -67938,7 +67769,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||usachoice.net^
 ||usadserver.com^
 ||usapolice.com^
-||usbf.fr^
 ||uscdn.top^
 ||uscnvdcxttnh.com^
 ||usedexample.com^
@@ -67985,7 +67815,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||usuarios-online.com^
 ||usyiqpbx.com^
 ||ut1-capitole.fr^
-||ut1capitole.fr^
 ||utairway.com^
 ||utarget.ru^
 ||utauniv-lyon2.fr^
@@ -68016,6 +67845,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uuywe.top^
 ||uuzu.com^
 ||uvcourse.net^
+||uvvgov.com^
 ||uwdspsh.cn^
 ||uwnvcxb.cn^
 ||uwoaptee.com^
@@ -68079,7 +67909,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||valueclick.net^
 ||valueclickmedia.com^
 ||valuecommerce.com^
-||valueshippings.cc^
 ||valueur.com^
 ||vamaker.com^
 ||vamsoupowoa.com^
@@ -68110,13 +67939,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vatlodesim.com^
 ||vattingbalak.com^
 ||vaugroar.com^
-||vault-encryption.com^
 ||vawsmoocah.com^
 ||vazypteke.pro^
 ||vb7ojn.cn^
 ||vbanalytics.com^
 ||vbanm.com^
 ||vbillplus.cn^
+||vbncmpghcs.top^
 ||vboro.de^
 ||vbscgrnkoceya.com^
 ||vbshybwwkywkhsw.com^
@@ -68131,6 +67960,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vclpwxgae.xyz^
 ||vcommission.com^
 ||vcrypt.net^
+||vcsoat.cn^
 ||vczkzswrjais.com^
 ||vdbunt.net^
 ||vddf0.club^
@@ -68149,13 +67979,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vegaschina.cn^
 ||vegproworld.com^
 ||vehicle-insurance-quote.com^
+||veickea.cn^
 ||veille-referencement.com^
 ||veinteractive.com^
 ||veirregnant.club^
 ||velaro.com^
 ||velawhagru.com^
 ||velismedia.com^
-||veljko.id^
 ||velocecdn.com^
 ||velocitycdn.com^
 ||velteels.net^
@@ -68175,6 +68005,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||veomit.com^
 ||veoxa.com^
 ||vepxl1.net^
+||verandahcrease.com^
 ||verblife-3.co^
 ||verblife-5.co^
 ||verbolia.com^
@@ -68216,7 +68047,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vfcwij.cn^
 ||vfghc.com^
 ||vfgrse.com^
-||vfiecdg.tk^
 ||vflzdrv.cn^
 ||vfocus.net^
 ||vfreecams.com^
@@ -68233,7 +68063,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vhqlda.cn^
 ||vhrtgvzcmrfoo.com^
 ||vi-serve.com^
-||viad.fr^
 ||viadata.store^
 ||vianoivernom.com^
 ||viapawniarda.com^
@@ -68241,6 +68070,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||viatepigan.com^
 ||viavideo.digital^
 ||viaxmr.com^
+||vibesapparels.com^
 ||vibrantmedia.com^
 ||vic-m.co^
 ||vichycobourg.com^
@@ -68271,7 +68101,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||videocop.com^
 ||videoeast.ru^
 ||videoegg.com^
-||videofitness.fr^
 ||videogamerewardscentral.com^
 ||videogenetic.com^
 ||videogoal.biz^
@@ -68290,7 +68119,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||videostat.com^
 ||videosworks.com^
 ||videovoiceable.ru^
-||videovor.fr^
 ||vider-image.com^
 ||vidfile.net^
 ||vidible.tv^
@@ -68301,13 +68129,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vidroll.ru^
 ||vidsrev.com^
 ||vidverto.io^
+||vidyceky.com^
 ||vidzi.tv^
 ||viebitgreasy.email^
 ||viedechretien.org^
 ||viensvoircesite.com^
-||vieques.fr^
-||viessman.fr^
-||vietnamdiscovery.fr^
 ||vietroll.vn^
 ||view-flix.com^
 ||view4cash.de^
@@ -68325,6 +68151,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vihtori-analytics.fi^
 ||vihub.ru^
 ||viiadr.com^
+||viigov.tv^
 ||viiigle.com^
 ||viimad.com^
 ||viiotp.com^
@@ -68348,6 +68175,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vinub.com^
 ||vinuxhome.com^
 ||violates.wang^
+||vip-flirt-books12.com^
 ||vip-l53.work^
 ||vip1221.com^
 ||vipads.cn^
@@ -68359,7 +68187,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vipicmou.net^
 ||vipmasajes.com^
 ||vipmodels.tv^
-||vipon.fr^
 ||vipvps.shop^
 ||vipwm.cc^
 ||vipysknik.by^
@@ -68372,7 +68199,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||viralture.com^
 ||virgoplato.com^
 ||virgul.com^
-||viriginradio.fr^
 ||virool.com^
 ||virpropcnow.xyz^
 ||virtuagirlhd.com^
@@ -68431,7 +68257,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vivaciousveil.com^
 ||vivaclix.com^
 ||vivads.net^
-||vivalife.fr^
 ||vivgilance.fr^
 ||vivi87.cn^
 ||vividlobster.com^
@@ -68470,7 +68295,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vlitag.com^
 ||vlogerads.com^
 ||vlrgltldc.com^
-||vltwox7zl7h1wv.com^
 ||vluvpdf.cn^
 ||vm5apis.com^
 ||vmay.com^
@@ -68495,6 +68319,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vntsm.com^
 ||vntsm.io^
 ||vnuccenky.com^
+||vnvmif.cn^
 ||voapozol.com^
 ||vocoptions.net^
 ||vodone.com^
@@ -68512,14 +68337,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||voicevegetable.com^
 ||voiciu.fr^
 ||voihkjd.cn^
-||voil-le-travail.fr^
 ||voipnewswire.net^
 ||voipwise.fr^
 ||volantix.com^
 ||volceapplog.com^
 ||volksaddiction.nl^
 ||volksvagen.fr^
-||volkswagens.fr^
 ||volowwoidre.com^
 ||volthamfondue.com^
 ||volument.com^
@@ -68557,7 +68380,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vpebzerg.com^
 ||vpie.net^
 ||vpm.hu^
-||vpn4test.net^
 ||vpnaffiliates.com^
 ||vpon.com^
 ||vppvp.com^
@@ -68577,7 +68399,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vrrzmvb.cn^
 ||vrs.cz^
 ||vrsshsdaa.com^
-||vrtrdvx.cn^
 ||vrtzads.com^
 ||vrzsw.com^
 ||vs9158.com^
@@ -68590,19 +68411,21 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vsnoon.com^
 ||vst3mid.com^
 ||vstats.co^
+||vstgov.com^
 ||vsttyxsthsvhp.com^
 ||vsvihsib.com^
 ||vswlxqhvjiz.com^
 ||vsyaiejmfooba.com^
+||vt3a.top^
 ||vt863.cn^
 ||vtfwgfo.cn^
+||vtigov.com^
 ||vtoras.top^
 ||vtracker.net^
 ||vtracy.de^
 ||vtrtl.de^
 ||vtuctez.cn^
 ||vuahb.com^
-||vubihasdtbadiq.com^
 ||vubihowhe.com^
 ||vue-js.cyou^
 ||vueujv.com^
@@ -68610,6 +68433,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vuittonu.com^
 ||vukhhjzd.com^
 ||vuksew.com^
+||vulcan.wiki^
 ||vuliglsf.space^
 ||vumnxwvf.ink^
 ||vungle.cn^
@@ -68642,6 +68466,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||vyvoacademy.com^
 ||vyvxx.com^
 ||vz1m.com^
+||vzarabotke.ru^
 ||vzovmzc.cn^
 ||w-tres.info^
 ||w07.xyz^
@@ -68671,8 +68496,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wagersinging.com^
 ||waggishpig.com^
 ||waggonerchildrensurly.com^
-||wagsandwhiskers.fr^
-||wahm.fr^
 ||wahoha.com^
 ||waiads.com^
 ||waikuai.vip^
@@ -68690,10 +68513,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||walkets.click^
 ||walkindrivetoday.com^
 ||walkthedinosaur.com^
+||walletgear.org^
 ||wallflore.de^
 ||walmeric.com^
-||wanadzoo.fr^
-||wanatoo.fr^
 ||wancai.shop^
 ||wandererbashful.com^
 ||wanfeng1.com^
@@ -68786,7 +68608,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||watchahv.com^
 ||watchingthat.com^
 ||watchingthat.net^
-||watchpro.fr^
 ||watchsk.com^
 ||watchtaro.com^
 ||waterstudio.fr^
@@ -68862,6 +68683,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||web-check.co^
 ||web-counter.net^
 ||web-domain.net^
+||web-feed.net^
 ||web-guardian.xyz^
 ||web-hoster.co^
 ||web-loading.net^
@@ -68886,10 +68708,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||webanalysis.dev^
 ||webantenna.info^
 ||webapplicationminefree.cyou^
-||webassembly.st^
 ||webassembly.stream^
 ||webatam.com^
-||webatic.fr^
 ||webbridcar.xyz^
 ||webcams-chat.com^
 ||webcamsex.nl^
@@ -69024,6 +68844,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wecount4u.com^
 ||weddingeeos.com^
 ||wedeegut.net^
+||wedleaunocomp.work^
 ||wedolook.com^
 ||weduoke.com^
 ||weebly.shop^
@@ -69053,6 +68874,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||weikefanli.com^
 ||weilaa.xyz^
 ||weiledi.com^
+||weimeicar.cn^
 ||weimeiwangluo.site^
 ||weinin99.cn^
 ||weinsteincounseling.com^
@@ -69061,6 +68883,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||weiv1fl.cn^
 ||weiweitop.top^
 ||weix.xyz^
+||weixingshexiangji.net^
 ||weixinhuoyuan.com^
 ||weixinxx.com^
 ||weixisiwang.com^
@@ -69071,6 +68894,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||welcomejohncena.pro^
 ||weldsystem.online^
 ||weledying-jessed.com^
+||welfareml.com^
 ||wellgroomedapparel.com^
 ||wellgroomedbat.com^
 ||wellhello.com^
@@ -69105,7 +68929,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||westerntaneyfire.com^
 ||wetips.cn^
 ||wetrack.it^
-||wetter24.fr^
 ||weway.club^
 ||wewillrocknow.com^
 ||wewilltoptheworld.top^
@@ -69171,13 +68994,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||whippedfreezerbegun.com^
 ||whirlsblosmy.com^
 ||whirlwealth.com^
-||whiscas.fr^
 ||whiskyqueue.com^
 ||whispa.com^
 ||whisperingbadge.com^
 ||whisperingcrib.com^
 ||whisperingflesh.com^
-||whiteenamel.fr^
 ||whitehalfabrr.club^
 ||whitepixel.com^
 ||whitor.com^
@@ -69219,6 +69040,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||whwdzgykybnfg.com^
 ||whwfcm.cn^
 ||whxjnwzhs.com^
+||whxva.com^
 ||whycywhivu.pro^
 ||whynotwin11.com^
 ||whysoserius.club^
@@ -69260,6 +69082,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wildernesscamera.com^
 ||wildlifeeventlean.com^
 ||wildxtraffic.com^
+||wileprefgurad.net^
 ||wilf.cn^
 ||wilfridscandalconceived.com^
 ||willalland.info^
@@ -69267,13 +69090,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||williamsun.vip^
 ||willysy.com^
 ||win-bidding.com^
-||win-extraprize.life^
 ||win-great-prizes-now2.life^
 ||win-prizes-rightnow.life^
 ||win-prizes-rightnow1.life^
 ||win-spy.com^
 ||win-winfuture.cn^
-||win-yourtopprise-today.life^
 ||winadiscount.com^
 ||winads.cn^
 ||winaproduct.com^
@@ -69363,6 +69184,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wknniyu.cn^
 ||wknydhz.cn^
 ||wksrx.cn^
+||wkyfgxxabvu.xyz^
 ||wlengrclxzypf.com^
 ||wlfng.com^
 ||wlgszt.com^
@@ -69484,7 +69306,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||world-news-filter.info^
 ||worldactualstories.com^
 ||worldbeyondleft.xyz^
-||worldcommunitygrid.fr^
 ||worldfreshblog.com^
 ||worldgravity.com^
 ||worldlogger.com^
@@ -69571,8 +69392,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wsaphvlnnlle.top^
 ||wscn.site^
 ||wsds.cn^
+||wsflbtgov.xyz^
+||wsflbwgov.xyz^
 ||wsfliagov.xyz^
+||wsfliegov.xyz^
+||wsflikygov.xyz^
 ||wsflojgov.xyz^
+||wsfltlwgov.xyz^
 ||wsgblw.com^
 ||wsgwc.com^
 ||wshsoft.company^
@@ -69703,7 +69529,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wymcloud.love^
 ||wynather.com^
 ||wyorrmuftjp.com^
-||wyoutube.fr^
 ||wyovhzs.cn^
 ||wyphawhity.com^
 ||wypovuwu.pro^
@@ -69938,6 +69763,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xihawan8.com^
 ||xihua.me^
 ||xihuangdushu.com^
+||xihucio.ru^
 ||xiituvt.top^
 ||xijgedjgg5f55.com^
 ||xiji-express.com^
@@ -70038,7 +69864,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xl-trk.com^
 ||xlcun.com^
 ||xlgqy.com^
-||xlgtblj.cn^
 ||xlingdi.com^
 ||xlisting.jp^
 ||xlivedoor.com^
@@ -70080,6 +69905,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xmshqh.com^
 ||xmsqz.com^
 ||xmsrd.com^
+||xmvusqpp.com^
 ||xmwn.shop^
 ||xmxxwl.com^
 ||xmyejun.cn^
@@ -70092,7 +69918,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--cheggl-videos-fr-gastronomie-g7c.de^
 ||xn--discrd-zxa.com^
-||xn--disordapp-s3a.com^
 ||xn--fjqz50cv5q3so.ltd^
 ||xn--gov-x68dy61b.shop^
 ||xn--mtso8sj6menhyil.online^
@@ -70112,12 +69937,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xn--yotu-1ra.be^
 ||xn--zuzy24d.co^
 ||xndcnnkygvd.com^
+||xniexnz.cn^
 ||xnjpg.com^
 ||xnjzsn.com^
 ||xnxonbf.cn^
 ||xnyemao.com^
 ||xocgniyv.com^
-||xoflgafl.com^
 ||xorlsblw.cyou^
 ||xovilumium.space^
 ||xovq5nemr.com^
@@ -70150,6 +69975,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xpop.co^
 ||xpostmail.com^
 ||xpostx.com^
+||xpprinx2.com^
 ||xpst0kx.cn^
 ||xpx7heciz9.com^
 ||xq1.net^
@@ -70171,7 +69997,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xryrylt.cn^
 ||xs8888.vip^
 ||xsbndzklbm.com^
-||xsdizch.cn^
 ||xseed-digital.jp^
 ||xsharenode.com^
 ||xshellcn.com^
@@ -70184,9 +70009,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xsrypte.cn^
 ||xsspt.vip^
 ||xstar.cc^
-||xstjtdwuxxs.com^
 ||xsu.cc^
 ||xsvgpjl.cn^
+||xswape.top^
 ||xswvytnxkzkzq.com^
 ||xszysc.com^
 ||xt2d.cn^
@@ -70273,7 +70098,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xwvbbphb.com^
 ||xww360.com^
 ||xwwj.ink^
-||xwxmfubxzc.com^
 ||xwymbeavwvvly.com^
 ||xxaalsn.cn^
 ||xxccdshj.com^
@@ -70284,11 +70108,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xxgxqscl.com^
 ||xxkio.com^
 ||xxlargepop.com^
+||xxrsxs.cn^
 ||xxsjsp.com^
 ||xxsweety.com^
 ||xxw777.cn^
 ||xxwd.ltd^
 ||xxx-r.com^
+||xxxbullet.com^
 ||xxxc2c.org^
 ||xxxcounter.com^
 ||xxxhd.cc^
@@ -70312,9 +70138,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xykdglmymu.com^
 ||xylmdm.top^
 ||xyly2016.com^
+||xymusyy.ru^
 ||xyn1d4bjg4vr4m2qwypvuj.com^
 ||xyonbib.cn^
-||xyosnsyydrfrjd.com^
 ||xypksuk.cn^
 ||xyqgpupnkdmmib.top^
 ||xytom.com^
@@ -70354,7 +70180,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yabuka.com^
 ||yacane.nl^
 ||yaccidedap.top^
-||yachtingmagazine.fr^
 ||yadaksiklet.ir^
 ||yadro.ru^
 ||yadropro.ru^
@@ -70483,6 +70308,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yes-messenger.com^
 ||yesads.com^
 ||yesadvertising.com^
+||yesilyasam.eu^
 ||yesmessenger.com^
 ||yesnisndglh.com^
 ||yessearches.com^
@@ -70658,6 +70484,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ylc.ink^
 ||yldbt.com^
 ||yldmgrimg.net^
+||yleaxs.cn^
 ||ylem222.com^
 ||yljiaoluo.com^
 ||ylkjit.com^
@@ -70749,19 +70576,18 @@ charlestownwyllie.oaklawnnonantum.com^
 ||youcanoptout.com^
 ||youday.cn^
 ||youfck.com^
+||youfunv.com^
 ||yougames.fun^
 ||youget-prizes-here.life^
 ||yougotacheck.com^
 ||yougouquanqiu.xyz^
 ||youhehuixiangxinxi.top^
-||youhuixia1210.cn^
 ||youhuotiyu.asia^
 ||youintelligence.com^
 ||youkewangluo.cn^
 ||youlamedia.com^
 ||youle55.com^
 ||youliangyouxian.xyz^
-||youmakeashion.fr^
 ||youmi.net^
 ||youmw.com^
 ||youndoo.com^
@@ -70777,6 +70603,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||youqumob.com^
 ||youqunjx.com^
 ||your-best-ladies-now.com^
+||your-best-profit.life^
 ||your-bestdatings1.com^
 ||your-counter.be^
 ||your-dates-tonight.com^
@@ -70784,7 +70611,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||your-gift-zone.com^
 ||your-hot-date.com^
 ||your-hot-women2.com^
-||your-mainstream-here.life^
 ||your-notice.com^
 ||your-prize-now1.life^
 ||your-prizes-right-now.life^
@@ -70798,8 +70624,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yourbest-bonus-zone4.life^
 ||yourbest-dating1.com^
 ||yourbest-dating33.life^
-||yourbest-profits-here1.life^
 ||yourbest-profits4.life^
+||yourbestclothes.com^
 ||yourbestwoman.life^
 ||yourbig-prizenow2.life^
 ||yourbigdating.com^
@@ -70821,6 +70647,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||youripad4free.com^
 ||yourkadspunew.com^
 ||yournight-girls-here.com^
+||youronline-profits2.life^
 ||yourrewardzone.com^
 ||yours-sexy-dreams1.com^
 ||yourservice.live^
@@ -70848,7 +70675,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||youtui.net^
 ||youutbe.com^
 ||youvisit.com^
-||youvisit.fr^
 ||youweiprint.com^
 ||youwenzhi.xyz^
 ||youxiaoad.com^
@@ -70889,6 +70715,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yrals.com^
 ||yrbfol5.cn^
 ||yrdrtzmsmt.com^
+||yrecomemu.one^
 ||yrehdfer.com^
 ||yrlfnyx.cn^
 ||yrlnymthma.com^
@@ -71014,7 +70841,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yuretb.site^
 ||yushengyuancaishui.com^
 ||yusnw.cc^
-||yuu360.com^
 ||yuunion.com^
 ||yuutoday.com^
 ||yuvvddt.cn^
@@ -71043,6 +70869,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ywwm.net^
 ||ywxi.net^
 ||ywxigvzbkqg.com^
+||ywzkiug.cn^
 ||yxbyd.store^
 ||yxcpm.com^
 ||yxgfcj.com^
@@ -71055,7 +70882,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yxpyjyhjj.com^
 ||yxsgrdxga.com^
 ||yxsnf.cn^
-||yxszy.com^
 ||yxwpmav.cn^
 ||yxxwyz.com^
 ||yxyhtea.com^
@@ -71120,7 +70946,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zaixianweiyuanchuang.cn^
 ||zajtrkhisa.xyz^
 ||zalanado.fr^
-||zalandon.fr^
 ||zamiasbrouze.com^
 ||zampda.net^
 ||zampdsp.com^
@@ -71140,6 +70965,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zarget.com^
 ||zarpop.com^
 ||zastag.com^
+||zationserv.one^
 ||zatythygre.pro^
 ||zauglomo.net^
 ||zax01.com^
@@ -71176,6 +71002,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zdd-9.com^
 ||zdhfff.xyz^
 ||zdhm.cn^
+||zdktgps.cn^
 ||zdovrb.cn^
 ||zdpeanut.com^
 ||zdrcnx.cn^
@@ -71194,7 +71021,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zebraicrudista.com^
 ||zebuaridromps.com^
 ||zebumpes.net^
-||zeddit.com^
 ||zedo.com^
 ||zedplays.com^
 ||zeechumy.com^
@@ -71255,7 +71081,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zgc66.com^
 ||zgchaye123.com^
 ||zgclmw.cn^
-||zgcqxjzny.cn^
 ||zgctig.cn^
 ||zgcydvu.cn^
 ||zgfushi.mobi^
@@ -71421,12 +71246,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zhzcxxzx.com^
 ||zhzzx.com^
 ||zichenit.com^
-||zichunping.cn^
 ||zidoudsa.net^
 ||zifujwgejz.com^
 ||zigansherpa.com^
 ||zihengfx.com^
 ||zihuiguochao.top^
+||zijaipse.com^
 ||zikroarg.com^
 ||zimeijk.cn^
 ||zimingdh.com^
@@ -71504,6 +71329,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zmyslowyklub.com^
 ||zmyuer.com^
 ||znazlahbcu.com^
+||zndaowjdnf.stream^
 ||znews-live.com^
 ||znlgplt.com^
 ||znqip.net^
@@ -71643,6 +71469,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zwmkfoo.cn^
 ||zwmosu.xyz^
 ||zwmunz.com^
+||zwqpqrtpjt.com^
 ||zwtvcdnb.com^
 ||zwychain.cn^
 ||zwyymwy.com^
@@ -71687,6 +71514,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zyhx.ltd^
 ||zyiis.net^
 ||zyjy.ink^
+||zykwnj.cn^
 ||zyl520zh.online^
 ||zylytavo.com^
 ||zymbrlgu.cn^
@@ -71782,7 +71610,6 @@ charlestownwyllie.oaklawnnonantum.com^
 @@||gma.alicdn.com^
 @@||17173im.allyes.com^
 @@||analytics.amplitude.com^
-@@||link.androidauthority.com^
 @@||click.appcast.io^
 @@||securemetrics.apple.com^
 @@||artifactory.appodeal.com^
@@ -71875,7 +71702,6 @@ charlestownwyllie.oaklawnnonantum.com^
 @@||oneline.nextday.media^
 @@||forum.notebookreview.com^
 @@||cloud.notification-naviextras.com^
-@@||stcblink.nypost.com^
 @@||h-sdk.online-metrix.net^
 @@||nineto5mac-d.openx.net^
 @@||ad.ourgame.com^
