@@ -380,6 +380,7 @@ return array(
     'meitubeauty.meitudata.com' => 0, #688
     'my-material.zone1.meitudata.com' => 0, #688
     'ssl-cdn.static.browser.mi-img.com' => 0, #689
+    'db-ip.com' => 0, #699
 
 
 
