@@ -381,6 +381,9 @@ return array(
     'my-material.zone1.meitudata.com' => 0, #688
     'ssl-cdn.static.browser.mi-img.com' => 0, #689
     'db-ip.com' => 0, #699
+    'mini2015.qq.com' => 0, #710
+    'alimama.com' => 0, #710
+    'salon.com' => 0, #711
 
 
 

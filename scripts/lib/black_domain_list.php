@@ -93,7 +93,6 @@ return array(
     'adk2x.com' => array('adk2x.com'),
     'inmobi.com' => array('inmobi.com'),
     'alimama.cn' => array('alimama.cn'),
-    'alimama.com' => array('alimama.com'),
     'appjiagu.com' => array('appjiagu.com'),
     'amazon-adsystem.com' => array('amazon-adsystem.com'),
     'adnxs.com' => array('adnxs.com'),
@@ -1224,8 +1223,6 @@ return array(
 		'referee.xiaohongshu.com',
 //		'edith.xiaohongshu.com', // #708
 		'vi.xiaohongshu.com',
-		'v.xiaohongshu.com',
-		'ci.xiaohongshu.com',
 		'store.xiaohongshu.com',
 		'starry.xiaohongshu.com',
 		'apppush.xiaohongshu.com',
