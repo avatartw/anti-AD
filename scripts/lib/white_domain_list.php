@@ -384,6 +384,7 @@ return array(
     'mini2015.qq.com' => 0, #710
     'alimama.com' => 0, #710
     'salon.com' => 0, #711
+    'hqq.tv' => 0, #725
 
 
 

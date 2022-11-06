@@ -224,9 +224,6 @@ return array(
     'minisplat.cn' => array(
         'minisplat.cn',
     ),
-    'bdurl.net' => array(
-        'dig.bdurl.net', //數據收集
-    ),
     'id1.cn' => array(
         'id1.cn', //釣魚網站
     ),
@@ -1225,7 +1222,7 @@ return array(
 		'vi.xiaohongshu.com',
 		'store.xiaohongshu.com',
 		'starry.xiaohongshu.com',
-		'apppush.xiaohongshu.com',
+//		'apppush.xiaohongshu.com', // #721
     ),
     'todesk.com' => array( // #704
         'st.todesk.com',
