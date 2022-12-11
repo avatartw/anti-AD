@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup PHP with JIT in tracing mode
-      uses: shivammathur/setup-php@v2
+      uses: shivammathur/setup-php@master
       with:
         php-version: '8.1'
         coverage: none
-        ini-values: opcache.enable_cli=1, opcache.jit=tracing, opcache.jit_buffer_size=64M
+        ini-values: opcache.enable=1, opcache.enable_cli=1, opcache.jit=tracing, opcache.jit_buffer_size=64M
     - uses: actions/checkout@main
     - name: Run start-ci.sh
       run: |
