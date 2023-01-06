@@ -128,7 +128,7 @@ $ARR_MERGED_WILD_LIST = array(
     'pingfore*.*' => null,
     'socdm*.*' => null,
     'supersonicads*.*' => null,
-    'tracking*.*' => null,
+    //'tracking*.*' => null, // #743
     'usage*.*' => null,
     'wlmonitor*.*' => null,
     'zjtoolbar*.*' => null,
@@ -153,7 +153,6 @@ $ARR_REGEX_LIST = array(
     '/^([^\s\/]+\.)?sax[\dns]?\.sina\.com\.cn/' => null,
     '/^([^\s\/]+\.)?delivery([\d]{2}|dom|modo).com$/' => null,
     '/^([^\s\/]+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/' => null,
-    '/^([^\s\/]+\.)?[0-9a-z\-]{26,}\.(com|net|cn)(\.cn)?$/' => null, //超長域名
     '/^([^\s\/]+\.)?11599[\da-z]{2,20}\.com$/' => null, //"澳門新葡京"系列
     '/^([^\s\/]+\.)?61677[\da-z]{0,20}\.com$/' => null, //"澳門新葡京"系列
     '/^([^\s\/]+\.)?[0-9a-f]{15,}\.com$/' => null, //15個字符以上的16進制域名
@@ -288,6 +287,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||ku.dk^' => 1, // #684
     '@@||ads.95516.com^' => 1, // #695
     '@@||track.bankcomm.com^' => 1, // #714
+    '@@||tongji.koowo.cn^' => 1, // #742
 );
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單

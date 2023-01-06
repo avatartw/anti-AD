@@ -385,6 +385,14 @@ return array(
     'alimama.com' => 0, #710
     'salon.com' => 0, #711
     'hqq.tv' => 0, #725
+    'sfp.safe.baidu.com' => 0, #728
+    'sofire.baidu.com' => 0, #728
+    'c.youdao.com' => 0, #729
+    'wgo.mmstat.com' => 0, #730
+    'eroterest.net' => 0, #731
+    'button.like.co' => 0, #737
+    'urldefense.com' => 0, #741
+    'gift.douyucdn.cn' => 0, #745
 
 
 
