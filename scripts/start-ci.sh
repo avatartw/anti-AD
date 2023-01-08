@@ -145,10 +145,11 @@ cat easylist100.txt | grep -E "[$](\S+,)*(client|dnstype|dnsrewrite|important|ba
 cd ../
 
 php make-addr.php
+sed -i ../anti-ad-easylist.txt  -e "s/^||||/||/g" -e "s/^||be\^$//gI" -e "s/^||fr\^$//gI" -e "s/^||p\.de\^$//gI" -e "/^$/d"
 echo
 php ./tools/easylist-extend.php ../anti-ad-easylist.txt
 cat ./origin-files/rule-modifiers.txt ./origin-files/e-easylist.txt >> ../anti-ad-easylist.txt
 awk '!x[$0]++' ../anti-ad-easylist.txt > ../a.txt
-sed -i ../a.txt -e "s/^||be\^$//gI" -e "s/^||fr\^$//gI" -e "s/^||p\.de\^$//gI" -e "/^$/d"
+sed -i ../a.txt  -e "s/^||||/||/g" -e "s/^||be\^$//gI" -e "s/^||fr\^$//gI" -e "s/^||p\.de\^$//gI" -e "/^$/d"
 #(head -n 4 ../a.txt && tail -n +5 ../a.txt | sort) | uniq > ../anti-ad-easylist.txt
 mv -f ../a.txt ../anti-ad-easylist.txt
