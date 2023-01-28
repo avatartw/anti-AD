@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard DNS filter, StevenBlack hosts, anti-AD, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-01-25T17:21:39.219Z
+! Last modified: 2023-01-28T17:21:29.460Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.14
 !
@@ -4433,6 +4433,7 @@
 ||deliveryengine.adswizz.com^
 ||exchange.adswizz.com^
 ||pixel*.adswizz.com^
+||pixelorg.adswizz.com^
 ||synchrobox.adswizz.com^
 ||tunein.adswizz.com^
 ||zc.adswizz.com^
@@ -6452,10 +6453,8 @@
 ||api-adservices.apple.com^
 ||books-analytics-events.apple.com^
 ||iadsdk.apple.com^
-||metrics.apple.com^
 ||notes-analytics-events.apple.com^
 ||searchads.apple.com^
-||securemetrics.apple.com^
 ||stocks-analytics-events.apple.com^
 ||supportmetrics.apple.com^
 ||weather-analytics-events.apple.com^
@@ -8318,7 +8317,6 @@
 ||analytics.binaryfortress.com^
 ||www.binarysystem4u.com^
 ||incsh.bincun.xyz^
-||telemetry.appex.bing.net^
 ||ads.bing.com^
 ||adserver.bing.com^
 ||c.bing.com^
@@ -26731,11 +26729,8 @@
 ||v20.vortex-win.data.microsoft.com^
 ||web.vortex.data.microsoft.com^
 ||settings-sandbox.data.microsoft.com^
-||settings-win.data.microsoft.com^
 ||settings-win-ppe.data.microsoft.com^
-||vortex.data.microsoft.com^
 ||vortex-sandbox.data.microsoft.com^
-||vortex-win.data.microsoft.com^
 ||vortex-win-sandbox.data.microsoft.com^
 ||ztd.dds.microsoft.com^
 ||api.edgeoffer.microsoft.com^
@@ -26964,7 +26959,6 @@
 ||security.browser.miui.com^
 ||calopenupdate.comm.miui.com^
 ||tracking.india.miui.com^
-||sa.api.intl.miui.com^
 ||activity.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
@@ -30246,6 +30240,10 @@
 ||analytics.orenshmu.com^
 ||www.oreware.com^
 ||www.org-upgrade.com^
+||122.225.103.org.htm^
+||113.17.188.org.js^
+||218.26.217.org.html^
+||120.27.org.html^
 ||water-bed.8p.org.uk^
 ||serving.ad.org.vn^
 ||openx.angelsgroup.org.uk^
@@ -33804,7 +33802,6 @@
 ||beacon.samsclub.com^
 ||bigdata.ssp.samsung.com^
 ||insights.samsung.com^
-||nmetrics.samsung.com^
 ||sca.samsung.com^
 ||log-1.samsungacr.com^
 ||log-2.samsungacr.com^
@@ -33851,7 +33848,6 @@
 ||gld.samsungosp.com^
 ||osb-ussvc.samsungqbe.com^
 ||sspapi-prd.samsungrs.com^
-||business.samsungusa.com^
 ||api-hub.samsungyosemite.com^
 ||us-api.samsungyosemite.com^
 ||m.sancdn.net^
@@ -42092,7 +42088,6 @@
 ||m.yes.youku.com^
 ||actives.youku.com^
 ||adx-open-service.youku.com^
-||atm.youku.com^
 ||cad.youku.com^
 ||cmstool.youku.com^
 ||dmapp.youku.com^
@@ -60187,7 +60182,6 @@
 ||litec-fr.com^
 ||literalcorpulent.com^
 ||literatelight.com^
-||litix.io^
 ||litocen.com^
 ||littlecdn.com^
 ||littlecutecats.com^
