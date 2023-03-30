@@ -37,6 +37,10 @@ return [
         "rcgi.video.qq.com",
         "rlog.video.qq.com",
         "ad.browser.qq.com", // #682
+        "rdelivery.qq.com", // #764
+        "aedns.weixin.qq.com", // #764
+        "date.ab.qq.com", // #764
+        "report.nfa.qq.com", // #764
     ],
     "openstorage.cn" => ["iflyad.bjb.openstorage.cn"],
     "analysys.cn" => ["analysys.cn"],
@@ -1269,6 +1273,50 @@ return [
     "189.cn" => [
         // #526
         "webwebfenxi.189.cn",
+    ],
+    "dutils.com" => [
+        // #768
+        "api-c.dutils.com",
+        "api-d.dutils.com",
+        "api-devs.dutils.com",
+        "api-df.dutils.com",
+        "api-error.dutils.com",
+        "api-exc.dutils.com",
+        "api-fc.dutils.com",
+        "api-fd.dutils.com",
+        "api-gd.dutils.com",
+        "devs-data.dutils.com",
+        "jp-api-fc.dutils.com",
+        "jp-devs-data.dutils.com",
+        "m.mpl.dutils.com",
+        "h.m.mpl.dutils.com",
+        "us-api-d.dutils.com",
+        "us-api-fc.dutils.com",
+        "us-devs-data.dutils.com",
+        "www.dutils.com",
+    ],
+    "gifshow.com" => [
+        // #768
+        "gdfp.gifshow.com",
+        "log-sdk.gifshow.com",
+        "ad.partner.gifshow.com",
+        "ulog-sdk.gifshow.com",
+    ],
+    "adukwai.com" => [
+        // #768
+        "adukwai.com",
+        "p1-jx.adukwai.com",
+        "p1-lm.adukwai.com",
+        "p2-jx.adukwai.com",
+        "p2-lm.adukwai.com",
+        "v1-lm.adukwai.com",
+        "v2-lm.adukwai.com",
+        "v4-lm.adukwai.com",
+    ],
+    "diwodiwo.xyz" => [
+        // #775
+        "ad-display.diwodiwo.xyz",
+        "ad-channel.diwodiwo.xyz",
     ],
 
     // 批量添加域名
