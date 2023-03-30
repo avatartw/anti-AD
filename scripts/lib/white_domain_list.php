@@ -393,6 +393,13 @@ return [
     "button.like.co" => 0, #737
     "urldefense.com" => 0, #741
     "gift.douyucdn.cn" => 0, #745
+    "click.redditmail.com" => 0, #753
+    "qiyukf.com" => 0, #754
+    "short-video.kakamobi.cn" => 0, #758
+    "act.vip.iqiyi.com" => 0, #760
+    "vaserviece.10jqka.com.cn" => 0, #765
+    "chkaja.com" => 0, #774
+
     "herokuapp.com" => -1,
     "netlify.com" => -1,
     "vidoza.net" => -1,
