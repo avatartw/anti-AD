@@ -75,7 +75,6 @@ return [
     "gsp2.baidu.com" => 0, //百度貼吧相關
     "gsp3.baidu.com" => 0, //百度貼吧相關
     "sp0.baidu.com" => 0, //百度翻譯資源
-    "sp1.baidu.com" => 0, //百度翻譯資源
     "sp2.baidu.com" => 0, //百度翻譯資源
     "c0.ifengimg.com" => 0, //鳳凰網視頻異常
     "7moor.com" => 0, //山姆會員客服異常
