@@ -1,11 +1,11 @@
 /^[a-z]{11,15}$/
 /^[a-z]{7,10}$/$ctag=device_tv
-/wsf.+gov\.xyz/
-/[a-z]{3}gov\.(com|tv|me|top)/
-/butie\S+\.(shop|xyz)/
-/tw\S{2}gov\.com/
+/6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
+-launches.appsflyersdk.com^
+chat.bilibili.com
 -spiky.clevertap-prod.com^
-/tw.{3}gov\.com/
+-telemetry.officeapps.live.com^
+-telemetry.officeapps.live.com.mcas.ms^
 |r.i.ua^
 |mine.torrent.pw^
 |lgtvsdp.com^
@@ -19,10 +19,11 @@
 ||pixel.wp.pl^$important
 ||deloton.com$important
 ||fastcontentdelivery.com^$badfilter
-||inpagepush.com^$important
+||ldmnq.com^$badfilter
 ||oclasrv.com$important
 ||surfe.be^$important
 ||wpnrtnmrewunrtok.xyz^$badfilter
+@@broadcastlv.chat.bilibili.com^
 @@-ds.metric.gstatic.com^
 @@|m.166xs.cc^$important
 @@|www.166xs.cc^$important
@@ -63,8 +64,6 @@
 @@||ltzn.9377.com^
 @@||0rz.tw^
 @@||ad-gone.com^
-@@||ads.com^
-@@||ads.finance^
 @@||afi-b.com^
 @@||awin1.com^
 @@||battle.net^
@@ -84,6 +83,7 @@
 @@||tuhu.cn^
 @@||xmxing.net^
 @@||zbj.com^
+@@||px.a8.net^
 @@||ad.abchina.com^
 @@||static.addtoany.com^
 @@||feed.adrelayer.com^
@@ -158,7 +158,6 @@
 @@||marketing.net.idealo-partner.com^
 @@||eum-blue-saas.instana.io^
 @@||ia.hit.interia.pl^
-@@||cards.iqiyi.com^
 @@||www.jdoqocy.com^
 @@||download.jumpw.com^
 @@||p.jwpcdn.com^
@@ -172,9 +171,9 @@
 @@||cindyholbrook.lpages.co^
 @@||classliving.lpages.co^
 @@||ads.midwayusa.com^
+@@||app-cdn.minepi.com^
 @@||log.mmstat.com^
 @@||link.morningbrew.com^
-@@||login.mos.ru^
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-ajax-eu-s2.myhomescreen.tv^
 @@||mhc-xpana-eu.myhomescreen.tv^
@@ -199,10 +198,7 @@
 @@||intersport.peerius.com^
 @@||validate.perfdrive.com^
 @@||adcdn.pingan.com^
-@@||media-cache*.pinimg.com^
-@@||s-media*.pinimg.com^
 @@||ads.pinterest.com^
-@@||passets-cdn.pinterest.com^
 @@||hbbtv.prosieben.de^
 @@||puui.qpic.cn^
 @@||minigame.qq.com^
@@ -210,6 +206,7 @@
 @@||vd.l.qq.com^
 @@||c.y.qq.com^
 @@||hbbtv.redbutton.de^
+@@||chathamdailynews.remembering.ca^
 @@||surveymyopinion.researchnow.com^
 @@||stash.roistat.com^
 @@||track.rutarget.ru^
@@ -232,6 +229,7 @@
 @@||my.tealiumiq.com^
 @@||links.e.theatlantic.com^
 @@||thumbnail.thench.net^
+@@||catchup.thisisdax.com^
 @@||ads.tiktok.com^
 @@||clk*.tradedoubler.com^
 @@||redir.tradedoubler.com^
