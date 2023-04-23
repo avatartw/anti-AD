@@ -398,6 +398,8 @@ return [
     "act.vip.iqiyi.com" => 0, #760
     "vaserviece.10jqka.com.cn" => 0, #765
     "chkaja.com" => 0, #774
+    "amdc.m.taobao.com" => 0, #778
+    "jiagu.360.cn" => 0, #788
 
     "herokuapp.com" => -1,
     "netlify.com" => -1,
