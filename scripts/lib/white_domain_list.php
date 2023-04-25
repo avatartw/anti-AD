@@ -397,6 +397,14 @@ return [
     "short-video.kakamobi.cn" => 0, #758
     "act.vip.iqiyi.com" => 0, #760
     "vaserviece.10jqka.com.cn" => 0, #765
+    "mairuan.com" => 0, #772
+    "www.mairuan.com" => 0, #772
+    "mairuan.com.cn" => 0, #772
+    "www.mairuan.com.cn" => 0, #772
+    "mairuan.cn" => 0, #772
+    "www.mairuan.cn" => 0, #772
+    "mairuan.net" => 0, #772
+    "www.mairuan.net" => 0, #772
     "chkaja.com" => 0, #774
     "amdc.m.taobao.com" => 0, #778
     "jiagu.360.cn" => 0, #788
