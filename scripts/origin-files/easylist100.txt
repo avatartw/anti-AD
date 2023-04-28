@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard DNS filter, StevenBlack hosts, anti-AD, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-04-25T17:21:50.507Z
+! Last modified: 2023-04-28T17:21:23.349Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.16
 !
@@ -11,7 +11,6 @@
 /^[a-z]{7,10}$/$ctag=device_tv
 /6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
 -launches.appsflyersdk.com^
-chat.bilibili.com
 -spiky.clevertap-prod.com^
 -telemetry.officeapps.live.com^
 -telemetry.officeapps.live.com.mcas.ms^
@@ -2903,7 +2902,6 @@ chat.bilibili.com
 ||www.above.com^
 ||www.abovede6.com^
 ||ads.abovetopsecret.com^
-||clk.aboxdeal.com^
 ||www.abrahamschildren.com^
 ||ads.abs-cbn.com^
 ||banners.absolpublisher.com^
@@ -4425,6 +4423,7 @@ chat.bilibili.com
 ||deliveryengine.adswizz.com^
 ||exchange.adswizz.com^
 ||pixel*.adswizz.com^
+||pixelorg.adswizz.com^
 ||synchrobox.adswizz.com^
 ||tunein.adswizz.com^
 ||zc.adswizz.com^
@@ -6461,10 +6460,8 @@ chat.bilibili.com
 ||api-adservices.apple.com^
 ||books-analytics-events.apple.com^
 ||iadsdk.apple.com^
-||metrics.apple.com^
 ||notes-analytics-events.apple.com^
 ||searchads.apple.com^
-||securemetrics.apple.com^
 ||stocks-analytics-events.apple.com^
 ||supportmetrics.apple.com^
 ||weather-analytics-events.apple.com^
@@ -8321,6 +8318,7 @@ chat.bilibili.com
 ||metrics.biletino.com^
 ||dataflow.biliapi.com^
 ||web-player-tracker.biliapi.net^
+||chat.bilibili.com^
 ||cm.bilibili.com^
 ||data.bilibili.com^
 ||live-trace.bilibili.com^
@@ -8337,7 +8335,6 @@ chat.bilibili.com
 ||analytics.binaryfortress.com^
 ||www.binarysystem4u.com^
 ||incsh.bincun.xyz^
-||telemetry.appex.bing.net^
 ||ads.bing.com^
 ||adserver.bing.com^
 ||c.bing.com^
@@ -10171,7 +10168,6 @@ chat.bilibili.com
 ||cdn.civicscience.com^
 ||get.civicscience.com^
 ||www.civicscience.com^
-||cbjs.ciwei.in^
 ||21.cizhibaogao.org^
 ||log.cizion.com^
 ||www.qzip.cjb.net^
@@ -12077,7 +12073,6 @@ chat.bilibili.com
 ||call-tracking.co.uk^
 ||captify.co.uk^
 ||cashback.co.uk^
-||cashbackwow.co.uk^
 ||cgmt.co.id^
 ||cheapesttravels.co.uk^
 ||click4assistance.co.uk^
@@ -16088,7 +16083,6 @@ chat.bilibili.com
 ||imap.dpsl.net^
 ||dsjsee.dqgpb.com^
 ||www.dqsft.com^
-||e.dr-zh.com^
 ||www.dragonawaken.com^
 ||plausible.dragonfru.it^
 ||144.dragonparking.com^
@@ -20523,7 +20517,6 @@ chat.bilibili.com
 ||metrics1.data.hicloud.com^
 ||metrics2.data.hicloud.com^
 ||metrics3.data.hicloud.com^
-||metrics4.data.hicloud.com^
 ||metrics5.data.hicloud.com^
 ||datacollector-*.dt.hicloud.com^
 ||datacollector-dra.dt.hicloud.com^
@@ -26889,11 +26882,8 @@ chat.bilibili.com
 ||v20.vortex-win.data.microsoft.com^
 ||web.vortex.data.microsoft.com^
 ||settings-sandbox.data.microsoft.com^
-||settings-win.data.microsoft.com^
 ||settings-win-ppe.data.microsoft.com^
-||vortex.data.microsoft.com^
 ||vortex-sandbox.data.microsoft.com^
-||vortex-win.data.microsoft.com^
 ||vortex-win-sandbox.data.microsoft.com^
 ||ztd.dds.microsoft.com^
 ||api.edgeoffer.microsoft.com^
@@ -27120,7 +27110,6 @@ chat.bilibili.com
 ||security.browser.miui.com^
 ||calopenupdate.comm.miui.com^
 ||tracking.india.miui.com^
-||sa.api.intl.miui.com^
 ||activity.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
@@ -29935,7 +29924,6 @@ chat.bilibili.com
 ||trac.oferting.org^
 ||ookris.oferty-kredytowe.pl^
 ||geo.offermatica.com^
-||mbox6.offermatica.com^
 ||track12.offersbymail.com^
 ||adcanopus.offerstrack.net^
 ||dopemobi.offerstrack.net^
@@ -30457,6 +30445,11 @@ chat.bilibili.com
 ||metrics.oregonlive.com^
 ||www.oreware.com^
 ||www.org-upgrade.com^
+||122.225.103.org.htm^
+||113.17.188.org.js^
+||218.26.217.org.html^
+||121.204.246.org.gif^
+||120.27.org.html^
 ||water-bed.8p.org.uk^
 ||serving.ad.org.vn^
 ||openx.angelsgroup.org.uk^
@@ -34042,7 +34035,6 @@ chat.bilibili.com
 ||beacon.samsclub.com^
 ||bigdata.ssp.samsung.com^
 ||insights.samsung.com^
-||nmetrics.samsung.com^
 ||openapi.samsung.com^
 ||sca.samsung.com^
 ||log-1.samsungacr.com^
@@ -34091,7 +34083,6 @@ chat.bilibili.com
 ||rwww.samsungotn.net^
 ||osb-ussvc.samsungqbe.com^
 ||sspapi-prd.samsungrs.com^
-||business.samsungusa.com^
 ||api-hub.samsungyosemite.com^
 ||us-api.samsungyosemite.com^
 ||dev.san47itu54szkk.jp^
@@ -39560,9 +39551,6 @@ chat.bilibili.com
 ||analytics.vedantu.com^
 ||f3.vedeh.com^
 ||track.veedio.it^
-||spoods.rce.veeseo.com^
-||tracking.rce.veeseo.com^
-||tracking-rce.veeseo.com^
 ||ads.vegas.com^
 ||www.vegaschina.cn^
 ||tracking.veille-referencement.com^
@@ -42381,7 +42369,6 @@ chat.bilibili.com
 ||m.yes.youku.com^
 ||actives.youku.com^
 ||adx-open-service.youku.com^
-||atm.youku.com^
 ||cad.youku.com^
 ||cmstool.youku.com^
 ||dmapp.youku.com^
@@ -43531,7 +43518,6 @@ chat.bilibili.com
 ||1freecounter.com^
 ||1freestyl3domain.com^
 ||1freex1frreee.com^
-||1frrearea1.com^
 ||1g46ls536.de^
 ||1generat3dx.com^
 ||1gettherefaster1.monster^
@@ -44423,7 +44409,6 @@ chat.bilibili.com
 ||6g1a0138.cn^
 ||6glece4homah8dweracea.com^
 ||6ha03.icu^
-||6kup12tgxx.com^
 ||6ldu6qa.com^
 ||6onm.fun^
 ||6ow9rhxtolls.gq^
@@ -44535,7 +44520,6 @@ chat.bilibili.com
 ||7g9m3r.com^
 ||7gfs.com^
 ||7jhsdfs77.monster^
-||7krvbn.com^
 ||7mb.nl^
 ||7metasearch.com^
 ||7minuteworkout.com^
@@ -44995,7 +44979,6 @@ chat.bilibili.com
 ||abacuspresents.com^
 ||abadass.com^
 ||abandonedaction.com^
-||abandonedclover.com^
 ||abashedangle.com^
 ||abashfireworks.com^
 ||abattoirpleatsprinkle.com^
@@ -45353,7 +45336,6 @@ chat.bilibili.com
 ||ad7.com^
 ||ad7mylo.com^
 ||ad8.cc^
-||ad8888.top^
 ||ad9377.com^
 ||ad999.biz^
 ||adabra.com^
@@ -45972,7 +45954,6 @@ chat.bilibili.com
 ||adshort.tech^
 ||adshost2.com^
 ||adshrink.it^
-||adshufffle.com^
 ||adside.com^
 ||adsiduous.com^
 ||adsilo.net^
@@ -46065,7 +46046,6 @@ chat.bilibili.com
 ||adsync.tech^
 ||adsynergy.com^
 ||adsyou.pro^
-||adsyst.biz^
 ||adszs.com^
 ||adszui.com^
 ||adt100.com^
@@ -46177,7 +46157,6 @@ chat.bilibili.com
 ||adversal.com^
 ||adverserve.net^
 ||adversespurt.com^
-||advert-time.com^
 ||advert-track.com^
 ||adverterenbijnh.nl^
 ||adverterenbijsbs.nl^
@@ -46296,7 +46275,6 @@ chat.bilibili.com
 ||adzpier.com^
 ||adzrevads.com^
 ||adztec.com^
-||adzworld.in^
 ||aebwmemfebks.xyz^
 ||aeeg5idiuenbi7erger.com^
 ||aefeeqdlnh.com^
@@ -47136,7 +47114,6 @@ chat.bilibili.com
 ||andersenit.dk^
 ||andersondiamonds.com^
 ||andhub.jp^
-||andibringto.biz^
 ||andlache.com^
 ||andmejs.com^
 ||andomedia.com^
@@ -47594,7 +47571,6 @@ chat.bilibili.com
 ||artefact.is^
 ||arteradio.fr^
 ||artfut.com^
-||arthahoonte.biz^
 ||arthwhilearthu.com^
 ||arthyredir.com^
 ||articlegarlandferment.com^
@@ -47683,7 +47659,6 @@ chat.bilibili.com
 ||aspm.jp^
 ||aspservice.jp^
 ||asqconn.com^
-||asrarrarabiya.com^
 ||assaystalonic.com^
 ||assemblyexchange.com^
 ||assentproduct.com^
@@ -48491,7 +48466,6 @@ chat.bilibili.com
 ||bebloommulvel.com^
 ||beboncoin.fr^
 ||becanium.com^
-||becomeiguana.com^
 ||becomesnerveshobble.com^
 ||becorsolaom.com^
 ||becramcreeky.com^
@@ -48727,7 +48701,6 @@ chat.bilibili.com
 ||bestwebpillplace.com^
 ||bestwesterne.fr^
 ||bestwinexperience.com^
-||bestwing.org^
 ||bestwinterclck.name^
 ||bestwm.info^
 ||bestxchat.net^
@@ -49067,7 +49040,6 @@ chat.bilibili.com
 ||blackplatinium.com^
 ||blacksnake.com^
 ||blackstunners.com^
-||blackwhitebags.com^
 ||blaghfpd.com^
 ||blancoshrimp.com^
 ||bland-husband.com^
@@ -49691,7 +49663,6 @@ chat.bilibili.com
 ||buildcon.net^
 ||builderhomework.com^
 ||buildersoncall.com^
-||buildingcarpet.com^
 ||buildingknife.com^
 ||buildyourdata.com^
 ||builfico.de^
@@ -50084,7 +50055,6 @@ chat.bilibili.com
 ||carmuffler.net^
 ||carnataldez.ml^
 ||carnegienet.net^
-||carniferou.club^
 ||caroda.io^
 ||carpcw.com^
 ||carpentercomparison.com^
@@ -51384,7 +51354,6 @@ chat.bilibili.com
 ||computer-offer.com^
 ||computer0120.com^
 ||computernetworksonline.com^
-||computersoostynaarlo.nl^
 ||computertechanalysis.com^
 ||comsalud360.com^
 ||comscore.com^
@@ -51480,7 +51449,6 @@ chat.bilibili.com
 ||contadorvisitasgratis.com^
 ||contadorweb.com^
 ||contalyze.com^
-||contatoonline1.com^
 ||contatoreaccessi.com^
 ||contaxe.com^
 ||contaxe.de^
@@ -51775,7 +51743,6 @@ chat.bilibili.com
 ||cqftonline.com^
 ||cqfygc.xyz^
 ||cqjjlsy.com^
-||cqnpfyb.cn^
 ||cqqwe2pea.xyz^
 ||cqrvwq.com^
 ||cquotient.com^
@@ -52262,7 +52229,6 @@ chat.bilibili.com
 ||dakeshi.top^
 ||dakic-ia-300.com^
 ||dalecta.com^
-||dalingjia.ren^
 ||dalnynpu.tokyo^
 ||dalucm.xyz^
 ||dalyai.com^
@@ -52352,7 +52318,6 @@ chat.bilibili.com
 ||daspic.top^
 ||dat8.cc^
 ||data-dynamic.net^
-||data-ero-advertising.com^
 ||data8a8altrk.com^
 ||databerries.com^
 ||databrain.com^
@@ -52431,7 +52396,6 @@ chat.bilibili.com
 ||dbios.org^
 ||dbixooy.cn^
 ||dbizrrslifc.com^
-||dblcs.cn^
 ||dblks.net^
 ||dbmcmhh.cn^
 ||dbncp.com^
@@ -52526,7 +52490,6 @@ chat.bilibili.com
 ||declinedmildlyreckon.com^
 ||declk.com^
 ||decompiler.fr^
-||decor8.ie^
 ||decorationproducer.com^
 ||decoroustitle.com^
 ||decouvre.la^
@@ -52972,7 +52935,6 @@ chat.bilibili.com
 ||displayvertising.com^
 ||displink.com^
 ||disploot.com^
-||dispositivo-asociado.com^
 ||disproveknob.com^
 ||disqusads.com^
 ||disrootaffa.com^
@@ -53090,7 +53052,6 @@ chat.bilibili.com
 ||dnpz123.com^
 ||dnrwecqiyl.mobi^
 ||dns-analytics.com^
-||dnsclocknow.com^
 ||dnsdelegation.io^
 ||dnskuu.com^
 ||dnslogs.net^
@@ -53126,7 +53087,6 @@ chat.bilibili.com
 ||dodurantom.com^
 ||doem.jp^
 ||doerscharre.com^
-||doesok.top^
 ||doflygonan.com^
 ||doga.cm^
 ||dogcollarfavourbluff.com^
@@ -53165,7 +53125,6 @@ chat.bilibili.com
 ||domaining.in^
 ||domainplayersclub.com^
 ||domainport.net^
-||domains-resolver.net^
 ||domainsponsor.com^
 ||dombnrs.com^
 ||domddcut.cyou^
@@ -54021,7 +53980,6 @@ chat.bilibili.com
 ||emltrk.com^
 ||emmermyotic.com^
 ||emodoinc.com^
-||emonitoring-paczki.pl^
 ||emotionalworld.cn^
 ||empied.com^
 ||empirelayer.club^
@@ -54688,7 +54646,6 @@ chat.bilibili.com
 ||f-counter.jp^
 ||f-counter.net^
 ||f-voyance.fr^
-||f05a7ec0cf.com^
 ||f11-ads.com^
 ||f1190.com^
 ||f1kuent0.jp^
@@ -54807,7 +54764,6 @@ chat.bilibili.com
 ||family-simulators.com^
 ||family1st.ca^
 ||family5-life.com^
-||familyabroad.net^
 ||familyholiday.ml^
 ||familysexsimulators.io^
 ||familysimulator.*^
@@ -54816,7 +54772,6 @@ chat.bilibili.com
 ||familysimulators.*^
 ||familysimulators.org^
 ||famir.com^
-||famlepay.com^
 ||famousmusicvideos.com^
 ||famousquarter.com^
 ||famousremainedshaft.com^
@@ -55014,7 +54969,6 @@ chat.bilibili.com
 ||feedmob.com^
 ||feedperfect.com^
 ||feegozoa.com^
-||feelbonesbag.com^
 ||feelfereetoc.top^
 ||feelingstoriesplumb.com^
 ||feelmyfile.info^
@@ -56225,7 +56179,6 @@ chat.bilibili.com
 ||gcejdac.cn^
 ||gcihkyd.cn^
 ||gconfirmat.fun^
-||gcpvkfe.cn^
 ||gctd.xyz^
 ||gcxp.xyz^
 ||gdeslon.ru^
@@ -56498,7 +56451,6 @@ chat.bilibili.com
 ||ginomar.top^
 ||giocdn.com^
 ||giold.xyz^
-||giotlsi.cn^
 ||gipeucn.icu^
 ||gipostart-1.co^
 ||giqepofa.com^
@@ -57813,7 +57765,6 @@ chat.bilibili.com
 ||highrevenuecpmnetrok.com^
 ||highrevenuecpmnetwork.com^
 ||highrevenuegate.com^
-||highscanprotect.com^
 ||hightrafficads.com^
 ||highwaydizzy.com^
 ||hihumi.biz^
@@ -57855,7 +57806,6 @@ chat.bilibili.com
 ||hirsch-ille.fr^
 ||hirted.com^
 ||hirtop.in^
-||hirvilag.co^
 ||hirzona24.com^
 ||hisnote.cc^
 ||histats.com^
@@ -58328,7 +58278,6 @@ chat.bilibili.com
 ||huimee.com^
 ||huimee.net^
 ||huineihan.com^
-||huishangjituan.cn^
 ||huishenghuiying.com^
 ||huishij.net^
 ||huisifa.com^
@@ -58433,7 +58382,6 @@ chat.bilibili.com
 ||hxoewq.com^
 ||hxpmbb.xyz^
 ||hxqu.com^
-||hxskjll.cn^
 ||hxspc.com^
 ||hxsq.app^
 ||hxsxw.net^
@@ -58450,7 +58398,6 @@ chat.bilibili.com
 ||hybrid.ru^
 ||hybridization809.site^
 ||hycantyoubelik.com^
-||hydrahydra.ir^
 ||hydramedia.com^
 ||hydrangeao.com^
 ||hydropneuengg.com^
@@ -59882,7 +59829,6 @@ chat.bilibili.com
 ||jingtuliutongchu.work^
 ||jingwei.net^
 ||jingyixuanstore.cn^
-||jinhonghao.cn^
 ||jinjin-tv.net^
 ||jinkads.de^
 ||jinkens.fun^
@@ -60319,7 +60265,6 @@ chat.bilibili.com
 ||ka4cv7yh4w.com^
 ||ka5188.com^
 ||kaaairoo549kai.com^
-||kaafu.cn^
 ||kabookk.fr^
 ||kadak.jp^
 ||kaffnet.com^
@@ -60609,7 +60554,6 @@ chat.bilibili.com
 ||kiosked.com^
 ||kipeir.com^
 ||kippbeak.cf^
-||kirgo.at^
 ||kirkmanhirple.com^
 ||kirov1.xyz^
 ||kirsche9.live^
@@ -60690,7 +60634,6 @@ chat.bilibili.com
 ||kloperd.com^
 ||kloshgriffe.com^
 ||klove.fr^
-||klowns4phun.com^
 ||klsdee.com^
 ||klsnckalualkcn.com^
 ||klsynmld.fun^
@@ -60720,7 +60663,6 @@ chat.bilibili.com
 ||knewwholesomecharming.com^
 ||knifeoctopus.com^
 ||knitstamp.com^
-||knja123.top^
 ||knk95.cn^
 ||knlrfijhvch.com^
 ||knmnamr.cn^
@@ -61297,7 +61239,6 @@ chat.bilibili.com
 ||learningproportion.com^
 ||leashmotto.com^
 ||leatmansures.com^
-||leavehomego.com^
 ||leaveundo.com^
 ||lebfqvuh.xyz^
 ||lebinaphy.com^
@@ -61707,7 +61648,6 @@ chat.bilibili.com
 ||literacysufficientlymicroscope.com^
 ||literalcorpulent.com^
 ||literatelight.com^
-||litix.io^
 ||litocen.com^
 ||littlecdn.com^
 ||littlecutecats.com^
@@ -61824,7 +61764,6 @@ chat.bilibili.com
 ||lmlawcorp.com^
 ||lmlmvip.com^
 ||lmmaoo.com^
-||lmodr.biz^
 ||lmp3.org^
 ||lmx7.com^
 ||lmxzlb.xyz^
@@ -61897,7 +61836,6 @@ chat.bilibili.com
 ||lognegee.com^
 ||lognormal.net^
 ||logoshejishi.com^
-||logrocket.com^
 ||logrocket.io^
 ||logsss.com^
 ||logswalker.com^
@@ -61927,7 +61865,6 @@ chat.bilibili.com
 ||londontea.net^
 ||londontownlink.com^
 ||lone1y.com^
-||loneeaglerecords.com^
 ||lonely9ec8.jp^
 ||lonelywifehookup.com^
 ||long8590.com^
@@ -62047,7 +61984,6 @@ chat.bilibili.com
 ||lpnjcnigcfuk.com^
 ||lpoint.fr^
 ||lporirxe.com^
-||lppwnue.cn^
 ||lpqhkj.cn^
 ||lpsxssm.com^
 ||lptrak.com^
@@ -62802,7 +62738,6 @@ chat.bilibili.com
 ||mediaid.click^
 ||mediaiqdigital.com^
 ||medialand.ru^
-||medialogger.ru^
 ||medialytics.com^
 ||medialytics.io^
 ||mediamath.com^
@@ -63071,7 +63006,6 @@ chat.bilibili.com
 ||mhiobjnirs.gq^
 ||mhivqcu.cn^
 ||mhlnk.com^
-||mhnlpltjts.com^
 ||mhqx.store^
 ||mhskfkinwk.xyz^
 ||mhsksgj.cn^
@@ -63725,10 +63659,8 @@ chat.bilibili.com
 ||mryshl.com^
 ||mrysogsix.uno^
 ||mrzhao.life^
-||ms-home-live.com^
 ||ms-mvp.org^
 ||ms-pipes-service.com^
-||ms-shopguide.su^
 ||ms-shoponline.top^
 ||msachem.com^
 ||msads.net^
@@ -64262,7 +64194,6 @@ chat.bilibili.com
 ||nbazhaheic.top^
 ||nbbull.com^
 ||nbd56.cn^
-||nbdrqefqvil.com^
 ||nbidqsoy.xyz^
 ||nbjmp.com^
 ||nboclympics.com^
@@ -64671,7 +64602,6 @@ chat.bilibili.com
 ||nkyouvery.fun^
 ||nl-crypto.com^
 ||nlqqrsgr.com^
-||nlrpfpq.cn^
 ||nlsynmlc.fun^
 ||nmanateex.top^
 ||nmapquest.com^
@@ -65089,7 +65019,6 @@ chat.bilibili.com
 ||odhebadolfnqgroaudbhjybtadfrurf.com^
 ||odkxgwl.cn^
 ||odoscope.com^
-||odrjfhgtuokhmns.com^
 ||odrmaztzeaj.com^
 ||odtrtadl.com^
 ||oechestra.fr^
@@ -65121,7 +65050,6 @@ chat.bilibili.com
 ||offerstrack.net^
 ||offerstrackingnow.com^
 ||offerstrategy.com^
-||offertrakking.info^
 ||offerwall-adnative.com^
 ||offfurreton.com^
 ||office365-eu-update.com^
@@ -65323,7 +65251,6 @@ chat.bilibili.com
 ||ondermaat.nl^
 ||ondialrelay.fr^
 ||one-chan-love.love^
-||one-drive-ms.com^
 ||one-match01.com^
 ||one-sunnyday.com^
 ||one-two-up.jp^
@@ -65689,7 +65616,6 @@ chat.bilibili.com
 ||otqxvqzdgl.com^
 ||otracking.com^
 ||otreh.xyz^
-||otsserver.com^
 ||ottack.com^
 ||otterwoodlandobedient.com^
 ||otween.com^
@@ -65721,7 +65647,6 @@ chat.bilibili.com
 ||ourhypewords.com^
 ||ourl.link^
 ||ournet-analytics.com^
-||ournewsafte.biz^
 ||ourot.com^
 ||ourselscarid.com^
 ||ourstats.de^
@@ -65781,7 +65706,6 @@ chat.bilibili.com
 ||ovyondkggnqhmt.xyz^
 ||owadakesk.cyou^
 ||owap.su^
-||owdfxgc.cn^
 ||owebanalytics.com^
 ||owebmoney.ru^
 ||oweltysegnos.website^
@@ -65899,7 +65823,6 @@ chat.bilibili.com
 ||pagerankfree.com^
 ||pageranking-counter.de^
 ||pageranktop.com^
-||pageredirect.co^
 ||pages-annuaire.fr^
 ||pages-perso-orange.fr^
 ||pages05.net^
@@ -66472,7 +66395,6 @@ chat.bilibili.com
 ||pickaflick.co^
 ||pickedlawhandshake.com^
 ||pickgolfup.com^
-||pickytime.com^
 ||piclick.cn^
 ||piclick.kr^
 ||picnewsss.com^
@@ -66517,7 +66439,6 @@ chat.bilibili.com
 ||piliangzhuce.cn^
 ||pilixiaoshuo.com^
 ||pillowpets.fr^
-||pillsmeals.com^
 ||pillsmoney.com^
 ||pillsofecho.com^
 ||piloteraser.com^
@@ -66594,7 +66515,6 @@ chat.bilibili.com
 ||piwik.org^
 ||piwik.pro^
 ||piwixesu.pro^
-||piwqiapyusvnih.com^
 ||pix.pub^
 ||pixanalytics.com^
 ||pixel.ad^
@@ -67183,7 +67103,6 @@ chat.bilibili.com
 ||privacy-center.org^
 ||privacy-mgmt.com^
 ||privacy-tools-for-you-453.com^
-||privacyassistant.net^
 ||privacycounter.com^
 ||privacyharbor.net^
 ||privacyharbors.com^
@@ -67258,7 +67177,6 @@ chat.bilibili.com
 ||profero.com^
 ||proffering.xyz^
 ||profi-para.com^
-||profilenetflix.com^
 ||profilesnitch.com^
 ||profiline-berlin.de^
 ||profit-btc.org^
