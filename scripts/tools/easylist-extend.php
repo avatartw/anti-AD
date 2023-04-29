@@ -291,6 +291,7 @@ $ARR_WHITE_RULE_LIST = [
     "@@||ads.95516.com^" => 1, // #695
     "@@||track.bankcomm.com^" => 1, // #714
     "@@||tongji.koowo.cn^" => 1, // #742
+    "@@||adverts.1foo.com^" => 1, // #782
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
