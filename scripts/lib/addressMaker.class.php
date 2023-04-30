@@ -42,25 +42,25 @@ class addressMaker
         $str_reg .=
             "|\.aaa|\.abbott|\.abogado|\.ac|\.aca|\.academy|\.accountant|\.accountants|\.acct|\.actor|\.ad|\.adult|\.ae|\.aero|\.aeroport|\.af|\.africa";
         $str_reg .=
-            "|\.ag|\.agency|\.agro|\.ai|\.aid|\.aig|\.airforce|\.al|\.alsace|\.am|\.amazon|\.amsterdam|\.ao|\.apartments|\.app|\.apple|\.ar|\.arab|\.arc";
+            "|\.ag|\.agency|\.agro|\.ai|\.aid|\.aig|\.airforce|\.al|\.aliyu|\.alsace|\.am|\.amazon|\.amsterdam|\.ao|\.apartments|\.app|\.apple|\.ar|\.arab|\.arc";
         $str_reg .=
-            "|\.archi|\.army|\.arpa|\.art|\.as|\.asia|\.assedic|\.asso|\.associates|\.at|\.atm|\.attorney|\.au|\.auction|\.audio|\.augustow|\.auto";
+            "|\.archi|\.army|\.arpa|\.art|\.as|\.asia|\.assedic|\.asso|\.associates|\.at|\.atm|\.attorney|\.au|\.auction|\.audio|\.augustow|\.auto|\.autos";
         $str_reg .=
-            "|\.avocat|\.avoues|\.awe|\.ax|\.az|\.ba|\.babia-gora|\.baby|\.band|\.bank|\.bar|\.barcelona|\.bargains|\.basketball|\.bauhaus|\.bayern|\.bd";
+            "|\.avocat|\.avoues|\.awe|\.aws|\.ax|\.az|\.ba|\.babia-gora|\.baby|\.band|\.bank|\.bar|\.barcelona|\.bargains|\.basketball|\.bauhaus|\.bayern|\.bd";
         $str_reg .=
-            "|\.be|\.bedzin|\.beer|\.berlin|\.beskidy|\.best|\.bet|\.bf|\.bg|\.bh|\.bi|\.bialowieza|\.bialystok|\.bible|\.bid|\.bielawa|\.bieszczady";
+            "|\.be|\.beauty|\.bedzin|\.beer|\.berlin|\.beskidy|\.best|\.bet|\.bf|\.bg|\.bh|\.bi|\.bialowieza|\.bialystok|\.bible|\.bid|\.bielawa|\.bieszczady";
         $str_reg .=
             "|\.bike|\.bingo|\.bio|\.bit|\.biz|\.bj|\.bl|\.black|\.blackfriday|\.blog|\.blue|\.bm|\.bn|\.bnpparibas|\.bo|\.boleslawiec|\.bond|\.boom";
         $str_reg .=
             "|\.bot|\.boutique|\.br|\.broker|\.brussels|\.bs|\.bt|\.build|\.builders|\.bus|\.business|\.buzz|\.bw|\.by|\.bydgoszcz|\.bytom|\.bz|\.bzh";
         $str_reg .=
-            "|\.ca|\.cab|\.cafe|\.cam|\.camera|\.camp|\.capetown|\.capital|\.cards|\.care|\.career|\.careers|\.cars|\.casa|\.cash|\.casino|\.cat";
+            "|\.c|\.ca|\.cab|\.cafe|\.cam|\.camera|\.camp|\.capetown|\.capital|\.cards|\.care|\.career|\.careers|\.cars|\.casa|\.cash|\.casino|\.cat";
         $str_reg .=
             "|\.catering|\.cc|\.cci|\.cd|\.center|\.ceo|\.cf|\.cfd|\.cg|\.ch|\.chambagri|\.chat|\.cheap|\.chi|\.chiro|\.chirurgiens-dentistes";
         $str_reg .=
-            "|\.christmas|\.church|\.ci|\.cieszyn|\.city|\.ck|\.cl|\.claims|\.cleaning|\.click|\.clinic|\.clothing|\.cloud|\.cloudfront|\.club|\.cm|\.cn";
+            "|\.christmas|\.church|\.ci|\.cieszyn|\.cim|\.city|\.ck|\.cl|\.claims|\.cleaning|\.click|\.clinic|\.clothing|\.cloud|\.cloudfront|\.club|\.cm|\.cn";
         $str_reg .=
-            "|\.co|\.coach|\.codes|\.coffee|\.college|\.cologne|\.com|\.comj|\.community|\.company|\.computer|\.condos|\.construction|\.consulting";
+            "|\.co|\.coach|\.codes|\.coffee|\.college|\.cologne|\.com|\.comj|\.community|\.company|\.computer|\.comqq|\.condos|\.construction|\.consulting";
         $str_reg .=
             "|\.contact|\.contractors|\.cooking|\.cool|\.coop|\.corsica|\.country|\.coupons|\.courses|\.cpa|\.cr|\.credit|\.creditcard|\.cricket";
         $str_reg .=
@@ -68,9 +68,9 @@ class addressMaker
         $str_reg .=
             "|\.democrat|\.den|\.dent|\.dental|\.dentist|\.desi|\.design|\.dev|\.diamonds|\.diet|\.digital|\.direct|\.directory|\.discount|\.dj|\.dk";
         $str_reg .=
-            "|\.dlugoleka|\.dm|\.do|\.doctor|\.dog|\.domains|\.download|\.dz|\.dzierzoniow|\.earth|\.ec|\.eco|\.edu|\.education|\.ee|\.eg|\.elblag|\.elk";
+            "|\.dlugoleka|\.dm|\.do|\.doctor|\.dog|\.domain|\.domains|\.download|\.dz|\.dzierzoniow|\.earth|\.ec|\.eco|\.edu|\.education|\.ee|\.eg|\.elblag|\.elk";
         $str_reg .=
-            "|\.email|\.energy|\.eng|\.engineer|\.engineering|\.ens|\.enterprises|\.equipment|\.es|\.estate|\.et|\.eu|\.eus|\.events|\.exchange|\.expert";
+            "|\.email|\.energy|\.eng|\.engineer|\.engineering|\.ens|\.enterprises|\.equipment|\.es|\.estate|\.et|\.eu|\.eus|\.events|\.example|\.exchange|\.expert";
         $str_reg .=
             "|\.experts-comptables|\.exposed|\.express|\.fail|\.faith|\.family|\.fan|\.fans|\.farm|\.fashion|\.feedback|\.fi|\.film|\.fin|\.finance";
         $str_reg .=
@@ -98,7 +98,7 @@ class addressMaker
         $str_reg .=
             "|\.li|\.lib|\.life|\.lighting|\.limanowa|\.limited|\.limo|\.link|\.live|\.lk|\.llc|\.loan|\.loans|\.local|\.localdomain|\.lol|\.lomza";
         $str_reg .=
-            "|\.london|\.love|\.lowicz|\.ls|\.lt|\.ltd|\.ltda|\.lu|\.lubin|\.lukow|\.luxe|\.luxury|\.lv|\.ly|\.m|\.ma|\.madrid|\.mail|\.maison|\.malbork";
+            "|\.london|\.love|\.lowicz|\.ls|\.lt|\.ltd|\.ltda|\.lu|\.lubin|\.lukow|\.luxe|\.luxury|\.lv|\.ly|\.m|\.ma|\.madrid|\.mail|\.maison|\.makeup|\.malbork";
         $str_reg .=
             "|\.malopolska|\.management|\.market|\.marketing|\.markets|\.mazowsze|\.mazury|\.mba|\.mc|\.md|\.me|\.med|\.medecin|\.media|\.meet";
         $str_reg .=
@@ -106,7 +106,7 @@ class addressMaker
         $str_reg .=
             "|\.mom|\.money|\.monster|\.mortgage|\.moscow|\.movie|\.mr|\.mragowo|\.ms|\.mt|\.mu|\.museum|\.mv|\.mw|\.mx|\.my|\.mz|\.na|\.nagoya|\.naklo";
         $str_reg .=
-            "|\.name|\.nat|\.navy|\.ne|\.net|\.network|\.news|\.nf|\.ng|\.ngo|\.ni|\.nieruchomosci|\.ninja|\.nl|\.no|\.nom|\.notaires|\.nowaruda|\.np";
+            "|\.name|\.nat|\.navy|\.ne|\.net|\.netbb-org|\.network|\.news|\.nf|\.ng|\.ngo|\.ni|\.nieruchomosci|\.ninja|\.nl|\.no|\.nom|\.notaires|\.nowaruda|\.np";
         $str_reg .=
             "|\.nr|\.nrw|\.ntt|\.nu|\.nur|\.nurse|\.nyc|\.nysa|\.nz|\.okinawa|\.olawa|\.olecko|\.olkusz|\.olsztyn|\.om|\.one|\.ong|\.onion|\.onl|\.online";
         $str_reg .=
@@ -136,11 +136,11 @@ class addressMaker
         $str_reg .=
             "|\.szkola|\.taipei|\.targi|\.tarnobrzeg|\.tattoo|\.tax|\.taxi|\.tc|\.td|\.teach|\.team|\.tech|\.technology|\.tel|\.tennis|\.tf|\.tg|\.tgory";
         $str_reg .=
-            "|\.th|\.theater|\.theatre|\.tickets|\.tienda|\.tips|\.tires|\.tirol|\.tj|\.tk|\.tl|\.tm|\.tn|\.to|\.today|\.tokyo|\.tools|\.top|\.tourism";
+            "|\.th|\.theater|\.theatre|\.tickets|\.tienda|\.tips|\.tires|\.tirol|\.tj|\.tk|\.tl|\.tld|\.tm|\.tn|\.to|\.today|\.tokyo|\.tools|\.top|\.tourism";
         $str_reg .=
             "|\.tours|\.town|\.toys|\.tr|\.trade|\.trading|\.training|\.travel|\.tt|\.tube|\.turek|\.turystyka|\.tv|\.tw|\.tychy|\.tz|\.ua|\.ug|\.uk";
         $str_reg .=
-            "|\.univ|\.university|\.uno|\.uol|\.us|\.ustka|\.uy|\.uz|\.vacations|\.vc|\.ve|\.vegas|\.ventures|\.vet|\.veterinaire|\.vg|\.vi|\.viajes";
+            "|\.univ|\.university|\.uno|\.uol|\.us|\.ustka|\.uy|\.uz|\.vacations|\.vast|\.vc|\.ve|\.vegas|\.ventures|\.vet|\.veterinaire|\.vg|\.vi|\.viajes";
         $str_reg .=
             "|\.video|\.villas|\.vin|\.vip|\.vision|\.vlaanderen|\.vn|\.vodka|\.vote|\.voto|\.voyage|\.vru|\.vtt|\.vu|\.walbrzych|\.wales|\.wang|\.warmia";
         $str_reg .=
@@ -148,7 +148,7 @@ class addressMaker
         $str_reg .=
             "|\.wlodawa|\.wodzislaw|\.wolomin|\.work|\.works|\.world|\.wroclaw|\.ws|\.wtf|\.xin|\.xn--45q11c|\.xn--6frz82g|\.xn--6qq986b3xl|\.xn--80adxhks";
         $str_reg .=
-            "|\.xn--90ais|\.xn--c1avg|\.xn--fiqs8s|\.xn--hxt814e|\.xn--i1b6b1a6a2e|\.xn--io0a7i|\.xn--j6w193g|\.xn--mxtq1m|\.xn--ngbc5azd|\.xn--ngbrx";
+            "|\.xn--80asehdb|\.xn--90ais|\.xn--c1avg|\.xn--fiqs8s|\.xn--hxt814e|\.xn--i1b6b1a6a2e|\.xn--io0a7i|\.xn--j6w193g|\.xn--mxtq1m|\.xn--ngbc5azd|\.xn--ngbrx";
         $str_reg .=
             "|\.xn--node|\.xn--nqv7f|\.xn--p1acf|\.xn--p1ai|\.xn--pgbs0dh|\.xn--q9jyb4c|\.xxx|\.xy|\.xyz|\.ye|\.yoga|\.yokohama|\.yt|\.za|\.zachpomor";
         $str_reg .=
