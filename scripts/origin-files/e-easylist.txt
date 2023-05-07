@@ -3,6 +3,7 @@
 /6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
 -launches.appsflyersdk.com^
 -tracker.biliapi.net^
+chat.bilibili.com
 -spiky.clevertap-prod.com^
 -telemetry.officeapps.live.com^
 -telemetry.officeapps.live.com.mcas.ms^
@@ -18,9 +19,16 @@
 ||metrika.lookmovie.io^$important
 ||pixel.wp.pl^$important
 ||deloton.com$important
+||fakaza2018.com^$badfilter
+||fakazahouse.com^$badfilter
+||fakazamusic.co^$badfilter
+||fakazavibes.com^$badfilter
 ||fastcontentdelivery.com^$badfilter
+||flirt4free.com^$badfilter
+||hiphopde.com^$badfilter
 ||ldmnq.com^$badfilter
 ||oclasrv.com$important
+||samsonghiphop.org^$badfilter
 ||statcounter.com^$badfilter
 ||surfe.be^$important
 ||wpnrtnmrewunrtok.xyz^$badfilter
@@ -171,6 +179,7 @@
 @@||oa.tr.line.me^
 @@||cindyholbrook.lpages.co^
 @@||classliving.lpages.co^
+@@||dashboard.mgid.com^
 @@||ads.midwayusa.com^
 @@||app-cdn.minepi.com^
 @@||log.mmstat.com^
