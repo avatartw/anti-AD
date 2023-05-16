@@ -24,6 +24,20 @@ jobs:
         git config --local user.name "GitHub Action"
         git add *
         git commit -m "Auto renew the anti-AD list." -a
+    - name: clone the website
+      run: git clone https://github.com/avatartw/avatartw.github.io.git ~/website
+    - name: copy some list files
+      run: |
+        cp ./anti-ad-easylist.txt ~/website/anti-AD/anti-ad-easylist.txt
+        cp ./anti-ad-easylist.txt.md5 ~/website/anti-AD/anti-ad-easylist.txt.md5
+        cp ./anti-ad-domains.txt ~/website/anti-AD/anti-ad-domains.txt
+    - name: Commit files
+      run: |
+        cd ~/website
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "pull newest list." -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
