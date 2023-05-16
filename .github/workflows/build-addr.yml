@@ -47,6 +47,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'master'
+        branch: 'main'
         directory: '/home/runner/website'
         repository: 'avatartw/avatartw.github.io'
