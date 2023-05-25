@@ -1,6 +1,5 @@
 /^[a-z]{11,15}$/
 /^[a-z]{7,10}$/$ctag=device_tv
-/6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
 -launches.appsflyersdk.com^
 -tracker.biliapi.net^
 chat.bilibili.com
@@ -17,11 +16,14 @@ chat.bilibili.com
 |samsungqbe.com^
 ||adsrvmedia.adk2.co^$important
 ||metrika.lookmovie.io^$important
+||trk.mail.ru^$badfilter
 ||pixel.wp.pl^$important
 ||adventuresro.com^$badfilter
+||braze.eu^$badfilter
 ||cloudflare-ipfs.com^$badfilter
 ||deloton.com$important
 ||fastcontentdelivery.com^$badfilter
+||intensedebate.com^$badfilter
 ||ldmnq.com^$badfilter
 ||netlify.app^$badfilter
 ||oclasrv.com$important

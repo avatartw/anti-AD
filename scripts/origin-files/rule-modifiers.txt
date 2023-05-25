@@ -1,4 +1,3 @@
-/6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
 /^[a-z]{7,10}$/$ctag=device_tv
 @@|166xs.cc^$important
 @@|31xiaoshuo.org^$important
@@ -23,18 +22,21 @@
 ||adsrvmedia.adk2.co^$important
 ||adventuresro.com^$badfilter
 ||api2.branch.io^$dnsrewrite=0.0.0.0^
+||braze.eu^$badfilter
 ||cloudflare-ipfs.com^$badfilter
 ||config.ioam.de^$ctag=device_tv|device_other^
 ||de.ioam.de^$ctag=device_tv^
 ||deloton.com$important
 ||drscdn.500px.org^$ctag=device_tv^
 ||fastcontentdelivery.com^$badfilter
+||intensedebate.com^$badfilter
 ||ldmnq.com^$badfilter
 ||metrika.lookmovie.io^$important
 ||netlify.app^$badfilter
 ||oclasrv.com$important
 ||pixel.wp.pl^$important
 ||surfe.be^$important
+||trk.mail.ru^$badfilter
 ||works.do^$badfilter
 ||wpnrtnmrewunrtok.xyz^$badfilter
 ||xml.opera.com^$ctag=device_tv^
