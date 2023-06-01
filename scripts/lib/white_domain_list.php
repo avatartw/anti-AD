@@ -410,6 +410,9 @@ return [
     "jiagu.360.cn" => 0, #788
     "ldmnq.com" => 0, #787
     "heytapimage.com" => 0, #779, #780
+    "fexclick.baidu.com" => 0, #790
+    "jango.com" => 0, #797
+    "huluxia.com" => 0, #798
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
