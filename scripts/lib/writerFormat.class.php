@@ -42,7 +42,7 @@ class writerFormat
     const EASYLIST = [
         "format" => "||{DOMAIN}^",
         "header" =>
-            "!Title: anti-AD\n!Version: {DATE}\n!Homepage: {URL}\n!Total lines: 00000\n",
+            "!Title: anti-AD\n!Version: {DATE}\n!Homepage: {URL}\n!!!note! This list only applies to \"AdGuard Home\".\n!Total lines: 00000\n",
         "full_domain" => 0,
         "name" => "easylist",
         "filename" => "../anti-ad-easylist.txt",
