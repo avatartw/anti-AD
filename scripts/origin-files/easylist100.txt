@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard DNS filter, StevenBlack hosts, anti-AD, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-07-04T17:21:48.470Z
+! Last modified: 2023-07-07T17:21:49.937Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.16
 !
@@ -4471,6 +4471,7 @@ chat.bilibili.com
 ||content.adtegrity.net^
 ||www.adtegrity.com^
 ||dsp3.adtelligent.com^
+||geo-service.adtelligent.com^
 ||ghb.adtelligent.com^
 ||ghb1.adtelligent.com^
 ||ghb2.adtelligent.com^
@@ -5610,6 +5611,8 @@ chat.bilibili.com
 ||adashx.ut.amap.com^
 ||amap-aos-info-nogw.amap.com^
 ||apsrgeo.amap.com^
+||cgicol.amap.com^
+||dualstack-cgicol.amap.com^
 ||dualstack-logs.amap.com^
 ||logs.amap.com^
 ||optimus-ads.amap.com^
@@ -7317,6 +7320,7 @@ chat.bilibili.com
 ||stat.baike.com^
 ||api.bailingjiankang.com^
 ||m.bailingjiankang.com^
+||api.baimless.com^
 ||tactics.bainv.net^
 ||update.bainv.net^
 ||d.admx.baixing.com^
@@ -8376,6 +8380,7 @@ chat.bilibili.com
 ||incoming.bm23.com^
 ||p.bm23.com^
 ||watershed.bm23.com^
+||www.bmarket.pt^
 ||e.bmbb.xyz^
 ||m.bmbb.xyz^
 ||cdn.bmcdn2.com^
@@ -8821,7 +8826,6 @@ chat.bilibili.com
 ||gcirm.burlingtonfreepress.com^
 ||www.burstnet.com^
 ||www.bus-offer.com^
-||widgets.business.com^
 ||ads.businessclick.com^
 ||analytics.businessinsider.com^
 ||geoip.businessinsider.com^
@@ -9347,6 +9351,7 @@ chat.bilibili.com
 ||1558334541.rsc.cdn77.org^
 ||1657705582.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
+||1954451612.rsc.cdn77.org^
 ||perf.cdnads.com^
 ||tracker.cdnbye.com^
 ||st.cdnco.us^
@@ -9662,7 +9667,6 @@ chat.bilibili.com
 ||sp.chemacid.cn^
 ||www.chemdraw.com^
 ||xia.chemdraw.com^
-||www.chemsky.tn^
 ||www.chenyanjiao.cn^
 ||ob.cheqzone.com^
 ||click.cheshi-img.com^
@@ -10211,7 +10215,6 @@ chat.bilibili.com
 ||d10fhz7gnk5369.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d10vy5gom1ed53.cloudfront.net^
-||d10zminp1cyta8.cloudfront.net^$badfilter
 ||d10zmv6hrj5cx1.cloudfront.net^
 ||d1180od816jent.cloudfront.net^
 ||d11a2fzhgzqe7i.cloudfront.net^
@@ -10304,7 +10307,6 @@ chat.bilibili.com
 ||d1gwclp1pmzk26.cloudfront.net^
 ||d1ha41wacubcnb.cloudfront.net^
 ||d1hgdmbgioknig.cloudfront.net^
-||d1hnmxbg6rp2o6.cloudfront.net^
 ||d1hogxc58mhzo9.cloudfront.net^
 ||d1i2v9a8xom2hy.cloudfront.net^
 ||d1j1m9awq6n3x3.cloudfront.net^
@@ -10364,7 +10366,6 @@ chat.bilibili.com
 ||d1t8it0ywk3xu.cloudfront.net^
 ||d1tizxwina1bjc.cloudfront.net^
 ||d1u1byonn4po0b.cloudfront.net^
-||d1uae3ok0byyqw.cloudfront.net^
 ||d1ue5xz1lnqk0d.cloudfront.net^
 ||d1ugiptma3cglb.cloudfront.net^
 ||d1upt0rqzff34l.cloudfront.net^
@@ -10457,6 +10458,7 @@ chat.bilibili.com
 ||d2fbkzyicji7c4.cloudfront.net^
 ||d2fbvay81k4ji3.cloudfront.net^
 ||d2fhjyz3dwdx87.cloudfront.net^
+||d2fj3s7h83rb61.cloudfront.net^
 ||d2focgxak1cn74.cloudfront.net^
 ||d2fsfacjuqds81.cloudfront.net^
 ||d2ho1n52p59mwv.cloudfront.net^
@@ -10546,8 +10548,10 @@ chat.bilibili.com
 ||d32r49xyei4vz6.cloudfront.net^
 ||d32z5ni8t5127x.cloudfront.net^
 ||d333p98mzatwjz.cloudfront.net^
+||d34cixo0lr52lw.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
+||d34zwq0l4x27a6.cloudfront.net^
 ||d35kbxc0t24sp8.cloudfront.net^
 ||d35r45qhjmgs3g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
@@ -10763,7 +10767,6 @@ chat.bilibili.com
 ||doo6pwib3qngu.cloudfront.net^
 ||doug1izaerwt3.cloudfront.net^
 ||dp1fzft1fdb84.cloudfront.net^
-||dp45nhyltt487.cloudfront.net^
 ||dp64mxip2za0c.cloudfront.net^
 ||dq3yxnlzwhcys.cloudfront.net^
 ||dqv45r33u0ltv.cloudfront.net^
@@ -11395,7 +11398,6 @@ chat.bilibili.com
 ||spnet5.i-mobile.co.jp^
 ||spsvc5.i-mobile.co.jp^
 ||ssp-bidder.i-mobile.co.jp^
-||ssp-click.i-mobile.co.jp^
 ||ssp-sync.i-mobile.co.jp^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.co.uk^
@@ -11430,6 +11432,7 @@ chat.bilibili.com
 ||www.jyotigroup.co.in^
 ||stat.kbs.co.kr^
 ||ad.khan.co.kr^
+||dating.khokhas.co.za^
 ||storelog.kode.co.kr^
 ||logcol.kyobobook.co.kr^
 ||ip2c.landscape.co.jp^
@@ -11694,9 +11697,11 @@ chat.bilibili.com
 ||doheth.co.uk^
 ||doors.co.kr^
 ||drhanneserasmus.co.za^
+||ecotree.co.in^
 ||ekmpinpoint.co.uk^
 ||eltex.co.jp^
 ||emaids.co.za^
+||enhance.co.jp^
 ||erate.co.il^
 ||estatcounter.co.uk^
 ||evile.co.uk^
@@ -11734,6 +11739,7 @@ chat.bilibili.com
 ||jkcontrols.co.uk^
 ||joincreditexpert.co.uk^
 ||katcol.co.uk^
+||known.co.ke^
 ||krasnaya.co.uk^
 ||lanonna.co.uk^
 ||largosoft.co.kr^
@@ -11749,7 +11755,6 @@ chat.bilibili.com
 ||lumatag.co.uk^
 ||m-99.co.uk^
 ||madicon.co.za^
-||mambozfood.co.tz^
 ||mci1.co.kr^
 ||mediad.co.jp^
 ||megadata.co.kr^
@@ -11834,7 +11839,6 @@ chat.bilibili.com
 ||travelwithmanta.co.za^
 ||tridentenvironmental.co.uk^
 ||trovus.co.uk^
-||tstlabs.co.uk^
 ||unblockfacebook.co.uk^
 ||unitedblades.co.jp^
 ||valuedopinions.co.uk^
@@ -11849,7 +11853,6 @@ chat.bilibili.com
 ||websitehome.co.uk^
 ||wkmg.co.kr^
 ||wowanalytics.co.uk^
-||youmetrix.co.uk^
 ||zarrmarketing.co.uk^
 ||zencudo.co.uk^
 ||zoeandjo.co.uk^
@@ -12075,6 +12078,7 @@ chat.bilibili.com
 ||adserver.colleges.com^
 ||www.colnhive.com^
 ||ads.colombiaonline.com^
+||ad-api-log.colopl.jp^
 ||gcirm.coloradoan.com^
 ||moa-upload-online.coloros.com^
 ||supply.colossusssp.com^
@@ -12436,6 +12440,7 @@ chat.bilibili.com
 ||ip.momentummedia.com.au^
 ||momowa.momoshop.com.tw^
 ||app.monetizze.com.br^
+||www.movidoc.com.br^
 ||tracker.mozo.com.au^
 ||c.msn.com.cn^
 ||addserver.mtv.com.tr^
@@ -12682,7 +12687,6 @@ chat.bilibili.com
 ||d0.xcar.com.cn^
 ||dw.xcar.com.cn^
 ||pv.xcar.com.cn^
-||pvx.xcar.com.cn^
 ||c.xdygw.com.cn^
 ||v.xdygw.com.cn^
 ||pics.xgo-img.com.cn^
@@ -12767,7 +12771,6 @@ chat.bilibili.com
 ||acpbdf.com.br^
 ||ad-plus.com.tr^
 ||ad4.com.cn^
-||adbuka.com.ng^
 ||adimg.com.com^
 ||adlog.com.com^
 ||admaster.com.cn^
@@ -12829,7 +12832,6 @@ chat.bilibili.com
 ||daliantong.com.cn^
 ||datamaster.com.cn^
 ||dataunion.com.br^
-||dhnconstrucciones.com.ar^
 ||digitaltextile.com.ru^
 ||dingon.com.cn^
 ||distribuidoraderetentores.com.br^
@@ -12847,13 +12849,10 @@ chat.bilibili.com
 ||famesa.com.ar^
 ||familyhomefinance.com.au^
 ||fanyi100.com.cn^
-||ferroliyetkiliservis.com.tr^
 ||flowtec.com.br^
 ||foone.com.br^
 ||futengbao.com.cn^
 ||g7.com.tw^
-||godstar.com.br^
-||gruposdl.com.br^
 ||guaranty.com.cn^
 ||happybao.com.cn^
 ||hauchi.com.tw^
@@ -12881,10 +12880,12 @@ chat.bilibili.com
 ||keyne-in.com.cn^
 ||kuaishang.com.cn^
 ||limonecomunicacao.com.br^
+||lostheaven.com.cn^
 ||lovittco.com.au^
 ||lyfwpt.com.cn^
 ||mairuan.com.cn^
 ||mbn.com.ua^
+||mediafox.com.au^
 ||mediatraffic.com.ua^
 ||meishiba.com.cn^
 ||ming-dun.com.tw^
@@ -12904,12 +12905,11 @@ chat.bilibili.com
 ||onandeggsiswe.com.ua^
 ||oneyouxi.com.cn^
 ||optimaconsulting.com.au^
-||ororadio.com.mx^
-||pablobrothel.com.ar^
 ||palharesinformatica.com.br^
 ||paulomatosconsultores.com.br^
 ||pensebig.com.br^
 ||pepsico.com.cn^
+||perfumando.com.mx^
 ||pibaba.com.cn^
 ||pigewang.com.cn^
 ||planearconsultoria.com.br^
@@ -12950,12 +12950,11 @@ chat.bilibili.com
 ||travelhub.com.sg^
 ||tuxi.com.cn^
 ||twoje-nagrody.com.pl^
-||vaillartservis.com.tr^
 ||ventanasyaluminios.com.mx^
-||vieirasadv.com.br^
 ||w8.com.cn^
 ||waoptions.com.au^
 ||watchtimes.com.cn^
+||wearethestandard.com.au^
 ||weblog.com.ua^
 ||wechatweb.com.cn^
 ||wejibk.com.cn^
@@ -13485,6 +13484,7 @@ chat.bilibili.com
 ||eventsorg.cre.ma^
 ||analytics.crea.ca^
 ||shence.cread.com^
+||fortnitehack.creatium.site^
 ||sh.creativcdn.net^
 ||adserver.creative-asia.com^
 ||cdn.creative-bars1.com^
@@ -13923,7 +13923,6 @@ chat.bilibili.com
 ||w.cube3d.cn^
 ||ads.milliyet.cubecdn.net^
 ||dc.cuberoot.co^
-||dcpub.cuberoot.co^
 ||orpheus.cuci.nl^
 ||users.cuci.nl^
 ||www.cuci.nl^
@@ -14035,7 +14034,6 @@ chat.bilibili.com
 ||asq.d6shiiwz.pw^
 ||www.d77777777.com^
 ||m.d8qu.com^
-||p2.d9media.cn^
 ||www.da-ads.com^
 ||l.da-te.jp^
 ||counter.daara.kr^
@@ -14298,7 +14296,6 @@ chat.bilibili.com
 ||adx-*.dbankedge.cn^
 ||adx-org.dbankedge.cn^
 ||adserver.dbusiness.com^
-||srv.dc-1.net^
 ||tracking.dc-storm.com^
 ||dad-api.dcard.tw^
 ||m.dceni.com^
@@ -14888,7 +14885,6 @@ chat.bilibili.com
 ||track.dmipartners.com^
 ||stlog.d.dmkt-sp.jp^
 ||delivery.dmkt-sp.jp^
-||pdc.dmleonyc.com^
 ||stat.i3.dmm.com^
 ||trac.i3.dmm.com^
 ||ad.dmm.com^
@@ -15706,7 +15702,6 @@ chat.bilibili.com
 ||service.e-volution.ai^
 ||4.e-why.net^
 ||www.e-zeitung.de^
-||hits.e.cl^
 ||h.e0hkzk2.cn^
 ||t.e0hkzk2.cn^
 ||analytics.e1.ru^
@@ -17048,7 +17043,6 @@ chat.bilibili.com
 ||track.express.de^
 ||jtp.expressen.se^
 ||l936.expressnews.com^
-||go.exrtbsrv.com^
 ||adserver-east.extend.tv^
 ||freewheeleventsbidder-east.extend.tv^
 ||sync.extend.tv^
@@ -17108,6 +17102,8 @@ chat.bilibili.com
 ||1278725189.pub.ezanga.com^
 ||www.ezl.com^
 ||www.ezlink.ca^
+||bshr.ezodn.com^
+||g.ezodn.com^
 ||go.ezodn.com^
 ||videosvc.ezoic.com^
 ||ysm.ezprice.net^
@@ -17245,7 +17241,6 @@ chat.bilibili.com
 ||post.update.fbsbx.com^
 ||s.update.fbsbx.com^
 ||t.update.fbsbx.com^
-||update.fbsbx.com^
 ||js.fc090.com^
 ||cnt.affiliate.fc2.com^
 ||ads.contents.fc2.com^
@@ -18516,6 +18511,7 @@ chat.bilibili.com
 ||www.getmyads24.com^
 ||www.getmyfreegiftcard.com^
 ||config.getmyip.com^
+||ai.getnextlevelmarketing.com^
 ||to.getnitropack.com^
 ||widgets.getpocket.com^
 ||metrics.getrockerbox.com^
@@ -18788,7 +18784,6 @@ chat.bilibili.com
 ||clog.go.com^
 ||log.go.com^
 ||ngads.go.com^
-||pn-raha.go.id^
 ||tredir.go.com^
 ||unid.go.com^
 ||www.2468.go2cloud.org^
@@ -19497,6 +19492,7 @@ chat.bilibili.com
 ||img.hcwifi.cn^
 ||cnt.hd21.*^
 ||cnt.hd21.org^
+||stats.hd24.watch^
 ||ee.hdboping.com^
 ||m.hdboping.com^
 ||incsh.hdherpc.cn^
@@ -20247,6 +20243,7 @@ chat.bilibili.com
 ||www.hldwmly.com^
 ||bannery.hledejceny.cz^
 ||track.msadcenter.hlh.com^
+||t.hln.be^
 ||www.hlpidkr.ru^
 ||geo.hltv.org^
 ||dep.hmgroup.com^
@@ -20820,7 +20817,7 @@ chat.bilibili.com
 ||y.ibsys.com^
 ||ads.ibtracking.com^
 ||tracking.ibxlink.com^
-||sf16-scmcdn-sg.ibytedtos.com^
+||sf16-scmcdn-sg.ibytedtos.com^$badfilter
 ||c.ibzs5j.cn^
 ||v.ibzs5j.cn^
 ||www.vokr-gtavc.ic.cz^
@@ -21228,7 +21225,6 @@ chat.bilibili.com
 ||jas.indeednps.com^
 ||apetite.index.hr^
 ||sher.index.hu^
-||videostat.index.hu^
 ||wl-pixel.index.digital^
 ||ads.indexinfo.org^
 ||ssp.indexmob.com^
@@ -23565,7 +23561,6 @@ chat.bilibili.com
 ||trk.klclick1.com^
 ||www.kldsam.com^
 ||r.kleertjes.com^
-||analytics.klickly.com^
 ||tracking.klickthru.com^
 ||www.klikbonus.com^
 ||adsby.klikki.com^
@@ -23663,7 +23658,6 @@ chat.bilibili.com
 ||track.msadcenter.kpuo.com^
 ||www.kqzyfj.com^
 ||tracking-live.kr3m.com^
-||fdt.kraken.com^
 ||ads.krawall.de^
 ||www.kreaffiliation.com^
 ||app4.kromtech.net^
@@ -23836,8 +23830,6 @@ chat.bilibili.com
 ||analytics.kwebsoft.com^
 ||stat.kwikmotion.com^
 ||www.kwistal.nl^
-||profile.omega.kwrn.eu^
-||www.kwrn.eu^
 ||xg.kxapctq.cn^
 ||www.pull-3045.kxcdn.com^
 ||pull-3045.kxcdn.com^
@@ -23866,7 +23858,6 @@ chat.bilibili.com
 ||a.labadena.com^
 ||www.lacasadialicedesenzano.it^
 ||www.lacmp.net^
-||tracking.ladies.de^
 ||stats.ladotstats.nl^
 ||www.ladsblue.com^
 ||cd.ladsp.com^
@@ -24165,6 +24156,7 @@ chat.bilibili.com
 ||create.lidstatic.com^
 ||t.lidyana.com^
 ||www.liebaovip.com^
+||for.life-thrones.com^
 ||www.lifeforminc.com^
 ||twstat.lifenewsjr.com^
 ||affiliates.lifeselector.com^
@@ -24729,6 +24721,7 @@ chat.bilibili.com
 ||m.louisan.cn^
 ||x4.lov3.net^
 ||y3dx36f6.love6d.com^
+||ip.lovely-app.com^
 ||49453k0l.vr.loveota.com^
 ||49453k0l.vs.loveota.com^
 ||sdk.loveota.net^
@@ -26665,7 +26658,6 @@ chat.bilibili.com
 ||moonsupermoon.moonmoonsunmoon.com^
 ||www.moonsade.com^
 ||m.moonuiux.top^
-||cahf4eed.mooo.com^
 ||webuysupplystore.mooo.com^
 ||pub.mop.com^
 ||cdnjs.mopair-erm.net^
@@ -27015,7 +27007,6 @@ chat.bilibili.com
 ||cdn.unduhfile.my.id^
 ||1l-view.my.games^
 ||gratisbitcoin.my.id^
-||ikankite.my.id^
 ||r.my.com^
 ||t.my.jobs^
 ||tracker-api.my.com^
@@ -27149,7 +27140,6 @@ chat.bilibili.com
 ||ad.myinstashot.com^
 ||track.myli.io^
 ||www.mylivejasmin.org^
-||r.mylot.com^
 ||www.mylottoadserv.com^
 ||www.mylovecards.com^
 ||www.mylovelymommy.tk^
@@ -27847,6 +27837,7 @@ chat.bilibili.com
 ||6735a55d.ngrok.io^
 ||analytics.ngs55.ru^
 ||m.ngsaang.top^
+||botnet.nguyennghi.info^
 ||adserver.ngz-network.de^
 ||ggdm1.nhaidu.net^
 ||bc.nhk.jp^
@@ -27857,6 +27848,7 @@ chat.bilibili.com
 ||www.nicemice.cf^
 ||cnt.nicemix.com^
 ||mpc.nicequest.com^
+||log.recommend.nicovideo.jp^
 ||ads.nicovideo.jp^
 ||astral.nicovideo.jp^
 ||as.nidongme.com^
@@ -28968,6 +28960,7 @@ chat.bilibili.com
 ||centricabritishgas.d3.sc.omtrdc.net^
 ||nzz.d3.sc.omtrdc.net^
 ||philipslighting.d3.sc.omtrdc.net^
+||stmicroelectronics.d3.sc.omtrdc.net^
 ||geico.com.ssl.sc.omtrdc.net^
 ||aftonbladetnya.sc.omtrdc.net^
 ||allstate.sc.omtrdc.net^
@@ -30153,11 +30146,9 @@ chat.bilibili.com
 ||br.phorm.com^
 ||bt.phorm.com^
 ||kr.phorm.com^
-||monitor.phorm.com^
 ||mx03.phorm.com^
 ||ns1.phorm.com^
 ||ns2.phorm.com^
-||oix.phorm.com^
 ||www.phorm.com^
 ||a.phormlabs.com^
 ||d.phormlabs.com^
@@ -30279,7 +30270,6 @@ chat.bilibili.com
 ||www.pj5189.com^
 ||www.pjbjzf.com^
 ||ssl86.pjshw.cn^
-||pv.pjtsu.com^
 ||www.pksanb.com^
 ||ap*.pl520.com^
 ||aporg.pl520.com^
@@ -30774,7 +30764,6 @@ chat.bilibili.com
 ||serve.prestigecasino.com^
 ||iframes.prettyincash.com^
 ||ibancalculator-com.preview-domain.com^
-||supporttech-pay-com.preview-domain.com^
 ||xfnl-spspostit-online.preview-domain.com^
 ||2019-ncov-2020.com.preview.services^
 ||log.prezi.com^
@@ -31967,6 +31956,8 @@ chat.bilibili.com
 ||detect.rayjump.com^
 ||hb.rayjump.com^
 ||hybird.rayjump.com^
+||ir-new-cdn-eu-west-*-hb.rayjump.com^
+||ir-new-cdn-eu-west-org-hb.rayjump.com^
 ||jssdk.rayjump.com^
 ||lazy.rayjump.com^
 ||net.rayjump.com^
@@ -31999,7 +31990,6 @@ chat.bilibili.com
 ||pages-stats.rbl.ms^
 ||res.rbl.ms^
 ||user-stats.rbl.ms^
-||td.rcat.online^
 ||ads.rcgroups.com^
 ||d.rcmd.jp^
 ||webstats.web.rcn.net^
@@ -32961,7 +32951,6 @@ chat.bilibili.com
 ||tv-static.scdn.co^
 ||cdn.scdng.com^
 ||tracking.scenepass.com^
-||smkn1kepanjen.sch.id^
 ||www.schborg.com^
 ||www.schemml.de^
 ||cis.schibsted.com^
@@ -33027,6 +33016,7 @@ chat.bilibili.com
 ||services.sdiapi.com^
 ||metrics.sdkbox.com^
 ||update.sdkbox.com^
+||reportsk.web.sdo.com^
 ||adrs.sdo.com^
 ||dwtracking.sdo.com^
 ||t.sdpaji.com^
@@ -33117,6 +33107,7 @@ chat.bilibili.com
 ||www.seehits.com^
 ||api.seeingoholidays.com^
 ||www.seekbang.com^
+||log.seekda.com^
 ||www.seekinstantly.com^
 ||www.seekways.com^
 ||analytics.seekxr.com^
@@ -33952,7 +33943,6 @@ chat.bilibili.com
 ||spaces.slimspots.com^
 ||www.slkeq.com^
 ||www.slorent.com^
-||www.slotmagie.de^
 ||centent.slreamplay.cc^
 ||a.slsbc.cn^
 ||m.slshiye.cn^
@@ -35358,7 +35348,6 @@ chat.bilibili.com
 ||banners.swapfinder.com^
 ||track.swaptrap.live^
 ||trk2-wtb.swaven.com^
-||sonet-rp.swaxis.com^
 ||support.sweepstakes.com^
 ||love.sweet199.com^
 ||rbgbq.sweetchicks.net^
@@ -36249,7 +36238,6 @@ chat.bilibili.com
 ||sponsors.thoughtsmedia.com^
 ||static-img.threatbook.cn^
 ||c.thredup.com^
-||ec.thredup.com^
 ||analytics.threedeepmarketing.com^
 ||ads.thrillsaffiliates.com^
 ||affiliates.thrixxx.com^
@@ -36645,6 +36633,7 @@ chat.bilibili.com
 ||www.toroadvertisingmedia.com^
 ||ads.toronto.com^
 ||oas.toronto.com^
+||www.torq.qa^
 ||cryptonoter.torrent.pw^
 ||mine.torrent.pw^
 ||pool.torrent.pw^
@@ -36832,7 +36821,6 @@ chat.bilibili.com
 ||tl.tradetracker.net^
 ||tm.tradetracker.net^
 ||ts.tradetracker.net^
-||www.trading24.io^
 ||www.tradingtactics.win^
 ||snowplow-pixel.tradingview.com^
 ||telemetry.tradingview.com^
@@ -37238,10 +37226,6 @@ chat.bilibili.com
 ||vast.tubemogul.com^
 ||cnt.tubeon.*^
 ||cnt.tubeon.org^
-||ww1.tubepornclassics.com^
-||ww12.tubepornclassics.com^
-||ww7.tubepornclassics.com^
-||www.tubepornclassics.com^
 ||tds.tuberl.com^
 ||hive.tubetitties.com^
 ||www.tubetitties.com^
@@ -37282,7 +37266,6 @@ chat.bilibili.com
 ||api.tumra.com^
 ||ma.tune.com^
 ||beacon.tunecore.com^
-||srv.tunefindforfans.com^
 ||ads.tunein.com^
 ||reports.tunein.com^
 ||analy.tuniu.cn^
@@ -38503,7 +38486,6 @@ chat.bilibili.com
 ||www.vkcdnservice.com^
 ||top100.vkirove.ru^
 ||1l-hit.vkplay.ru^
-||mta.vkrpep12.com^
 ||e.vkuay.com^
 ||m.vkuay.com^
 ||c.vl665.cn^
@@ -39074,7 +39056,6 @@ chat.bilibili.com
 ||linemestickershop.weebly.com^
 ||mshelp247.weebly.com^
 ||netfllx.weebly.com^
-||officefile-reader.weebly.com^
 ||data-collector.wefi.com^
 ||www.wegetpaid.net^
 ||pc.wegowan.com^
@@ -39107,7 +39088,6 @@ chat.bilibili.com
 ||forad1.weimeicun.com^
 ||wenxue.weimeifan.net^
 ||mj.weimob.net^
-||www.weinsteincounseling.com^
 ||badjs.weixinbridge.com^
 ||huatuo.weiyun.com^
 ||pc.weizhenwx.com^
@@ -39414,7 +39394,6 @@ chat.bilibili.com
 ||sdc.windowsmarketplace.com^
 ||banner-server.winecountry.com^
 ||ads.wineenthusiast.com^
-||www.winfreycmh.pw^
 ||o0.winfuture.de^
 ||ad.wingads.com^
 ||join1.winhundred.com^
@@ -39831,7 +39810,6 @@ chat.bilibili.com
 ||collector.xhamster.desi^
 ||collector1.xhamster.com^
 ||fizhit.xhamster.com^
-||gga.xhamster.com^
 ||h8abihk.xhamster.com^
 ||kafdlwyw4z.xhamster.com^
 ||m2.xhamster.com^
@@ -40100,7 +40078,6 @@ chat.bilibili.com
 ||jebe.xnimg.cn^
 ||img.xnxx.com^
 ||multi.xnxx.com^
-||j.xnyidc.top^
 ||im.xo.pl^
 ||allboard.xobor.de^
 ||housead.xofapp.xyz^
@@ -40940,7 +40917,6 @@ chat.bilibili.com
 ||www.yqjxzw.com^
 ||m.yqqlm.vip^
 ||www.yrals.com^
-||www.ysbaojia.com^
 ||gho.ysbjgjwh.com^
 ||daima.ysdui.com^
 ||m.ysgsq.cn^
@@ -41163,7 +41139,6 @@ chat.bilibili.com
 ||w.zenback.jp^
 ||widget.zenback.jp^
 ||analytics.zendesk.com^
-||slotmagie.zendesk.com^
 ||ads-bi.zenkube.com^
 ||databoat.zenkube.com^
 ||prod.zenkube.com^
@@ -41339,8 +41314,10 @@ chat.bilibili.com
 ||track.ziprecruiter.com^
 ||collector5.zipy.ai^
 ||onlskdfj.zishahh.com^
-||qdzfa.rfc.zitoprohealth.com^
-||qrpf.rfc.zitoprohealth.com^
+||bxgs.rfc.zitoprohealth.com^
+||chx.rfc.zitoprohealth.com^
+||omqia.rfc.zitoprohealth.com^
+||sbm.rfc.zitoprohealth.com^
 ||www.zivbxion.ru^
 ||s.zixuntop.com^
 ||www.ziykrgc.ru^
@@ -42147,6 +42124,7 @@ chat.bilibili.com
 ||2e8dgn8n0e0l.com^
 ||2eb3f134fb.com^
 ||2fa20230511.live^
+||2fnptjci.de^
 ||2g2h.com^
 ||2gay.net^
 ||2giga.download^
@@ -42289,6 +42267,7 @@ chat.bilibili.com
 ||33sjhdfjsdf33.monster^
 ||33tui.com^
 ||34.gs^
+||3400.org^
 ||340ca71c.space^
 ||341073be6e9db7d2.com^
 ||341k4gu76ywe.top^
@@ -42436,6 +42415,7 @@ chat.bilibili.com
 ||426g.com^
 ||429999d.com^
 ||42ye.com^
+||44288fa514.com^
 ||44629.com^
 ||4480dy.net^
 ||44chan.me^
@@ -42889,7 +42869,6 @@ chat.bilibili.com
 ||7clink.com^
 ||7cnq.net^
 ||7cx.com^
-||7d0t1wji.cn^
 ||7d108.cn^
 ||7daystodie.cn^
 ||7df1f04330.com^
@@ -42917,11 +42896,13 @@ chat.bilibili.com
 ||7t56.com^
 ||7thlegion.ru^
 ||7v46.icu^
+||7wbb.com^
 ||7wind.ru^
 ||7wkw.com^
 ||7x.cc^
 ||7x1u.icu^
 ||7x24s.com^
+||7x4.fr^
 ||7xc4n.com^
 ||7xwx.cn^
 ||7y7.us^
@@ -42969,6 +42950,7 @@ chat.bilibili.com
 ||88-sms.com^
 ||88210212.com^
 ||883zy.com^
+||885496b3a2.com^
 ||8861200.com^
 ||8861201.com^
 ||8861202.com^
@@ -43031,7 +43013,6 @@ chat.bilibili.com
 ||8ox.cn^
 ||8q2h.icu^
 ||8rf.com^
-||8s32e590un.com^
 ||8senjya.jp^
 ||8si.ru^
 ||8skjdnkfsdf88.monster^
@@ -43398,6 +43379,7 @@ chat.bilibili.com
 ||abq88b.com^
 ||abrahamschildren.com^
 ||abrittel.fr^
+||abrnfctkn.xyz^
 ||abruptcompliments.com^
 ||abruptradishnotwithstanding.com^
 ||abruptroad.com^
@@ -43495,7 +43477,6 @@ chat.bilibili.com
 ||achurt.com^
 ||acid-adserver.click^
 ||acidpigs.com^
-||acienco.com^
 ||acimo.com^
 ||acint.net^
 ||ackcdn.net^
@@ -43518,7 +43499,6 @@ chat.bilibili.com
 ||acquirethem.com^
 ||acrevenene.com^
 ||acrh.be^
-||acrhitechinfo.com^
 ||acridtwist.com^
 ||acrossheadquartersanchovy.com^
 ||acrosspf.com^
@@ -43529,7 +43509,6 @@ chat.bilibili.com
 ||acsbapp.com^
 ||acsc10.com^
 ||acscdn.com^
-||acsdxb.net^
 ||acsentia.fr^
 ||acsshufxnu.com^
 ||acstat.com^
@@ -43690,7 +43669,6 @@ chat.bilibili.com
 ||adapex.io^
 ||adapf.com^
 ||adapt.tv^
-||adaptationbodilypairs.com^
 ||adaptcunning.com^
 ||adaptivecss.org^
 ||adara.com^
@@ -43807,6 +43785,7 @@ chat.bilibili.com
 ||addoge.cc^
 ||addoor.net^
 ||addresseepaper.com^
+||addresslegbreathless.com^
 ||addresstimeframe.com^
 ||addroplet.com^
 ||addshoppers.com^
@@ -44097,6 +44076,7 @@ chat.bilibili.com
 ||adotsolution.com^
 ||adotube.com^
 ||adp13a.com^
+||adpacks.com^
 ||adpaths.com^
 ||adpatrof.com^
 ||adpeepshosted.com^
@@ -44212,6 +44192,7 @@ chat.bilibili.com
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adsage.com^
+||adsagony.com^
 ||adsame.com^
 ||adsb4trk.com^
 ||adsbro.com^
@@ -44347,6 +44328,7 @@ chat.bilibili.com
 ||adstellar.icu^
 ||adsterra.com^
 ||adsterra.org^
+||adsterratech.com^
 ||adstico.io^
 ||adstk.io^
 ||adstock.pro^
@@ -44366,6 +44348,7 @@ chat.bilibili.com
 ||adsvert.com^
 ||adsvids.com^
 ||adsvidsdouble.com^
+||adsvolum.com^
 ||adswakeup.com^
 ||adswrapme.click^
 ||adsxyz.com^
@@ -44601,6 +44584,7 @@ chat.bilibili.com
 ||adzrevads.com^
 ||adztec.com^
 ||aeeg5idiuenbi7erger.com^
+||aeffe3nhrua5hua.com^
 ||aeg32y.top^
 ||aeletheacd.com^
 ||aeneasclosure.website^
@@ -44631,7 +44615,6 @@ chat.bilibili.com
 ||afafevk.com^
 ||afairweb.com^
 ||afboskruta.com^
-||afcebook.com^
 ||afcnuchxgo.com^
 ||afdashrafi.com^
 ||afdjljiyagf.ru^
@@ -44676,7 +44659,6 @@ chat.bilibili.com
 ||affilixxl.de^
 ||affinesystems.com^
 ||affinity.com^
-||affinity.net^
 ||affinitymatrix.com^
 ||affistats.com^
 ||affiz.net^
@@ -44761,6 +44743,7 @@ chat.bilibili.com
 ||agla.fr^
 ||agle21xe2anfddirite.com^
 ||agloowie.com^
+||agonelambes.website^
 ||agorahtag.tech^
 ||agrant.cn^
 ||agrantsem.com^
@@ -44796,6 +44779,7 @@ chat.bilibili.com
 ||ahe.so^
 ||aheadday.com^
 ||aheadmachine.com^
+||aheave.com^
 ||ahf4ycvea439tt9rq.site^
 ||ahfy.me^
 ||ahh8.cn^
@@ -45027,6 +45011,7 @@ chat.bilibili.com
 ||alert-bendigobank.com^
 ||alertafterthought.com^
 ||alertlogsemployer.com^
+||alertme.news^
 ||alessandraleone.com^
 ||alexacdn.com^
 ||alexametrics.com^
@@ -45353,7 +45338,6 @@ chat.bilibili.com
 ||anametrix.net^
 ||anamuel-careslie.com^
 ||ananashotel.com^
-||ananstore.net^
 ||anau6stg6y.com^
 ||anaxialaphonia.com^
 ||anbstudios.com^
@@ -45376,7 +45360,6 @@ chat.bilibili.com
 ||andriesshied.com^
 ||androiddetection.com^
 ||androidnotice.com^
-||andromedamuhendislik.com^
 ||andromedawallet.com^
 ||anduongjsc.com^
 ||andydill.com^
@@ -45474,7 +45457,6 @@ chat.bilibili.com
 ||anticodistretto.com^
 ||anticosm.com^
 ||antidotesurvivorausterity.com^
-||antifraudebbva.icu^
 ||antig-hra.com^
 ||antihohol.cloud^
 ||antillephone.com^
@@ -45580,6 +45562,7 @@ chat.bilibili.com
 ||appboycdn.com^
 ||appbrain.com^
 ||appcast.io^
+||appcdn03.xyz^
 ||appclick.co^
 ||appclick.net^
 ||appcloudsystems.com^
@@ -45640,7 +45623,6 @@ chat.bilibili.com
 ||appserver-cp.com^
 ||appsflyer.com^
 ||appswiss.ch^
-||apptionate.com^
 ||apptjmp.com^
 ||apptornado.com^
 ||apptospace.com^
@@ -45695,6 +45677,7 @@ chat.bilibili.com
 ||ar1nvz5.com^
 ||arabianpdfbooks.info^
 ||arabnews365.com^
+||aracts.com^
 ||aragontrack.com^
 ||arakusus.com^
 ||aralego.com^
@@ -45757,10 +45740,10 @@ chat.bilibili.com
 ||armconsul.ru^
 ||armed-postulation.com^
 ||arminius.io^
-||armlockyakker.com^
 ||armoursviolino.com^
 ||armpeeoy.com^
 ||armsart.com^
+||arnimalconeer.com^
 ||arointbarra.com^
 ||aromabirch.com^
 ||aromamirror.com^
@@ -45817,7 +45800,6 @@ chat.bilibili.com
 ||asewlfjqwlflkew.com^
 ||asextube.net^
 ||asf56165.xyz^
-||asfgze.fun^
 ||asforsalesr.one^
 ||asgardrecatch.com^
 ||asgclickkl.com^
@@ -45827,10 +45809,10 @@ chat.bilibili.com
 ||ashamedbirchpoorly.com^
 ||ashcdn.com^
 ||ashgrrwt.click^
+||ashierbowler.com^
 ||ashionism.com^
 ||ashleyfires.fr^
 ||ashlynnbrookevideos.com^
-||ashokudhayan.com^
 ||ashoupsu.com^
 ||asia999.website^
 ||asiafriendfinder.com^
@@ -46032,7 +46014,6 @@ chat.bilibili.com
 ||auphoalt.com^
 ||aureate.com^
 ||auroramine.com^
-||ausculti.org^
 ||ausoafab.net^
 ||auspiciousyard.com^
 ||auspolice.com^
@@ -46094,6 +46075,7 @@ chat.bilibili.com
 ||avazudsp.net^
 ||avazunativeads.com^
 ||avazutracking.net^
+||avenaryconcent.com^
 ||avencio.de^
 ||avenseo.com^
 ||avenuea.com^
@@ -46238,7 +46220,6 @@ chat.bilibili.com
 ||azvjudwr.info^
 ||b-7.jp^
 ||b-click.net^
-||b-m.xyz^
 ||b0a0bb3621.com^
 ||b0e8.com^
 ||b0f1d2.com^
@@ -46264,7 +46245,6 @@ chat.bilibili.com
 ||b6c4.top^
 ||b6s4as9myw75g877krwp.com^
 ||b7om8bdayac6at.com^
-||b85allecev.store^
 ||b88392.top^
 ||babaroa.net^
 ||babator.com^
@@ -46320,11 +46300,9 @@ chat.bilibili.com
 ||bagbeam.com^
 ||baggageconservationcaught.com^
 ||bagkakaku.com^
-||bagnuterosive.com^
 ||bagshop78.com^
 ||bagslap.com^
 ||bagsonsale.online^
-||baguioattalea.com^
 ||baidbsjvb.com^
 ||baidnblkdn.com^
 ||baidu-jxf.co^
@@ -46445,7 +46423,6 @@ chat.bilibili.com
 ||bannery.cz^
 ||banquetunarmedgrater.com^
 ||banstex.com^
-||bantuindigital.id^
 ||banxc.com^
 ||baoding66.top^
 ||baolanke.top^
@@ -46728,6 +46705,7 @@ chat.bilibili.com
 ||berthsorry.com^
 ||berush.com^
 ||beryl3.cc^
+||berylnbb.com^
 ||besacon.fr^
 ||beshellspitous.com^
 ||besluor.com^
@@ -46761,6 +46739,7 @@ chat.bilibili.com
 ||bestboundary.com^
 ||bestbut.com^
 ||bestcandyever.com^
+||bestclicktitle.com^
 ||bestcoinsignals.com^
 ||bestcond1tions.com^
 ||bestcontentcost.top^
@@ -46844,6 +46823,7 @@ chat.bilibili.com
 ||better-might.pro^
 ||betteradsystem.com^
 ||bettercollective.rocks^
+||betterdomino.com^
 ||bettershitecolumn.com^
 ||betterzip.net^
 ||betterzipcn.com^
@@ -46921,6 +46901,7 @@ chat.bilibili.com
 ||bid.glass^
 ||bid.run^
 ||bid-engine.com^
+||bidbrain.app^
 ||bidclickmedia.com^
 ||bidclix.com^
 ||bidclix.net^
@@ -47026,7 +47007,6 @@ chat.bilibili.com
 ||biptolyla.com^
 ||biquge.homes^
 ||birchdynamicunicorn.com^
-||birchenoughsbabies.com^
 ||birdconnection.site^
 ||birdmedia.com^
 ||birkin30.com^
@@ -47069,6 +47049,7 @@ chat.bilibili.com
 ||bittorrent.es^
 ||bitu.fun^
 ||bitupsss.com^
+||biturl.co^
 ||biubxxaxucyou.com^
 ||biucosmetics.fr^
 ||bixinlive.com^
@@ -47115,6 +47096,7 @@ chat.bilibili.com
 ||bjzb.xyz^
 ||bkae.top^
 ||bkbrmmlyyqzja.top^
+||bkhblj.xyz^
 ||bkjhqkohal.com^
 ||bkkejrveemlbk.top^
 ||bkrtx.com^
@@ -47142,6 +47124,7 @@ chat.bilibili.com
 ||blastcahs.com^
 ||blasze.com^
 ||blasze.tk^
+||blbazybajvzvw.top^
 ||bleachbit.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -47161,6 +47144,8 @@ chat.bilibili.com
 ||blismedia.com^
 ||blisterlngdate.com^
 ||bljlrl.xyz^
+||bljyynzmlmazz.top^
+||blkwrjerbklya.top^
 ||blobar.org^
 ||bloblohub.com^
 ||block-ads-now.com^
@@ -47204,7 +47189,6 @@ chat.bilibili.com
 ||blogtw.net^
 ||blogvertising.pl^
 ||blok.link^
-||bloodboostformula.com^
 ||bloodsugarberry.com^
 ||blotburn.com^
 ||blowfood.website^
@@ -47228,7 +47212,6 @@ chat.bilibili.com
 ||bluekai.com^
 ||bluelinknow.com^
 ||bluelithium.com^
-||bluemarble-advt.com^
 ||bluematrixs.com^
 ||bluemountain1.com^
 ||blueoyster.click^
@@ -47247,7 +47230,6 @@ chat.bilibili.com
 ||bluewhaleweb.com^
 ||bluffsouttore.com^
 ||bluffyporn.com^
-||bluoxyn.com^
 ||blurbigdoable.com^
 ||blushbuiltonboard.com^
 ||blushingbeast.com^
@@ -47303,7 +47285,6 @@ chat.bilibili.com
 ||bnhxxj.xyz^
 ||bnl2bii.icu^
 ||bnlg.fun^
-||bnmjjwinf292.com^
 ||bnmla.com^
 ||bnmu.xyz^
 ||bnpmtoazgw.com^
@@ -47346,6 +47327,7 @@ chat.bilibili.com
 ||boffoadsfeeds.com^
 ||boftogro.net^
 ||boggyamrit.com^
+||bognunub.com^
 ||bohubrihi.com^
 ||boilingbeetle.com^
 ||boilingcredit.com^
@@ -47391,6 +47373,7 @@ chat.bilibili.com
 ||bookbannershop.com^
 ||bookblack5208w.com^
 ||bookerstudent.com^
+||bookeryboutre.com^
 ||bookgr8.com^
 ||bookkeepingagents.com^
 ||bookmsg.com^
@@ -47417,7 +47400,6 @@ chat.bilibili.com
 ||boredinitial.com^
 ||boredombizarrerepent.com^
 ||borghgeog.com^
-||borgoonu.net^
 ||boridescyamid.com^
 ||boringberry.com^
 ||boringcoat.com^
@@ -47429,14 +47411,12 @@ chat.bilibili.com
 ||boroniasunback.com^
 ||bororango.com^
 ||boroskola.info^
-||borrowmarmotforester.com^
 ||borsendental.com^
 ||boshao666.com^
 ||boskrut.com^
 ||bosmafamily.nl^
 ||bosny.com^
 ||bostopago.com^
-||botnetlogs.com^
 ||botongfuff.uno^
 ||botscanner.com^
 ||botsvisit.com^
@@ -47648,7 +47628,6 @@ chat.bilibili.com
 ||bropu2.com^
 ||broredir1s.site^
 ||brostyles.fr^
-||brotherocean.com^
 ||brothersbucket.com^
 ||brotherselectricco.com^
 ||brotherslocket.com^
@@ -47714,7 +47693,6 @@ chat.bilibili.com
 ||btc9339.com^
 ||btcclicks.com^
 ||btcnews.one^
-||btcwinfree.site^
 ||btez8.xyz^
 ||btglss.net^
 ||btilxdpcco.com^
@@ -47751,6 +47729,7 @@ chat.bilibili.com
 ||bugsense.com^
 ||bugtags.com^
 ||buikolered.com^
+||buildingknife.com^
 ||buildsmodeling.com^
 ||buildyourdata.com^
 ||builfico.de^
@@ -47949,7 +47928,6 @@ chat.bilibili.com
 ||cabbagesemestergeoffrey.com^
 ||cabeles.com^
 ||cabinet-office-go.com^
-||cabioredtop.com^
 ||cabledemand.com^
 ||cablegirls.net^
 ||cabnnr.com^
@@ -48032,7 +48010,6 @@ chat.bilibili.com
 ||camplace.fr^
 ||campus-forprof.fr^
 ||camschat.net^
-||camsmotes.com^
 ||camsoda.com^
 ||camsoda1.com^
 ||camstaterep.com^
@@ -48055,7 +48032,6 @@ chat.bilibili.com
 ||cannonjudo.com^
 ||cannontwin.com^
 ||canoevaguely.com^
-||canonprintersupport247.com^
 ||canopylabs.com^
 ||canramble.com^
 ||canser8.top^
@@ -48098,7 +48074,6 @@ chat.bilibili.com
 ||cardermimeos.com^
 ||cardgamespidersolitaire.com^
 ||cardiwersg.com^
-||carefour.app^
 ||carefuldolls.com^
 ||carelesshat.com^
 ||caressleazy.com^
@@ -48118,12 +48093,10 @@ chat.bilibili.com
 ||carrellsubdit.com^
 ||carrfefour.fr^
 ||carriagecan.com^
-||carrot-entertainment.com^
 ||carrysincubi.com^
 ||cars-to-buy.com^
 ||carscannon.com^
 ||cartedneogene.com^
-||cartellowine.com^
 ||cartining-specute.com^
 ||cartoonnetworkarabic.fr^
 ||cartoonpornguide.com^
@@ -48318,6 +48291,7 @@ chat.bilibili.com
 ||cdsbnrs.com^
 ||cdtbox.rocks^
 ||cdu.cc^
+||cduamwclb.com^
 ||cdwehdnnprdntse.com^
 ||cdxyb.cn^
 ||cdypsqghdgrw.com^
@@ -48350,6 +48324,7 @@ chat.bilibili.com
 ||celezma.net^
 ||celgov.com^
 ||celine-japan.com^
+||celloquidcapital.com^
 ||celltick.com^
 ||cellu-clean.fr^
 ||celtra.com^
@@ -48367,7 +48342,6 @@ chat.bilibili.com
 ||centerpointmedia.com^
 ||centersession.com^
 ||centertrk.com^
-||centomor.xyz^
 ||centralheat.me^
 ||centraltag.com^
 ||ceodk.xyz^
@@ -48470,6 +48444,7 @@ chat.bilibili.com
 ||charmflirt.com^
 ||charmingcough.com^
 ||charmingplate.com^
+||charrewuzzer.com^
 ||chart.dk^
 ||chartaca.com^
 ||chartbeat.com^
@@ -48631,7 +48606,6 @@ chat.bilibili.com
 ||chpok.site^
 ||chrantary-vocking.com^
 ||chrif8kdstie.com^
-||chrisrespectivelynostrils.com^
 ||christianbusinessadvertising.com^
 ||christiantop1000.com^
 ||christmalicious.com^
@@ -48809,7 +48783,6 @@ chat.bilibili.com
 ||cleanchain.net^
 ||cleanersoft.com^
 ||cleaningformac.com^
-||cleanit.asia^
 ||cleanmediaads.com^
 ||cleanmobilephone.com^
 ||cleanmypc.com^
@@ -48853,7 +48826,6 @@ chat.bilibili.com
 ||clickagents.com^
 ||clickagy.com^
 ||clickaider.com^
-||clickaine.com^
 ||clickalyzer.com^
 ||clickanalytics208.com^
 ||clickandbuy.review^
@@ -48961,6 +48933,7 @@ chat.bilibili.com
 ||clixcount.com^
 ||clixgalore.com^
 ||clixpy.com^
+||clixsense.com^
 ||clixtk.com^
 ||clixtrac.com^
 ||clixwells.com^
@@ -49017,7 +48990,7 @@ chat.bilibili.com
 ||cloudimagesb.com^
 ||cloudioo.net^
 ||cloudiq.com^
-||cloudlessverticallyrender.com^
+||cloudlessjimarmpit.com^
 ||cloudlogobox.com^
 ||cloudmade.com^
 ||cloudmedia.gdn^
@@ -49110,6 +49083,7 @@ chat.bilibili.com
 ||co5n3nerm6arapo7ny.com^
 ||coachquartz.com^
 ||coadymarine.com^
+||coarooro.net^
 ||coastlineahead.com^
 ||coastlinebravediffers.com^
 ||coatfood.com^
@@ -49135,6 +49109,7 @@ chat.bilibili.com
 ||codedexchange.com^
 ||codedpigzed.cam^
 ||codeexplain.com^
+||codefund.io^
 ||codegeass.site^
 ||codegur.com^
 ||codelogic.fr^
@@ -49318,6 +49293,7 @@ chat.bilibili.com
 ||comporthunder.uno^
 ||compositefarming.com^
 ||comprabanner.it^
+||compromiseadaptedspecialty.com^
 ||compteur.cc^
 ||compteur.com^
 ||compteur-gratuit.org^
@@ -49415,7 +49391,6 @@ chat.bilibili.com
 ||consulturias.com^
 ||consumeralternatives.org^
 ||consumerproductsusa.com^
-||contactaolhelp.com^
 ||contacting-customer.com^
 ||contactmonkey.com^
 ||contactos-gay.com^
@@ -49440,6 +49415,7 @@ chat.bilibili.com
 ||contentexchange.me^
 ||contentinsights.com^
 ||contentsfeed.com^
+||contentshamper.com^
 ||contentspread.net^
 ||contentsquare.net^
 ||contentstream.pl^
@@ -49536,7 +49512,6 @@ chat.bilibili.com
 ||copperseafoodearphones.com^
 ||copycarpenter.com^
 ||copyhomework.com^
-||copypoison.com^
 ||copyrightaccesscontrols.com^
 ||copyrightcontent.org^
 ||copytitle.com^
@@ -49576,6 +49551,7 @@ chat.bilibili.com
 ||cosmos-metatrade.com^
 ||cosmos01.com^
 ||cosmosjackson.com^
+||cosseterrits.com^
 ||cost1action.com^
 ||costaction.com^
 ||costco-adbutler.com^
@@ -49671,7 +49647,6 @@ chat.bilibili.com
 ||cpc.cc^
 ||cpcmanager.com^
 ||cpcmart.com^
-||cpdsalerno.com^
 ||cped7.xyz^
 ||cpggov.com^
 ||cpgo.xyz^
@@ -49721,6 +49696,7 @@ chat.bilibili.com
 ||cqqwe2pea.xyz^
 ||cquotient.com^
 ||cqwajn.com^
+||cqxtivmquu.com^
 ||cqzspt888.cn^
 ||cr-brands.net^
 ||cr-nielsen.com^
@@ -49882,7 +49858,6 @@ chat.bilibili.com
 ||csaimall.com^
 ||csbew.com^
 ||cschyogh.com^
-||csco.my^
 ||csdata1.com^
 ||csectsassess.com^
 ||csekct.xyz^
@@ -49939,12 +49914,12 @@ chat.bilibili.com
 ||cuebiq.com^
 ||cueistratting.com^
 ||cuelinks.com^
-||cuenta-segura.pw^
 ||cuentasstreaming.com^
 ||cuesingle.com^
 ||cuev.in^
 ||cugiphepty.com^
 ||cuioxbqi.com^
+||culass.com^
 ||culiglsm.space^
 ||cullligan.fr^
 ||cultergoy.com^
@@ -49992,7 +49967,6 @@ chat.bilibili.com
 ||customapi.top^
 ||customer-security.online^
 ||customerconversio.com^
-||customeronline.top^
 ||customersupporthelp.com^
 ||cuteasiangirl.net^
 ||cutebaitsforum.cc^
@@ -50508,7 +50482,6 @@ chat.bilibili.com
 ||demetnagement.com^
 ||demirelmarka.com^
 ||demizhe.com^
-||demonware.online^
 ||demureanklesecond.com^
 ||denakop.com^
 ||denarocepa.com^
@@ -50590,7 +50563,6 @@ chat.bilibili.com
 ||devata.icu^
 ||devatics.io^
 ||develenv.com^
-||developerfriendsdisappoint.com^
 ||developerity.com^
 ||developermedia.com^
 ||developmentgoat.com^
@@ -50740,7 +50712,6 @@ chat.bilibili.com
 ||digxmr.com^
 ||digyniahuffle.com^
 ||diiodidasmear.com^
-||dikkoplida.cam^
 ||dikmnhyxz.xyz^
 ||dilatesdubbers.com^
 ||dilidd.com^
@@ -50826,6 +50797,7 @@ chat.bilibili.com
 ||disgustinghindsight.com^
 ||dishesha.net^
 ||disingenuousdismissed.com^
+||disingenuousfortunately.com^
 ||disingenuoussuccessfulformal.com^
 ||dislovebroody.com^
 ||dismantlepenantiterrorist.com^
@@ -50901,7 +50873,6 @@ chat.bilibili.com
 ||dkqapp.cn^
 ||dkrbus.com^
 ||dktoo.site^
-||dl-protect.net^
 ||dl-rms.com^
 ||dl520.fun^
 ||dl66d.com^
@@ -50962,7 +50933,6 @@ chat.bilibili.com
 ||do-not-tracker.org^
 ||do69ifsly4.me^
 ||doaipomer.com^
-||doanlienhiep.vn^
 ||doathair.com^
 ||dobbenetes.com^
 ||dobre-programy.pl^
@@ -50981,6 +50951,7 @@ chat.bilibili.com
 ||doctor-groups.com^
 ||doctorpost.net^
 ||doctorschoicenursing.com^
+||dodayobeitand.xyz^
 ||dodostats.com^
 ||doem.jp^
 ||doerscharre.com^
@@ -51089,11 +51060,9 @@ chat.bilibili.com
 ||dothaish.net^
 ||dotmailer-surveys.com^
 ||dotmetrics.net^
-||dotobjection.com^
 ||dotomi.com^
 ||dottierspeeds.website^
 ||dotzup.com^
-||doubleadserve.com^
 ||doublechen.online^
 ||doubleclick.com^
 ||doubleclick.de^
@@ -51138,7 +51107,6 @@ chat.bilibili.com
 ||downloadrff.fun^
 ||downloads2020.com^
 ||downloads2021.com^
-||downloadsfreefile.com^
 ||downloadwarez.org^
 ||downloadxfasterx1.com^
 ||downloadyt.com^
@@ -51227,6 +51195,7 @@ chat.bilibili.com
 ||drkness.net^
 ||drm-server-booking.com^
 ||dronml.ml^
+||droomsoft.com^
 ||dropbox-download.com^
 ||dropbox-download-eu.com^
 ||dropbox-en.com^
@@ -51245,6 +51214,7 @@ chat.bilibili.com
 ||drumcash.com^
 ||drunkenstepfather.com^
 ||drupalupdates.tk^
+||drvr.cc^
 ||drydrum.com^
 ||ds3.biz^
 ||ds6boqkct.com^
@@ -51272,6 +51242,7 @@ chat.bilibili.com
 ||dspultra.com^
 ||dspunion.com^
 ||dspx.tv^
+||dstbunkfw.xyz^
 ||dstillery.com^
 ||dsu79o.cn^
 ||dsw44z5igdmmbo.com^
@@ -51453,7 +51424,6 @@ chat.bilibili.com
 ||eag1eag1e.com^
 ||eagazi.com^
 ||eagle-insight.com^
-||eaglemarinevalve.com^
 ||eaica.xyz^
 ||ealdi.xyz^
 ||eallywasnothyca.info^
@@ -51779,7 +51749,6 @@ chat.bilibili.com
 ||elitistrawirresistible.com^
 ||elixmedia.com^
 ||ellicecaesura.com^
-||elongives.space^
 ||elonreptiloid.com^
 ||elooksjustli.one^
 ||eloqua.com^
@@ -51852,6 +51821,7 @@ chat.bilibili.com
 ||enatimedia.com^
 ||enbclpbyi.com^
 ||enbiberoomie.com^
+||encampmentgeologydetective.com^
 ||enchantedjudge.com^
 ||enchantedtop.com^
 ||enclforlane.com^
@@ -51926,6 +51896,7 @@ chat.bilibili.com
 ||entsconsesi.top^
 ||entuduc.fr^
 ||enuresdairi.com^
+||envato.market^
 ||enviabledilate.com^
 ||enviouspipe.com^
 ||enviousshape.com^
@@ -51934,6 +51905,8 @@ chat.bilibili.com
 ||environmentalchangingnative.com^
 ||environmentalist.com^
 ||envkrev.cn^
+||enzajjbrrbbvw.top^
+||enzav.xyz^
 ||eoapxl.com^
 ||eodufofs.com^
 ||eofst.com^
@@ -51966,7 +51939,6 @@ chat.bilibili.com
 ||eppmedia.si^
 ||eproof.com^
 ||eps-analyzer.de^
-||epsonprintersupport247.com^
 ||eptougry.net^
 ||eqads.com^
 ||eqbyc.com^
@@ -52070,7 +52042,6 @@ chat.bilibili.com
 ||essaypresidential.com^
 ||essereessenza.it^
 ||estadisticasgratis.com^
-||estadisticasgratis.es^
 ||estara.com^
 ||estat.com^
 ||estrack.net^
@@ -52164,6 +52135,7 @@ chat.bilibili.com
 ||eurooknamsk.ru^
 ||europagerank.com^
 ||europcareer.com^
+||europe-discounts.com^
 ||europr1.fr^
 ||europuls.eu^
 ||europuls.net^
@@ -52186,6 +52158,7 @@ chat.bilibili.com
 ||evanescentedge.com^
 ||evaporator558.site^
 ||evasiondemandedlearning.com^
+||evasionseptemberbee.com^
 ||evbb.xyz^
 ||eve-ry-do.com^
 ||eveald.com^
@@ -52247,6 +52220,7 @@ chat.bilibili.com
 ||everywheresavourblouse.com^
 ||evesaddictin.com^
 ||evidencecleanergold.com^
+||evidhjksdtgyxrh.xyz^
 ||evidon.com^
 ||eviebot.fr^
 ||evil69.com^
@@ -52258,7 +52232,6 @@ chat.bilibili.com
 ||evogarage.com^
 ||evokeowedangers.com^
 ||evolok.net^
-||evorra.net^
 ||evqhubkfh8.com^
 ||evroteplo.ru^
 ||evunmc.xyz^
@@ -52294,8 +52267,8 @@ chat.bilibili.com
 ||exasperationplotincarnate.com^
 ||excelientdates.net^
 ||excellent-vids.online^
+||excellentvids.online^
 ||excellernod.xyz^
-||exceltechguru.com^
 ||excfig.xyz^
 ||exchange-it.com^
 ||exchangead.com^
@@ -52321,7 +52294,6 @@ chat.bilibili.com
 ||exemplary-range.pro^
 ||exepdia.fr^
 ||exertheadlight.com^
-||exeseria.com^
 ||exhalejuxtapose.com^
 ||exhibenfrance.com^
 ||exhibits4court.com^
@@ -52397,6 +52369,7 @@ chat.bilibili.com
 ||extend.tv^
 ||extensions-media.com^
 ||extentfillet.com^
+||exterminatestreet.com^
 ||extole.com^
 ||extole.io^
 ||extra-softs.com^
@@ -52410,6 +52383,7 @@ chat.bilibili.com
 ||extremereach.com^
 ||extremereach.io^
 ||extremetracking.com^
+||extsoft.app^
 ||extstat.com^
 ||extstat.info^
 ||extyoneplus-3.com^
@@ -52442,7 +52416,6 @@ chat.bilibili.com
 ||ezexfzek.com^
 ||ezf48.xyz^
 ||ezfxpuo.cn^
-||ezgaragedoorlawrencema.com^
 ||ezjhhapcoe.com^
 ||ezl.com^
 ||ezlgszdb.icu^
@@ -52487,23 +52460,14 @@ chat.bilibili.com
 ||fabric.io^
 ||fabricww.com^
 ||fabryka-nagrod.com^
-||fabyboutique.com^
-||fac3book.com^
 ||facai1588.xyz^
-||facbeook.com^
-||faceb00k.com^
-||facebaak.com^
 ||facebarclarty.com^
 ||facebbook.fr^
-||facebiik.com^
-||faceblok.com^
-||faceboko.com^
 ||facebooc.jp^
 ||facebook.cm^
 ||facebookj.fr^
 ||facebookloginsignin.com^
 ||facebookunblocking.com^
-||facebppk.com^
 ||facemail.com^
 ||facesnotebook.com^
 ||facevideosc.com^
@@ -52519,7 +52483,6 @@ chat.bilibili.com
 ||fadedprofit.com^
 ||fadedsnow.com^
 ||fadegranted.com^
-||fademployedtransactions.com^
 ||fadewaves.com^
 ||fadsipz.com^
 ||fadskis.com^
@@ -52530,7 +52493,6 @@ chat.bilibili.com
 ||faggrim.com^
 ||fagywalu.pro^
 ||faibl.org^
-||faicebook.com^
 ||faigroas.net^
 ||failuremaistry.com^
 ||fairdatacenter.de^
@@ -52547,8 +52509,8 @@ chat.bilibili.com
 ||fairu-schnellvpn.com^
 ||fairu-schnellvpn.xyz^
 ||fairymeeting.com^
-||faizabeauty.xyz^
 ||fajnefanty.com^
+||fajstasfubit.com^
 ||fakeerupriser.com^
 ||fakesorange.com^
 ||falal.cn^
@@ -52634,7 +52596,6 @@ chat.bilibili.com
 ||fashou.wang^
 ||faslhd.com^
 ||fasola.fr^
-||faspox.com^
 ||fast-redirecting.com^
 ||fast-travel.org^
 ||fast416.info^
@@ -52691,7 +52652,6 @@ chat.bilibili.com
 ||faw7.top^
 ||fawu.asia^
 ||faxifa.xyz^
-||faxpdfcloud.com^
 ||faymobi.com^
 ||fb-accounts.com^
 ||fbcdn2.com^
@@ -52762,7 +52722,6 @@ chat.bilibili.com
 ||feedmob.com^
 ||feedperfect.com^
 ||feedyourheadmag.com^
-||feegozoa.com^
 ||feehhfilm.life^
 ||feelfereetoc.top^
 ||feelmyfile.info^
@@ -52789,7 +52748,6 @@ chat.bilibili.com
 ||fejezet.com^
 ||fejla.com^
 ||fellowsargean.com^
-||feltmanarietid.com^
 ||felzfr.xyz^
 ||femald.com^
 ||female-good.work^
@@ -52826,7 +52784,6 @@ chat.bilibili.com
 ||fetishpartner.com^
 ||fetnet-tw.com^
 ||feuingcrche.com^
-||feylibertad.org^
 ||fezzanminyans.com^
 ||ff-dai.net^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
@@ -52834,6 +52791,7 @@ chat.bilibili.com
 ||ffdcpvv.cn^
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||ffesm.fr^
+||ffffff0000ff.com^
 ||ffflxue.cn^
 ||ffinwwfpqi.gq^
 ||ffjk.space^
@@ -52996,6 +52954,7 @@ chat.bilibili.com
 ||fjnsnt.xyz^
 ||fjrfjrsitenchdnfjr.org^
 ||fjrkn.com^
+||fjsytjs.cn^
 ||fjttbkoxer.xyz^
 ||fjxyo.com^
 ||fjzimaoqu.cn^
@@ -53141,6 +53100,7 @@ chat.bilibili.com
 ||fmnetwork.nl^
 ||fmpub.net^
 ||fmsads.com^
+||fmxemwxkuefncv.com^
 ||fmzcdvx.cn^
 ||fn-pz.com^
 ||fn9u.fun^
@@ -53226,7 +53186,6 @@ chat.bilibili.com
 ||forgoodplay.com^
 ||forjoiyvids.online^
 ||forjoiyvids.space^
-||forjoyvidspics.online^
 ||forkcdn.com^
 ||forkedearth.pro^
 ||forlumineoner.com^
@@ -53429,7 +53388,6 @@ chat.bilibili.com
 ||freestats.com^
 ||freestats.net^
 ||freestats.org^
-||freestats.tk^
 ||freestats.tv^
 ||freestats.ws^
 ||freetracker.biz^
@@ -53530,7 +53488,6 @@ chat.bilibili.com
 ||ft-flower.com^
 ||ft-sou.com^
 ||ft8e.top^
-||ftacebook.com^
 ||ftanya.ltd^
 ||ftblltrck.com^
 ||ftbpro.com^
@@ -53552,7 +53509,6 @@ chat.bilibili.com
 ||ftwpcn.com^
 ||ftzivuesohvebj.ru^
 ||fublue.com^
-||fucebook.com^
 ||fucgov.tv^
 ||fuchsinthough.website^
 ||fuckmebook.com^
@@ -53602,6 +53558,7 @@ chat.bilibili.com
 ||fundsbe.com^
 ||funintheuk.com^
 ||funklicks.com^
+||funkydeplane.com^
 ||funletters.net^
 ||funnelchair.com^
 ||funneld.com^
@@ -53629,7 +53586,6 @@ chat.bilibili.com
 ||furstraitsbrowse.com^
 ||fuse-cloud.com^
 ||fusedeck.net^
-||fusenz.xyz^
 ||fuseplatform.net^
 ||fusestats.com^
 ||fusion-roa.com^
@@ -53668,7 +53624,6 @@ chat.bilibili.com
 ||fwcdn3.com^
 ||fwdservice.com^
 ||fweia.xyz^
-||fwitter.com^
 ||fwpixel.com^
 ||fwrpq.cyou^
 ||fwtfljoquf.com^
@@ -53703,7 +53658,6 @@ chat.bilibili.com
 ||fz2c.top^
 ||fz8g.top^
 ||fz988hnbaha.com^
-||fzcebook.com^
 ||fzchpos.com^
 ||fzckwij.cn^
 ||fzcsd33.com^
@@ -53838,7 +53792,6 @@ chat.bilibili.com
 ||gamletaarnhuset.no^
 ||gammae.com^
 ||gammamaximum.com^
-||gammamkt.com^
 ||gammaplatform.com^
 ||gamonic.fr^
 ||ganalytics.live^
@@ -53868,15 +53821,12 @@ chat.bilibili.com
 ||gardoult.com^
 ||gargocmy.com^
 ||gargoowi.com^
-||garminsmapupdate.com^
-||garminupdatenow.online^
 ||garretram.com^
 ||garss.jp^
 ||garss.tv^
 ||garudaairlines.com^
 ||gaseousarmy.pro^
 ||gasolina.ml^
-||gastingitea.com^
 ||gate-1-spiritual.com^
 ||gate-of-happy.com^
 ||gate-way110.com^
@@ -53891,6 +53841,7 @@ chat.bilibili.com
 ||gaug.es^
 ||gaupingjaguar.com^
 ||gauqeo.xyz^
+||gautaree.com^
 ||gautmont.fr^
 ||gauvaiho.net^
 ||gavvia.com^
@@ -53926,7 +53877,6 @@ chat.bilibili.com
 ||gdicoou.com^
 ||gdjejefdqthxmy.xyz^
 ||gdmdigital.com^
-||gdoogle.com^
 ||gdpr.es^
 ||gds786bomyc.com^
 ||gdtimg.com^
@@ -53974,7 +53924,6 @@ chat.bilibili.com
 ||geniuslinkcdn.com^
 ||gentags.com^
 ||gentags.net^
-||gentexlog28.xyz^
 ||gentle-general.jp^
 ||gentlementoplessrest.com^
 ||genuinelybruises.com^
@@ -54100,7 +54049,6 @@ chat.bilibili.com
 ||gfhkcfdqaongo.com^
 ||gfkhapiuxjkspbq.xyz^
 ||gflcsiot.com^
-||gfmail.com^
 ||gfnormal00aa.com^
 ||gfnormal00ah.com^
 ||gfnormal00aj.com^
@@ -54127,7 +54075,6 @@ chat.bilibili.com
 ||gghacks.com^
 ||ggjcswb4rln4.com^
 ||gglx.me^
-||ggmail.com^
 ||ggmm777.com^
 ||ggqnre.xyz^
 ||ggrhsx.cn^
@@ -54142,7 +54089,6 @@ chat.bilibili.com
 ||ghost.wang^
 ||ghostnewz.com^
 ||ghostsinstance.com^
-||ghskazampurdeolibsr.com^
 ||ghsnhjk.cn^
 ||ghwsuoe.cn^
 ||giantwin7.com^
@@ -54154,7 +54100,6 @@ chat.bilibili.com
 ||giftcardchallenge.com^
 ||giftedglue.com^
 ||giftedthumb.com^
-||giftgram.shop^
 ||gifthandymanshortage.com^
 ||gifttopsurvey.top^
 ||gigaonclick.com^
@@ -54164,6 +54109,7 @@ chat.bilibili.com
 ||gihehazfdm.com^
 ||gilcxqgcbebbo.xyz^
 ||gilvision.com^
+||gimme-promo.com^
 ||gimp.es^
 ||gimwcpketr.com^
 ||gindeoedbadas.com^
@@ -54195,10 +54141,8 @@ chat.bilibili.com
 ||gixmo.dk^
 ||gixpoosh.com^
 ||gjigle.com^
-||gjmail.com^
 ||gjmqqq.com^
 ||gjtech.net^
-||gjwos.org^
 ||gkcmei.xyz^
 ||gkiho.xyz^
 ||gkmohklyjyh.com^
@@ -54249,6 +54193,7 @@ chat.bilibili.com
 ||gloaphoo.net^
 ||global-redirect.net^
 ||globaladblocker.com^
+||globalautomobileshop.com^
 ||globalcharge.com^
 ||globaldrugsurvey.fr^
 ||globalismedia.com^
@@ -54273,6 +54218,7 @@ chat.bilibili.com
 ||gloria-divination.*^
 ||gloria-divination.org^
 ||glorialoft.com^
+||glorifyraytreasurer.com^
 ||gloriousbeef.com^
 ||glossom.jp^
 ||glossy-gross.jp^
@@ -54312,17 +54258,6 @@ chat.bilibili.com
 ||gma1.com^
 ||gmad1.xyz^
 ||gmads.net^
-||gmai.com^
-||gmaii.com^
-||gmaijl.com^
-||gmaili.com^
-||gmailk.com^
-||gmaiol.com^
-||gmaip.com^
-||gmajil.com^
-||gmalil.com^
-||gmaol.com^
-||gmaqil.com^
 ||gmasrjx.cn^
 ||gmboxx.com^
 ||gmdtrk.com^
@@ -54335,8 +54270,6 @@ chat.bilibili.com
 ||gmo-searchteria.jp^
 ||gmodmp.jp^
 ||gmossp-sp.jp^
-||gmqail.com^
-||gmsail.com^
 ||gmxvmvptfm.com^
 ||gmyze.com^
 ||gmzdaily.com^
@@ -54385,6 +54318,7 @@ chat.bilibili.com
 ||goadx.com^
 ||goaffmy.com^
 ||goaloozy.xyz^
+||goalperusevicinity.com^
 ||goasdfa.top^
 ||goaserv.com^
 ||goasrv.com^
@@ -54427,7 +54361,6 @@ chat.bilibili.com
 ||gogfhq.xyz^
 ||goggl.com^
 ||goggle.com^
-||gogle.net^
 ||goglel.com^
 ||goglle.com^
 ||gogonews.club^
@@ -54476,7 +54409,6 @@ chat.bilibili.com
 ||goodbookbook.com^
 ||goodcounter.org^
 ||goodday21.top^
-||goodgle.com^
 ||goodkino.biz^
 ||goodluckdog.space^
 ||goodnews-sp.com^
@@ -54508,14 +54440,8 @@ chat.bilibili.com
 ||googlevads-cn.com^
 ||googlevideoads.com^
 ||googlo.co^
-||googlo.com^
-||googloe.com^
-||googlpe.com^
-||googlre.com^
-||googls.com^
 ||googlus.com^
 ||googlwe.com^
-||googpe.com^
 ||goohimom.net^
 ||goojara.in^
 ||goolegames.com^
@@ -54527,11 +54453,9 @@ chat.bilibili.com
 ||gooods4you.com^
 ||goooooooooogle.com^
 ||goopi.cyou^
-||goorle.com^
 ||goosebomb.com^
 ||goosetension.com^
 ||goourl.me^
-||goovgle.com^
 ||gop1.co^
 ||gopcworlds.net^
 ||gopeds.com^
@@ -54622,7 +54546,6 @@ chat.bilibili.com
 ||grachompoa.com^
 ||gradecastlecanadian.com^
 ||graduatewonderentreaty.com^
-||grafthivecrocus.cam^
 ||graftpool.ovh^
 ||graibsah.xyz^
 ||grainsslaughter.com^
@@ -54747,7 +54670,6 @@ chat.bilibili.com
 ||groovyornament.com^
 ||gross-success.com^
 ||grossiste3d.fr^
-||groumaux.net^
 ||groundtruth.com^
 ||groupeauto.fr^
 ||groupian.io^
@@ -54773,7 +54695,6 @@ chat.bilibili.com
 ||grudgewallet.com^
 ||grumpydrawer.com^
 ||grunoaph.net^
-||gruppoemotion.net^
 ||grvmedia.com^
 ||grvspn.com^
 ||grxeyig.xyz^
@@ -54837,7 +54758,6 @@ chat.bilibili.com
 ||guide2poker.com^
 ||guidecent.com^
 ||guidelon.fr^
-||guidonsfeeing.com^
 ||guigankj.cn^
 ||guildofangels.net^
 ||guile.jp^
@@ -54851,6 +54771,7 @@ chat.bilibili.com
 ||gulf-industrial.com^
 ||gulliblecamp.com^
 ||gullibleguitar.com^
+||gullygames.com^
 ||gulsachpyrexia.uno^
 ||gumbolersgthb.com^
 ||gumgo.cn^
@@ -54970,6 +54891,8 @@ chat.bilibili.com
 ||habd.as^
 ||habeglee.net^
 ||habitualhumor.com^
+||habitueflasque.com^
+||habovethecityon.info^
 ||habyc.com^
 ||hacde5.icu^
 ||hacde6.icu^
@@ -55020,7 +54943,6 @@ chat.bilibili.com
 ||handbrake.it^
 ||handcraftedformat.com^
 ||handerfix.com^
-||handkerchiefpersonnel.com^
 ||handleteeth.com^
 ||handlingattic.com^
 ||handsomehose.com^
@@ -55046,6 +54968,7 @@ chat.bilibili.com
 ||hansaisai.top^
 ||hansetwangy.com^
 ||hanulsms.com^
+||hanwdsii.com^
 ||hanyingmall.cn^
 ||hao222.com^
 ||hao549.com^
@@ -55131,13 +55054,11 @@ chat.bilibili.com
 ||haviouseulom.club^
 ||hawkyeye5ssnd.com^
 ||hawsquallgenerate.com^
-||hawthroneapparel.com^
 ||haxbyq.com^
 ||haxd7.top^
 ||haxftj3wy.com^
 ||haxsoft.com^
 ||haymishlytta.com^
-||hazairgo.net^
 ||hb8a.top^
 ||hbagency.it^
 ||hbalx.cn^
@@ -55169,6 +55090,7 @@ chat.bilibili.com
 ||hdbcode.com^
 ||hdbcome.com^
 ||hdmtools.com^
+||hdpdrandpd.xyz^
 ||hdporium.com^
 ||hdscout.com^
 ||hdvideosnet.com^
@@ -55225,7 +55147,6 @@ chat.bilibili.com
 ||hefrpv.xyz^
 ||hegk09a.top^
 ||hegrinhar.com^
-||hegumensemite.com^
 ||heha2cpoe.icu^
 ||hehehe.buzz^
 ||hehekakao.com^
@@ -55318,7 +55239,6 @@ chat.bilibili.com
 ||hexcan.com^
 ||hexinx.com^
 ||hey-do.com^
-||heygamersnort.at^
 ||heygugu.com^
 ||heymatic.com^
 ||heyos.com^
@@ -55370,6 +55290,7 @@ chat.bilibili.com
 ||hhvdds.com^
 ||hhvip86.com^
 ||hhvip87.com^
+||hhvivsbiip.com^
 ||hi-a-so-bi.net^
 ||hi9377.com^
 ||hibaby.ren^
@@ -55607,6 +55528,7 @@ chat.bilibili.com
 ||home-22-time.com^
 ||home4ugoog10you.com^
 ||homebao.me^
+||homecomingrespectedpastime.com^
 ||homedepoy.com^
 ||homeishere.co^
 ||homelycrown.com^
@@ -55634,6 +55556,7 @@ chat.bilibili.com
 ||honnkaku-uranai-gluck.com^
 ||honorablehall.com^
 ||honorableland.com^
+||honourcunninglowest.com^
 ||hontont.com^
 ||hoofexcessively.com^
 ||hoogajee.net^
@@ -55645,7 +55568,6 @@ chat.bilibili.com
 ||hoosgowhandbow.com^
 ||hoowooze.net^
 ||hope-for-shiningday.com^
-||hopefullyapricot.com^
 ||hopghpfa.com^
 ||hopperbanespirits.com^
 ||hopsackmoth.com^
@@ -55740,7 +55662,6 @@ chat.bilibili.com
 ||hpjzpn.xyz^
 ||hpmarzhnny.com^
 ||hppmy.cn^
-||hpprintersupportservice.com^
 ||hppvkbfcuq.com^
 ||hprofits.com^
 ||hptcwtmzuj.com^
@@ -55774,11 +55695,11 @@ chat.bilibili.com
 ||hrrbc.top^
 ||hrtya.com^
 ||hrtye.com^
-||hruwfyovqa.com^
 ||hrzn-nxt.com^
 ||hs-analytics.net^
 ||hs-banner.com^
 ||hs-scripts.com^
+||hsadeg.site^
 ||hsadspixel.net^
 ||hscta.net^
 ||hsdps.cc^
@@ -55878,6 +55799,7 @@ chat.bilibili.com
 ||huluxia.com^
 ||humaffableconsulate.com^
 ||humanclick.com^
+||humanpresence.app^
 ||humanz.com^
 ||humblebenefit.com^
 ||humdrumhat.com^
@@ -55913,10 +55835,12 @@ chat.bilibili.com
 ||huntmad.com^
 ||huodiyun.cn^
 ||huodonghezi.cn^
+||huoju.asia^
 ||huomob.com^
 ||huoxingtan66.com^
 ||hupu-nba.com^
 ||huq.io^
+||huradisbud.com^
 ||hurdlesmuchel.com^
 ||hurlmedia.design^
 ||huronews.com^
@@ -56176,6 +56100,7 @@ chat.bilibili.com
 ||idiafix.com^
 ||idio.co^
 ||idiotproprietary.com^
+||iditolshewn.com^
 ||idkom.com^
 ||idmee.cn^
 ||ido3.com^
@@ -56296,6 +56221,7 @@ chat.bilibili.com
 ||ikunselt.com^
 ||il119.com^
 ||il8r.com^
+||ilaterdeallyig.info^
 ||ilbanner.com^
 ||ildhy.com^
 ||ildopxge.com^
@@ -56464,7 +56390,6 @@ chat.bilibili.com
 ||inconclusiveaction.com^
 ||incorphishor.com^
 ||increaserev.com^
-||increasinglycockroachpolicy.com^
 ||indebtedatrocious.com^
 ||indelicatepokedoes.com^
 ||index.ru^
@@ -56477,6 +56402,7 @@ chat.bilibili.com
 ||indiaonclick.com^
 ||indiaproxydl.org^
 ||indicative.com^
+||indicesvestigetruck.com^
 ||indicia.com^
 ||indieclick.com^
 ||indigitall.com^
@@ -56485,6 +56411,7 @@ chat.bilibili.com
 ||individuad.net^
 ||indoleads.com^
 ||indolian.com^
+||indonesias.me^
 ||indpolice.com^
 ||induceresistbrotherinlaw.com^
 ||induedabusive.casa^
@@ -56533,7 +56460,6 @@ chat.bilibili.com
 ||informengine.com^
 ||informereng.com^
 ||informeresapp.com^
-||infos-lifestyle.fr^
 ||infosmellleather.com^
 ||infospace.tk^
 ||infospress.com^
@@ -56546,7 +56472,6 @@ chat.bilibili.com
 ||infringementseason.com^
 ||ingage.tech^
 ||ingedus.fr^
-||ingemarsa.cl^
 ||ingforanythinga.com^
 ||ingorob.com^
 ||ingramony.com^
@@ -56666,6 +56591,7 @@ chat.bilibili.com
 ||instreet.cn^
 ||instrumentsponge.com^
 ||instui201.info^
+||insumber.com^
 ||insurads.com^
 ||insurancehealth.info^
 ||insurewaltz.com^
@@ -56762,7 +56688,6 @@ chat.bilibili.com
 ||inveno.com^
 ||inventionpassenger.com^
 ||investbooking.de^
-||investfactapi.cloud^
 ||investigatepin.com^
 ||investing-bank.com^
 ||investing-fund.com^
@@ -56875,7 +56800,6 @@ chat.bilibili.com
 ||irie3.net^
 ||iris.tv^
 ||iris-808.com^
-||irisaffectioneducate.com^
 ||irkantyip.com^
 ||irkerecue.com^
 ||ironcladtrouble.com^
@@ -56898,7 +56822,6 @@ chat.bilibili.com
 ||irygym.xyz^
 ||is.sh^
 ||is686.com^
-||isabellepotel.fr^
 ||isancio.top^
 ||isawthenews.com^
 ||isbnrs.com^
@@ -56942,10 +56865,12 @@ chat.bilibili.com
 ||it5.cc^
 ||it5s.top^
 ||it760.com^
+||itaisabirs.com^
 ||italianadirectory.com^
 ||italianforesee.com^
 ||italianlottery.com^
 ||italy-lottery.com^
+||italyfeedingclimax.com^
 ||itaoxiaoshuo.com^
 ||itbeginner.fr^
 ||itbwq.xyz^
@@ -56975,6 +56900,7 @@ chat.bilibili.com
 ||itponytaa.com^
 ||itpx.xyz^
 ||itrackerpro.com^
+||itrevolution.in^
 ||itrustzone.site^
 ||itrww.xyz^
 ||itrwx.xyz^
@@ -57099,7 +57025,6 @@ chat.bilibili.com
 ||jagqrhvcvoqjw.com^
 ||jailbaitclub.top^
 ||jailbaits.top^
-||jaivecreditrepair.com^
 ||jaizouji.com^
 ||jakescribble.com^
 ||jakeycorkage.digital^
@@ -57114,8 +57039,8 @@ chat.bilibili.com
 ||jamokeuntress.com^
 ||jampamn.online^
 ||jampp.com^
+||jams.wiki^
 ||jamstech.store^
-||janakagroup.lk^
 ||jandaqwe.com^
 ||janeaustenjoy.com^
 ||januarysundayurgently.com^
@@ -57152,6 +57077,7 @@ chat.bilibili.com
 ||javgg.eu^
 ||javmilk.org^
 ||jawholeminable.com^
+||jawsspecific.com^
 ||jaxnykbpev.com^
 ||jazze.hk^
 ||jazzmoist.com^
@@ -57187,7 +57113,6 @@ chat.bilibili.com
 ||jcwhintey.com^
 ||jcwhitey.com^
 ||jczhjpollvc.com^
-||jd3j7g5z1fqs.com^
 ||jd5c.top^
 ||jd6pq31f.site^
 ||jdaa22.top^
@@ -57380,6 +57305,7 @@ chat.bilibili.com
 ||jkk7777.xyz^
 ||jkkfnkxzf.com^
 ||jknmsdpo.xyz^
+||jkthlsrdhni.com^
 ||jkvbiry.cn^
 ||jkxty.mobi^
 ||jkxvvv.xyz^
@@ -57471,6 +57397,7 @@ chat.bilibili.com
 ||josip-stadler.org^
 ||josipr.com^
 ||jotpoolwarren.com^
+||joupteni.xyz^
 ||jouteetu.net^
 ||jouzoapi.com^
 ||joyog.com^
@@ -57515,7 +57442,6 @@ chat.bilibili.com
 ||jqwww.download^
 ||jqxrrygqnagn.ru^
 ||jqyde7msbro2.com^
-||jr-software-web.net^
 ||jraqzmbwkvlwl.top^
 ||jrdkc.com^
 ||jrfa.net^
@@ -57636,7 +57562,6 @@ chat.bilibili.com
 ||juntfemoral.com^
 ||juntre.com^
 ||jupabwmocgqxeo.com^
-||jupitermaturin.com^
 ||juringupstage.com^
 ||jurty.ml^
 ||jurtym.cf^
@@ -57692,6 +57617,7 @@ chat.bilibili.com
 ||jwronx.xyz^
 ||jwujvjo.cn^
 ||jwwhsqz.ru^
+||jwydulaplhmo.com^
 ||jx1999.com^
 ||jxal.net^
 ||jxcrnwc.xyz^
@@ -57732,7 +57658,6 @@ chat.bilibili.com
 ||k34jj.xyz^
 ||k3gy2.xyz^
 ||k42kw.top^
-||k4umr0wuc.com^
 ||k50.ru^
 ||k5a.io^
 ||k5market.com^
@@ -57756,6 +57681,7 @@ chat.bilibili.com
 ||kagdf.com^
 ||kagiti.club^
 ||kaharmonie.nl^
+||kahgjjd.com^
 ||kahimeyuki.jp^
 ||kaicaica.com^
 ||kaidee.info^
@@ -57944,6 +57870,7 @@ chat.bilibili.com
 ||kgacp.cyou^
 ||kgcyvd.com^
 ||kgdvs9ov3l2aasw4nuts.com^
+||kgeesh.site^
 ||kgelugaz.com^
 ||kgeshe.site^
 ||kgfjrb711.com^
@@ -57974,7 +57901,6 @@ chat.bilibili.com
 ||kidsinsandbox.info^
 ||kidslinecover.com^
 ||kieden.com^
-||kiengiang24h.com^
 ||kifyeldd.top^
 ||kihudevo.pro^
 ||kihwmtvzvi.com^
@@ -58036,7 +57962,6 @@ chat.bilibili.com
 ||kitbit.net^
 ||kitchenmagic.fr^
 ||kitcode.net^
-||kitesconsulting.us^
 ||kitesquirrel.com^
 ||kithudru.xyz^
 ||kittygfs.cc^
@@ -58074,6 +57999,7 @@ chat.bilibili.com
 ||kkkqo.cn^
 ||kkmacsqsbf.info^
 ||kkmbbvz.xyz^
+||kkyqrxqd.com^
 ||kl87n.xyz^
 ||klamm-counter.de^
 ||klarnaservices.com^
@@ -58088,7 +58014,6 @@ chat.bilibili.com
 ||klickly.com^
 ||klikasz-i-masz.com^
 ||klikbonus.com^
-||klikmapan.id^
 ||kliks.nl^
 ||kliksaya.com^
 ||klinikmrc.com^
@@ -58111,7 +58036,6 @@ chat.bilibili.com
 ||kmgfjc.cn^
 ||kmindex.ru^
 ||kmjbwejnr.xyz^
-||kmkixuha.com^
 ||kmlxlkz.cn^
 ||kmpjrjz.cn^
 ||kmvbre.com^
@@ -58360,8 +58284,6 @@ chat.bilibili.com
 ||kwistal.nl^
 ||kwivb.cn^
 ||kwogldd.top^
-||kwrn.eu^
-||kws-santander-es.org^
 ||kwtnhdrmbx.com^
 ||kwyuivlaychxe.com^
 ||kxewpz.com^
@@ -58462,7 +58384,6 @@ chat.bilibili.com
 ||laimroll.ru^
 ||lainaumi.com^
 ||lajeshuru.pro^
-||lajhfyqusf.com^
 ||lajna.fr^
 ||lakequincy.com^
 ||lakfbvoskxlc.com^
@@ -58501,6 +58422,7 @@ chat.bilibili.com
 ||lanopoon.net^
 ||lanqbzawvmeb.top^
 ||lantodomirus.com^
+||lanver.fun^
 ||laolao8.top^
 ||lapblra5do4j7rfit7e.com^
 ||laphoceen.fr^
@@ -58557,7 +58479,6 @@ chat.bilibili.com
 ||lavacheat.com^
 ||lavageethion.com^
 ||lavanetwork.net^
-||lavazemforpinaa.com^
 ||laversleopold.guru^
 ||lavishnessoverboard.com^
 ||lavoixedunord.fr^
@@ -58580,7 +58501,6 @@ chat.bilibili.com
 ||lbouyguestelecom.fr^
 ||lbprjdi.cn^
 ||lbrtry.com^
-||lbwjqrtxeeriap.com^
 ||lby2kd27c.com^
 ||lbzx.xyz^
 ||lc-cn-n1-shared.com^
@@ -58694,6 +58614,7 @@ chat.bilibili.com
 ||legozu.com^
 ||legpullbetorn.com^
 ||legrando.fr^
+||legreeft.xyz^
 ||lehephubu.com^
 ||lehvxwciysoac.com^
 ||leiersuqd.com^
@@ -58759,7 +58680,6 @@ chat.bilibili.com
 ||lesmonde.fr^
 ||lesrivesdechambesy.ch^
 ||lessbuttons.com^
-||let4pakistan.com^
 ||letaikay.net^
 ||letakgrab.com^
 ||letao.com^
@@ -58826,6 +58746,7 @@ chat.bilibili.com
 ||lhzbdvm.com^
 ||li-neeee.net^
 ||liadm.com^
+||liambahaloed.com^
 ||lianfu.shop^
 ||lianfuhuang.cn^
 ||liangao.com^
@@ -59024,7 +58945,6 @@ chat.bilibili.com
 ||liteappmagazin.com^
 ||litec-fr.com^
 ||litix.io^
-||litocen.com^
 ||littlecdn.com^
 ||littlecutecats.com^
 ||littlecutedogs.com^
@@ -59145,7 +59065,6 @@ chat.bilibili.com
 ||lmmaoo.com^
 ||lmoox5.net^
 ||lmp3.org^
-||lmt20.com^
 ||lmx7.com^
 ||lmxzlb.xyz^
 ||lnaevr.fun^
@@ -59256,6 +59175,7 @@ chat.bilibili.com
 ||lookinews.com^
 ||lookit.cz^
 ||lookmy.info^
+||lookruler.com^
 ||looktt.xyz^
 ||lookujie.net^
 ||lookvision.info^
@@ -59269,14 +59189,12 @@ chat.bilibili.com
 ||loopoohy.com^
 ||loopybatl.site^
 ||looscreech.com^
-||looseloaf.com^
 ||lootynews.com^
 ||looyu.com^
 ||lopespublicidade.com^
 ||lopley.com^
 ||lopostone.com^
 ||lopqrx.xyz^
-||lora-lutsk.site^
 ||lorealis.vip^
 ||lorenop.icu^
 ||lorenzourban.com^
@@ -59297,7 +59215,6 @@ chat.bilibili.com
 ||lotsooms.com^
 ||lottoga.com^
 ||lotuseed.com^
-||loucegle.net^
 ||louchaug.com^
 ||louchees.net^
 ||loudlunch.com^
@@ -59307,7 +59224,6 @@ chat.bilibili.com
 ||louloapi.com^
 ||loulouly.net^
 ||loupan99.com^
-||lousedsomal.com^
 ||lousyfastened.com^
 ||louxoxo.com^
 ||love-fit.jp^
@@ -59418,6 +59334,7 @@ chat.bilibili.com
 ||lucidmedia.com^
 ||luck-is-home.com^
 ||lucker.co^
+||luckilyewe.com^
 ||lucky-day-uk.com^
 ||lucky4wins.club^
 ||luckyads.pro^
@@ -59429,7 +59346,6 @@ chat.bilibili.com
 ||luckypapa.xyz^
 ||luckypushh.com^
 ||luckysearch123.com^
-||luckytradeone.com^
 ||luckyuranai-gluck.com^
 ||luckywinner-web1.com^
 ||luddismwebworn.life^
@@ -59610,11 +59526,11 @@ chat.bilibili.com
 ||machieved.com^
 ||machimatch.jp^
 ||machineryvegetable.com^
-||machogodynamis.com^
 ||mackeeper.com^
 ||macleaner.space^
 ||macpurifier.com^
 ||madadsmedia.com^
+||madchemical.pro^
 ||madcpms.com^
 ||maddeningpowder.com^
 ||madehimn.xyz^
@@ -59690,7 +59606,6 @@ chat.bilibili.com
 ||maihehd.com^
 ||maikiki.com^
 ||mail-en-marche.fr^
-||mail-links3.info^
 ||mailboxmeeting.com^
 ||mailerrobands.website^
 ||mailieungka.com^
@@ -59790,7 +59705,6 @@ chat.bilibili.com
 ||maoqxyl.xyz^
 ||maper.info^
 ||maphuahin.com^
-||mapinfosolutions.com^
 ||maploco.com^
 ||mapmyuser.com^
 ||mappyt.fr^
@@ -59810,6 +59724,7 @@ chat.bilibili.com
 ||marchadvertisingnetwork9.com^
 ||marcycoin.org^
 ||marepuffy.com^
+||mareswimming.com^
 ||marfeelcache.com^
 ||margaretanddavid.com^
 ||marie-gerardmer.fr^
@@ -59857,7 +59772,6 @@ chat.bilibili.com
 ||martinsmith.nl^
 ||martyrcontrol.com^
 ||marvelrespectableinset.com^
-||marwatsllc.com^
 ||masakeku.com^
 ||masar-alulaedu.com^
 ||masaxe.xyz^
@@ -59870,7 +59784,6 @@ chat.bilibili.com
 ||masterbate.pro^
 ||mastermind.com^
 ||masterstats.com^
-||masturbaseinvegas.com^
 ||mataharirama.xyz^
 ||match-1match.jp^
 ||match-mate.jp^
@@ -60031,6 +59944,7 @@ chat.bilibili.com
 ||mdotm.com^
 ||mdqhyxe.cn^
 ||mdqpkdne.xyz^
+||me-ru.jp^
 ||me22se2255.com^
 ||meantscarlet.com^
 ||meapk.com^
@@ -60100,6 +60014,7 @@ chat.bilibili.com
 ||mediascale.de^
 ||mediaseeding.com^
 ||mediasmart.io^
+||mediatebrazenmanufacturer.com^
 ||mediaterre.fr^
 ||mediatext.com^
 ||mediative.ca^
@@ -60149,7 +60064,6 @@ chat.bilibili.com
 ||megadeliveryn.com^
 ||megajoy.com^
 ||megames.vip^
-||megamoneymarket.com^
 ||megancroft.bond^
 ||megapu.sh^
 ||megastats.com^
@@ -60159,7 +60073,6 @@ chat.bilibili.com
 ||megpacokjce.bid^
 ||meguri-eye.net^
 ||meguri-y.net^
-||mehmostars.com^
 ||meidd.cyou^
 ||meidd.xyz^
 ||meihu56.cn^
@@ -60175,6 +60088,7 @@ chat.bilibili.com
 ||mellowads.com^
 ||mellowbike.com^
 ||mellowtin.com^
+||mellsrecta.com^
 ||melodicminute.com^
 ||melongetplume.com^
 ||melredirnxt.top^
@@ -60228,6 +60142,7 @@ chat.bilibili.com
 ||merryholidays.org^
 ||mes-bon-plans.fr^
 ||mesilswwroiu.com^
+||mesoftwares.app^
 ||mesoftwares.vip^
 ||message117.jp^
 ||messagenovice.com^
@@ -60242,7 +60157,6 @@ chat.bilibili.com
 ||metacount.com^
 ||metaffiliation.com^
 ||metalbow.com^
-||metalcarpenteriedalfovo.it^
 ||metalyzer.com^
 ||metamasek.cc^
 ||metamasktoken.cc^
@@ -60263,6 +60177,7 @@ chat.bilibili.com
 ||methuenrestaurantweek.com^
 ||metosk.com^
 ||metrica-yandex.com^
+||metricode.com^
 ||metrics0.com^
 ||metricsdirect.com^
 ||metricskey.com^
@@ -60275,7 +60190,6 @@ chat.bilibili.com
 ||metrx.fr^
 ||metsaubs.net^
 ||mettelindberg.dk^
-||metumpscageful.com^
 ||meuble-bois-massif.fr^
 ||meueeq.xyz^
 ||mewgzllnsp.com^
@@ -60339,6 +60253,7 @@ chat.bilibili.com
 ||miaobeichina.com^
 ||miaomu139.cn^
 ||miaozhen.com^
+||miayarus.com^
 ||micastskangli.com^
 ||micfu.cyou^
 ||michaelinachrysalis.com^
@@ -60352,6 +60267,7 @@ chat.bilibili.com
 ||microad.net^
 ||microad-cn.com^
 ||microadinc.com^
+||microagent.site^
 ||microanalytics.io^
 ||microauth.ru^
 ||microcounter.de^
@@ -60371,6 +60287,7 @@ chat.bilibili.com
 ||midas-i.com^
 ||midas-network.com^
 ||midastouchrt.com^
+||middleagedlogineveryone.com^
 ||mideal.fr^
 ||midistortrix.com^
 ||midlandfeisty.com^
@@ -60513,6 +60430,7 @@ chat.bilibili.com
 ||mistletoeethicleak.com^
 ||mistydeblasiophotography.com^
 ||mith-ril.net^
+||mithransilks.com^
 ||mitself.net^
 ||mityneedn.com^
 ||miuspzkmn.bar^
@@ -60731,6 +60649,7 @@ chat.bilibili.com
 ||moligh.com^
 ||mollnia.com^
 ||moltenforger.top^
+||molttenglobins.casa^
 ||momatyn.store^
 ||momentspa.fr^
 ||momijoy.ru^
@@ -60777,8 +60696,8 @@ chat.bilibili.com
 ||monicaatron.com^
 ||monitis.com^
 ||monitoringservice.co^
-||monitormilletstray.com^
 ||monitus.net^
+||monke.re^
 ||monkeyminer.net^
 ||monkeysloveyou.com^
 ||monkeytracker.cz^
@@ -61044,7 +60963,6 @@ chat.bilibili.com
 ||multiplelucky.jp^
 ||multipops.com^
 ||multiquicks.net^
-||multiserval.es^
 ||mumessn.cn^
 ||mumgenericcourt.com^
 ||mumnxwvn.ink^
@@ -61189,7 +61107,6 @@ chat.bilibili.com
 ||myfreshspot.com^
 ||myfuncards.com^
 ||mygeek.cn^
-||mygeolocate.com^
 ||mygiftresource.com^
 ||mygreatrewards.com^
 ||mygummyjelly.com^
@@ -61272,6 +61189,7 @@ chat.bilibili.com
 ||myteamdev.com^
 ||mytee.fr^
 ||mytestminer.xyz^
+||mytheacademy.com^
 ||mythings.com^
 ||mytictac.com^
 ||mytimerpro.com^
@@ -61287,7 +61205,6 @@ chat.bilibili.com
 ||mywebstats.org^
 ||mywei.love^
 ||mywifiext.fr^
-||mywifiextnet.net^
 ||mywondertrip.com^
 ||mywot.com^
 ||mywot.net^
@@ -61346,6 +61263,7 @@ chat.bilibili.com
 ||naayna.com^
 ||nabalpal.com^
 ||nableemblems.com^
+||nableriptide.com^
 ||nabucuo.com^
 ||nactx.com^
 ||nafaec.com^
@@ -61443,6 +61361,7 @@ chat.bilibili.com
 ||natural-nine.jp^
 ||naturaltracking.com^
 ||naturephotographie.fr^
+||naucaish.net^
 ||nauf.fr^
 ||naughtyadserve.com^
 ||naughtydate.com^
@@ -61453,9 +61372,6 @@ chat.bilibili.com
 ||navi-match.net^
 ||navigator.io^
 ||navilytics.com^
-||navman-gpsupdate.online^
-||navmanupdate.online^
-||navmanupdates.com^
 ||navrcholu.cz^
 ||navyfedara1.org^
 ||navyfederai.org^
@@ -61556,7 +61472,6 @@ chat.bilibili.com
 ||neiod.xyz^
 ||neipa.xyz^
 ||neitherpennylack.com^
-||nekaujoa.net^
 ||neki.org^
 ||neko-scan.fr^
 ||nekogram.org^
@@ -61738,6 +61653,7 @@ chat.bilibili.com
 ||newtrackmedia.com^
 ||newvideoapp.pro^
 ||newviralmobistore.com^
+||newvision682.store^
 ||newzia.jp^
 ||nex8.net^
 ||nexac.com^
@@ -61775,6 +61691,7 @@ chat.bilibili.com
 ||ngnlaigc.fun^
 ||nhatheptienchebinhduong.com^
 ||nheappyrincen.info^
+||nhfalufsl.com^
 ||nhgds.xyz^
 ||nhjwh.com^
 ||nhkokkrr.com^
@@ -61914,7 +61831,6 @@ chat.bilibili.com
 ||noerwe5gianfor19e4st.com^
 ||noextramoney.com^
 ||noeyeon.click^
-||nofoodwaste.org^
 ||nofreezingmac.space^
 ||nofreezingmac.work^
 ||nogff.top^
@@ -61923,7 +61839,6 @@ chat.bilibili.com
 ||noiea.xyz^
 ||noiselessplough.com^
 ||noithathoanggiatn.com^
-||nokaut.link^
 ||nomalleadzuaff.com^
 ||nomorepecans.com^
 ||nomorewarnow.com^
@@ -61987,6 +61902,7 @@ chat.bilibili.com
 ||notify6.com^
 ||notifyday.com^
 ||notifypicture.info^
+||notifysrv.com^
 ||notifyvisitors.com^
 ||notix.io^
 ||notmining.org^
@@ -62080,6 +61996,7 @@ chat.bilibili.com
 ||ntskeptics.org^
 ||ntt4p6tgc.com^
 ||nttrr.top^
+||ntuplay.xyz^
 ||ntvk1.ru^
 ||ntvpevnts.com^
 ||ntvpforever.com^
@@ -62101,6 +62018,7 @@ chat.bilibili.com
 ||nuggad.net^
 ||nui.media^
 ||nuide.net^
+||nuinew2s.top^
 ||nuitphilo-ens.fr^
 ||nujian.asia^
 ||null-point.com^
@@ -62341,7 +62259,6 @@ chat.bilibili.com
 ||offvmuf.com^
 ||ofgogoatan.com^
 ||ofgysy.xyz^
-||ofhgkuopngw.com^
 ||ofhypnoer.com^
 ||ofnumeltor.com^
 ||ofphanpytor.com^
@@ -62354,7 +62271,6 @@ chat.bilibili.com
 ||ogdwild.bond^
 ||oghqvffmnt.com^
 ||oghub.io^
-||ogitasafaritours.com^
 ||ogkfuw.xyz^
 ||ogle-0740lb.com^
 ||ognlaigk.fun^
@@ -62388,7 +62304,6 @@ chat.bilibili.com
 ||oinkedbowls.com^
 ||oinkinns.tk^
 ||oiqdjksgpo.com^
-||oirt.xyz^
 ||oisafnik.space^
 ||oiseau-perdu.fr^
 ||oivgqnt.cn^
@@ -62452,7 +62367,6 @@ chat.bilibili.com
 ||olayomad.com^
 ||olcdn.com^
 ||old-glasses.net^
-||olderdeserved.com^
 ||oldgyhogola.com^
 ||oldharper.xyz^
 ||oldrdiedebog.xyz^
@@ -62728,7 +62642,6 @@ chat.bilibili.com
 ||opmnstr.com^
 ||opoxv.com^
 ||opponent-remain.com^
-||opportunemoney.com^
 ||opposite8cgp14y6.jp^
 ||oppositeoperation.com^
 ||oppositeparcel.com^
@@ -62800,6 +62713,7 @@ chat.bilibili.com
 ||orangf.fr^
 ||oratefinauknceiwo.com^
 ||oraxsoft.com^
+||orbitcarrot.com^
 ||orbiyz.com^
 ||orbsrv.com^
 ||orcapia.com^
@@ -62823,6 +62737,7 @@ chat.bilibili.com
 ||orgned.com^
 ||oribi.io^
 ||oriceline.com^
+||orientaljoyful.com^
 ||orientationpour-tous.fr^
 ||origer.info^
 ||originaldivide.pro^
@@ -62847,7 +62762,6 @@ chat.bilibili.com
 ||osakadepo.com^
 ||osalwqv.cn^
 ||osancik.top^
-||oshatratkvc.com^
 ||osheoufhusheoghuesd.ru^
 ||osiete-k.com^
 ||ositracker.com^
@@ -62916,7 +62830,6 @@ chat.bilibili.com
 ||ouliglsu.space^
 ||oumnxwvu.ink^
 ||oungimuk.net^
-||ounojushyxb.xyz^
 ||oupai.cc^
 ||ouphouch.com^
 ||ourcommonnews.com^
@@ -62928,11 +62841,11 @@ chat.bilibili.com
 ||ourhotfeed.com^
 ||ourhypewords.com^
 ||ourl.link^
-||ourlovelyday.us^
 ||ournet-analytics.com^
 ||ourot.com^
 ||ourstats.de^
 ||ourtoolbar.com^
+||ousinouk.xyz^
 ||oustoope.com^
 ||outboundlink.me^
 ||outbrain.com^
@@ -62958,7 +62871,6 @@ chat.bilibili.com
 ||outstandingincome.com^
 ||outstandingsnails.com^
 ||outtogetme.com^
-||outube.com^
 ||outwhirlipedeer.com^
 ||outwoodeuropa.com^
 ||ouveelsa.xyz^
@@ -63064,6 +62976,7 @@ chat.bilibili.com
 ||p7cloud.net^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
+||p97387hj.xyz^
 ||pa-ha8.com^
 ||pa-ir.net^
 ||pa-oa.com^
@@ -63129,6 +63042,7 @@ chat.bilibili.com
 ||pahtwt.tech^
 ||pahtzh.tech^
 ||paidstats.com^
+||paikoaza.net^
 ||paime.com^
 ||painolympics.info^
 ||painolympics.org^
@@ -63159,6 +63073,7 @@ chat.bilibili.com
 ||palibs.tech^
 ||palm-ad.cn^
 ||palpablefungussome.com^
+||paltryheadline.com^
 ||palundrus.com^
 ||palyazatfigyelo.info^
 ||pamelarandom.com^
@@ -63262,7 +63177,6 @@ chat.bilibili.com
 ||pasoherb.gq^
 ||pass-1234.com^
 ||passablejeepparliament.com^
-||passbaan.com^
 ||passendo.com^
 ||passengerpage.com^
 ||passeura.com^
@@ -63371,6 +63285,7 @@ chat.bilibili.com
 ||pcworlds.us^
 ||pcxtvr.xyz^
 ||pddbtn.xyz^
+||pdf-readonline.website^
 ||pdfexpert.cc^
 ||pdfsam.com^
 ||pdheuryopd.loan^
@@ -63400,7 +63315,6 @@ chat.bilibili.com
 ||pearlfeet.fr^
 ||pearlsdevotionnative.com^
 ||pearno.com^
-||pearsissuedboob.com^
 ||peatmanpols.store^
 ||peazip.com^
 ||pebx.pl^
@@ -63471,6 +63385,7 @@ chat.bilibili.com
 ||perfectaudience.com^
 ||perfectmarket.com^
 ||perfiliate.com^
+||perfops.io^
 ||performanceadexchange.com^
 ||performanceanalyser.net^
 ||performancefirst.jp^
@@ -63506,8 +63421,6 @@ chat.bilibili.com
 ||pertholin.com^
 ||pertosj.ru^
 ||pertyvaluationia.monster^
-||peruguia.xyz^
-||peruseinvitation.com^
 ||pervas.top^
 ||pervialinagile.com^
 ||perzonalization.com^
@@ -63526,7 +63439,6 @@ chat.bilibili.com
 ||pettishhansom.digital^
 ||petwoodfustet.com^
 ||petzel.be^
-||peveyhack.com^
 ||pf0755.cn^
 ||pfaltzgraf.com^
 ||pfepfe.cc^
@@ -63577,6 +63489,7 @@ chat.bilibili.com
 ||phethikapso.pro^
 ||phicmune.net^
 ||phidianbesmut.com^
+||phiduvuka.pro^
 ||philippschoch.ch^
 ||phiriaxi.com^
 ||phirozeon.com^
@@ -63654,9 +63567,9 @@ chat.bilibili.com
 ||pidoco.fr^
 ||piecediscount24.fr^
 ||pier-import.fr^
+||pierchestnut.com^
 ||pierisrapgae.com^
 ||pierlinks.com^
-||piesescuter.eu^
 ||piet2eix3l.com^
 ||pietexture.com^
 ||pietpiraat.org^
@@ -63698,7 +63611,6 @@ chat.bilibili.com
 ||pink99.com^
 ||pinkboy.fun^
 ||pinkcamforum.cc^
-||pinkivpn.xyz^
 ||pinkmore.cn^
 ||pinoffence.com^
 ||pinpinnet.net^
@@ -63856,6 +63768,7 @@ chat.bilibili.com
 ||playwrightgrant.com^
 ||playzee.fr^
 ||plaza-l1o0nni-p1aza.com^
+||plbs9k.icu^
 ||pleasantpump.com^
 ||pleasetrack.com^
 ||pleasewait.co^
@@ -63876,7 +63789,7 @@ chat.bilibili.com
 ||plosaztduojwbe.com^
 ||plotparent.com^
 ||plotrabbit.com^
-||plqbxvnjxq92.com^
+||ployeesihighlyr.xyz^
 ||plrjs.org^
 ||plsdrct1.me^
 ||pltraffic8.com^
@@ -64003,7 +63916,6 @@ chat.bilibili.com
 ||pollstover.guru^
 ||pollutionsatisfyadopt.com^
 ||polluxnetwork.com^
-||polushka.net^
 ||polyad.net^
 ||polyhymnia-mar.com^
 ||polymorphicads.jp^
@@ -64048,9 +63960,11 @@ chat.bilibili.com
 ||popin.cc^
 ||popland.info^
 ||poplarcolonistgreatest.com^
+||popmog.com^
 ||popmonetizer.net^
 ||popmyads.com^
 ||popmycash.com^
+||popnc.com^
 ||poponclick.com^
 ||poppers-rush.ru^
 ||poppyta.com^
@@ -64152,11 +64066,11 @@ chat.bilibili.com
 ||poucoaga.com^
 ||poufaini.com^
 ||pounti.com^
-||poushoza.net^
 ||poutdecimal.com^
 ||povoarge.com^
 ||powdermealfilth.com^
 ||powderprofit.com^
+||powedw.com^
 ||powerad.ai^
 ||powerain.biz^
 ||powerbiz.co^
@@ -64168,6 +64082,7 @@ chat.bilibili.com
 ||powersitemainservfjr.org^
 ||powerswinkshoplifting.com^
 ||powertrfic.fr^
+||powferads.com^
 ||powjk.com^
 ||poyang.com^
 ||pp385.com^
@@ -64333,9 +64248,7 @@ chat.bilibili.com
 ||pringed.space^
 ||prinkedgigtree.tech^
 ||printaugment.com^
-||printererrorsupport.com^
 ||printerplasma.com^
-||printersupports.com^
 ||printmail.biz^
 ||printsmull.com^
 ||priorlypious.com^
@@ -64368,6 +64281,7 @@ chat.bilibili.com
 ||privatproxy-endpoint.xyz^
 ||privatproxy-schnellvpn.com^
 ||privatproxy-schnellvpn.xyz^
+||privatrac.com^
 ||privdog.com^
 ||privilegest.com^
 ||privitize.com^
@@ -64392,6 +64306,7 @@ chat.bilibili.com
 ||pro100news.ru^
 ||proadscdn.com^
 ||probableliving.com^
+||probationpresented.com^
 ||probationtoll.com^
 ||probikesshop.fr^
 ||problem-detection.info^
@@ -64406,7 +64321,6 @@ chat.bilibili.com
 ||producebreed.com^
 ||producecopy.com^
 ||producerplot.com^
-||productbrowser.work^
 ||productivepear.com^
 ||productresearchpanel.com^
 ||producttestpanel.com^
@@ -64443,7 +64357,6 @@ chat.bilibili.com
 ||programe.top^
 ||programinsightplastic.com^
 ||programmatictrader.com^
-||programmeframeworkpractically.com^
 ||programprotacol0.com^
 ||progressproceeding.com^
 ||progtechguru.com^
@@ -64535,6 +64448,7 @@ chat.bilibili.com
 ||proverbnoncommittalvault.com^
 ||provesrc.com^
 ||provexia.com^
+||provisionpointingpincers.com^
 ||provlimbus.com^
 ||prowesshearing.com^
 ||proxy4life.org^
@@ -64569,6 +64483,7 @@ chat.bilibili.com
 ||psarecommendas.com^
 ||psaudous.com^
 ||pseekree.com^
+||pseemsee.com^
 ||pseepsie.com^
 ||psfgobbet.com^
 ||psh.one^
@@ -64854,6 +64769,7 @@ chat.bilibili.com
 ||pxaction.com^
 ||pxblmj.com^
 ||pxdghffadlhpbw.com^
+||pxdujpdbdqkisil.com^
 ||pxene.com^
 ||pxerw.xyz^
 ||pxf.io^
@@ -64864,6 +64780,7 @@ chat.bilibili.com
 ||pxl2015x1.com^
 ||pxrs6.cn^
 ||pxtrkr.com^
+||pxx23jkd.com^
 ||pxyrmsodhctqifm.com^
 ||pxzkqq.com^
 ||pyerc.com^
@@ -64983,6 +64900,7 @@ chat.bilibili.com
 ||qhttxwlecujjfc.com^
 ||qhupdate.com^
 ||qhvszsl.cn^
+||qhx1h2g.com^
 ||qhyhw.com^
 ||qiabayyds.com^
 ||qianduoduo.fit^
@@ -65117,6 +65035,7 @@ chat.bilibili.com
 ||qqvvkebebvly.top^
 ||qqzmm.com^
 ||qqzu.com^
+||qr-captcha.com^
 ||qrclevrfjw.com^
 ||qrlsx.com^
 ||qrxmgfz.cn^
@@ -65278,7 +65197,6 @@ chat.bilibili.com
 ||qwyzrvzkakreq.top^
 ||qx3g.top^
 ||qx568.com^
-||qxhspimg.com^
 ||qxlidy.ink^
 ||qxxys.com^
 ||qycfqk.xyz^
@@ -65405,7 +65323,6 @@ chat.bilibili.com
 ||rareghoa.net^
 ||rareru.ru^
 ||raresummer.com^
-||rascomksa.com^
 ||raspedexsculp.com^
 ||rassegnavermentino.it^
 ||rate.ru^
@@ -65416,7 +65333,6 @@ chat.bilibili.com
 ||rating.in^
 ||rating-widget.com^
 ||ratingtoplist.com^
-||ratoolsourcing.com^
 ||raujurum.net^
 ||raukaury.com^
 ||raupsica.net^
@@ -65532,7 +65448,6 @@ chat.bilibili.com
 ||reasedoper.pw^
 ||reasonablelandmark.com^
 ||reauthenticator.com^
-||rebakeassets.com^
 ||rebaterremass.com^
 ||rebelhen.com^
 ||rebelsubway.com^
@@ -65558,7 +65473,6 @@ chat.bilibili.com
 ||recettes-vegetariennes.fr^
 ||recevoirlatntn.fr^
 ||rechannelapi.com^
-||rechanque.com^
 ||recklessliver.com^
 ||reclod.com^
 ||recoco.it^
@@ -65628,7 +65542,6 @@ chat.bilibili.com
 ||redoutcomecomfort.com^
 ||redpineapplemedia.com^
 ||redretarget.com^
-||redrix.xyz^
 ||redrocks.fr^
 ||redroomnetwork.com^
 ||redrotou.net^
@@ -65666,7 +65579,6 @@ chat.bilibili.com
 ||reflectingscoopcourse.com^
 ||reflectivereward.com^
 ||refpa.top^
-||refpabuyoj.top^
 ||refpaiwqkk.top^
 ||refpakrtsb.top^
 ||refpamjeql.top^
@@ -65759,7 +65671,6 @@ chat.bilibili.com
 ||remehealth.net^
 ||remekcikkek.com^
 ||remembercompetitioninexplicable.com^
-||remembergirl.com^
 ||reminderdate.com^
 ||reminews.com^
 ||remintrex.com^
@@ -65788,7 +65699,6 @@ chat.bilibili.com
 ||renzhongjiaoyu.xyz^
 ||renzw.xyz^
 ||reotiedygrf.xyz^
-||repairhubpat.com^
 ||repeatsweater.com^
 ||repixel.co^
 ||replaceroute.com^
@@ -65836,6 +65746,7 @@ chat.bilibili.com
 ||resonantrock.com^
 ||resonate.com^
 ||resourcecs.com^
+||resourceedge.org^
 ||resourceisabellareligious.com^
 ||respectablecharacteristicrider.com^
 ||respectrain.com^
@@ -65850,6 +65761,7 @@ chat.bilibili.com
 ||restartad.com^
 ||restgzxdg.top^
 ||restisbench.com^
+||restlessconsequence.com^
 ||restlesssunshine.com^
 ||restorationpencil.com^
 ||restore-pc.com^
@@ -65915,6 +65827,7 @@ chat.bilibili.com
 ||revpu.sh^
 ||revresponse.com^
 ||revrtb.com^
+||revrtb.net^
 ||revsci.net^
 ||revstats.com^
 ||revupads.com^
@@ -65982,6 +65895,7 @@ chat.bilibili.com
 ||rhxwnd.xyz^
 ||rhymezebra.com^
 ||rhyprua.com^
+||rhythmmassacre.com^
 ||rhythmmoney.com^
 ||rhythmone.com^
 ||rhythmxchange.com^
@@ -66007,6 +65921,7 @@ chat.bilibili.com
 ||richpays.com^
 ||richstring.com^
 ||richterhi-tech.com^
+||richtools.info^
 ||richtwist.com^
 ||rickerrotal.com^
 ||rickparty.com^
@@ -66019,7 +65934,6 @@ chat.bilibili.com
 ||rigelbetelgeuse.top^
 ||rigelink.com^
 ||righteouscrayon.com^
-||rightfuldisintegrate.com^
 ||rightfulfall.com^
 ||rightmedia.net^
 ||rightmessage.com^
@@ -66045,13 +65959,13 @@ chat.bilibili.com
 ||rinserbefore.com^
 ||rinsermouton.space^
 ||rinsr.vip^
-||rioforpartiers.com^
 ||riotousgrit.com^
 ||ripiai.com^
 ||riqnhxq.cn^
 ||risafniz.space^
 ||risausso.com^
 ||riscati.com^
+||risebeigehelium.com^
 ||riserange.com^
 ||rising-to-fortune.com^
 ||risrauj.cn^
@@ -66108,7 +66022,6 @@ chat.bilibili.com
 ||rmmyqc.com^
 ||rmqz.xyz^
 ||rmtag.com^
-||rmtrust.info^
 ||rmxads.com^
 ||rnajhyd.xyz^
 ||rndhaunteran.com^
@@ -66150,6 +66063,7 @@ chat.bilibili.com
 ||rockthebretzel.fr^
 ||rodeopolice.com^
 ||rodisons.site^
+||rodroord.net^
 ||roeaasi.cyou^
 ||roewnand.biz^
 ||rogueleader.org^
@@ -66167,6 +66081,7 @@ chat.bilibili.com
 ||roksa.sx^
 ||rokt.com^
 ||rokus-tgy.hu^
+||rolexmotorslimited.com^
 ||rollbaralit.com^
 ||rollercoin.com^
 ||rollerdisrespect.com^
@@ -66178,12 +66093,12 @@ chat.bilibili.com
 ||rollobscurewoke.com^
 ||rollsbeer.com^
 ||rolltrafficroll.com^
-||rolopom.com^
 ||romance-net.com^
 ||romance-time.jp^
 ||romancetime.jp^
 ||romancetrain.jp^
 ||romaninformcompensate.com^
+||romanlicdate.com^
 ||romanticmanufacture.com^
 ||romanticwait.com^
 ||romauntmirker.com^
@@ -66245,7 +66160,6 @@ chat.bilibili.com
 ||roundyearfun.com^
 ||roundyearfun.org^
 ||rouonixon.com^
-||roupedaldea.com^
 ||rourouwu.uk^
 ||roushath.xyz^
 ||route31.org^
@@ -66265,7 +66179,6 @@ chat.bilibili.com
 ||royalclass.info^
 ||royalclass-dm.com^
 ||royalcount.de^
-||royalmaii.co^
 ||rozamimo9za10.com^
 ||rp5o.top^
 ||rp9p0.xyz^
@@ -66511,6 +66424,7 @@ chat.bilibili.com
 ||sabio.us^
 ||sablesmile.com^
 ||sablesong.com^
+||sabogpapahxead.com^
 ||sabs-push.xyz^
 ||saccac11.com^
 ||sachikru.com^
@@ -66575,6 +66489,7 @@ chat.bilibili.com
 ||salesviewer.org^
 ||salinasbhut.com^
 ||salleyte.top^
+||sallyoxenstops.com^
 ||salon1999.net^
 ||salon2022champagne.digital^
 ||salonoshirase.net^
@@ -66605,6 +66520,7 @@ chat.bilibili.com
 ||sancdn.net^
 ||sancontr.com^
 ||sandelf.com^
+||sandflyligules.com^
 ||sange20221226.xyz^
 ||sanggilregard.com^
 ||sangoo.top^
@@ -66637,7 +66553,6 @@ chat.bilibili.com
 ||sascentral.com^
 ||sasdiskcleaner.com^
 ||sassilybombous.casa^
-||sasujooceerg.com^
 ||satelliteexaminer.com^
 ||satisfycork.com^
 ||satisfyingshow.com^
@@ -66647,7 +66562,6 @@ chat.bilibili.com
 ||satsumadurian.com^
 ||satttawishonemottorecepi.online^
 ||satur-uac.com^
-||saturdaymarryspill.com^
 ||saturn0120.com^
 ||saulmy.xyz^
 ||saumeechoa.com^
@@ -66840,7 +66754,6 @@ chat.bilibili.com
 ||sealeryshilpit.com^
 ||sealerysuppler.com^
 ||sealicensing.com^
-||sealthatleak.com^
 ||seaofads.com^
 ||seapower-italia.it^
 ||search.in^
@@ -66904,7 +66817,6 @@ chat.bilibili.com
 ||secureclickers.com^
 ||securecloud-smart.com^
 ||securedopen-bp.com^
-||securedsmcd.com^
 ||securedvisit.com^
 ||securegate.xyz^
 ||securegate9.com^
@@ -67026,7 +66938,6 @@ chat.bilibili.com
 ||sensorsmile.com^
 ||sensortoluy.club^
 ||sensualsheilas.com^
-||sentenceinformedveil.com^
 ||sentientfog.com^
 ||sentifi.com^
 ||sentimentalclient.pro^
@@ -67111,6 +67022,7 @@ chat.bilibili.com
 ||settlepineapple.com^
 ||settrogens.com^
 ||sevenmax.cn^
+||sevenpronounced.com^
 ||sevensmooon.com^
 ||sevenstars7.com^
 ||seventhalbines.space^
@@ -67221,6 +67133,7 @@ chat.bilibili.com
 ||sharesceral.uno^
 ||sharethis.com^
 ||sharethrough.com^
+||shareweeknews.com^
 ||sharieta.com^
 ||sharing-is-caring.info^
 ||sharpay.io^
@@ -67300,6 +67213,7 @@ chat.bilibili.com
 ||shonretimus.com^
 ||shooinghelibus.com^
 ||shookahi.xyz^
+||shookssuluan.com^
 ||shop-pharmaccie.fr^
 ||shop-sis.com^
 ||shop265.com^
@@ -67524,6 +67438,7 @@ chat.bilibili.com
 ||site-kaiseki-tool.com^
 ||site24x7rum.com^
 ||site24x7rum.eu^
+||site24x7rum.in^
 ||sitealyse.de^
 ||siteapps.com^
 ||sitebot.cn^
@@ -67589,6 +67504,7 @@ chat.bilibili.com
 ||skatestooped.com^
 ||skdbarh.cn^
 ||skeetads.com^
+||skeletonemail.com^
 ||sketchflutter.com^
 ||sketchyrecycleimpose.com^
 ||skfj2d.com^
@@ -67620,6 +67536,7 @@ chat.bilibili.com
 ||skocz.pl^
 ||skpt9s.jp^
 ||skt-asum.com^
+||skyadsmart.com^
 ||skyblockmaniacs.net^
 ||skyblockmods.com^
 ||skyblockqolhub.com^
@@ -67657,6 +67574,7 @@ chat.bilibili.com
 ||sldg02.com^
 ||sleeknote.com^
 ||sleepcartoon.com^
+||slendercosts.com^
 ||sleptornament.com^
 ||sleuey.xyz^
 ||slfindmarket.live^
@@ -67688,7 +67606,6 @@ chat.bilibili.com
 ||slopesoap.com^
 ||sloppycalculator.com^
 ||sloppyearthquake.com^
-||slotmagie.de^
 ||slow-piercer.com^
 ||slowbeat.fun^
 ||slowmac.tech^
@@ -67701,7 +67618,6 @@ chat.bilibili.com
 ||sltracl.com^
 ||sltvhyjthx.com^
 ||slugmefilehos.xyz^
-||slumid.com^
 ||slvlrcalpodewn.com^
 ||sm-tc.cn^
 ||sm2kz.net^
@@ -67803,6 +67719,7 @@ chat.bilibili.com
 ||smoggystation.com^
 ||smokebookcase.com^
 ||smokersopinionpoll.com^
+||smokerythrow.com^
 ||smoothie-smoothie.jp^
 ||smoothurl.com^
 ||smopy.com^
@@ -67860,7 +67777,6 @@ chat.bilibili.com
 ||snoopundesirable.com^
 ||snorefamiliarsiege.com^
 ||snoresmile.com^
-||snorkremiss.com^
 ||snow001.com^
 ||snowdayonline.xyz^
 ||snoweeanalytics.com^
@@ -67966,7 +67882,6 @@ chat.bilibili.com
 ||solispartner.com^
 ||solitairetime.com^
 ||solitudeelection.com^
-||solitudepeeves.com^
 ||solocpm.com^
 ||solomon89.xyz^
 ||soloprodottiitaliani.fr^
@@ -68020,6 +67935,7 @@ chat.bilibili.com
 ||soperson.com^
 ||sophi.io^
 ||sophiaredyed.com^
+||sophisticatedemergencydryer.com^
 ||sophisticatedstory.com^
 ||sophisticatedstove.com^
 ||sophomoreprimarilyprey.com^
@@ -68034,6 +67950,7 @@ chat.bilibili.com
 ||sordidsmile.com^
 ||sordidstation.com^
 ||soreg.homes^
+||sorelyafric.com^
 ||soresneeze.com^
 ||sorethunder.com^
 ||soretrain.com^
@@ -68134,6 +68051,7 @@ chat.bilibili.com
 ||speedrep.com^
 ||speedservicenow.com^
 ||speedshiftmedia.com^
+||speedsoft-one.com^
 ||speedtestnow.site^
 ||speedtracker.de^
 ||speedup.cyou^
@@ -68248,6 +68166,7 @@ chat.bilibili.com
 ||sprungencase.com^
 ||sptag.com^
 ||sptag1.com^
+||sptrkr.com^
 ||spuezain.com^
 ||spulse.net^
 ||spunkyuntiled.com^
@@ -68270,6 +68189,7 @@ chat.bilibili.com
 ||spywarespy.com^
 ||spywords.com^
 ||sq2trk2.com^
+||sq59.cn^
 ||sqfg002.xyz^
 ||sqfh001.xyz^
 ||sqlnetcat.com^
@@ -68367,7 +68287,6 @@ chat.bilibili.com
 ||staleseat.com^
 ||staleshow.com^
 ||stalesummer.com^
-||stammtisch-design.de^
 ||stamplive.com^
 ||stampsmindlessscrap.com^
 ||standingnest.com^
@@ -68396,6 +68315,7 @@ chat.bilibili.com
 ||startappexchange.com^
 ||startappservice.com^
 ||startex3download.com^
+||starti.pl^
 ||startmarket.su^
 ||startnow.com^
 ||startyourhome.business^
@@ -68420,7 +68340,6 @@ chat.bilibili.com
 ||stateinformatics.com^
 ||statementsweater.com^
 ||stater-tc.com^
-||statesbox.monster^
 ||statesmanimpetuousforemost.com^
 ||stathat.com^
 ||stathound.com^
@@ -68519,6 +68438,7 @@ chat.bilibili.com
 ||stereoproxy.com^
 ||stereotypedsugar.com^
 ||sternlythese.com^
+||steropestreaks.com^
 ||steveberry.fr^
 ||stg8.com^
 ||stgami-o.top^
@@ -68563,6 +68483,7 @@ chat.bilibili.com
 ||stop-sign.com^
 ||stopify.co^
 ||stopphoulplay.com^
+||stopscondole.com^
 ||stopsms.biz^
 ||storage-ad.com^
 ||storagelassitudeblend.com^
@@ -68670,7 +68591,6 @@ chat.bilibili.com
 ||subcreation.fr^
 ||subgitrelais.com^
 ||subheroalgores.com^
-||subjectsextended.com^
 ||subjectslisted.com^
 ||submitnet.net^
 ||suborecho.com^
@@ -68752,6 +68672,7 @@ chat.bilibili.com
 ||sumofus.fr^
 ||sumome.com^
 ||sumsmsp.info^
+||sunbowskraal.com^
 ||suncourt.cn^
 ||sundayscrewinsulting.com^
 ||sundaysky.com^
@@ -68792,6 +68713,7 @@ chat.bilibili.com
 ||superdeos.com^
 ||superfastcdn.com^
 ||superficialeyes.com^
+||superficialropes.com^
 ||superficialspring.com^
 ||superficialsquare.com^
 ||superfish.com^
@@ -68810,7 +68732,6 @@ chat.bilibili.com
 ||superstat.info^
 ||superstats.com^
 ||superstitiousamber.com^
-||supert.ag^
 ||supertop.ru^
 ||supertop100.com^
 ||supervisegoldfish.com^
@@ -68823,7 +68744,6 @@ chat.bilibili.com
 ||support-ip.com^
 ||supportwaves.com^
 ||supportxmr.com^
-||supposereduction.com^
 ||suprama.online^
 ||supreme-ad-blocker.info^
 ||suptrkdisplay.com^
@@ -68894,13 +68814,11 @@ chat.bilibili.com
 ||sweetmemo.net^
 ||sweetmemoryy.com^
 ||sweetmoonmonth.com^
-||sweetromance.life^
 ||sweetsforfree.com^
 ||sweetslope.com^
 ||swelen.com^
 ||swellstocking.com^
 ||swelteringsmile.com^
-||swepfa.com^
 ||swesomepop.com^
 ||swfhostltd.com^
 ||swicgq.xyz^
@@ -68987,6 +68905,7 @@ chat.bilibili.com
 ||system-update-new-2021.com^
 ||systematixinfotech.fr^
 ||systeme.io^
+||systemhostess.com^
 ||systemizecoat.com^
 ||systemupdatesy.life^
 ||systemupdatix.club^
@@ -69002,6 +68921,7 @@ chat.bilibili.com
 ||szcmcs.com^
 ||szddbxyumfcf.net^
 ||szfr.fr^
+||szhcyxtszb.com^
 ||szhgmd.com^
 ||szhomes.net^
 ||szhyzkj.com^
@@ -69101,7 +69021,6 @@ chat.bilibili.com
 ||taiwan-free-store.com^
 ||tajxgs.com^
 ||take-grandincome.life^
-||takeallsoft.ru^
 ||takechaukr.com^
 ||takeforme.xyz^
 ||takeoneaudio.jp^
@@ -69228,11 +69147,11 @@ chat.bilibili.com
 ||tattepush.com^
 ||tattooshaha.info^
 ||taughtwandamazingly.com^
-||tautcare.pro^
 ||tauvoojo.net^
 ||tavelscape.com^
 ||tawdryson.com^
 ||tawk.to^
+||tawniessmoot.com^
 ||tax-canada2023.co^
 ||taxel.jp^
 ||taxpillsqueal.com^
@@ -69252,6 +69171,7 @@ chat.bilibili.com
 ||tcads.net^
 ||tccbanner.com^
 ||tcgtrkr.com^
+||tchinaprecenta.info^
 ||tcimg.com^
 ||tcmsp.cn^
 ||tcpcharms.com^
@@ -69318,6 +69238,7 @@ chat.bilibili.com
 ||tedioustooth.com^
 ||tediouswavingwhiskey.com^
 ||tedxffemqblmk.xyz^
+||teelconch.com^
 ||teemooge.net^
 ||teenclubforum.pw^
 ||teenrevenue.com^
@@ -69352,7 +69273,6 @@ chat.bilibili.com
 ||telet.me^
 ||teletarget.ru^
 ||televeniesuc.pro^
-||televoxretoast.com^
 ||telewizja-online.net^
 ||telize.com^
 ||teljari.is^
@@ -69420,7 +69340,6 @@ chat.bilibili.com
 ||terrifictooth.com^
 ||terrout9.biz^
 ||terttalkinhitin.pro^
-||tessratans.com^
 ||testbook.fr^
 ||testbooksolutions.com^
 ||testedtouch.com^
@@ -69478,7 +69397,6 @@ chat.bilibili.com
 ||thagrals.net^
 ||thaickoo.net^
 ||thaidrix.xyz^
-||thaighee.xyz^
 ||thainationalparks.fr^
 ||thainews.asia^
 ||thaistiboa.com^
@@ -69492,6 +69410,7 @@ chat.bilibili.com
 ||thankstossl.com^
 ||thanku.page^
 ||thanosofcos5.com^
+||thanstruggling.com^
 ||thapsooz.net^
 ||tharbadir.com^
 ||thathislitt.ru^
@@ -69582,6 +69501,7 @@ chat.bilibili.com
 ||theoremreach.com^
 ||theotime.net^
 ||thepcworld.net^
+||thepcworlds.com^
 ||thepiratetrader.com^
 ||thepounder.com^
 ||thepsusiwho.com^
@@ -69605,7 +69525,7 @@ chat.bilibili.com
 ||thesimsresource.fr^
 ||thespecialsearch.com^
 ||thestat.net^
-||thestreamresort.in^
+||thestatueoftheap.info^
 ||thesunonsunday.com^
 ||thesurfshield.com^
 ||thetchaixoo.com^
@@ -69632,7 +69552,6 @@ chat.bilibili.com
 ||thickcharityinextricable.com^
 ||thickticket.com^
 ||thicktrucks.com^
-||thienlongcnc.com^
 ||thilsaig.xyz^
 ||thingrealtape.com^
 ||thingsafterthought.com^
@@ -69643,7 +69562,6 @@ chat.bilibili.com
 ||thinksuggest.org^
 ||thinktarget.com^
 ||thirdrespect.com^
-||thirstycrow.xyz^
 ||thirstyswing.com^
 ||thirstytwig.com^
 ||thirtydaychange.com^
@@ -69826,6 +69744,7 @@ chat.bilibili.com
 ||tjavravj.com^
 ||tjbxhn.xyz^
 ||tjfot.com^
+||tjgpeswdkrym.com^
 ||tjiaa.com^
 ||tjj.com^
 ||tjmzzk.com^
@@ -69922,7 +69841,6 @@ chat.bilibili.com
 ||tommysbookmarks.com^
 ||tomog.pro^
 ||tomorrowwillbehotmaybe.com^
-||tomtomgopre.online^
 ||tomuwlf.cn^
 ||tonefuse.com^
 ||tonemedia.com^
@@ -69971,6 +69889,7 @@ chat.bilibili.com
 ||top888.com^
 ||topadvdomdesign.com^
 ||topadvert.ru^
+||topatincompany.com^
 ||topbestgames.com^
 ||topblockchainsolutions.*^
 ||topblockchainsolutions.nl^
@@ -70108,11 +70027,11 @@ chat.bilibili.com
 ||tplinkextender.net^
 ||tpmedia-reactads.com^
 ||tpmr.com^
-||tpopularcldfa.co^
 ||tppxi8sa9gppy.com^
 ||tpqokqi.cn^
 ||tprwnvk.cn^
 ||tptp001.buzz^
+||tqdctl.xyz^
 ||tqdpqq.com^
 ||tqkfrdcwht.xyz^
 ||tqlkg.com^
@@ -70139,7 +70058,6 @@ chat.bilibili.com
 ||track-selectmedia.com^
 ||track-victoriadates.com^
 ||track-web.net^
-||track2.me^
 ||track4ref.com^
 ||trackad.cz^
 ||trackaffpix.com^
@@ -70242,6 +70160,7 @@ chat.bilibili.com
 ||traffichaus.com^
 ||trafficholder.com^
 ||traffichunt.com^
+||trafficircles.com^
 ||trafficjam.cn^
 ||trafficjoint.com^
 ||trafficjunction.com^
@@ -70257,7 +70176,6 @@ chat.bilibili.com
 ||trafficopen.com^
 ||trafficregenerator.com^
 ||trafficrevenue.net^
-||trafficroots.com^
 ||trafficrouter.io^
 ||trafficsan.com^
 ||trafficscanner.pl^
@@ -70341,6 +70259,7 @@ chat.bilibili.com
 ||trckswrm.com^
 ||trdnewsnow.net^
 ||treadbun.com^
+||treasured-dad.pro^
 ||treatycalculator.com^
 ||treavelocity.com^
 ||trebghoru.com^
@@ -70359,7 +70278,6 @@ chat.bilibili.com
 ||trendcounter.com^
 ||trendcounter.de^
 ||trendemon.com^
-||trendinassets.com^
 ||trendingpatrol.com^
 ||trendmd.com^
 ||trendnews.com^
@@ -70408,6 +70326,7 @@ chat.bilibili.com
 ||trkingace.com^
 ||trkings.com^
 ||trkjmp.com^
+||trkk4.com^
 ||trkme.net^
 ||trkn.us^
 ||trkn1.com^
@@ -70422,8 +70341,8 @@ chat.bilibili.com
 ||trollsvide.com^
 ||tronkwansith.com^
 ||troolyhonks.com^
-||tropikalyaevents.fr^
 ||tropylskins.com^
+||troubled-stress.com^
 ||troubledtail.com^
 ||troubleshade.com^
 ||trourted.pro^
@@ -70505,7 +70424,6 @@ chat.bilibili.com
 ||tscounter.com^
 ||tsds.tech^
 ||tshtbh.xyz^
-||tsitter.com^
 ||tsiwqtng8huauw30n.com^
 ||tsiyun.cn^
 ||tsk4.com^
@@ -70559,7 +70477,6 @@ chat.bilibili.com
 ||tubemogul.com^
 ||tubemov.com^
 ||tubencyclopaediaswine.com^
-||tubepornclassics.com^
 ||tubeskagos.life^
 ||tubetitties.com^
 ||tubgirl.me^
@@ -70657,7 +70574,6 @@ chat.bilibili.com
 ||tweengirlsforum.pk^
 ||tweenydone.website^
 ||tweetdeck.fr^
-||tweetelonmusk.ir^
 ||tweitter.com^
 ||twentycustomimprovement.com^
 ||twerwew.org^
@@ -70666,32 +70582,25 @@ chat.bilibili.com
 ||twfgfjgov.shop^
 ||twgzgqqu.com^
 ||twh5.com^
-||twiktter.com^
 ||twinedabider.guru^
+||twinesocial.com^
 ||twinkle-fun.net^
 ||twinpinenetwork.com^
 ||twinrdack.com^
 ||twinrdsrv.com^
 ||twinrdsyn.com^
 ||twistconcept.com^
-||twitfer.com^
 ||twitob.com^
 ||twitpic.fr^
 ||twittad.com^
-||twittee.com^
 ||twitter.cm^
 ||twitter-circle.com^
 ||twittercounter.com^
 ||twitterfollowers.site^
 ||twitterr.com^
-||twittet.com^
-||twittre.com^
-||twiutter.com^
-||twiyter.com^
 ||twizt.net^
 ||twjxmd.com^
 ||twlcyc.cn^
-||twltter.com^
 ||twmqn.me^
 ||twn2e.cn^
 ||twnafj.xyz^
@@ -70715,11 +70624,8 @@ chat.bilibili.com
 ||twtwdfjgov.xyz^
 ||twuekgl.cn^
 ||twuipte.cn^
-||twuitter.com^
-||twutter.com^
 ||twvrj.me^
 ||twvxp.me^
-||twwitter.com^
 ||twww.sbs^
 ||twxgov.com^
 ||twyn.com^
@@ -70759,7 +70665,6 @@ chat.bilibili.com
 ||tyresleep.com^
 ||tyroo.com^
 ||tyrsn6di.icu^
-||tywitter.com^
 ||tyxo.bg^
 ||tyxo.com^
 ||tz-dsp.com^
@@ -70901,6 +70806,7 @@ chat.bilibili.com
 ||uee.me^
 ||ueg.cc^
 ||uehtjp.cn^
+||uejdsw.com^
 ||uejnmjdpd.xyz^
 ||uejntsxdffp.com^
 ||uekqdec.cn^
@@ -70975,6 +70881,7 @@ chat.bilibili.com
 ||ulnawoyyzbljc.ru^
 ||uloadeeksurvey.space^
 ||ulogin-stats.ru^
+||ulojlvmejkaem.xyz^
 ||ulourgaz.net^
 ||ulrzovfukgkljw.com^
 ||ulsynmlt.fun^
@@ -70982,6 +70889,7 @@ chat.bilibili.com
 ||ultimateaderaser.com^
 ||ultimateclixx.com^
 ||ultimatecounter.com^
+||ultimatumloftyharvest.com^
 ||ultraadserver.com^
 ||ultracdn.top^
 ||ultraeventgroup.com^
@@ -70989,6 +70897,7 @@ chat.bilibili.com
 ||ultramercial.com^
 ||ultranote.org^
 ||ultraoranges.com^
+||ultrasoundrottenreluctant.com^
 ||ultrasponsor.com^
 ||ultratime.info^
 ||ulukaris.com^
@@ -71005,6 +70914,7 @@ chat.bilibili.com
 ||umeng.co^
 ||umeng.com^
 ||umengcloud.com^
+||umexalim.com^
 ||umfsyvnufa.com^
 ||umiackscursors.com^
 ||umjditpwlb4f.com^
@@ -71111,7 +71021,6 @@ chat.bilibili.com
 ||univ-paris-didero.fr^
 ||univ-pars1.fr^
 ||univ6lehavre.fr^
-||universaltrackingcontainer.com^
 ||univevry.fr^
 ||unknowncrate.com^
 ||unknowntray.com^
@@ -71269,7 +71178,6 @@ chat.bilibili.com
 ||uranismunshore.com^
 ||urara02032023.com^
 ||urbact.fr^
-||urbankrafted.com^
 ||urbanproxy.eu^
 ||urbanv8dg.jp^
 ||urccncd.xyz^
@@ -71456,7 +71364,6 @@ chat.bilibili.com
 ||vaccinationwear.com^
 ||vacuomedogeys.com^
 ||vadspremium.com^
-||vaeginutra.com^
 ||vagromdecane.website^
 ||vagueleader.pro^
 ||vagvedi.cn^
@@ -71518,6 +71425,7 @@ chat.bilibili.com
 ||vartoken.com^
 ||varycares.com^
 ||vasanthkumar.com^
+||vashovskycorp.com^
 ||vasits.com^
 ||vasstycom.com^
 ||vastroll.ru^
@@ -71602,6 +71510,7 @@ chat.bilibili.com
 ||verbolia.com^
 ||vercel-analytics.com^
 ||vercel-insights.com^
+||verdreamsofcryin.com^
 ||vergi-gwc.com^
 ||vergi-wqf.com^
 ||vericlick.com^
@@ -71632,7 +71541,6 @@ chat.bilibili.com
 ||verypopularwebsite.com^
 ||verywellfitnesse.com^
 ||vespymedia.com^
-||vestracash.com^
 ||vetuststeek.com^
 ||veugcz8.com^
 ||vewdk.cyou^
@@ -71771,7 +71679,6 @@ chat.bilibili.com
 ||viisemblin.com^
 ||viivedun.com^
 ||viiyblva.com^
-||viiymfvi.com^
 ||vilagfigyelo.com^
 ||vilagunk.hu^
 ||vilelaaccable.com^
@@ -71830,6 +71737,7 @@ chat.bilibili.com
 ||virtualbox.pl^
 ||virtuallaughing.com^
 ||virtualvincent.com^
+||virvatulishop.eu^
 ||visadd.com^
 ||visana.fr^
 ||visariomedia.com^
@@ -71844,7 +71752,6 @@ chat.bilibili.com
 ||visit-website.com^
 ||visitbox.de^
 ||visitlog.net^
-||visitmightyethnic.com^
 ||visitor-analytics.io^
 ||visitor-analytics.net^
 ||visitor-metrics.com^
@@ -71984,7 +71891,6 @@ chat.bilibili.com
 ||voopsoog.xyz^
 ||voosegou.xyz^
 ||vooshagy.net^
-||voovle.com^
 ||vor.ngo^
 ||vor.ong^
 ||voraciousgrip.com^
@@ -72014,7 +71920,6 @@ chat.bilibili.com
 ||vpnaffiliates.com^
 ||vpnsafebrowsing.com^
 ||vpon.com^
-||vpphoangha.com^
 ||vprtrfc.com^
 ||vptadv.com^
 ||vq1qi.pw^
@@ -72210,10 +72115,10 @@ chat.bilibili.com
 ||waqool.com^
 ||warco.pl^
 ||wardrobecontingent.com^
+||waregamesoft.space^
 ||warehousesale.shop^
 ||warezaccess.com^
 ||warezkeeper.com^
-||warfarerewrite.com^
 ||warilycommercialconstitutional.com^
 ||wariod.com^
 ||warioland.com^
@@ -72248,7 +72153,6 @@ chat.bilibili.com
 ||watchpro.fr^
 ||watchthistop.net^
 ||watchtopapps.com^
-||watchyourvids.space^
 ||waterfairy.xyz^
 ||wateristian.com^
 ||waterlinesheet.org^
@@ -72278,6 +72182,7 @@ chat.bilibili.com
 ||wbidder2.com^
 ||wbidder3.com^
 ||wbilvnmool.com^
+||wbjjkdofo.xyz^
 ||wbn.su^
 ||wbnhqq.com^
 ||wboptim.online^
@@ -72494,6 +72399,7 @@ chat.bilibili.com
 ||wedeegut.net^
 ||wedflossbecause.com^
 ||wedleaunocomp.work^
+||wednesdaygranddadlecture.com^
 ||wednesdaynaked.com^
 ||wedolook.com^
 ||wedvmr.xyz^
@@ -72546,7 +72452,6 @@ chat.bilibili.com
 ||wellnessnaturopathic.com^
 ||welt-der-links.de^
 ||welved.com^
-||wemfbox.ch^
 ||wempooboa.com^
 ||wenda.io^
 ||wenrunyu.com^
@@ -72628,7 +72533,7 @@ chat.bilibili.com
 ||whereismommy.gq^
 ||whereismybonus.com^
 ||whereres.com^
-||wherevertogo.com^
+||whethobs.xyz^
 ||whillfortis.life^
 ||whim-w.net^
 ||whimsicalrain.com^
@@ -72712,7 +72617,6 @@ chat.bilibili.com
 ||wifekai.net^
 ||wifi.com^
 ||wifi33.com^
-||wifiextenderhelp.com^
 ||wigetmedia.com^
 ||wigglygeese.com^
 ||wigglyindustry.com^
@@ -72721,7 +72625,6 @@ chat.bilibili.com
 ||wiglurto.xyz^
 ||wignewsee.club^
 ||wiilberedmodels.com^
-||wikia.cm^
 ||wikia-beacon.com^
 ||wikidevs.com^
 ||wikiforosh.ir^
@@ -72798,7 +72701,6 @@ chat.bilibili.com
 ||wisewomanwarrior.com^
 ||wish-spiritua.net^
 ||wishdownget.com^
-||wishesantennarightfully.com^
 ||wishesobtrusivefastest.com^
 ||wishhoree1890.com^
 ||wishjus.com^
@@ -72846,6 +72748,7 @@ chat.bilibili.com
 ||wkzrqq.com^
 ||wl.gl^
 ||wl-cornholio.com^
+||wlafx4trk.com^
 ||wlczx.com^
 ||wledconsi.xyz^
 ||wlfcwkijsknted.xyz^
@@ -72967,7 +72870,6 @@ chat.bilibili.com
 ||worldgravity.com^
 ||worldlogger.com^
 ||worldmedpilldeliver.com^
-||worldnewstoday.site^
 ||worldssl.net^
 ||worldtraffic.trade^
 ||worldtus.com^
@@ -73205,7 +73107,6 @@ chat.bilibili.com
 ||wyrtqdvhuiyhml.com^
 ||wysistat.com^
 ||wysyshypti.pro^
-||wytxjmow.com^
 ||wytypowany-zwyciezca.com^
 ||wytypowany-zwyciezca.pl^
 ||wyunion.com^
@@ -73215,7 +73116,6 @@ chat.bilibili.com
 ||wz8g.top^
 ||wzbrughrw9a63hnfurap.com^
 ||wzdy.xyz^
-||wzk5ndpc3x05.com^
 ||wzkxke.xyz^
 ||wzmidfgwyxfrd.com^
 ||wzngisye.xyz^
@@ -73355,7 +73255,6 @@ chat.bilibili.com
 ||xhl161.com^
 ||xhmybanjia.cn^
 ||xhqg.xyz^
-||xhr0.xyz^
 ||xhsrw.xyz^
 ||xhunion.com^
 ||xhwdvwqrfvwnl.com^
@@ -73498,6 +73397,7 @@ chat.bilibili.com
 ||xmax.jp^
 ||xmbhj.com^
 ||xmeeting.com^
+||xmegaxvideox.com^
 ||xmg.cool^
 ||xmgysweb.com^
 ||xmhaorizi.cn^
@@ -73603,6 +73503,7 @@ chat.bilibili.com
 ||xpkftctvei.com^
 ||xplosion.de^
 ||xplusone.com^
+||xpoglobalshipping.com^
 ||xponsor.com^
 ||xpop.co^
 ||xporn.in^
@@ -73630,7 +73531,6 @@ chat.bilibili.com
 ||xsjh002.xyz^
 ||xskcjzamlkxwo.gq^
 ||xspadvertising.com^
-||xsph.ru^
 ||xssrmimmnq.ru^
 ||xstar.cc^
 ||xsu.cc^
@@ -73769,7 +73669,6 @@ chat.bilibili.com
 ||xzvfyowf.com^
 ||xzwk.hk^
 ||xzxhpcdz.icu^
-||xzy.quest^
 ||xzyituo.com^
 ||y-track.com^
 ||y-tradie.com^
@@ -73822,7 +73721,6 @@ chat.bilibili.com
 ||yardianalytics.com^
 ||yardsboffin.com^
 ||yarlnk.com^
-||yarmtangled.com^
 ||yas-jr.com^
 ||yatemy.cn^
 ||yatrk.xyz^
@@ -73909,13 +73807,12 @@ chat.bilibili.com
 ||yfue99.xyz^
 ||ygcn.ltd^
 ||yggkzs.cn^
-||ygmail.com^
-||ygoogle.com^
 ||ygq.ink^
 ||ygqrki.xyz^
 ||ygsm.com^
 ||ygwdai.cn^
 ||ygxgk.cn^
+||yh18h8s.com^
 ||yh20230625tu.com^
 ||yh21kk.com^
 ||yh300.vip^
@@ -74010,6 +73907,7 @@ chat.bilibili.com
 ||yjtag.jp^
 ||yk9s.top^
 ||ykbei.com^
+||ykdwyf.com^
 ||ykeykfuyfpkkb.jp^
 ||ykg5.cn^
 ||yklfg.cn^
@@ -74058,10 +73956,8 @@ chat.bilibili.com
 ||yogamagazine.fr^
 ||yogar2ti8nf09.com^
 ||yoggrt.com^
-||yohtube.com^
 ||yoinst.com^
 ||yoiqacw.cn^
-||yojutube.com^
 ||yokeeroud.com^
 ||yollamedia.com^
 ||yololike.space^
@@ -74077,6 +73973,7 @@ chat.bilibili.com
 ||yooli.com^
 ||yopard.com^
 ||yoredi.com^
+||yorkrefrigerent.md^
 ||yosity.com^
 ||yottlyscript.com^
 ||yottos.com^
@@ -74159,16 +74056,13 @@ chat.bilibili.com
 ||yourwownewz.com^
 ||youshouldclick.us^
 ||yousuode.cn^
-||youthbe.com^
 ||youthlaw.name^
 ||youtuba.com^
 ||youtubee.com^
 ||youtubex.top^
-||youtubo.com^
 ||youtuhe.com^
 ||youtui.net^
 ||youtunbe.com^
-||youutbe.com^
 ||youutube.com^
 ||youvetube.com^
 ||youvisit.fr^
@@ -74343,9 +74237,7 @@ chat.bilibili.com
 ||yzkzixun.com^
 ||yzykttcy.com^
 ||yzyszy.com^
-||z0uolej1qnxzub1.info^
 ||z11011.com^
-||z3dmbpl6309s.com^
 ||z4a.net^
 ||z4e2yem9edj.com^
 ||z66ggsh.top^
@@ -74393,7 +74285,6 @@ chat.bilibili.com
 ||zas8k2hj3i.com^
 ||zasjfget.xyz^
 ||zastag.com^
-||zationservantas.info^
 ||zatnoh.com^
 ||zauglomo.net^
 ||zauglust.net^
@@ -74466,7 +74357,6 @@ chat.bilibili.com
 ||zdyuoae.xyz^
 ||ze5.com^
 ||zealousfield.com^
-||zealpickup.com^
 ||zeatse.buzz^
 ||zebeaa.click^
 ||zebestof.com^
@@ -74475,6 +74365,7 @@ chat.bilibili.com
 ||zedoaryrejects.com^
 ||zedplays.com^
 ||zedxknzlwyofh.com^
+||zeeca4u.com^
 ||zeechumy.com^
 ||zeecoomi.net^
 ||zeipw.xyz^
@@ -74503,8 +74394,10 @@ chat.bilibili.com
 ||zergnet.com^
 ||zerjin.com^
 ||zero.kz^
+||zeroback.cc^
 ||zerocha.jp^
 ||zeroidtech.com^
+||zerolcp.cn^
 ||zeroredirect.com^
 ||zeroredirect1.com^
 ||zeroredirect11.com^
@@ -74621,8 +74514,6 @@ chat.bilibili.com
 ||zibaweva.com^
 ||zichenit.com^
 ||ziedwr.com^
-||zigighol.xyz^
-||zikay.biz^
 ||zikroarg.com^
 ||zilchesmoated.com^
 ||ziling.ink^
@@ -74631,6 +74522,7 @@ chat.bilibili.com
 ||zipeyrp.cn^
 ||zipitfast.com^
 ||zipperxray.com^
+||zippingcare.com^
 ||zippyfrog.co^
 ||zippywind.com^
 ||zipstat.dk^
@@ -74776,7 +74668,6 @@ chat.bilibili.com
 ||zsnfdphz.com^
 ||zsnignsq.xyz^
 ||zsnoownmq.fun^
-||zsrest.com^
 ||zswl.so^
 ||zswph.com^
 ||zsyk91.cn^
@@ -74837,6 +74728,7 @@ chat.bilibili.com
 ||zwiaaop.cyou^
 ||zwnoeqzsuz.com^
 ||zwogldq.top^
+||zwqzxh.com^
 ||zwyymwy.com^
 ||zx-adnet.com^
 ||zx573.cn^
@@ -74899,6 +74791,7 @@ chat.bilibili.com
 @@|166xs.cc^$important
 @@|31xiaoshuo.org^$important
 @@|adsterra.com^
+@@|ezodn.com^
 @@|zwda.com^$important
 @@|ads.adsterra.com^
 @@|affiliates.adsterra.com^
@@ -75108,6 +75001,7 @@ chat.bilibili.com
 @@||static-v*.trbo.com^
 @@||api.ads.tvb.com^
 @@||img.ads.tvb.com^
+@@||ads.twitter.com^
 @@||browser.cloud.ucweb.com^
 @@||blog.udn.com^
 @@||clj.valuecommerce.com^
