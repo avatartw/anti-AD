@@ -417,6 +417,8 @@ return [
     "yule.sohu.com" => 0, // #802
     "weworkremotely.com" => 0, // #803
     "zoosnet.net" => 0, // #811
+    "sqdd.myapp.com" => 0, // #814
+    "eco.taobao.com" => 0, // #815
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
