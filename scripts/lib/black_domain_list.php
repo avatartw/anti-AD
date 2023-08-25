@@ -1354,6 +1354,9 @@ return [
     "beizi.biz" => [
         "sdk.beizi.biz", // #813
     ],
+    "mobileservice.cn" => [
+        "zxid-m.mobileservice.cn", // #816
+    ],
 
 
     // #781
