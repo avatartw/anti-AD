@@ -295,6 +295,7 @@ $ARR_WHITE_RULE_LIST = [
     "@@||track.4px.com^" => 1, // #796
     "@@||ads.smartmidea.net^" => 1, // #807
     '@@||widget.ezidebit.com.au^' => 1, // #834
+    '@@||widget.rave.office.net^' => 1, // #837
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
