@@ -1375,6 +1375,10 @@ return [
     "unioncom.cc" => [
         "unioncom.cc", // #844
     ],
+    "trackingio.com" => [
+        "trackingio.com", // #857
+        "www.trackingio.com", // #857
+    ],
 
 
     // #781
