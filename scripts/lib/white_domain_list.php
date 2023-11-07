@@ -424,6 +424,7 @@ return [
     "api-secure.solvemedia.com" => 0, // #827
     "cupfox.app" => 0, // #829
     "ccmeng.com" => 0, // #830
+    "api.open.uc.cn" => 0, // #845
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
