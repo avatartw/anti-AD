@@ -1369,6 +1369,12 @@ return [
     "mihoyo.com" => [
         "hkrpg-log-upload.mihoyo.com", // #843
     ], 
+    "telecome.cn" => [
+        "telecome.cn", // #844
+    ],
+    "unioncom.cc" => [
+        "unioncom.cc", // #844
+    ],
 
 
     // #781
