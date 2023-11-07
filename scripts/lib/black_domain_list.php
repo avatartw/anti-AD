@@ -1366,6 +1366,9 @@ return [
         "p1-play.edge4k.com", // #833
         "p2-play.edge4k.com", // #833
     ],
+    "mihoyo.com" => [
+        "hkrpg-log-upload.mihoyo.com", // #843
+    ], 
 
 
     // #781
