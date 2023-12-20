@@ -136,7 +136,7 @@ $ARR_MERGED_WILD_LIST = [
 
 $ARR_REGEX_LIST = [
     '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/' => ["m" => '$dnstype=A|AAAA'],
-    "/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\./" => [
+    "/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./" => [
         "m" =>
             '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com',
     ],
