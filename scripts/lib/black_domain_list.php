@@ -238,7 +238,7 @@ return [
     ],
 
     "kingsoft-office-service.com" => ["abroad-ad.kingsoft-office-service.com"],
-    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com"],
+    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com", "v6-adashx.ut.amap.com"],
     "tt114.net" => ["tt114.net"], //例如http://www.tt114.net/html/tlink.html
     "taobao.com" => [
         "ip.taobao.com",
@@ -247,6 +247,7 @@ return [
         "acs.m.taobao.com",
         "acs.wapa.taobao.com",
         "openjmacs.m.taobao.com",
+        "v6-adashx.ut.taobao.com", // #859
     ],
     "aiclk.com" => ["aiclk.com"],
     "5ubei.com" => ["5ubei.com"], //統計類例如http://dnm.5ubei.com:7098/hlink.html
@@ -1352,6 +1353,7 @@ return [
     ],
     "beizi.biz" => [
         "sdk.beizi.biz", // #813
+        "api-htp.beizi.biz", // #859
     ],
     "mobileservice.cn" => [
         "zxid-m.mobileservice.cn", // #816
@@ -1379,6 +1381,42 @@ return [
         "trackingio.com", // #857
         "www.trackingio.com", // #857
     ],
+    "hubcloud.com.cn" => [
+        "hubcloud.com.cn", // #859
+        "api.htp.hubcloud.com.cn", //#859
+        "res1.hubcloud.com.cn", // #859
+        "v.adx.hubcloud.com.cn", // #859
+    ],
+    "cainiao.com" => [
+        "v6-adashx.ut.cainiao.com", //#859
+    ],
+    "ele.me" => [
+        "v6-adashx.ut.ele.me", //#859
+    ],
+    "quark.cn" => [
+        "applog.lc.quark.cn", // #859
+        "adtrack.quark.cn", // #859
+        "track.lc.quark.cn", // #859
+    ],
+    "aligames.com" => [
+        "cddp-track.aligames.com", // #859
+    ],
+    "aispeech.com" => [
+        "log.aispeech.com", // #859
+    ],
+    "xiaomi.net" => [
+        "sentry.d.xiaomi.net", // #859
+    ],
+    "wps.cn" => [
+        "co-sentry.wps.cn", // #859
+    ],
+    "zdmimg.com" => [
+        "sentry-monitor-new.zdmimg.com", // #859
+    ],
+    "volceapplog.com" => [
+        "volceapplog.com", // #859
+    ],
+
 
 
     // #781
