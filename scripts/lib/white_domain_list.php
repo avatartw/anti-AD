@@ -426,6 +426,8 @@ return [
     "ccmeng.com" => 0, // #830
     "api.open.uc.cn" => 0, // #845
     "code.sms.mob.com" => 0, // #855
+    "statsig.com" => 0, // #869, #860
+    "api.statsig.com" => 0, // #869, #860
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
