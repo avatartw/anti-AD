@@ -299,6 +299,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||widget.sndcdn.com^' => 1, // #839
     '@@||ad.nl^' => 1, // #841
     '@@||code.sms.mob.com^' => 1, // #855
+    '@@||api.slightcommunicativeinterconnectedness.xyz^' => 1, // #873
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
