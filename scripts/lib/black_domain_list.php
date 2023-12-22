@@ -75,10 +75,7 @@ return [
     "behe.com" => ["behe.com"],
     "dnset.com" => ["dnset.com"],
     "yiqifa.com" => ["yiqifa.com"],
-    "kankan.com" => [
-        "float.kankan.com",
-        "stat.kankan.com",
-    ],
+    "kankan.com" => ["float.kankan.com", "stat.kankan.com"],
     "oadz.com" => ["oadz.com"],
     "dopa.com" => ["dopa.com"],
     "dopa.com.cn" => ["dopa.com.cn"],
@@ -237,7 +234,11 @@ return [
     ],
 
     "kingsoft-office-service.com" => ["abroad-ad.kingsoft-office-service.com"],
-    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com", "v6-adashx.ut.amap.com"],
+    "amap.com" => [
+        "logs.amap.com",
+        "dualstack-logs.amap.com",
+        "v6-adashx.ut.amap.com",
+    ],
     "tt114.net" => ["tt114.net"], //例如http://www.tt114.net/html/tlink.html
     "taobao.com" => [
         "ip.taobao.com",
@@ -1108,19 +1109,19 @@ return [
     "cncrk.com" => [
         "js.cncrk.com", // #583
     ],
-//    "dianshihome.com" => [
-//        "api.dianshihome.com", // #571
-//        "cdn.dianshihome.com", // #571
-//    ],
-//    "dianshige.com" => [
-//        "api.dianshige.com", // #571
-//    ],
-//    "tvfuwu.com" => [
-//        "pushapi.tvfuwu.com", // #571
-//    ],
-//    "cdnimg.org" => [
-//        "pushapi.cdnimg.org", // #571
-//    ],
+    //    "dianshihome.com" => [
+    //        "api.dianshihome.com", // #571
+    //        "cdn.dianshihome.com", // #571
+    //    ],
+    //    "dianshige.com" => [
+    //        "api.dianshige.com", // #571
+    //    ],
+    //    "tvfuwu.com" => [
+    //        "pushapi.tvfuwu.com", // #571
+    //    ],
+    //    "cdnimg.org" => [
+    //        "pushapi.cdnimg.org", // #571
+    //    ],
     "telegrem.org" => [
         "telegrem.org", // #616
     ],
@@ -1337,7 +1338,7 @@ return [
         "advertiseonbing.azureedge.net", // #793
     ],
     "duoduo.link" => [
-         "ad.duoduo.link", // #793
+        "ad.duoduo.link", // #793
     ],
     "pangolin-sdk-toutiao1.com" => [
         "pangolin-sdk-toutiao1.com", // #800
@@ -1361,7 +1362,7 @@ return [
     ],
     "mihoyo.com" => [
         "hkrpg-log-upload.mihoyo.com", // #843
-    ], 
+    ],
     "telecome.cn" => [
         "telecome.cn", // #844
     ],
@@ -1408,8 +1409,6 @@ return [
     "volceapplog.com" => [
         "volceapplog.com", // #859
     ],
-
-
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
