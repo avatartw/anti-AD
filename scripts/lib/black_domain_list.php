@@ -1456,6 +1456,10 @@ return [
     "kuaishouzt.com" => [
         "kuaishouzt.com", // #847
     ],
+    "10010.com" => [
+        "nishub1.10010.com", // #866
+        "enrichgw.10010.com", // #866
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
