@@ -1,8 +1,8 @@
 !Title: anti-AD
-!Version: 20240102012755
+!Version: 20240105012854
 !Homepage: https://github.com/avatartw/anti-AD
 !!!note! This list only applies to "AdGuard Home".
-!Total lines: 60093
+!Total lines: 60095
 @@||17173im.allyes.com^
 @@||5471782.fls.doubleclick.net^
 @@||a.sellpoint.net^
@@ -151,6 +151,8 @@
 @@||ad.nl^
 @@||code.sms.mob.com^
 @@||api.slightcommunicativeinterconnectedness.xyz^
+@@||openxlab.org.cn^
+@@||tracking.dpd.de^
 /^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A|AAAA
 /^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.10010.com^
