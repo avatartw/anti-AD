@@ -1678,7 +1678,11 @@ return [
     //一些電視盒子相關的屏蔽列表
     "tuiapple.com" => ["activity.tuiapple.com"],
     "tudou.com" => ["ad.api.3g.tudou.com"],
-    "youku.com" => ["ad.api.3g.youku.com", "ad.api.mobile.youku.com"],
+    "youku.com" => [
+    	"ad.api.3g.youku.com",
+    	"ad.api.mobile.youku.com",
+        "pcapp-data-collect.youku.com", // #884
+	],
     "sohu.com" => ["agn.aty.sohu.com"],
     "gitv.tv" => ["api.cupid.ptqy.gitv.tv"],
     "tatagou.com.cn" => ["api.tatagou.com.cn"],
