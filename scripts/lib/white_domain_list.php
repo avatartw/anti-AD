@@ -428,6 +428,7 @@ return [
     "code.sms.mob.com" => 0, // #855
     "statsig.com" => 0, // #869, #860
     "api.statsig.com" => 0, // #869, #860
+    "up.cm.ksmobile.com" => 0, // #880
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
