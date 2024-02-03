@@ -1683,7 +1683,7 @@ return [
     	"ad.api.3g.youku.com",
     	"ad.api.mobile.youku.com",
         "pcapp-data-collect.youku.com", // #884
-	],
+    ],
     "sohu.com" => ["agn.aty.sohu.com"],
     "gitv.tv" => ["api.cupid.ptqy.gitv.tv"],
     "tatagou.com.cn" => ["api.tatagou.com.cn"],
