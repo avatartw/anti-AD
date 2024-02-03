@@ -165,6 +165,7 @@ return [
         "iadsdk.apple.com",
         "banners.itunes.apple.com",
         "iad.apple.com",
+        "api-adservices.apple.com", // #864
     ],
     "51y5.net" => [
         "51y5.net", //wifi萬能鑰匙的推廣
