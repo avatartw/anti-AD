@@ -145,6 +145,7 @@ return [
         "ad.intl.xiaomi.com",
         "ad.xiaomi.com",
         "admob.xiaomi.com",
+        "tz.sec.xiaomi.com", // #885
     ],
     "zhihu.com" => [
         "lc-push.zhihu.com",
