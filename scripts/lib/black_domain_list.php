@@ -1483,7 +1483,6 @@ return [
     "googletagmanager-cn.com" => ["googletagmanager-cn.com"],
     "googletagservices-cn.com" => ["googletagservices-cn.com"],
     "googlevads-cn.com" => ["googlevads-cn.com"],
-    "gvt1-cn.com" => ["gvt1-cn.com"],
 
     // 批量添加域名
     "0202.com.tw" => ["0202.com.tw", "www.0202.com.tw"],
