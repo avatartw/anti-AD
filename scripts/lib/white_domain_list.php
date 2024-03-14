@@ -429,6 +429,7 @@ return [
     "statsig.com" => 0, // #869, #860
     "api.statsig.com" => 0, // #869, #860
     "up.cm.ksmobile.com" => 0, // #880
+    "icanhazip.com" => 0, // #899
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
