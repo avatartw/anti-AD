@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard DNS filter, StevenBlack hosts, anti-AD, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-03-16T17:22:22.403Z
+! Last modified: 2024-03-17T00:56:54.201Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.16
 !
@@ -25,6 +25,7 @@ chat.bilibili.com
 |samsungqbe.com^
 ||hbbtv.*.de^
 ||hostingcloud.*.wasm^
+||*.*skwai.com^
 ||api2.branch.io^$dnsrewrite=0.0.0.0^
 ||0.0.0.000000255123135324.ml^
 ||www.000free.us^
@@ -439,6 +440,7 @@ chat.bilibili.com
 ||m.analytics.126.net^
 ||ir.mail.126.com^
 ||admusicpic.music.126.net^
+||ads.music.126.net^
 ||iadmusicmat.music.126.net^
 ||iadmusicmatvideo.music.126.net^
 ||android.push.126.net^
@@ -2241,6 +2243,9 @@ chat.bilibili.com
 ||challenge.360in.com^
 ||dispatcher.360in.com^
 ||exp.360in.com^
+||hya.comp.360os.com^
+||hye.comp.360os.com^
+||hyt.comp.360os.com^
 ||mclean.lato.cloud.360safe.com^
 ||mvconf.lato.cloud.360safe.com^
 ||mclean.uk.cloud.360safe.com^
@@ -2575,6 +2580,7 @@ chat.bilibili.com
 ||bd2.52che.com^
 ||c.52jimi.top^
 ||v.52jimi.top^
+||api.52kkg.com^
 ||shouliang.52lvgucci.com^
 ||oskdjfkds.52pipaxing.com^
 ||5y9nfpes.52pk.com^
@@ -2679,6 +2685,7 @@ chat.bilibili.com
 ||www.6767ww1jsm3gzoh0wy.com^
 ||bd1-china.6789.com^
 ||bd2-china.6789.com^
+||kl.67it.com^
 ||bdjs.6822.com^
 ||trace.690.co^
 ||sygame.695157.com^
@@ -2867,6 +2874,8 @@ chat.bilibili.com
 ||business.92wy.com^
 ||m.937920.com^
 ||ad.95306.cn^
+||ads.95516.com^
+||analytics.95516.com^
 ||p4.95558000.com^
 ||p6.95558000.com^
 ||p7.95558000.com^
@@ -3848,6 +3857,7 @@ chat.bilibili.com
 ||mi.adinterax.com^
 ||tr.adinterax.com^
 ||www.adinterax.com^
+||v.adintl.cn^
 ||www.adipics.com^
 ||ads.adiply.com^
 ||ad1.adfarm1.adition.com^
@@ -3927,9 +3937,13 @@ chat.bilibili.com
 ||ufs.adkmob.com^
 ||interia.adsearch.adkontekst.pl^
 ||adsearch.adkontekst.pl^
+||*-lm.adkwai.com^
+||org-lm.adkwai.com^
 ||p1.adkwai.com^
 ||p1-lm.adkwai.com^
+||p2-lm.adkwai.com^
 ||p3.adkwai.com^
+||p3-lm.adkwai.com^
 ||stat.adlabs.ru^
 ||community.adlandpro.com^
 ||pk.adlandpro.com^
@@ -4131,6 +4145,7 @@ chat.bilibili.com
 ||www.adnxs.com^
 ||ym.adnxs.com^
 ||s.adnxtr.com^
+||img.adnyg.com^
 ||mcd-mkt-prod31-lb.campaign.adobe.com^
 ||pandoramedia-mkt-prod1-t.campaign.adobe.com^
 ||wdpro-mkt-prod2-lb.campaign.adobe.com^
@@ -5426,6 +5441,7 @@ chat.bilibili.com
 ||s3.aishangcan.com^
 ||domain.aishengji.com^
 ||www.aisiansex.com^
+||log.aispeech.com^
 ||www.ait7ee.win^
 ||ads.aitype.net^
 ||ro.aiwan4399.com^
@@ -5648,6 +5664,7 @@ chat.bilibili.com
 ||www.aldik.com^
 ||www.alenai.cyou^
 ||www.alenty.com^
+||www.alertsecurities.in^
 ||www.alessandraleone.com^
 ||data.alexa.com^
 ||certify.alexametrics.com^
@@ -5674,6 +5691,7 @@ chat.bilibili.com
 ||bmp1.ali213.net^
 ||dsp.ali213.net^
 ||web.ali213.net^
+||cdn.ynuf.aliapp.org^
 ||umdc.aliapp.org^
 ||ynuf.aliapp.org^
 ||p4psearch.china.alibaba.com^
@@ -5786,6 +5804,8 @@ chat.bilibili.com
 ||fineboost-loghub.ap-southeast-1.log.aliyuncs.com^
 ||jsadsdisplay.cn-beijing.log.aliyuncs.com^
 ||ttjx-online.cn-hangzhou.log.aliyuncs.com^
+||*.log.aliyuncs.com^
+||org.log.aliyuncs.com^
 ||adash.man.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
@@ -5793,7 +5813,6 @@ chat.bilibili.com
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||daxiu01.oss-accelerate.aliyuncs.com^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
-||ff119f.oss-accelerate.aliyuncs.com^
 ||if90f.oss-accelerate.aliyuncs.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
@@ -5820,6 +5839,7 @@ chat.bilibili.com
 ||www5.oss-cn-hangzhou.aliyuncs.com^
 ||xz888.oss-cn-hangzhou.aliyuncs.com^
 ||aixuntupian.oss-cn-hongkong.aliyuncs.com^
+||cloud-inject-global.oss-cn-hongkong.aliyuncs.com^
 ||compan.oss-cn-hongkong.aliyuncs.com^
 ||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||zhengxinpeixun.oss-cn-qingdao.aliyuncs.com^
@@ -6046,10 +6066,13 @@ chat.bilibili.com
 ||rcm-it.amazon.it^
 ||uedata.amazon.com^
 ||wp-stat.s3.amazonasw.com^
+||cloudinject*-dev.*.*-*-*.amazonaws.com^
 ||tag-based.s3.*.amazonaws.com^
 ||mobileanalytics.*.amazonaws.com^
 ||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^
 ||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^
+||cloudinject*-dev.s3.ap-northoreast-1.amazonaws.com^
+||cloudinjectorg-dev.s3.ap-northoreast-1.amazonaws.com^
 ||errorordufhwe.s3.ap-south-1.amazonaws.com^
 ||goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com^
 ||jp-helplineweb-chrsmjinfgtizonedswebs-01.s3.ap-southeast-2.amazonaws.com^
@@ -6108,6 +6131,7 @@ chat.bilibili.com
 ||fastndio.s3.eu-central-1.amazonaws.com^
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^
 ||huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com^
+||cloudinjectorg-dev.org.org-org-org.amazonaws.com^
 ||tag-based.s3.org.amazonaws.com^
 ||mobileanalytics.org.amazonaws.com^
 ||later-analytics-reports.s3-accelerate.amazonaws.com^
@@ -6406,6 +6430,7 @@ chat.bilibili.com
 ||ssp.anyclip-media.com^
 ||pixel.anyclip.com^
 ||m.anyfiles.ovh^
+||adx-cn.anythinktech.com^
 ||da.anythinktech.com^
 ||tk.anythinktech.com^
 ||bannerads.anytimenews.com^
@@ -6591,6 +6616,7 @@ chat.bilibili.com
 ||stocks-analytics-events.news.apple-dns.net^
 ||weather-analytics-events.news.apple-dns.net^
 ||netflix.apple-green.net^
+||proxy.advp.apple.com^
 ||stats.gc.apple.com^
 ||ca.iadsdk.apple.com^
 ||cf.iadsdk.apple.com^
@@ -6601,9 +6627,12 @@ chat.bilibili.com
 ||advertising.apple.com^
 ||api-adservices.apple.com^
 ||books-analytics-events.apple.com^
+||iad.apple.com^
 ||iadsdk.apple.com^
+||iadworkbench.apple.com^
 ||metrics.apple.com^
 ||notes-analytics-events.apple.com^
+||qwapi.apple.com^
 ||searchads.apple.com^
 ||securemetrics.apple.com^
 ||stocks-analytics-events.apple.com^
@@ -6932,6 +6961,7 @@ chat.bilibili.com
 ||stats.askmen.com^
 ||stats.askmoses.com^
 ||p.asks.jp^
+||w1.askwai.com^
 ||combine.asnapieu.com^
 ||device-api.asnapieu.com^
 ||remote-data.asnapieu.com^
@@ -7212,7 +7242,11 @@ chat.bilibili.com
 ||www.avis.cm^
 ||www.avitocars.ru^
 ||www.avkzarabotok.info^
+||ixav-cse.avlyun.com^
 ||log.avlyun.com^
+||miav-cse.avlyun.com^
+||miui-fxcse.avlyun.com^
+||sdkconf.avlyun.com^
 ||cdn.avmws.com^
 ||www.avnads.com^
 ||ads.avocarrot.com^
@@ -7342,6 +7376,7 @@ chat.bilibili.com
 ||li.azstarnet.com^
 ||www.azulerie.it^
 ||adncdnend.azureedge.net^
+||advertiseonbing.azureedge.net^
 ||analytics-consent-manager.azureedge.net^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||connext-cdn.azureedge.net^
@@ -7610,6 +7645,7 @@ chat.bilibili.com
 ||ma.baidu.cn^
 ||ma.baidu.com^
 ||miao.baidu.com^
+||mine.baidu.com^
 ||mipengine.baidu.com^
 ||mobads.baidu.cn^
 ||mobads.baidu.com^
@@ -7995,6 +8031,7 @@ chat.bilibili.com
 ||ys2000.cdn.bcebos.com^
 ||tupian888.org.bcebos.com^
 ||bj.bcebos.com^
+||httpdns.bcelive.com^
 ||android.bcfads.com^
 ||www.bcloudhost.com^
 ||ads.bcnewsgroup.com^
@@ -8037,6 +8074,7 @@ chat.bilibili.com
 ||api.beaconsinspace.com^
 ||app.beanstalkdata.com^
 ||t.beanstalkdata.com^
+||www.bearware.org^
 ||z680.beaumontenterprise.com^
 ||www.beauty-tea.com^
 ||salon.beauty202201.com^
@@ -8214,6 +8252,8 @@ chat.bilibili.com
 ||b.beizhoujt.cn^
 ||in.beizhoujt.cn^
 ||s.beizhoujt.cn^
+||api-htp.beizi.biz^
+||sdk.beizi.biz^
 ||bjads.bejbej.ca^
 ||qn.bejson.com^
 ||containertags.belboon.de^
@@ -9194,6 +9234,7 @@ chat.bilibili.com
 ||static.bshare.cn^
 ||www.bshare.cn^
 ||a.bshu.com^
+||w1.bskwai.com^
 ||e.bsnnk.com^
 ||m.bsnnk.com^
 ||ads.bsplayer.com^
@@ -9313,6 +9354,8 @@ chat.bilibili.com
 ||promos.bwin.it^
 ||mediaserver.bwinpartypartners.com^
 ||mediaserver.bwinpartypartners.it^
+||ad.bwton.com^
+||dlogs.bwton.com^
 ||rtnl.bxcl.de^
 ||a.bxwblog.cn^
 ||ca.bxwx3.org^
@@ -9337,15 +9380,25 @@ chat.bilibili.com
 ||api.bytebrew.io^
 ||tracking.server.bytecon.com^
 ||dm.bytedance.com^
+||tnc3-aliec2.bytedance.com^
+||tnc3-alisc1.bytedance.com^
+||tnc3-bjlgy.bytedance.com^
 ||isub.snssdk.com.bytedns.net^
 ||log.snssdk.com.bytedns.net^
 ||open.snssdk.com.bytedns.net^
+||lf1-cdn-tos.bytegoofy.com^
 ||gpm-mon-sg.bytegsdk.com^
 ||log-sg.bytegsdk.com^
+||*-ad-*.byteimg.com^
+||*-ad-sign.byteimg.com^
+||org-ad-org.byteimg.com^
+||org-ad-sign.byteimg.com^
 ||p*-ad-sign.byteimg.com^
+||p3-tt.byteimg.com^
 ||porg-ad-sign.byteimg.com^
 ||gecko-sg.byteoversea.com^
 ||gpm-mon-sg.byteoversea.com^
+||log.byteoversea.com^
 ||log*.byteoversea.com^
 ||logorg.byteoversea.com^
 ||maliva-mcs.byteoversea.com^
@@ -9411,6 +9464,7 @@ chat.bilibili.com
 ||events.caffeine.tv^
 ||5vcjzwb1tsnd82g.caflu87p1d.ru^
 ||download.caihong.com^
+||cn-acs.m.cainiao.com^
 ||openx.cairo360.com^
 ||apollo.caixin.com^
 ||gg.caixin.com^
@@ -9823,6 +9877,7 @@ chat.bilibili.com
 ||statsegg.cdngeek.com^
 ||httpdns.c.cdnhwc2.com^
 ||ad.cdnjm.cn^
+||syh-imp.cdnjtzy.com^
 ||beacon.cdnma.com^
 ||sdk.cdnmaster.com^
 ||site.cdnmaster.com^
@@ -9860,6 +9915,7 @@ chat.bilibili.com
 ||cn.ecritel.bench.cedexis.com^
 ||probes.cedexis.com^
 ||radar.cedexis.com^
+||tvuser-ch.cedock.com^
 ||track.cedsdigital.it^
 ||track.msadcenter.ceio.com^
 ||go.celebjihad.live^
@@ -10183,6 +10239,7 @@ chat.bilibili.com
 ||analysis.chinaiiss.com^
 ||p1.chinakaoyan.com^
 ||navi.gd.chinamobile.com^
+||sdkoptedge.chinanetcenter.com^
 ||me.afp.chinanews.com^
 ||afp.chinanews.com^
 ||adq.chinaso.com^
@@ -10193,6 +10250,8 @@ chat.bilibili.com
 ||adx.chip.de^
 ||tags.chip.de^
 ||ads.chipcenter.com^
+||jfapi.chiq-cloud.com^
+||uapi.chiq-cloud.com^
 ||event.chitai-gorod.ru^
 ||mm.chitika.net^
 ||r.chitika.net^
@@ -11619,6 +11678,7 @@ chat.bilibili.com
 ||abcd.cnhuoche.com^
 ||ads.cnixon.com^
 ||chechla.cnixon.com^
+||xlmzc.cnjp-exp.com^
 ||jsf.cnlinfo.net^
 ||icon.cnmo.com^
 ||js.cnmo.com^
@@ -12513,6 +12573,7 @@ chat.bilibili.com
 ||mci1.co.kr^
 ||mediad.co.jp^
 ||megadata.co.kr^
+||menstreamlive.co.za^
 ||metadsp.co.uk^
 ||monetisetrk.co.uk^
 ||monetisetrk2.co.uk^
@@ -13069,6 +13130,7 @@ chat.bilibili.com
 ||tr.discuss.com.hk^
 ||www.distribuidoraderetentores.com.br^
 ||www.distrilamadrid.com.ar^
+||adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn^
 ||ads.doit.com.cn^
 ||metrics.dominos.com.tr^
 ||cloudcdn.dopa.com.cn^
@@ -13137,6 +13199,12 @@ chat.bilibili.com
 ||cdn.hpplay.com.cn^
 ||h5.hpplay.com.cn^
 ||hy.huangye88.com.cn^
+||v.adx.hubcloud.com.cn^
+||api.htp.hubcloud.com.cn^
+||res.hubcloud.com.cn^
+||res1.hubcloud.com.cn^
+||res2.hubcloud.com.cn^
+||res3.hubcloud.com.cn^
 ||sdktmp.hubcloud.com.cn^
 ||www.huishenghuiying.com.cn^
 ||bumerangshowsites.hurriyet.com.tr^
@@ -13536,6 +13604,7 @@ chat.bilibili.com
 ||acompanhantesbrasil.com.br^
 ||acpbdf.com.br^
 ||ad-plus.com.tr^
+||ad-scope.com.cn^
 ||ad4.com.cn^
 ||adbuka.com.ng^
 ||adimg.com.com^
@@ -13556,6 +13625,7 @@ chat.bilibili.com
 ||bannerlandia.com.ar^
 ||baobaoshiye.com.cn^
 ||batmobile.com.tw^
+||bearcatpumps.com.cn^
 ||beespace.com.ua^
 ||bh100.com.cn^
 ||bigmart.com.np^
@@ -14658,6 +14728,7 @@ chat.bilibili.com
 ||www.crypto.csgocpu.com^
 ||crypto.csgocpu.com^
 ||www.csk.ru^
+||w1.cskwai.com^
 ||statistics.csob.cz^
 ||linux.css2.com^
 ||www.cstrespsurvey.ca^
@@ -14673,6 +14744,7 @@ chat.bilibili.com
 ||www.ctlrnwbv.ru^
 ||cm.ctnsnet.com^
 ||i.ctnsnet.com^
+||success.ctobsnssdk.com^
 ||tobapplog.ctobsnssdk.com^
 ||toblog.ctobsnssdk.com^
 ||t810.ctpost.com^
@@ -14734,6 +14806,7 @@ chat.bilibili.com
 ||news.cxxtv.com^
 ||scripts.cy-wz.com^
 ||lp7n.cy6px.com^
+||ad.cyapi.cn^
 ||www.cyber-ad01.cc^
 ||qt.cyberads.io^
 ||ads.cyberctm.com^
@@ -15026,6 +15099,8 @@ chat.bilibili.com
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||ad.db3nf.com^
 ||cs02-pps-drcn.dbankcdn.com^
+||hiboard-drcn.ai.dbankcloud.cn^
+||hwpub-s01-drcn.cloud.dbankcloud.cn^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||ubacollect-org.cloud.dbankcloud.cn^
 ||metrics-dre.data.dbankcloud.cn^
@@ -15041,10 +15116,18 @@ chat.bilibili.com
 ||metrics-dre.dt.dbankcloud.cn^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics5.dt.dbankcloud.ru^
+||recommend-drcn.hms.dbankcloud.cn^
+||weather-drcn.music.dbankcloud.cn^
+||adx-drcn.op.dbankcloud.cn^
+||events-drcn.op.dbankcloud.cn^
 ||grs.platform.dbankcloud.ru^
 ||logservice-*.platform.dbankcloud.cn^
 ||logservice-dre.platform.dbankcloud.cn^
 ||logservice-org.platform.dbankcloud.cn^
+||oauth-login-drcn.platform.dbankcloud.com^
+||rms-drcn.platform.dbankcloud.cn^
+||terms-drcn.platform.dbankcloud.cn^
+||weather-community-drcn.weather.dbankcloud.cn^
 ||adx-*.dbankcloud.*^
 ||adx-org.dbankcloud.org^
 ||grs.dbankcloud.*^
@@ -15631,7 +15714,6 @@ chat.bilibili.com
 ||dmx.districtm.io^
 ||prebid.districtm.ca^
 ||code.ditiezu.net^
-||blog.diu.ac^
 ||metrics.divinecaroline.com^
 ||www.divisioncore.com^
 ||ad.divreach.com^
@@ -16260,6 +16342,7 @@ chat.bilibili.com
 ||trace21.dsb-ebusiness.com^
 ||fam.dsdemo.jp^
 ||corusads.dserv.ca^
+||w1.dskwai.com^
 ||tracking.dsmmadvantage.com^
 ||files.dsnetwb.com^
 ||jiu.dsnfun.cn^
@@ -16554,7 +16637,6 @@ chat.bilibili.com
 ||tjlog.ps.easou.com^
 ||adm.easou.com^
 ||tjlog.easou.com^
-||www.eastconsults.com^
 ||mini.eastday.com^
 ||tongji.eastday.com^
 ||mobappconfig.securities.eastmoney.com^
@@ -17542,6 +17624,7 @@ chat.bilibili.com
 ||stats.esecured.net^
 ||www.eshopads2.com^
 ||tracking.eskratch.com^
+||w1.eskwai.com^
 ||e-ny.a-1shz2prbmdj6wvny-1sez2pra2dj6wjny-1jcpgbowsdj6x9ny-1seq-2-2.stats.esomniture.com^
 ||e-n.y-1shz2prbmdj6wvny-1sez2pra2dj6wjmyepdzadpwudj6x9ny-1seq-2-2.stats.esomniture.com^
 ||e-2dj6wfk4ehd5afq.stats.esomniture.com^
@@ -18103,6 +18186,8 @@ chat.bilibili.com
 ||media5.fc2.com^
 ||analyzer5.fc2cn.com^
 ||150601.fc2rs.com^
+||dsp.fcbox.com^
+||hugelog.fcbox.com^
 ||tracking.fccinteractive.com^
 ||n.fcd.su^
 ||analytics.fcgtalent.fi^
@@ -18266,11 +18351,13 @@ chat.bilibili.com
 ||t.firstpromoter.com^
 ||www.fischereszter.hu^
 ||www.fishclix.com^
+||aij.round.fishingreelinvestment.com^
 ||ged.round.fishingreelinvestment.com^
 ||huia.round.fishingreelinvestment.com^
 ||jdol.round.fishingreelinvestment.com^
 ||lkdj.round.fishingreelinvestment.com^
-||mzv.round.fishingreelinvestment.com^
+||pkfkd.round.fishingreelinvestment.com^
+||qbo.round.fishingreelinvestment.com^
 ||tiw.round.fishingreelinvestment.com^
 ||logging.fishsticksgames.com^
 ||metrics*.fitanalytics.com^
@@ -18293,6 +18380,7 @@ chat.bilibili.com
 ||m.fjshxzyyxgs.cn^
 ||adv.fjtv.net^
 ||jyz.fjtzjy.com^
+||catalog.fjwhcbsh.com^
 ||jyd.fjzdmy.com^
 ||d9w.fl1c.com^
 ||2.s09.flagcounter.com^
@@ -18538,6 +18626,7 @@ chat.bilibili.com
 ||novunu.football-plyus.net^
 ||analytics.footballdb.com^
 ||king-contenido-prod.secure2.footprint.net^
+||azr.footprintdns.com^
 ||pre.footprintpredict.com^
 ||adcycle.footymad.net^
 ||ads.footymad.net^
@@ -18893,6 +18982,7 @@ chat.bilibili.com
 ||muer.cdn-baidu.fs-sywh.com^
 ||piwik.fsf.org^
 ||www.fsktv1990.com^
+||w1.fskwai.com^
 ||v3.fstats.xyz^
 ||image.fsyule.net^
 ||dm.fsyzcs.com^
@@ -19162,6 +19252,8 @@ chat.bilibili.com
 ||sta.ganji.com^
 ||tralog.ganji.com^
 ||wuliao.ganji.cn^
+||g2.ganjing.world^
+||g-staic.ganjingworld.com^
 ||traxex.gannettdigital.com^
 ||reporting-api.gannettinnovation.com^
 ||gcirm.gannettnetwork.com^
@@ -19230,6 +19322,7 @@ chat.bilibili.com
 ||adsmind.gdtimg.com^
 ||public.gdtimg.com^
 ||qzs.gdtimg.com^
+||review.gdtimg.com^
 ||union.gdtimg.com^
 ||js.gdyjs.com^
 ||dspmy.ge95.com^
@@ -19453,7 +19546,11 @@ chat.bilibili.com
 ||events.auth.gid.ru^
 ||stats.gifs.com^
 ||stats-messages.gifs.com^
+||ad.partner.gifshow.com^
 ||gdfp.gifshow.com^
+||log-sdk.gifshow.com^
+||ulog-sdk.gifshow.com^
+||ulogjs.gifshow.com^
 ||www.giftcardchallenge.com^
 ||wh.giftd.tech^
 ||pw.gigazine.net^
@@ -19491,6 +19588,7 @@ chat.bilibili.com
 ||analytics.gismart.xyz^
 ||prod-defaulting-subscriptiontool.gismart.xyz^
 ||achicih.gitee.io^
+||tracker.gitee.com^
 ||www.gitgrub.pro^
 ||aldin101.github.io^
 ||baidut.github.io^
@@ -19505,8 +19603,11 @@ chat.bilibili.com
 ||mixer.cupid.ptqy.gitv.tv^
 ||t7z.cupid.ptqy.gitv.tv^
 ||nl.rcd.ptqy.gitv.tv^
+||liveats-vod.video.ptqy.gitv.tv^
 ||msg.video.ptqy.gitv.tv^
 ||msg2.video.ptqy.gitv.tv^
+||policy.video.ptqy.gitv.tv^
+||sdk-cache.video.ptqy.gitv.tv^
 ||msg.ptqy.gitv.tv^
 ||msga.ptqy.gitv.tv^
 ||store.ptqy.gitv.tv^
@@ -19789,10 +19890,13 @@ chat.bilibili.com
 ||www-google-analytics.l.google.com^
 ||cert-test.sandbox.google.com^
 ||video-stats.video.google.com^
+||ads.google.cn^
 ||ads.google.com^
+||adsense.google.cn^
 ||adservice.google.*^
 ||adservice.google.be^
 ||adservice.google.ca^
+||adservice.google.cn^
 ||adservice.google.com^
 ||adservice.google.cz^
 ||adservice.google.nl^
@@ -20085,6 +20189,7 @@ chat.bilibili.com
 ||ae.gsecondscreen.com^
 ||cdn-jp.gsecondscreen.com^
 ||logs.gshopper.com^
+||w1.gskwai.com^
 ||ads.gsm-exchange.com^
 ||a.gsmarena.com^
 ||adsnew.gsmarena.com^
@@ -20586,11 +20691,14 @@ chat.bilibili.com
 ||ad.heypo.com^
 ||mdp-appconf-sg.heytapdl.com^
 ||adsfs-sdkconfig.heytapimage.com^
+||img-c.heytapimage.com^
 ||adx.ads.heytapmobi.com^
 ||b1-data.ads.heytapmobi.com^
 ||b2-data.ads.heytapmobi.com^
 ||stg-data.ads.heytapmobi.com^
 ||uapi.ads.heytapmobi.com^
+||ads.heytapmobi.com^
+||mdp-usertrace-cn.heytapmobi.com^
 ||adx-in.ads.heytapmobile.com^
 ||dragate-in-dc.heytapmobile.com^
 ||httpdns-push.heytapmobile.com^
@@ -20622,12 +20730,14 @@ chat.bilibili.com
 ||advertising.hiasys.com^
 ||www.hibids10.com^
 ||reports.hibu.com^
+||*.data.hicloud.com^
 ||metrics.data.hicloud.com^
 ||metrics1.data.hicloud.com^
 ||metrics2.data.hicloud.com^
 ||metrics3.data.hicloud.com^
 ||metrics4.data.hicloud.com^
 ||metrics5.data.hicloud.com^
+||org.data.hicloud.com^
 ||datacollector-*.dt.hicloud.com^
 ||datacollector-dra.dt.hicloud.com^
 ||datacollector-drcn.dt.hicloud.com^
@@ -21175,7 +21285,6 @@ chat.bilibili.com
 ||t.hmwebs.top^
 ||utiq.hna.de^
 ||www.hndiyikj.com^
-||yp.hnggzyjy.cn^
 ||g.hngjjxsb.com^
 ||s1.hnhbyxdq.com^
 ||snprv.hnhgmh.mobi^
@@ -21439,6 +21548,7 @@ chat.bilibili.com
 ||www.hseda.com^
 ||perf.hsforms.com^
 ||f.hshczy.com^
+||w1.hskwai.com^
 ||js.hsleadflows.net^
 ||tracking.hsn.com^
 ||ads.hsoub.com^
@@ -21465,8 +21575,14 @@ chat.bilibili.com
 ||app-analytics-cn.huami.com^
 ||app-analytics-ru.huami.com^
 ||huohuo.huamuwo.com^
+||chc.ads.huan.tv^
 ||tclicon5.ifmis.huan.tv^
+||download.changhong.upgrade2.huan.tv^
+||downloadxml.changhong.upgrade2.huan.tv^
+||service.changhong.upgrade2.huan.tv^
+||adlink-api.huan.tv^
 ||ads.huan.tv^
+||monitor-ads-test.huan.tv^
 ||hy.huangye88.net^
 ||17.huanqiu.com^
 ||21.huanqiu.com^
@@ -21476,8 +21592,11 @@ chat.bilibili.com
 ||interactive.huanqiu.com^
 ||ipengtai.huanqiu.com^
 ||www.huanqiucaijing.cn^
+||ads.huantest.com^
 ||api.huashuge8.com^
+||drcn-weather.cloud.huawei.com^
 ||hwa.his.huawei.com^
+||httpdns.huaweicloud.com^
 ||kdl.huaxinsp.cn^
 ||eventtracking.hubapi.com^
 ||js.hubspot.com^
@@ -21595,6 +21714,10 @@ chat.bilibili.com
 ||weight-loss.hut1.ru^
 ||www.hut1.ru^
 ||stats.huuuge.net^
+||ad-sdk.huxiu.com^
+||api-ad-product.huxiu.com^
+||log-api.huxiu.com^
+||log-api-mn.huxiu.com^
 ||e-ad-monitor.huya.com^
 ||e-stat.huya.com^
 ||g.huya.com^
@@ -21668,6 +21791,7 @@ chat.bilibili.com
 ||www.hzdoctor.com^
 ||n.hzhfhkj.cn^
 ||hz.hzhongjianfund.com^
+||api.hzsanjiaomao.com^
 ||www.hzxfmc.com^
 ||ads.i-am-bored.com^
 ||www.i-c-c-c.com^
@@ -21677,6 +21801,7 @@ chat.bilibili.com
 ||metric-agent.i10c.net^
 ||max.i12.de^
 ||www.i1236.net^
+||sf16-static.i18n-pglstatp.com^
 ||image.i1img.com^
 ||ac.i2i.jp^
 ||ac10.i2i.jp^
@@ -22277,6 +22402,7 @@ chat.bilibili.com
 ||x.infzm.com^
 ||utiq.ingame.de^
 ||events.ingatlan.com^
+||www.ingonherbal.com^
 ||www.ingorob.com^
 ||content.inhousedsp.com^
 ||www.ininmacerad.pro^
@@ -23493,6 +23619,7 @@ chat.bilibili.com
 ||dm.ishuo.cn^
 ||test.ishvara-yoga.com^
 ||adserver.ision.de^
+||w1.iskwai.com^
 ||analytics.islamicfinder.org^
 ||www.islamipedia.org^
 ||promotools.islive.nl^
@@ -23601,6 +23728,11 @@ chat.bilibili.com
 ||www.iwstats.com^
 ||linkx.ix.tc^
 ||rose.ixbt.com^
+||api5-normal-quic-lf.ixigua.com^
+||search.ixigua.com^
+||search3-search.ixigua.com^
+||search5-search.ixigua.com^
+||search5-search-hl.ixigua.com^
 ||v3-ad.ixigua.com^
 ||dehua.ixinfan.com^
 ||dn*.ixinwei.com^
@@ -23716,6 +23848,7 @@ chat.bilibili.com
 ||u.x.jd.com^
 ||ads-union.jd.com^
 ||c-nfa.jd.com^
+||chat1.jd.com^
 ||cm.jd.com^
 ||dgstatic.jd.com^
 ||dns.jd.com^
@@ -23725,6 +23858,7 @@ chat.bilibili.com
 ||gia.jd.com^
 ||im-x.jd.com^
 ||img-x.jd.com^
+||janapi.jd.com^
 ||jcm.jd.com^
 ||jrad.jd.com^
 ||jrclick.jd.com^
@@ -24107,6 +24241,7 @@ chat.bilibili.com
 ||www.jshosting.trade^
 ||www.jshosting.win^
 ||www.jsing.net^
+||w1.jskwai.com^
 ||aff.jskyservices.com^
 ||analytics.jslib.win^
 ||sc.jslmtdgf.xyz^
@@ -24126,6 +24261,7 @@ chat.bilibili.com
 ||sjj.jsyjwj.com^
 ||s.jtdxz.top^
 ||gg.jtertp.com^
+||lm10111.jtrincc.cn^
 ||hk.jtsh123.com^
 ||jiaoben.jucanw.com^
 ||www.juedische-kammerphilharmonie.de^
@@ -24617,6 +24753,7 @@ chat.bilibili.com
 ||analytics.kongregate.io^
 ||affiliate.konibet.com^
 ||www.konimkan.com^
+||adsmart.konka.com^
 ||adserver.kontent.com^
 ||konax.kontera.com^
 ||secure-js.kontera.com^
@@ -24666,6 +24803,7 @@ chat.bilibili.com
 ||usermatch.krxd.net^
 ||wpp.krxd.net^
 ||ssp.kssws.ks-cdn.com^
+||slb-p2p.vcloud.ks-live.com^
 ||web-trace.ksapisrv.com^
 ||collector.ksax.com^
 ||l.kscmt.cn^
@@ -24673,6 +24811,7 @@ chat.bilibili.com
 ||j.ksgfld.com^
 ||andmlb.kshwtj.com^
 ||www.ksimdw.ru^
+||w1.kskwai.com^
 ||ads.ksl.com^
 ||banners.ksl.com^
 ||dl.cm.ksmobile.com^
@@ -24698,6 +24837,7 @@ chat.bilibili.com
 ||t.ksrong.com^
 ||collector.kstptv5.com^
 ||l.ksxcxb.cn^
+||api.kingdata.ksyun.com^
 ||ssp.kss.ksyun.com^
 ||ilb.pns.kt.com^
 ||freesam.kt.com^
@@ -24740,6 +24880,7 @@ chat.bilibili.com
 ||track.kueez.com^
 ||exchange.kueezrtb.com^
 ||sync.kueezrtb.com^
+||adsfilebssdlbig.ali.kugou.com^
 ||adsfile.bssdlbig.kugou.com^
 ||channel.fanxing.kugou.com^
 ||song.fanxing.kugou.com^
@@ -24747,12 +24888,14 @@ chat.bilibili.com
 ||push.mobile.kugou.com^
 ||update.mobile.kugou.com^
 ||ads.service.kugou.com^
+||adsfileretry.service.kugou.com^
 ||serveraddr.service.kugou.com^
 ||log.stat.kugou.com^
 ||gcapi.sy.kugou.com^
 ||log.web.kugou.com^
 ||splashimgbssdl.yun.kugou.com^
 ||adserviceretry.kugou.com^
+||collect.kugou.com^
 ||d.kugou.com^
 ||downmobile.kugou.com^
 ||exceptionlog.kugou.com^
@@ -24761,7 +24904,9 @@ chat.bilibili.com
 ||game.kugou.com^
 ||install.kugou.com^
 ||install2.kugou.com^
+||jswebcollects.kugou.com^
 ||kgmobilestat.kugou.com^
+||logtj.kugou.com^
 ||minidcsc.kugou.com^
 ||mo.kugou.com^
 ||mobilelog.kugou.com^
@@ -24780,6 +24925,7 @@ chat.bilibili.com
 ||events.kumulos.com^
 ||stats.kumulos.com^
 ||www.kunjia.org^
+||img.adnyg.com.w.kunlungr.com^
 ||stat.kununu.cz^
 ||ads.kure.tv^
 ||analytics.kurocore.com^
@@ -24808,6 +24954,7 @@ chat.bilibili.com
 ||hl.kuzu.com^
 ||tdep.kvk.nl^
 ||www.kvr-systems.de^
+||open.kwaishouzt.com^
 ||api.kwaizt.com^
 ||open.kwaizt.com^
 ||athena.api.kwalee.com^
@@ -24933,6 +25080,7 @@ chat.bilibili.com
 ||pp.lbsjrw.cn^
 ||heatmaps.lcisoft.it^
 ||t.lcsclub.shop^
+||mnqlog.ldmnq.com^
 ||storeen.ldmnq.com^
 ||advertise.ldplayer.net^
 ||www.lduhtrp.net^
@@ -25009,6 +25157,7 @@ chat.bilibili.com
 ||geoip.lehighvalleylive.com^
 ||metrics.lehighvalleylive.com^
 ||tagging.lei-manager.com^
+||ads-api-o.api.leiniao.com^
 ||adm.leju.com^
 ||src.leju.com^
 ||staticadm.leju.com^
@@ -25031,6 +25180,7 @@ chat.bilibili.com
 ||log.lemonpi.io^
 ||runtime.lemonpi.io^
 ||analytics.lemoolah.com^
+||analyze.lemurbrowser.com^
 ||tracking.lengow.com^
 ||adapi.lenovogame.com^
 ||adcore.lenovomm.com^
@@ -25742,6 +25892,7 @@ chat.bilibili.com
 ||ip.lovely-app.com^
 ||49453k0l.vr.loveota.com^
 ||49453k0l.vs.loveota.com^
+||game.loveota.com^
 ||sdk.loveota.net^
 ||ads.lovercash.com^
 ||media.lovercash.com^
@@ -25766,6 +25917,7 @@ chat.bilibili.com
 ||wm.lrswl.com^
 ||a1.lshou.com^
 ||gcirm.lsj.com^
+||w1.lskwai.com^
 ||adx.lsosad.com^
 ||conf.lsosad.com^
 ||dc.lsosad.com^
@@ -26623,6 +26775,7 @@ chat.bilibili.com
 ||gg.meitu.com^
 ||message.meitu.com^
 ||tuiguang.meitu.com^
+||ata-sdk-uuid-report.dreport.meituan.net^
 ||env.dreport.meituan.net^
 ||met-badge.dreport.meituan.net^
 ||metrics-exit-ios.dreport.meituan.net^
@@ -26986,6 +27139,7 @@ chat.bilibili.com
 ||hz.miercn.com^
 ||tongji.miercn.com^
 ||www.mightymagoo.com^
+||clog.miguvideo.com^
 ||crystalapp.miguvideo.com^
 ||gg*.miguvideo.com^
 ||ggorg.miguvideo.com^
@@ -27167,6 +27321,7 @@ chat.bilibili.com
 ||tracking.intl.miui.com^
 ||tracking.rus.miui.com^
 ||logupdate.avlyun.sec.miui.com^
+||update.avlyun.sec.miui.com^
 ||auth.be.sec.miui.com^
 ||adinfo.ra1.xlmc.sec.miui.com^
 ||api.tw06.xlmc.sec.miui.com^
@@ -27847,6 +28002,7 @@ chat.bilibili.com
 ||www.msgtag.com^
 ||loan.aol.msk.su^
 ||analytics.msk1.ru^
+||w1.mskwai.com^
 ||adserver.msmb.biz^
 ||global.msmtrakk06d.com^
 ||asu.msmu.ru^
@@ -28076,6 +28232,7 @@ chat.bilibili.com
 ||dc.api.my7v.com^
 ||upgrade.api.my7v.com^
 ||api.wx.my7v.com^
+||apiyd.my91app.com^
 ||iuou.myadobe.cn^
 ||banners.myads.ge^
 ||api.myadsget.com^
@@ -28717,7 +28874,6 @@ chat.bilibili.com
 ||c7e935.netlify.com^
 ||cryptown.netlify.com^
 ||fantastic-salamander-c721cb.netlify.app^
-||fastidious562.netlify.app^
 ||netlify-rum.netlify.app^
 ||thelifeisbinary.netlify.com^
 ||www.netmaxx.com^
@@ -28901,7 +29057,6 @@ chat.bilibili.com
 ||6735a55d.ngrok.io^
 ||analytics.ngs55.ru^
 ||m.ngsaang.top^
-||botnet.nguyennghi.info^
 ||adserver.ngz-network.de^
 ||ggdm1.nhaidu.net^
 ||apps.nhk.jp^
@@ -29529,6 +29684,7 @@ chat.bilibili.com
 ||n5.nskfyl.com^
 ||n6.nskfyl.com^
 ||n7.nskfyl.com^
+||w1.nskwai.com^
 ||ngc1.nsm-corp.com^
 ||sas.nsm-corp.com^
 ||www.nsrecord.org^
@@ -30303,6 +30459,7 @@ chat.bilibili.com
 ||conff.dc.oppomobile.com^
 ||dragate.dc.oppomobile.com^
 ||stat-in.dc.oppomobile.com^
+||httpdns.ocloud.oppomobile.com^
 ||httpdns.push.oppomobile.com^
 ||ads.oppomobile.com^
 ||adsfs.oppomobile.com^
@@ -30399,6 +30556,7 @@ chat.bilibili.com
 ||www.greatfireoflondon.org.uk^
 ||ad.kissanime.org.ru^
 ||www.livejasmin.org.in^
+||storage.moegirl.org.cn^
 ||www.payperclickadvertising.org.uk^
 ||51posuiji.org.cn^
 ||ad.org.vn^
@@ -30418,6 +30576,7 @@ chat.bilibili.com
 ||pns.org.pk^
 ||sensor.org.ua^
 ||pdupdate.organiccrap.com^
+||org.orgskwai.com^
 ||www.originalicons.com^
 ||adat.origo.hu^
 ||outal.origo.hu^
@@ -30445,6 +30604,7 @@ chat.bilibili.com
 ||ssads.osdn.com^
 ||toads.osdn.com^
 ||marketing.osijek031.com^
+||w1.oskwai.com^
 ||meta.osqa.net^
 ||ruikeja-mobileoffice.oss-cn-hangzhou.aliyu^
 ||kdwontyraqdswlqm.ossrescue.com^
@@ -30924,10 +31084,17 @@ chat.bilibili.com
 ||access.pangolin-sdk-toutiao-org.com^
 ||api-access.pangolin-sdk-toutiao-org.com^
 ||log-api.pangolin-sdk-toutiao-org.com^
+||api-access.pangolin-sdk-toutiao.com3^
 ||api-access.pangolin-sdk-toutiao.com^
 ||ether-pack.pangolin-sdk-toutiao.com^
+||gromore.pangolin-sdk-toutiao.com^
 ||log-api.pangolin-sdk-toutiao.com^
 ||novel.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao1.com^
+||api-access.pangolin-sdk-toutiao2.com^
+||api-access.pangolin-sdk-toutiao3.com^
+||api-access.pangolin-sdk-toutiao4.com^
+||api-access.pangolin-sdk-toutiao5.com^
 ||ads.panoramtech.net^
 ||jipinapi.panqis.cn^
 ||c.panqishu.com^
@@ -31054,6 +31221,7 @@ chat.bilibili.com
 ||pixel.pcworld.com^
 ||ads.pdbarea.com^
 ||api.pdbarea.com^
+||video-dsp.pddpic.com^
 ||www.pdf-platinum.info^
 ||download.pdf00.cn^
 ||consent.pdf24.org^
@@ -31183,7 +31351,16 @@ chat.bilibili.com
 ||stats.pflexads.com^
 ||www.pflexads.com^
 ||pixel.aws.pfnetwork.net^
+||*-be-pack-sign.pglstatp-toutiao.com^
+||lf3-ad-union-sdk.pglstatp-toutiao.com^
+||org-be-pack-sign.pglstatp-toutiao.com^
 ||p1-be-endcard.pglstatp-toutiao.com^
+||p1-be-pack-sign.pglstatp-toutiao.com^
+||p2-be-pack-sign.pglstatp-toutiao.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^
+||p4-be-pack-sign.pglstatp-toutiao.com^
+||p5-be-pack-sign.pglstatp-toutiao.com^
+||p6-be-pack-sign.pglstatp-toutiao.com^
 ||s*-fe-scm.pglstatp-toutiao.com^
 ||s3-fe-scm.pglstatp-toutiao.com^
 ||sf*-be-pack.pglstatp-toutiao.com^
@@ -31294,6 +31471,8 @@ chat.bilibili.com
 ||promo.pimproll.com^
 ||ab.pincai.com^
 ||adim.pinduoduo.com^
+||images.pinduoduo.com^
+||t-dsp.pinduoduo.com^
 ||secure-stats.pingdom.com^
 ||ads.pinger.com^
 ||cf-ads.pinger.com^
@@ -32054,6 +32233,7 @@ chat.bilibili.com
 ||www.ps7894.com^
 ||www.psclicks.com^
 ||ff.psd8.com^
+||w1.pskwai.com^
 ||slview.psne.jp^
 ||naverpa-phinf.pstatic.net^
 ||searchad-phinf.pstatic.net^
@@ -32183,6 +32363,7 @@ chat.bilibili.com
 ||www.punishtube.com^
 ||e.puooi.com^
 ||m.puooi.com^
+||pig.pupuapi.com^
 ||assets.purch.com^
 ||li.purch.com^
 ||ramp.purch.com^
@@ -32370,6 +32551,7 @@ chat.bilibili.com
 ||j.qiqivv.com^
 ||j.qiqiww.com^
 ||mo.qitouch.cn^
+||stats.qiumibao.com^
 ||webstat.qiumibao.com^
 ||t.qiuqiuqipai.com^
 ||becode.qiushibaike.com^
@@ -32584,8 +32766,12 @@ chat.bilibili.com
 ||w.l.qq.com^
 ||x.l.qq.com^
 ||market.m.qq.com^
+||mazu.m.qq.com^
 ||tdid.m.qq.com^
+||tmfmazu.m.qq.com^
+||tmfmazu-wangka.m.qq.com^
 ||tmfsdk.m.qq.com^
+||tmfsdktcpv4.m.qq.com^
 ||analytics.map.qq.com^
 ||cc.map.qq.com^
 ||pacaio.match.qq.com^
@@ -32813,6 +32999,9 @@ chat.bilibili.com
 ||rqd.qq.com^
 ||rs1.qq.com^
 ||rs2.qq.com^
+||s1.qq.com^
+||s2.qq.com^
+||s3.qq.com^
 ||scdown.qq.com^
 ||show-msgch.qq.com^
 ||showwxml.qq.com^
@@ -32848,6 +33037,7 @@ chat.bilibili.com
 ||vo2.qrlsx.com^
 ||u.qscwdv.top^
 ||a.qsjiajiao.com^
+||w1.qskwai.com^
 ||newnet.qsrch.com^
 ||l1.qsstats.com^
 ||www.qsstats.com^
@@ -32900,7 +33090,11 @@ chat.bilibili.com
 ||cdn.quantummetric.com^
 ||m.quanxiaoshuo.org^
 ||m.quanxs.net^
+||applog.lc.quark.cn^
+||track.lc.quark.cn^
+||adtrack.quark.cn^
 ||ads.quasaraffiliates.com^
+||irc.qubiankeji.com^
 ||gong-eb.qubit.com^
 ||lookup.qubit.com^
 ||opentag-stats.qubit.com^
@@ -33335,6 +33529,7 @@ chat.bilibili.com
 ||statistic2.reichelt.de^
 ||www.reifenquick.de^
 ||banner.reinstil.de^
+||www.reiwo-service.de^
 ||ab.rejushe.com^
 ||www.reklam3.net^
 ||r.reklama.biz^
@@ -33718,6 +33913,7 @@ chat.bilibili.com
 ||adx.rrt365.com^
 ||stripe.rs-1028-a.com^
 ||mldy.rsgbt.cn^
+||w1.rskwai.com^
 ||delta.rspcdn.com^
 ||www.rsptrack.com^
 ||www.rss141.com^
@@ -33901,6 +34097,7 @@ chat.bilibili.com
 ||v.saastt.com^
 ||ads.sacbee.com^
 ||www.sacredphoenix.com^
+||www.saf-oil.ru^
 ||dmzls.safe-installation.com^
 ||pixel.safe-installation.com^
 ||api.safedk.com^
@@ -34125,7 +34322,6 @@ chat.bilibili.com
 ||tv-static.scdn.co^
 ||cdn.scdng.com^
 ||tracking.scenepass.com^
-||us.schatten.ir^
 ||www.schborg.com^
 ||www.schemml.de^
 ||cis.schibsted.com^
@@ -35157,9 +35353,11 @@ chat.bilibili.com
 ||dns.m.sm.cn^
 ||log.m.sm.cn^
 ||sugs.m.sm.cn^
+||*-ad.sm.cn^
 ||c.sm.cn^
 ||huichuan.sm.cn^
 ||image-ad.sm.cn^
+||org-ad.sm.cn^
 ||video-ad.sm.cn^
 ||www.sm3na.com^
 ||pfx.sma-clsystem.info^
@@ -35199,6 +35397,7 @@ chat.bilibili.com
 ||tracker-rec.smart-bdash.com^
 ||image.smart-c.jp^
 ||www.smart-scripts.com^
+||adx-ad.smart-tv.cn^
 ||abp.smartadcheck.de^
 ||akamai.smartadserver.com^
 ||cdn1.smartadserver.com^
@@ -35554,6 +35753,11 @@ chat.bilibili.com
 ||qxm.pluto.sogou.com^
 ||config.push.sogou.com^
 ||pull.push.sogou.com^
+||*.*.shouji.sogou.com^
+||org.org.shouji.sogou.com^
+||*.shouji.sogou.com^
+||org.shouji.sogou.com^
+||ws-keyboard.shouji.sogou.com^
 ||feed.theta.sogou.com^
 ||input.theta.sogou.com^
 ||rjgw.theta.sogou.com^
@@ -35582,6 +35786,7 @@ chat.bilibili.com
 ||pd.sogou.com^
 ||pingback.sogou.com^
 ||pv.sogou.com^
+||shouji.sogou.com^
 ||theta.sogou.com^
 ||union.sogou.com^
 ||uranus.sogou.com^
@@ -35760,6 +35965,7 @@ chat.bilibili.com
 ||nv.souid.com^
 ||pmh.souid.com^
 ||www.souid.com^
+||roi.soulapp.cn^
 ||eventgateway.soundcloud.com^
 ||eventlogger.soundcloud.com^
 ||events-api.soundcloud.com^
@@ -36103,6 +36309,7 @@ chat.bilibili.com
 ||applog.ssgdfs.com^
 ||0.0.0.0buy.ssggddh.top^
 ||i.ssix.io^
+||w1.sskwai.com^
 ||pbjs.sskzlabs.com^
 ||fem-staffservice.ssl-lolipop.jp^
 ||tracker.ssl0d.com^
@@ -36153,11 +36360,11 @@ chat.bilibili.com
 ||alkutbay.starbolt.io^
 ||sdk.starbolt.io^
 ||oascentral.starbulletin.com^
-||www.starcountry.net^
 ||ads.stardoll.com^
 ||appsupport.stargame.com^
 ||att.stargame.com^
 ||gg.stargame.com^
+||sdownload.stargame.com^
 ||gcirm.stargazette.com^
 ||analytics.starlink.com^
 ||analytics.starmakerstudios.com^
@@ -36318,6 +36525,7 @@ chat.bilibili.com
 ||www.statsession.com^
 ||www.statsforever.com^
 ||tag.statshop.fr^
+||api.statsig.com^
 ||smartads.statsperform.com^
 ||www.stattrax.com^
 ||analytics-api.statvoo.com^
@@ -37637,8 +37845,10 @@ chat.bilibili.com
 ||analytics.tiendaenoferta.com^
 ||www.tigustolanostracucina.it^
 ||ads.tiktok.com^
+||ads-api.tiktok.com^
 ||analytics.tiktok.com^
 ||analytics-sg.tiktok.com^
+||business-api.tiktok.com^
 ||mcs-sg.tiktok.com^
 ||mcs-va.tiktok.com^
 ||mssdk-sg.tiktok.com^
@@ -37960,12 +38170,16 @@ chat.bilibili.com
 ||dm-hl.toutiao.com^
 ||dm-org.toutiao.com^
 ||dsp.toutiao.com^
+||monsetting.toutiao.com^
 ||nativeapp.toutiao.com^
 ||partner.toutiao.com^
 ||s.toutiao.com^
 ||sm.toutiao.com^
 ||zhanzhang.toutiao.com^
 ||log3-normal-hl.toutiaoapi.com^
+||tnc3-aliec1.toutiaoapi.com^
+||tnc3-aliec2.toutiaoapi.com^
+||tnc3-bjlgy.toutiaoapi.com^
 ||www.toutiaopage.com^
 ||ads.townhall.com^
 ||oascentral.townhall.com^
@@ -38101,6 +38315,7 @@ chat.bilibili.com
 ||www.tradingtactics.win^
 ||snowplow-pixel.tradingview.com^
 ||telemetry.tradingview.com^
+||event.tradplusad.com^
 ||pub.trads.io^
 ||andr0id.traffic-smart.com^
 ||static.traffic.ru^
@@ -38445,6 +38660,7 @@ chat.bilibili.com
 ||www.tsgonline.com^
 ||safe.tsgpay.cn^
 ||m.tsgyg.cn^
+||w1.tskwai.com^
 ||wl-analytics.tsp.li^
 ||so.tsscnw.cn^
 ||cdn.tsyndicate.com^
@@ -38932,6 +39148,8 @@ chat.bilibili.com
 ||at.umeng.com^
 ||au.umeng.co^
 ||au.umeng.com^
+||audid.umeng.com^
+||ccs.umeng.com^
 ||dev.umeng.com^
 ||errlog.umeng.com^
 ||errlogos.umeng.com^
@@ -39254,6 +39472,7 @@ chat.bilibili.com
 ||alertserver.ushaqi.com^
 ||g.usingde.com^
 ||pic.usingde.com^
+||w1.uskwai.com^
 ||link.email.usmagazine.com^
 ||cookie.sync.usonar.jp^
 ||www.uspertest.vip^
@@ -39829,6 +40048,7 @@ chat.bilibili.com
 ||www.vmcsatellite.com^
 ||sdc.vml.com^
 ||toolbarwizard.vmn.net^
+||service.vmos.cn^
 ||www.vmsal.vip^
 ||cnc.vmwall.me^
 ||lib.vmweb.net^
@@ -39854,6 +40074,7 @@ chat.bilibili.com
 ||api.voiceads.cn^
 ||imp.voiceads.cn^
 ||post1.voiceads.cn^
+||rtb.voiceads.cn^
 ||ws.voiceads.cn^
 ||www.voiceads.cn^
 ||log.voicecloud.cn^
@@ -39956,6 +40177,7 @@ chat.bilibili.com
 ||ads.vserv.mobi^
 ||c.vserv.mobi^
 ||sf.vserv.mobi^
+||w1.vskwai.com^
 ||www.vstats.net^
 ||m.vsxet.com^
 ||lti.cs.vt.edu^
@@ -40373,6 +40595,7 @@ chat.bilibili.com
 ||ns2.webwise.org^
 ||www.webwise.com^
 ||www.webwise.org^
+||apks.webxiaobai.top^
 ||demo.webxmr.com^
 ||get.webxmr.com^
 ||staging.webxmr.com^
@@ -40936,6 +41159,7 @@ chat.bilibili.com
 ||www.wrxgandsfcz.ru^
 ||profiler-collector.wshareit.com^
 ||www.wshufa.com^
+||w1.wskwai.com^
 ||ad.wsod.com^
 ||admedia.wsod.com^
 ||market.wsskj520.cn^
@@ -40952,6 +41176,8 @@ chat.bilibili.com
 ||mo.wtsgd.xyz^
 ||mldy.wttpgq.cn^
 ||www.wty46.com^
+||*-ad.wtzw.com^
+||org-ad.wtzw.com^
 ||c.wubocheng.top^
 ||v.wubocheng.top^
 ||manage.wuhancloud.cn^
@@ -41133,6 +41359,7 @@ chat.bilibili.com
 ||m.xeihy.com^
 ||imp.ad.xelements.cn^
 ||mon.ad.xelements.cn^
+||ad.xelements.cn^
 ||analytics.xelondigital.com^
 ||analyticswritenew.xerevo.com^
 ||www.cgi-view-item-co-uk.xf.cz^
@@ -41186,6 +41413,9 @@ chat.bilibili.com
 ||dc.xhct66.com^
 ||m.xhera.cn^
 ||ayerbo.xhost.ro^
+||ads-img-qc.xhscdn.com^
+||ads-video-al.xhscdn.com^
+||ads-video-qc.xhscdn.com^
 ||collector.xhwebsite.com^
 ||collector.xhwide1.com^
 ||log.xi-cascade.com^
@@ -41234,6 +41464,7 @@ chat.bilibili.com
 ||zeus.ad.xiaomi.com^
 ||tracker.ai.xiaomi.com^
 ||o2o.api.xiaomi.com^
+||a0.app.xiaomi.com^
 ||app.chat.xiaomi.net^
 ||api.d.xiaomi.com^
 ||notice.game.xiaomi.com^
@@ -41249,6 +41480,8 @@ chat.bilibili.com
 ||cc.sys.intl.xiaomi.com^
 ||ccc.sys.intl.xiaomi.com^
 ||ad.intl.xiaomi.com^
+||*.a.market.xiaomi.com^
+||org.a.market.xiaomi.com^
 ||t1.a.market.xiaomi.com^
 ||t2.a.market.xiaomi.com^
 ||t3.a.market.xiaomi.com^
@@ -41273,6 +41506,7 @@ chat.bilibili.com
 ||starfish.pandora.xiaomi.com^
 ||stat.pandora.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
+||tz.sec.xiaomi.com^
 ||api.miui.security.xiaomi.com^
 ||a.stat.xiaomi.com^
 ||register.xmpush.xiaomi.com^
@@ -41471,6 +41705,7 @@ chat.bilibili.com
 ||bd2-china.xsfaya.com^
 ||www.xshellcn.com^
 ||m.xsjjjc.cn^
+||w1.xskwai.com^
 ||wl.xsoftmall.com^
 ||a0152829.xsph.ru^
 ||hitcounter01.xspp.com^
@@ -41660,6 +41895,7 @@ chat.bilibili.com
 ||ads.auctions.yahoo.com^
 ||pr.comet.yahoo.com^
 ||jill.fc.yahoo.com^
+||log.fc.yahoo.com^
 ||ir2.beap.gemini.yahoo.com^
 ||notify.beap.gemini.yahoo.com^
 ||sg3.beap.gemini.yahoo.com^
@@ -41722,6 +41958,7 @@ chat.bilibili.com
 ||beap1.cb.g01.yahoodns.net^
 ||flurry.agentportal.org.yahoodns.net^
 ||wc.yahoodns.net^
+||adtech.yahooinc.com^
 ||jac.yahoosandbox.com^
 ||counter.yakbucks.com^
 ||counter.yakcash.com^
@@ -41854,7 +42091,6 @@ chat.bilibili.com
 ||ee.yg10x.cn^
 ||m.yg10x.cn^
 ||m.ygblogtag.cn^
-||www.ygmtex.com^
 ||fresh.ygto.com^
 ||api.dsp.yhd.com^
 ||click.yhd.com^
@@ -42275,6 +42511,7 @@ chat.bilibili.com
 ||d.yoyi.tv^
 ||js.yoyi.tv^
 ||cny.yoyo.org^
+||analysis.yozocloud.cn^
 ||www.ypmadserver.com^
 ||www.ypmate.com^
 ||js412.yqjxzw.com^
@@ -42286,6 +42523,7 @@ chat.bilibili.com
 ||gho.ysbjgjwh.com^
 ||daima.ysdui.com^
 ||m.ysgsq.cn^
+||w1.yskwai.com^
 ||eo.ysny4f.cn^
 ||mo.ysny4f.cn^
 ||j1s.ysrmy1.com^
@@ -42344,8 +42582,14 @@ chat.bilibili.com
 ||hw-ot-ad.a.yximgs.com^
 ||js-ad.a.yximgs.com^
 ||tx-ad.a.yximgs.com^
+||ks.pull.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||*-ad.video.yximgs.com^
+||org-ad.video.yximgs.com^
 ||v*-ad.video.yximgs.com^
+||v1-ad.video.yximgs.com^
+||v2-ad.video.yximgs.com^
+||v3-ad.video.yximgs.com^
 ||vorg-ad.video.yximgs.com^
 ||bbcc.yxlady.com^
 ||dm*.yxlady.com^
@@ -42362,6 +42606,7 @@ chat.bilibili.com
 ||t.global.yyapi.net^
 ||global.yyapi.net^
 ||n.yyhanyu.cn^
+||adapi.yynetwk.com^
 ||m.yyshow.top^
 ||sv.yyzz.shop^
 ||www.yzaosite.com^
@@ -42427,7 +42672,6 @@ chat.bilibili.com
 ||www.zbest.in^
 ||stat.zbii.com^
 ||www.zbippirad.info^
-||p3.zbjimg.com^
 ||banners.zbs.ru^
 ||c.zbwnzb.cn^
 ||v.zbwnzb.cn^
@@ -42673,15 +42917,28 @@ chat.bilibili.com
 ||analytics.ziftsolutions.com^
 ||dynamic.ziftsolutions.com^
 ||static.ziftsolutions.com^
+||*-normal-lq.zijieapi.com^
 ||ad.zijieapi.com^
 ||ads*-normal*.zijieapi.com^
+||ads*-normal-*.zijieapi.com^
 ||ads*-normal-hl.zijieapi.com^
 ||ads*-normal-lq.zijieapi.com^
+||ads3-normal-hl.zijieapi.com^
+||ads3-normal-lq.zijieapi.com^
+||ads5-normal-hl.zijieapi.com^
+||ads5-normal-lf.zijieapi.com^
+||ads5-normal-lq.zijieapi.com^
 ||adsorg-normal-hl.zijieapi.com^
 ||adsorg-normal-lq.zijieapi.com^
+||adsorg-normal-org.zijieapi.com^
 ||adsorg-normalorg.zijieapi.com^
+||applog.zijieapi.com^
+||log.zijieapi.com^
 ||mcs.zijieapi.com^
 ||mon.zijieapi.com^
+||mssdk.zijieapi.com^
+||org-normal-lq.zijieapi.com^
+||saveu5-normal-lq.zijieapi.com^
 ||mjp.zimad.com^
 ||j.zucks.net.zimg.jp^
 ||static.zucks.net.zimg.jp^
@@ -42844,6 +43101,10 @@ chat.bilibili.com
 ||sdk.zsdfm.com^
 ||www.zshacker.com^
 ||zoom.zshu.net^
+||*.zskwai.com^
+||org.zskwai.com^
+||w1.zskwai.com^
+||www42.zskwai.com^
 ||dy.zsstoics.com^
 ||beacon.ztgame.com^
 ||banners.ztod.com^
@@ -42861,6 +43122,7 @@ chat.bilibili.com
 ||ad.zuimeitianqi.com^
 ||bd1.zuimeitianqi.com^
 ||bd2.zuimeitianqi.com^
+||dl.zuimeitianqi.com^
 ||hw.zuimeitianqi.com^
 ||hwad.zuimeitianqi.com^
 ||stat.zuimeitianqi.com^
@@ -43101,6 +43363,7 @@ chat.bilibili.com
 ||100te.com^
 ||100tone.com^
 ||100webads.com^
+||1010pic.com^
 ||1017.cn^
 ||101billion.com^
 ||101com.com^
@@ -45098,6 +45361,7 @@ chat.bilibili.com
 ||ad-plus.cn^
 ||ad-recommend.com^
 ||ad-rotator.com^
+||ad-scope.com^
 ||ad-score.com^
 ||ad-seek.jp^
 ||ad-sell.com^
@@ -45424,6 +45688,7 @@ chat.bilibili.com
 ||adjug.com^
 ||adjuggler.com^
 ||adjuggler.net^
+||adjust.cn^
 ||adjust.io^
 ||adjust.world^
 ||adjust-net.jp^
@@ -45979,6 +46244,7 @@ chat.bilibili.com
 ||adtrue.com^
 ||adttt.com^
 ||adtx2.cn^
+||adukwai.com^
 ||adulatorycrappyghastly.com^
 ||adult.xyz^
 ||adultadvertising.com^
@@ -46911,7 +47177,6 @@ chat.bilibili.com
 ||altronopubacc.com^
 ||altynamoan.com^
 ||aluationiamk.info^
-||aluminprodu.top^
 ||alvenda.com^
 ||always-happy-fortune.com^
 ||alwaysc.com^
@@ -48770,6 +49035,7 @@ chat.bilibili.com
 ||bearagriculture.com^
 ||bearbanepant.com^
 ||beardinrather.com^
+||bearware.org^
 ||beastbuying.com^
 ||beastintruder.com^
 ||beastsclassbiscuit.com^
@@ -48872,6 +49138,7 @@ chat.bilibili.com
 ||beiod.xyz^
 ||beitandfalloni.com^
 ||beiwaicd.com^
+||beizi.biz^
 ||bejolteonor.com^
 ||bekannt-im-web.de^
 ||bekcd.xyz^
@@ -50943,6 +51210,7 @@ chat.bilibili.com
 ||ccbilleu.com^
 ||cccpmo.com^
 ||cccrir.com^
+||ccforteza.com^
 ||ccgateway.net^
 ||ccgtnryf.com^
 ||ccgzcavzbmztk.com^
@@ -50964,6 +51232,7 @@ chat.bilibili.com
 ||ccvwtdtwyu.tr^
 ||ccvwtdtwyu.trade^
 ||ccwxma.xyz^
+||cczhk.com^
 ||cd-ads.com^
 ||cd-elec.fr^
 ||cd-sport.fr^
@@ -53034,7 +53303,6 @@ chat.bilibili.com
 ||cryptraffic.de^
 ||crystalboulevard.com^
 ||crystalslot.com^
-||crz.de^
 ||cs.co^
 ||cs-cart.jp^
 ||cs-gra.pl^
@@ -53055,6 +53323,7 @@ chat.bilibili.com
 ||cshield.io^
 ||cshlal.icu^
 ||cshlgg.com^
+||csjplatform.com^
 ||csk.ru^
 ||cslbahf.top^
 ||csmfee.xyz^
@@ -55048,6 +55317,7 @@ chat.bilibili.com
 ||dustywave.com^
 ||dusunfloraer.com^
 ||dutalonflameer.com^
+||dutils.com^
 ||dutorterraom.com^
 ||dutyabilityneed.com^
 ||dutythursday.com^
@@ -55702,6 +55972,7 @@ chat.bilibili.com
 ||emeraldtiger.com^
 ||emerse.com^
 ||emetriq.de^
+||emgvod.com^
 ||emicalcove.xyz^
 ||emigrantblunder.com^
 ||emigrantfirearmcaliber.com^
@@ -56706,6 +56977,7 @@ chat.bilibili.com
 ||faiwastauk.com^
 ||fajnefanty.com^
 ||fajukc.com^
+||fajus.net^
 ||fakeerupriser.com^
 ||fakesorange.com^
 ||falcatayamalka.com^
@@ -59065,6 +59337,7 @@ chat.bilibili.com
 ||gma1.com^
 ||gmad1.xyz^
 ||gmads.net^
+||gmawlljasi.com^
 ||gmboxx.com^
 ||gmdtrk.com^
 ||gmelinalegua.top^
@@ -60347,6 +60620,7 @@ chat.bilibili.com
 ||hentaiplaytime.com^
 ||hentavost.fr^
 ||henwilkson.com^
+||henzanapp.com^
 ||henzhuan.com^
 ||heparlorne.org^
 ||heptix.net^
@@ -60645,6 +60919,7 @@ chat.bilibili.com
 ||hitslog.com^
 ||hitsniffer.com^
 ||hitsprocessor.com^
+||hitstation.nl^
 ||hitstatus.com^
 ||hittail.com^
 ||hittracker.com^
@@ -61930,7 +62205,6 @@ chat.bilibili.com
 ||individualdavid.com^
 ||indodrioor.com^
 ||indoleads.com^
-||indonesias.me^
 ||indooritalian.com^
 ||induceresistbrotherinlaw.com^
 ||induedabusive.casa^
@@ -62335,6 +62609,7 @@ chat.bilibili.com
 ||invaluablebuildroam.com^
 ||inveno.com^
 ||inventdebosh.com^
+||inventerscorp.org^
 ||inventionpassenger.com^
 ||inventionwere.com^
 ||inventorypikepockets.com^
@@ -63148,7 +63423,6 @@ chat.bilibili.com
 ||joastous.com^
 ||joathath.com^
 ||jobbio.com^
-||jobcity.com^
 ||jobfilletfortitude.com^
 ||jobfreelance.fr^
 ||jobsonationsing.com^
@@ -63235,6 +63509,7 @@ chat.bilibili.com
 ||jpshopes.com^
 ||jpsthqhvxynfdx.com^
 ||jpush.cn^
+||jpush.io^
 ||jpush0b.xyz^
 ||jpvrbt.xyz^
 ||jpzone.vip^
@@ -65376,6 +65651,7 @@ chat.bilibili.com
 ||loftychord.com^
 ||log.dance^
 ||log-marketing.jp^
+||log-report.com^
 ||logaholic.com^
 ||logbor.com^
 ||logcounter.com^
@@ -67260,6 +67536,7 @@ chat.bilibili.com
 ||mobileoffers-ep-download.com^
 ||mobileposse.com^
 ||mobilepreviouswicked.com^
+||mobileservice.cn^
 ||mobilesoft.fr^
 ||mobiletracking.ru^
 ||mobileverify.net^
@@ -68166,7 +68443,6 @@ chat.bilibili.com
 ||nametraff.com^
 ||namilh.com^
 ||namol.xyz^
-||namthaibinh.net^
 ||nan0cns.com^
 ||nan46ysangt28eec.com^
 ||nanaimostarkle.com^
@@ -69644,6 +69920,7 @@ chat.bilibili.com
 ||olltcqg.xyz^
 ||olmsoneenh.info^
 ||olmvkq.cn^
+||olnkpexujhuw.com^
 ||olpfeere.com^
 ||olpxupvisl.com^
 ||oltptelifmal.com^
@@ -70601,6 +70878,7 @@ chat.bilibili.com
 ||pardonpopular.com^
 ||pardonsentencegeneral.com^
 ||parecyrclame.com^
+||parentingcalculated.com^
 ||parentlargevia.com^
 ||parentpicture.com^
 ||pariatonet.com^
@@ -71050,7 +71328,6 @@ chat.bilibili.com
 ||perusebulging.com^
 ||peruseinvitation.com^
 ||pervas.top^
-||pervchat.cam^
 ||perversecozy.com^
 ||perverseunsuccessful.com^
 ||pervertscarreceipt.com^
@@ -71318,6 +71595,7 @@ chat.bilibili.com
 ||pingmeter.com^
 ||pingomatic.com^
 ||pingshetrip.com^
+||pink99.com^
 ||pinkcamforum.cc^
 ||pinkleo.pro^
 ||pinoffence.com^
@@ -77871,6 +78149,7 @@ chat.bilibili.com
 ||storygize.net^
 ||storystack.com^
 ||stotoowu.net^
+||stouphou.net^
 ||stoursas.xyz^
 ||stovearmpitagreeable.com^
 ||stovecharacterize.com^
@@ -80050,7 +80329,6 @@ chat.bilibili.com
 ||tradedoubler.com^
 ||tradeexchanging.com^
 ||tradeinn.fr^
-||tradeinsights.net^
 ||tradelab.fr^
 ||tradelax.com^
 ||tradem.com^
@@ -80346,6 +80624,7 @@ chat.bilibili.com
 ||trktcmdqko.com^
 ||trmads.eu^
 ||trmit.com^
+||trmpc.com^
 ||trojangfw.xyz^
 ||trolleydemocratic.com^
 ||trolleydryerfunds.com^
@@ -81424,7 +81703,6 @@ chat.bilibili.com
 ||urgente.eu^
 ||urgentlyfeerobots.com^
 ||urgentprotections.com^
-||uri.ac^
 ||uri6.com^
 ||urimnugocfr.com^
 ||urimtats.com^
@@ -83584,6 +83862,7 @@ chat.bilibili.com
 ||wocoqs.xyz^
 ||wodemeitu.com^
 ||wodw0.xyz^
+||woefifty.com^
 ||woespoke.com^
 ||wofan.net^
 ||wofqzuwtkxw.com^
