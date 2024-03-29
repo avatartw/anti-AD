@@ -430,6 +430,12 @@ return [
     "api.statsig.com" => 0, // #869, #860
     "up.cm.ksmobile.com" => 0, // #880
     "icanhazip.com" => 0, // #899
+    "ak-d.tripcdn.com" => 0, // #903
+    "v6-adashx.ut.cainiao.com" => 0, // #904
+    "vip.cainiaofx.com" => 0, // #904
+    "ib.snssdk.com" => 0, // #905
+    "audid-api.taobao.com" => 0, // #906
+    "m.intl.taobao.com" => 0, // #907
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
