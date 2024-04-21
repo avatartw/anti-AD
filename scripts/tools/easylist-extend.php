@@ -302,6 +302,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||api.slightcommunicativeinterconnectedness.xyz^' => 1, // #873
     '@@||openxlab.org.cn^' => 1, // #876
     '@@||tracking.dpd.de^' => 1, // #877
+    '@@||ads.cdn.tvb.com^' => 1, // #911
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
