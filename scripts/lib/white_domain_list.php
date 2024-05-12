@@ -438,6 +438,7 @@ return [
     "m.intl.taobao.com" => 0, // #907
     "ads.cdn.tvb.com" => 0, // #911
     "ads.console.aliyun.com" => 0, // #912
+    "deliver.kuwo.cn" => 0, // #917
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
