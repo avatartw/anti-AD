@@ -1456,7 +1456,7 @@ return [
         "natdetection.onethingpcs.com", // #847
     ],
     "kuaishouzt.com" => [
-        "kuaishouzt.com", // #847
+        // "kuaishouzt.com", // #847, #919
     ],
     "10010.com" => [
         "nishub1.10010.com", // #866
