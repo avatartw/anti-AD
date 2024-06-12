@@ -442,6 +442,7 @@ return [
     "mcdn.bilivideo.cn" => 0, // #918
     "log.snssdk.com" => 0, // #920
     "i.snssdk.com" => 0, // #920
+    "mime.baidu.com" => 0, // #923
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
