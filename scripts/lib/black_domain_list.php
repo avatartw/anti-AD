@@ -1071,10 +1071,6 @@ return [
         // #464
         "7moor.com",
     ],
-    "7moor-fs1.com" => [
-        // #464
-        "7moor-fs1.com",
-    ],
     "oray.com" => [
         // #464
         "tk.oray.com",
