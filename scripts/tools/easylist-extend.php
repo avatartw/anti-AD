@@ -304,6 +304,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||tracking.dpd.de^' => 1, // #877
     '@@||ads.cdn.tvb.com^' => 1, // #911
     '@@||ads.console.aliyun.com^' => 1, // #912
+    '@@||tracking.ubisoft.com^' => 1, // #927
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
