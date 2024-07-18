@@ -1458,6 +1458,27 @@ return [
         "nishub1.10010.com", // #866
         "enrichgw.10010.com", // #866
     ],
+    "bootcdn.cn" => [
+        "bootcdn.cn", // #938
+        "www.bootcdn.cn", // #938
+    ],
+    "bootcdn.net" => [
+        "bootcdn.net", // #938
+        "www.bootcdn.net", // #938
+    ],
+    "bootcss.com" => [
+        "bootcss.com", // #938
+        "www.bootcss.com", // #938
+    ],
+
+    "staticfile.net" => [
+        "staticfile.net", // #938
+        "www.staticfile.net", // #938
+    ],
+    "staticfile.org" => [
+        "staticfile.org", // #938
+        "www.staticfile.org", // #938
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
