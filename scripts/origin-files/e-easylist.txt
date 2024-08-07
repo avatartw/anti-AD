@@ -1,6 +1,7 @@
 /^139\.45\.19[5-7]\.\d{1,3}/
 /^23\.109\.73\.\d{3}/
 /^188\.42\.84\.\d{1,3}/
+/^23\.109\.170\.(18[7-9]|19[0-2])$/
 /^139\.45\.197\.2(4[0-9]|5[0-4]):/
 /^94\.242\.247\.(2[0-9]|3[0-2]):/
 -launches.appsflyersdk.com^
@@ -22,6 +23,7 @@
 |mine.torrent.pw^
 ||drscdn.500px.org^$ctag=device_tv
 ||adsrvmedia.adk2.co^$important
+||e11956.x.akamaiedge.net^$badfilter
 ||berlagu.com^$badfilter
 ||deloton.com$important
 ||config.ioam.de^$ctag=device_tv|device_other
@@ -261,6 +263,7 @@
 @@||www.statcounter.com^
 @@||analytics.supplyframe.com^
 @@||swjoy.com^
+@@||ads.taboola.com^
 @@||phs.tanx.com^
 @@||acs.m.taobao.com^
 @@||click.simba.taobao.com^
