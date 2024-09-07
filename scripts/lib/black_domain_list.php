@@ -884,8 +884,8 @@ return [
         "crash.163.com",
         "httpdns.music.163.com", // #847
         "netapm.music.163.com", // #847
-        "ipv6.music.163.com", // #847
-        "ipv4.music.163.com", // #847
+        // "ipv6.music.163.com", // #847, #948
+        // "ipv4.music.163.com", // #847, #948
     ],
     "360.cn" => ["mclean.f.360.cn", "vconf.f.360.cn"],
     "gsgsr.xyz" => ["gsgsr.xyz", "www.gsgsr.xyz", "gdp.gsgsr.xyz"],
