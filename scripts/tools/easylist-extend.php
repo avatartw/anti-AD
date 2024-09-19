@@ -306,6 +306,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||ads.console.aliyun.com^' => 1, // #912
     '@@||tracking.ubisoft.com^' => 1, // #927
     '@@||login-sh.aki-game.com^' => 1, // #945
+    '@@||rocket.chat^' => 1, // #957
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
