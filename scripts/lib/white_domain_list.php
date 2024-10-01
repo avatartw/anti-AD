@@ -451,6 +451,8 @@ return [
     "migc.g.mi.com" => 0, // #942
     "clientlog3.music.163.com" => 0, // #954
     "tracker.ai.xiaomi.com" => 0, // #960
+    "awstrack.me" => 0, // #964
+    "c.paypal.com" => 0, // #965
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
