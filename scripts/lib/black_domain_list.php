@@ -49,7 +49,12 @@ return [
     ],
     "openstorage.cn" => ["iflyad.bjb.openstorage.cn"],
     "analysys.cn" => ["analysys.cn"],
-    "mob.com" => ["mob.com"],
+    "mob.com" => [
+        "mob.com",
+        "cache-verify.mob.com", // #971
+        "cdn-api-verify.mob.com", // #971
+        "log-verify.mob.com", // #971
+    ],
     "szy.cn" => ["dtlog.szy.cn"],
     "adview.cn" => ["adview.cn"],
     "wrating.com" => ["wrating.com"],
@@ -1481,6 +1486,9 @@ return [
     ],
     "anythinktech.com" => [
         "adx-os.anythinktech.com", // #958
+    ],
+    "163yun.com" => [
+        "ye.dun.163yun.com", // #971
     ],
 
     // #781
