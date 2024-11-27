@@ -1490,6 +1490,9 @@ return [
     "163yun.com" => [
         "ye.dun.163yun.com", // #971
     ],
+    "brg0.com" => [
+        "brg0.com", // #970
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
