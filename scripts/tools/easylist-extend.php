@@ -309,6 +309,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||rocket.chat^' => 1, // #957
     '@@||usageapi.*.oraclecloud.com^' => 1, // #961
     '@@||track.vontron.com^' => 1, // #985
+    '@@||download.falco.org^' => 1, // #993
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
