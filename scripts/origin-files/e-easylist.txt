@@ -4,6 +4,7 @@
 /^23\.109\.170\.(18[7-9]|19[0-2])$/
 /^139\.45\.197\.2(4[0-9]|5[0-4])/
 /^94\.242\.247\.(2[0-9]|3[0-2])/
+.prod.pr.analytics.console.aws.a2z.com
 -attr.appsflyersdk.com^
 -launches.appsflyersdk.com^
 -tracker.biliapi.net^
@@ -17,6 +18,7 @@
 -s2s.sensic.net^
 .stape.net
 |c.blue.*.com^
+|load.gtm.*^
 |r.i.ua^
 |lgtvsdp.com^
 |o0e.ru^
@@ -24,6 +26,9 @@
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
 |samsungqbe.com^
+|load.sgtm.*^
+|load.ss.*^
+|load.sst.*^
 |mine.torrent.pw^
 ||drscdn.500px.org^$ctag=device_tv
 ||adsrvmedia.adk2.co^$important
@@ -298,6 +303,7 @@
 @@||clickattr.wayup.com^
 @@||track.webgains.com^
 @@||anwb.webpower.eu^
+@@||adv.welaika.com^
 @@||msn.wrating.com^
 @@||tracker.ai.xiaomi.com^
 @@||zhuti.xiaomi.com^
