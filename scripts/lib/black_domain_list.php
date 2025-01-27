@@ -45,7 +45,7 @@ return [
         "tmeadbak.y.qq.com", // #847
         "ugcup.music.qq.com", // #847
         "ipv6.kg.qq.com", // #847
-        "tmeadbak.y.qq.com", // #847
+        "log.node.minigame.qq.com", // #1012
     ],
     "openstorage.cn" => ["iflyad.bjb.openstorage.cn"],
     "analysys.cn" => ["analysys.cn"],
@@ -1731,8 +1731,8 @@ return [
     "tuiapple.com" => ["activity.tuiapple.com"],
     "tudou.com" => ["ad.api.3g.tudou.com"],
     "youku.com" => [
-    	"ad.api.3g.youku.com",
-    	"ad.api.mobile.youku.com",
+        "ad.api.3g.youku.com",
+        "ad.api.mobile.youku.com",
         "pcapp-data-collect.youku.com", // #884
         "valo.atm.youku.com", // #914
     ],
