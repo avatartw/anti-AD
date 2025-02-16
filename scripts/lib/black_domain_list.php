@@ -673,7 +673,7 @@ return [
     "pubghio.fun" => [
         "pubghio.fun", // #212, https://pubghio.fun/login?agency=200
     ],
-    "xladapi.izuiyou.com" => [
+    "izuiyou.com" => [
         // 手機迅雷廣告
         "xladapi.izuiyou.com",
         "xlstat.izuiyou.com",
