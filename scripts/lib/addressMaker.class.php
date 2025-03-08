@@ -146,11 +146,9 @@ class addressMaker
         $str_reg .=
             "|\.warszawa|\.wasm|\.watch|\.waw|\.web|\.webcam|\.website|\.wedding|\.wegrow|\.weir|\.wf|\.wielun|\.wiki|\.win|\.wine|\.wlocl|\.wloclawek";
         $str_reg .=
-            "|\.wlodawa|\.wodzislaw|\.wolomin|\.work|\.works|\.world|\.wroclaw|\.ws|\.wtf|\.xin|\.xn--45q11c|\.xn--6frz82g|\.xn--6qq986b3xl|\.xn--80adxhks";
+            "|\.wlodawa|\.wodzislaw|\.wolomin|\.work|\.works|\.world|\.wroclaw|\.ws|\.wtf|\.xin|\.xn--[a-z0-9_\-]+";
         $str_reg .=
-            "|\.xn--80asehdb|\.xn--90ais|\.xn--c1avg|\.xn--fiqs8s|\.xn--hxt814e|\.xn--i1b6b1a6a2e|\.xn--io0a7i|\.xn--j6w193g|\.xn--mxtq1m|\.xn--ngbc5azd|\.xn--ngbrx";
-        $str_reg .=
-            "|\.xn--node|\.xn--nqv7f|\.xn--p1acf|\.xn--p1ai|\.xn--pgbs0dh|\.xn--q9jyb4c|\.xxx|\.xy|\.xyz|\.ye|\.yoga|\.yokohama|\.yt|\.za|\.zachpomor";
+            "|\.xxx|\.xy|\.xyz|\.ye|\.yoga|\.yokohama|\.yt|\.za|\.zachpomor";
         $str_reg .=
             "|\.zagan|\.zarow|\.zgora|\.zgorzelec|\.zip|\.zm|\.zone|\.zw";
         $str_reg .= ")";
