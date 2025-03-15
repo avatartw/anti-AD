@@ -2103,6 +2103,8 @@ return [
         "applogios.uc.cn", // uc log
         "gjapplog.uc.cn", // #442
         "applog.ucdns.uc.cn", // #442
+        "applog-perf.uc.cn", // #1026
+        "s-adashx.ut.uc.cn", // #1026
     ],
     "sm.cn" => [
         // dns日誌提取
