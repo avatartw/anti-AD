@@ -13,7 +13,7 @@ jobs:
       with:
         php-version: '8.4'
         coverage: none
-        ini-values: opcache.enable=1, opcache.enable_cli=1, opcache.jit=tracing, opcache.jit_buffer_size=64M
+        ini-values: opcache.enable=1, opcache.enable_cli=1, opcache.jit=tracing, opcache.jit_buffer_size=128M
     - uses: actions/checkout@main
     - name: Run start-ci.sh
       run: |
