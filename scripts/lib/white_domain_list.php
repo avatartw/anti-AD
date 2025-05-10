@@ -456,6 +456,7 @@ return [
     "cc.map.qq.com" => 0, // #974
     "pkoplink.com" => 0, // #998
     "r.stripe.com" => 0, // #1033
+    "data.vod.itc.cn" => 0, // #1038
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
