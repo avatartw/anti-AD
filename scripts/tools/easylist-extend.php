@@ -364,7 +364,7 @@ while (!feof($wild_fp)) {
     }
     if (
         !preg_match(
-            "/^\|\|?([\w\-\.\*]+?)\^(\$([^=]+?,)?(image|third-party|script)(,[^=]+)?)?$/",
+            '/^\|\|?([\w\-\.\*]+?)\^(\$([^=]+?,)?(image|third-party|script)(,[^=]+)?)?$/',
             $wild_row,
             $matches
         )
@@ -454,8 +454,8 @@ unset($wrote_whitelist);
 
 // 清洗正則表達式對應
 foreach ($ARR_REGEX_LIST as $regex_str => $regex_row) {
-    $php_regex = str_replace(["/^", "$/"], ["/^\|\|", "\^"], $regex_str);
-    $php_regex = preg_replace("/(.+?[^$])\/$/", "\1.*\^", $php_regex);
+    $php_regex = str_replace(["/^", '$/'], ["/^\|\|", "\^"], $regex_str);
+    $php_regex = preg_replace('/(.+?[^$])\/$/', '\1.*\^', $php_regex);
     $php_regex .= "\n/m";
 
     $tmp_replaced_content = preg_replace($php_regex, "", $src_content);
