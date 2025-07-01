@@ -316,7 +316,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||download.falco.org^' => 1, // #993
     '@@||ad-block.dns.adguard.com^' => 1, // #1002
     '@@||app.powerbi.com^' => 1, // #1011
-    '@@||analytics.meituan.net' => 1, // #1052
+    '@@||analytics.meituan.net^' => 1, // #1052
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
