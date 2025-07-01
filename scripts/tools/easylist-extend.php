@@ -21,13 +21,13 @@ const WILDCARD_SRC = ROOT_DIR . "origin-files/wildcard-src-easylist.txt";
 const WHITERULE_SRC = ROOT_DIR . "origin-files/whiterule-src-easylist.txt";
 
 $ARR_MERGED_WILD_LIST = [
-    'ad*.udn.com$dnstype=A|AAAA|CNAME' => null,
+    "ad*.udn.com$dnstype=A|AAAA|CNAME" => null,
     "p*-ad-sign.byteimg.com" => null, // #529
     "*.mgr.consensu.org" => null,
     "vs*.gzcu.u3.ucweb.com" => null,
     "ad*.goforandroid.com" => null,
     "bs*.9669.cn" => null,
-    "*serror*.wo.com.cn" => ["m" => '$dnstype=A|AAAA|CNAME'],
+    "*serror*.wo.com.cn" => ["m" => "$dnstype=A|AAAA|CNAME"],
     "*mistat*.xiaomi.com" => null,
     "affrh20*.com" => null,
     "assoc-amazon.*" => null,
@@ -44,7 +44,7 @@ $ARR_MERGED_WILD_LIST = [
     "log.*.hunantv.com" => null,
     "iflyad.*.openstorage.cn" => null,
     "*customstat*.51togic.com" => null,
-    //    'appcloud*.zhihu.com' => null, // #344
+    //    "appcloud*.zhihu.com" => null, // #344
     "ad*.molitv.cn" => null,
     "ads*-adnow.com" => null,
     "aeros*.tk" => null,
@@ -60,7 +60,7 @@ $ARR_MERGED_WILD_LIST = [
     "*log.droid4x.cn" => null,
     "*tsdk.vivo.com.cn" => null,
     "*.mmstat.com" => null,
-    //'sf*-ttcdn-tos.pstatp.com' => null,
+    //"sf*-ttcdn-tos.pstatp.com" => null,
     "f-log*.grammarly.io" => null,
     "24log.*" => null,
     "24smi.*" => null,
@@ -117,8 +117,8 @@ $ARR_MERGED_WILD_LIST = [
     "duomeng*.*" => null,
     "dwtrack*.*" => null,
     "guanggao*.*" => null,
-    //'lianmeng*.*' => null, // #448
-    //'monitor*.*' => null,
+    //"lianmeng*.*" => null, // #448
+    //"monitor*.*" => null,
     "omgmta*.*" => null,
     "omniture*.*" => null,
     "openx*.*" => null,
@@ -128,24 +128,24 @@ $ARR_MERGED_WILD_LIST = [
     "pingfore*.*" => null,
     "socdm*.*" => null,
     "supersonicads*.*" => null,
-    //'tracking*.*' => null, // #743
+    //"tracking*.*" => null, // #743
     "usage*.*" => null,
     "wlmonitor*.*" => null,
     "zjtoolbar*.*" => null,
 ];
 
 $ARR_REGEX_LIST = [
-    '/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/' => ["m" => '$dnstype=A|AAAA'],
+    "/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/" => ["m" => "$dnstype=A|AAAA"],
     "/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./" => [
         "m" =>
-            '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com',
+            "$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com",
     ],
     "/^([^\s\/]+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./" => null, // fixed #406
-    '/^([^\s\/]+\.)?afgr[\d]{1,2}\.com$/' => null,
+    "/^([^\s\/]+\.)?afgr[\d]{1,2}\.com$/" => null,
     "/^([^\s\/]+\.)?analytics(\-|\.)/" => null,
     "/^([^\s\/]+\.)?counter(\-|\.)/" => null,
     "/^([^\s\/]+\.)?pixels?\./" => null,
-    '/^([^\s\/]+\.)?syma[a-z]\.cn$/' => null,
+    "/^([^\s\/]+\.)?syma[a-z]\.cn$/" => null,
     "/^([^\s\/]+\.)?widgets?\./" => null,
     "/^([^\s\/]+\.)?(stat|webstats?|swebstats?|mywebstats?)\./" => null, // #366
     //"/^([^\s\/]+\.)?track(ing)?\./" => null,
@@ -154,24 +154,24 @@ $ARR_REGEX_LIST = [
     "/^([^\s\/]+\.)?adservice\.google\./" => null,
     "/^([^\s\/]+\.)?d[\d]+\.sina(img)?(\.com)?\.cn/" => null,
     "/^([^\s\/]+\.)?sax[\dns]?\.sina\.com\.cn/" => null,
-    '/^([^\s\/]+\.)?delivery([\d]{2}|dom|modo).com$/' => null,
+    "/^([^\s\/]+\.)?delivery([\d]{2}|dom|modo).com$/" => null,
     "/^([^\s\/]+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/" => null,
-    '/^([^\s\/]+\.)?11599[\da-z]{2,20}\.com$/' => null, //"澳門新葡京"系列
-    '/^([^\s\/]+\.)?61677[\da-z]{0,20}\.com$/' => null, //"澳門新葡京"系列
-    '/^([^\s\/]+\.)?[0-9a-f]{15,}\.com$/' => null, //15個字符以上的16進制域名
-    '/^([^\s\/]+\.)?[0-9a-z]{16,}\.xyz$/' => null, //16個字符以上的.xyz域名
-    '/^([^\s\/]+\.)?6699[0-9]\.top$/' => null, //連號
-    '/^([^\s\/]+\.)?abie[0-9]+\.top$/' => null, //連號
-    '/^([^\s\/]+\.)?ad[0-9]{3,}m.com$/' => null, //連號
-    '/^([^\s\/]+\.)?aj[0-9]{4,}.online$/' => null, //連號
-    '/^([^\s\/]+\.)?xpj[0-9]\.net$/' => null, //連號
-    '/^([^\s\/]+\.)?ylx-[0-9].com$/' => null, //連號
-    '/^([^\s\/]+\.)?ali2[a-z]\.xyz$/' => null, //連號
-    '/^([^\s\/]+\.)?777\-?partners?\.(net|com)$/' => null, //組合
-    '/^([^\s\/]+\.)?voyage-prive\.[a-z]+(\.uk)?$/' => null, //組合
-    '/^([^\s\/]+\.)?e7[0-9]{2,4}\.(net|com)?$/' => null, //組合
-    '/^([^\s\/]+\.)?g[1-4][0-9]{8,9}\.com?$/' => null, //批量組合
-    '/^([^\s\/]+\.)?hg[0-9]{4,5}\.com?$/' => null, //批量組合
+    "/^([^\s\/]+\.)?11599[\da-z]{2,20}\.com$/" => null, //"澳門新葡京"系列
+    "/^([^\s\/]+\.)?61677[\da-z]{0,20}\.com$/" => null, //"澳門新葡京"系列
+    "/^([^\s\/]+\.)?[0-9a-f]{15,}\.com$/" => null, //15個字符以上的16進制域名
+    "/^([^\s\/]+\.)?[0-9a-z]{16,}\.xyz$/" => null, //16個字符以上的.xyz域名
+    "/^([^\s\/]+\.)?6699[0-9]\.top$/" => null, //連號
+    "/^([^\s\/]+\.)?abie[0-9]+\.top$/" => null, //連號
+    "/^([^\s\/]+\.)?ad[0-9]{3,}m.com$/" => null, //連號
+    "/^([^\s\/]+\.)?aj[0-9]{4,}.online$/" => null, //連號
+    "/^([^\s\/]+\.)?xpj[0-9]\.net$/" => null, //連號
+    "/^([^\s\/]+\.)?ylx-[0-9].com$/" => null, //連號
+    "/^([^\s\/]+\.)?ali2[a-z]\.xyz$/" => null, //連號
+    "/^([^\s\/]+\.)?777\-?partners?\.(net|com)$/" => null, //組合
+    "/^([^\s\/]+\.)?voyage-prive\.[a-z]+(\.uk)?$/" => null, //組合
+    "/^([^\s\/]+\.)?e7[0-9]{2,4}\.(net|com)?$/" => null, //組合
+    "/^([^\s\/]+\.)?g[1-4][0-9]{8,9}\.com?$/" => null, //批量組合
+    "/^([^\s\/]+\.)?hg[0-9]{4,5}\.com?$/" => null, //批量組合
     "/213\.32\.115\..{100,}/" => null,
     "/217\.182\.11\..{100,}/" => null,
     "/51\.195\.31\..{100,}/" => null,
@@ -183,23 +183,23 @@ $ARR_REGEX_LIST = [
     "/^([\w]{1,4}\.)?(\w+)?\.\w+-?pocztex(\d+)?\.[\w]{2,14}/" => null,
     "/^([\w]{1,4}\.)?(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[\d]{2,8}\.[a-z-]{4,22}[\d]{1,8}\.(agency|icu|life|live|loan)/" => null,
     "/^([\w]{1,4}\.)?(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\.[a-z-]{4,22}[0-9]{1,8}\.info/" => null,
-    //    '/^([\w]{1,4}\.)?(copysubstancepattern|decimalprovehour|discusssheetenemy|educationbedring|effectstorestream|fingermilkorgan|flyingintheclouds|goedekans|historyalwayschildren|ideaanstudy|insectrunfollow|jsdevelopmentq|mindspellnothing|noseangerspend|occurthousandlast|payageround-|randalieren|roundsolutionbrought|sciencewhategg|shoutmostface|thinkwhilemelody|thoughcopyforest|togethercleareducation|waterdiepattern|whateyeweight|wildgrelns)[\d]{1,2}\.live/' => null,
-    //    '/^([^\s\/]+\.)?anzugreifen([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?consquarters([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?curtainhardsh([1-9]|1[0-9]|2[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?esoterisch([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?garternal([1-9]|1[0-9]|20)\.live/' => null,
-    //    '/^([^\s\/]+\.)?greenelephants([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?headregret([1-9]|1[0-9]|20)\.live/' => null,
-    //    '/^([^\s\/]+\.)?lifefordatings([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?listentome([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?matchwhytotal([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?rainxpose([1-9]|1[0-9]|20)\.live/' => null,
-    //    '/^([^\s\/]+\.)?teckinharmux([1-9]|1[0-9]|20)\.live/' => null,
-    //    '/^([^\s\/]+\.)?tekerstreet([6-9]|1[0-9]|20)\.live/' => null,
-    //    '/^([^\s\/]+\.)?testing3srv([1-9]|10)\.live/' => null,
-    //    '/^([^\s\/]+\.)?thvedroisil([1-9]|1[0-5])\.live/' => null,
-    //    '/^([^\s\/]+\.)?waarschijnlijk([1-9]|1[0-5])\.live/' => null,
+    //    "/^([\w]{1,4}\.)?(copysubstancepattern|decimalprovehour|discusssheetenemy|educationbedring|effectstorestream|fingermilkorgan|flyingintheclouds|goedekans|historyalwayschildren|ideaanstudy|insectrunfollow|jsdevelopmentq|mindspellnothing|noseangerspend|occurthousandlast|payageround-|randalieren|roundsolutionbrought|sciencewhategg|shoutmostface|thinkwhilemelody|thoughcopyforest|togethercleareducation|waterdiepattern|whateyeweight|wildgrelns)[\d]{1,2}\.live/" => null,
+    //    "/^([^\s\/]+\.)?anzugreifen([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?consquarters([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?curtainhardsh([1-9]|1[0-9]|2[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?esoterisch([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?garternal([1-9]|1[0-9]|20)\.live/" => null,
+    //    "/^([^\s\/]+\.)?greenelephants([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?headregret([1-9]|1[0-9]|20)\.live/" => null,
+    //    "/^([^\s\/]+\.)?lifefordatings([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?listentome([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?matchwhytotal([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?rainxpose([1-9]|1[0-9]|20)\.live/" => null,
+    //    "/^([^\s\/]+\.)?teckinharmux([1-9]|1[0-9]|20)\.live/" => null,
+    //    "/^([^\s\/]+\.)?tekerstreet([6-9]|1[0-9]|20)\.live/" => null,
+    //    "/^([^\s\/]+\.)?testing3srv([1-9]|10)\.live/" => null,
+    //    "/^([^\s\/]+\.)?thvedroisil([1-9]|1[0-5])\.live/" => null,
+    //    "/^([^\s\/]+\.)?waarschijnlijk([1-9]|1[0-5])\.live/" => null,
     "/^([\w]{1,4}\.)?.*-?(fakty?|news|wiadomosci?)gwalt(\d+)?\.[\w]{2,14}/" => null,
     "/^([\w]{1,4}\.)?.*-?emonitoring-?e?poczta[\w]{1,14}/" => null,
     "/^([\w]{1,4}\.)?\d+platnosci?\.online/" => null,
@@ -208,26 +208,26 @@ $ARR_REGEX_LIST = [
     "/^([\w]{1,4}\.)?(probablerootport|ideaanstudy)-?[\d]{1,2}\.live/" => null,
     "/^([\w]{1,4}\.)?inwestpoland\d+\.site/" => null,
 
-    // '/^([^\s\/]+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
+    // "/^([^\s\/]+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/" => null,
 ];
 
 //對通配符匹配或正則匹配增加的額外赦免規則
 $ARR_WHITE_RULE_LIST = [
-/**
- * 激進的 track(ing) 規則已被關閉，不再需要這些明確加白
- * '@@||track.cpau.info^' => 1, // #251
- * '@@||track.toggl.com^' => 1, // #307
- * '@@||tracking-protection.cdn.mozilla.net^' => 1, // #407
- * '@@||trackings.post.japanpost.jp^' => 1, // #441
- * '@@||track.aliexpress.com^' => 1, // #446
- * '@@||track.landmarkglobal.com^' => 1, // #631
- * '@@||track.bankcomm.com^' => 1, // #714
- * '@@||track.4px.com^' => 1, // #796
- * '@@||tracking.dpd.de^' => 1, // #877
- * '@@||tracking.ubisoft.com^' => 1, // #927
- * '@@||track.vontron.com^' => 1, // #985
- * '@@||tracking.doordash.com^' => 1, // #1011
- */
+    /**
+     * 激進的 track(ing) 規則已被關閉，不再需要這些明確加白
+     * "@@||track.cpau.info^" => 1, // #251
+     * "@@||track.toggl.com^" => 1, // #307
+     * "@@||tracking-protection.cdn.mozilla.net^" => 1, // #407
+     * "@@||trackings.post.japanpost.jp^" => 1, // #441
+     * "@@||track.aliexpress.com^" => 1, // #446
+     * "@@||track.landmarkglobal.com^" => 1, // #631
+     * "@@||track.bankcomm.com^" => 1, // #714
+     * "@@||track.4px.com^" => 1, // #796
+     * "@@||tracking.dpd.de^" => 1, // #877
+     * "@@||tracking.ubisoft.com^" => 1, // #927
+     * "@@||track.vontron.com^" => 1, // #985
+     * "@@||tracking.doordash.com^" => 1, // #1011
+     */
     "@@||fonts.gstatic.com^" => 1,
     "@@||tongji.*kuwo.cn^" => 0,
     "@@||tracking.epicgames.com^" => 0,
@@ -247,7 +247,7 @@ $ARR_WHITE_RULE_LIST = [
     "@@||tongji.cn^" => 1, // 同濟大學 #281
     "@@||ad.siemens.com.cn^" => 1, // 西門子下載中心
     "@@||sdkapi.sms.mob.com^" => 1, // 短信驗證碼 #127
-    //'@@||stats.gov.cn^' => 1, // 國家統計局 #144 // #366
+    //"@@||stats.gov.cn^" => 1, // 國家統計局 #144 // #366
     "@@||tj.gov.cn^" => 1,
     "@@||sax.sina.com.cn^" => 1, // #155
     "@@||api.ad-gone.com^" => 1, // #207
@@ -301,21 +301,22 @@ $ARR_WHITE_RULE_LIST = [
     "@@||tongji.koowo.cn^" => 1, // #742
     "@@||adverts.1foo.com^" => 1, // #782
     "@@||ads.smartmidea.net^" => 1, // #807
-    '@@||widget.ezidebit.com.au^' => 1, // #834
-    '@@||widget.rave.office.net^' => 1, // #837
-    '@@||widget.sndcdn.com^' => 1, // #839
-    '@@||ad.nl^' => 1, // #841
-    '@@||code.sms.mob.com^' => 1, // #855
-    '@@||api.slightcommunicativeinterconnectedness.xyz^' => 1, // #873
-    '@@||openxlab.org.cn^' => 1, // #876
-    '@@||ads.cdn.tvb.com^' => 1, // #911
-    '@@||ads.console.aliyun.com^' => 1, // #912
-    '@@||login-sh.aki-game.com^' => 1, // #945
-    '@@||rocket.chat^' => 1, // #957
-    '@@||usageapi.*.oraclecloud.com^' => 1, // #961
-    '@@||download.falco.org^' => 1, // #993
-    '@@||ad-block.dns.adguard.com^' => 1, // #1002
-    '@@||app.powerbi.com^' => 1, // #1011
+    "@@||widget.ezidebit.com.au^" => 1, // #834
+    "@@||widget.rave.office.net^" => 1, // #837
+    "@@||widget.sndcdn.com^" => 1, // #839
+    "@@||ad.nl^" => 1, // #841
+    "@@||code.sms.mob.com^" => 1, // #855
+    "@@||api.slightcommunicativeinterconnectedness.xyz^" => 1, // #873
+    "@@||openxlab.org.cn^" => 1, // #876
+    "@@||ads.cdn.tvb.com^" => 1, // #911
+    "@@||ads.console.aliyun.com^" => 1, // #912
+    "@@||login-sh.aki-game.com^" => 1, // #945
+    "@@||rocket.chat^" => 1, // #957
+    "@@||usageapi.*.oraclecloud.com^" => 1, // #961
+    "@@||download.falco.org^" => 1, // #993
+    "@@||ad-block.dns.adguard.com^" => 1, // #1002
+    "@@||app.powerbi.com^" => 1, // #1011
+    "@@||analytics.meituan.net" => 1, // #1052
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
@@ -363,7 +364,7 @@ while (!feof($wild_fp)) {
     }
     if (
         !preg_match(
-            '/^\|\|?([\w\-\.\*]+?)\^(\$([^=]+?,)?(image|third-party|script)(,[^=]+)?)?$/',
+            "/^\|\|?([\w\-\.\*]+?)\^(\$([^=]+?,)?(image|third-party|script)(,[^=]+)?)?$/",
             $wild_row,
             $matches
         )
@@ -378,7 +379,9 @@ while (!feof($wild_fp)) {
     $matched = false;
     // TODO 此處對應似乎還不夠完美，需再次斟酌
     foreach ($ARR_REGEX_LIST as $regex_str => $regex_row) {
-        if (preg_match($regex_str, (string) str_replace("*", "", $matches[1]))) {
+        if (
+            preg_match($regex_str, (string) str_replace("*", "", $matches[1]))
+        ) {
             $matched = true;
             break;
         }
@@ -451,8 +454,8 @@ unset($wrote_whitelist);
 
 // 清洗正則表達式對應
 foreach ($ARR_REGEX_LIST as $regex_str => $regex_row) {
-    $php_regex = str_replace(["/^", '$/'], ["/^\|\|", "\^"], $regex_str);
-    $php_regex = preg_replace('/(.+?[^$])\/$/', '\1.*\^', $php_regex);
+    $php_regex = str_replace(["/^", "$/"], ["/^\|\|", "\^"], $regex_str);
+    $php_regex = preg_replace("/(.+?[^$])\/$/", "\1.*\^", $php_regex);
     $php_regex .= "\n/m";
 
     $tmp_replaced_content = preg_replace($php_regex, "", $src_content);
