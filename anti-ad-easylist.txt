@@ -1,5 +1,5 @@
 !Title: anti-AD
-!Version: 20250702020729
+!Version: 20250702034541
 !Homepage: https://github.com/avatartw/anti-AD
 !!!note! This list only applies to "AdGuard Home".
 !Total lines: 80344
@@ -183,8 +183,8 @@
 @@||download.falco.org^
 @@||ad-block.dns.adguard.com^
 @@||app.powerbi.com^
-/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/=A|AAAA
-/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
+/^([^\s\/]+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A|AAAA
+/^([^\s\/]+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.10010.com^
 @@||ad.abchina.com^
 @@||ad.kazakinfo.com^
@@ -270,7 +270,7 @@
 ||*launches.appsflyersdk.com^
 ||*ontent.steamplay.*^
 ||*register.appsflyersdk.com^
-||*serror*.wo.com.cn^=A|AAAA|CNAME
+||*serror*.wo.com.cn^$dnstype=A|AAAA|CNAME
 ||1024wanzhai.*^
 ||158.247.208.*^
 ||2025*maintenance.weebly.com^
