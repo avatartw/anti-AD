@@ -1335,9 +1335,9 @@ return [
         "v4-lm.adukwai.com",
     ],
     "diwodiwo.xyz" => [
-        // #775
-        "ad-display.diwodiwo.xyz",
-        "ad-channel.diwodiwo.xyz",
+        "ad-display.diwodiwo.xyz", // #775
+        "ad-channel.diwodiwo.xyz", // #775
+        "pica-ad-api.diwodiwo.xyz", // #1056
     ],
     "126.net" => [
         "ads.music.126.net", // #784
