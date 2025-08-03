@@ -460,6 +460,8 @@ return [
     "similarweb.com" => 0, // #1039
     "analytics.meituan.net" => 0, // #1052
     "ads.heytapmobi.com" => 0, // #1054
+    "zynga.com" => 0, // #1060
+    "zyngaplayersupport.com" => 0, // #1060
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
