@@ -1357,8 +1357,13 @@ return [
         "mobads-pre-config.cdn.bcebos.com", // #784
     ],
     "xhscdn.com" => [
+        "ads-i1.xhscdn.com",
+        "ads-i2.xhscdn.com",
+        "ads-i3.xhscdn.com",
+        "ads-i4.xhscdn.com",
         "ads-img-al.xhscdn.com", // #784
         "ads-img-qc.xhscdn.com", // #793
+        "ads-static.xhscdn.com",
         "ads-video-al.xhscdn.com", // #793
         "ads-video-qc.xhscdn.com", // #793
     ],
