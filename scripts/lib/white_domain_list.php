@@ -477,6 +477,7 @@ return [
     "pv.sohu.com" => 0, // #493
     "sax.sina.com.cn" => 0,
     "statcounter.com" => 0,
+    "www.statcounter.com" => 0,
     "tf.360.cn" => 0,
     /* upstream-white-easylist 源规则
       @@||a1.itc.cn/pv/js/spv.
