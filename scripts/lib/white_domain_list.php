@@ -279,6 +279,8 @@ return [
     "dfcfw.com" => 0, // #482
     "msedge.net" => 0, // #478
     "ecard.shenzhentong.com" => 0, // #486
+    "minexmr.com" => 0, // #490
+    "appdownload.alicdn.com" => 0, // #491
     "zconfig.alibabausercontent.com" => 0, // #495
     "proofpoint.com" => 0, // #497
     "mini.eastday.com" => 0, // #500
@@ -289,6 +291,7 @@ return [
     "micpn.com" => 0,
     "kqzyfj.com" => 0,
     "flocktory.com" => 0,
+    "wl.spotify.com" => 0, // #508
     "s1.wp.com" => 0, // #510
     "lc-cn-n1-shared.com" => 0, // #512
     "instant.page" => 0, // #514
@@ -363,7 +366,7 @@ return [
     "hot.browser.miui.com" => 0, #655
     "linksnappy.com" => 0, #656
     "szlong.weixin.qq.com" => 0, #659
-    //'metrics.icloud.com' => 0, #661 #752
+    "metrics.icloud.com" => 0, #661
     "h-adashx.ut.dingtalk.com" => 0, #662
     "adashx.ut.dingtalk.com" => 0, #662
     "sv.aq.qq.com" => 0, #664
@@ -464,6 +467,30 @@ return [
     "zyngaplayersupport.com" => 0, // #1060
     "adukwai.com" => 0, // #1063
     "p1-lm.adukwai.com" => 0, // #1063
+
+    // upstream-white-easylist 中选取的一些应放行域名
+    "a1.itc.cn" => 0,
+    "adx.yiche.com" => 0,
+    "changyan.sohu.com" => 0,
+    "ecma.bdimg.com" => 0,
+    "gk.sina.cn" => 0,
+    "pv.sohu.com" => 0, // #493
+    "sax.sina.com.cn" => 0,
+    "statcounter.com" => 0,
+    "tf.360.cn" => 0,
+    /* upstream-white-easylist 源规则
+      @@||a1.itc.cn/pv/js/spv.
+      @@||adx.yiche.com/cityindex.ashx
+      @@||changyan.sohu.com/debug/cookie?
+      @@||ecma.bdimg.com/holmes/*.svg
+      @@||gk.sina.cn/v1/gkmatch?
+      @@||pv.sohu.com/suv/
+      @@||sax.sina.com.cn/video/newimpress?
+      @@||statcounter.com/js//fusioncharts.charts.js
+      @@||statcounter.com/js/fusioncharts.js
+      @@||www.statcounter.com/images/$image,third-party
+      @@||tf.360.cn/e/wb?
+    */
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
