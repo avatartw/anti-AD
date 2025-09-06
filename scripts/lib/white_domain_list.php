@@ -20,8 +20,8 @@ return [
     "edge-enterprise.activity.windows.com" => 0,
     "imasdk.googleapis.com" => 0,
     "gss0.bdstatic.com" => 0, //百度貼吧頭像
-    //'googleadapis.l.google.com' => 0, //解決google字體下載異常
-    //'gstaticadssl.l.google.com' => 0, //解決google字體下載異常
+    'googleadapis.l.google.com' => 0, //解決google字體下載異常
+    'gstaticadssl.l.google.com' => 0, //解決google字體下載異常
     //"gvt2.com" => 1, //gvt2，安卓系統相關, #558
     "wangbase.com" => 1, //阮一峰同志的部落格圖片顯示
     "l.qq.com" => 0, //解決騰訊視頻無法播放
