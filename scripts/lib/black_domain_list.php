@@ -1545,6 +1545,9 @@ return [
     ],
     "ietheivaicai.com" => ["ietheivaicai.com"], //NiuLink PCDN
     "nexusedgeio.com" => ["nexusedgeio.com"], //PPIO PCDN
+    "oppomobile.com" => [
+        "api.open.oppomobile.com", // #1070
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
