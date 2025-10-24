@@ -403,16 +403,6 @@ return [
         "186078.com", //行為追蹤，在https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
     ],
 
-    "iask.cn" => [
-        "iask.cn", //廣告服務商
-        "pic.iask.cn",
-    ],
-
-    "iask.com.cn" => [
-        "iask.com.cn", //廣告服務商
-        "dw.iask.com.cn",
-    ],
-
     "dushu.io" => [
         "advertising.dushu.io", //廣告域名
     ],
