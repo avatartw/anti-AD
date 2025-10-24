@@ -1,8 +1,8 @@
 !Title: anti-AD
-!Version: 20251023013154
+!Version: 20251025042619
 !Homepage: https://github.com/avatartw/anti-AD
 !!!note! This list only applies to "AdGuard Home".
-!Total lines: 93406
+!Total lines: 93401
 @@||166xs.cc^
 @@||17173im.allyes.com^
 @@||31xiaoshuo.org^
@@ -85,7 +85,6 @@
 @@||redir.ownpage.fr^
 @@||redir.tradedoubler.com^
 @@||s.bluecore.com^
-@@||sax.sina.com.cn^
 @@||sbs.demdex.net^
 @@||sponsor.nitropay.com^
 @@||static-v*.trbo.com^
@@ -133,17 +132,12 @@
 @@||skyapi.onedrive.live.com^
 @@||counter-strike.net^
 @@||profile*.se.360.cn^
-@@||pic.iask.cn^
 @@||ad.jp^
 @@||ad.cityu.edu.hk^
 @@||edge-enterprise.activity.windows.com^
 @@||edge.activity.windows.com^
 @@||skydrivesync.policies.live.net^
 @@||dxcloud.episerver.net^
-@@||static3.iask.cn^
-@@||login-ishare.iask.com.cn^
-@@||wechat.ishare.iask.com.cn^
-@@||dw.iask.com.cn^
 @@||settings-win.data.microsoft.com^
 @@||insideruser.microsoft.com^
 @@||metrics.vrch.at^
@@ -221,6 +215,7 @@
 /^([^\s\/]+\.)?adservice\.google\./
 /^([^\s\/]+\.)?d[\d]+\.sina(img)?(\.com)?\.cn/
 /^([^\s\/]+\.)?sax[\dns]?\.sina\.com\.cn/
+@@||sax.sina.com.cn^
 /^([^\s\/]+\.)?delivery([\d]{2}|dom|modo).com$/
 /^([^\s\/]+\.)?[c-s]ads(abs|abz|ans|anz|ats|atz|del|ecs|ecz|ims|imz|ips|ipz|kis|kiz|oks|okz|one|pms|pmz)\.com/
 /^([^\s\/]+\.)?11599[\da-z]{2,20}\.com$/
@@ -40865,8 +40860,8 @@
 ||iasbetaffiliates.com^
 ||ci.iasds01.com^
 ||sc.iasds01.com^
-||iask.cn^
-||iask.com.cn^
+||dd.iask.cn^
+||mwzbp.iask.com.cn^
 ||qiyeb.iaskbus.com^
 ||wneia.iaskhot.com^
 ||cdn.iasrv.com^
