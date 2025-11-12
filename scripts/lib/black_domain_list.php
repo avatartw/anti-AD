@@ -1493,7 +1493,11 @@ return [
         "www.staticfile.org", // #938
     ],
     "anythinktech.com" => [
+        "anythinktech.com",
         "adx-os.anythinktech.com", // #958
+        "cn-api.anythinktech.com", // #989
+        "datk.anythinktech.com", // #989
+        "apiv4.anythinktech.com", // #1078
     ],
     "163yun.com" => [
         "ye.dun.163yun.com", // #971
