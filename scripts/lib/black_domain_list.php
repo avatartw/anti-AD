@@ -1542,6 +1542,15 @@ return [
     "oppomobile.com" => [
         "api.open.oppomobile.com", // #1070
     ],
+    "statisticslinks.com" => [
+        // #1090
+        "statisticslinks.com",
+        "datk.statisticslinks.com",
+        "tk.statisticslinks.com",
+    ],
+    "tanx.com" => [
+        "sdk-config.tanx.com", // #1090
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
