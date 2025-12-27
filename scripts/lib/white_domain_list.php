@@ -474,6 +474,7 @@ return [
     "ads.privacy.qq.com" => 0, // #546
     "dig.lianjia.com" => 0, // #1088
     "systeme.io" => 0, // #1089
+    "tdid.m.qq.com" => 0, // #1092
 
     // upstream-white-easylist 中选取的一些应放行域名
     "a1.itc.cn" => 0,
