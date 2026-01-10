@@ -322,6 +322,8 @@ $ARR_WHITE_RULE_LIST = [
     '@@||app.powerbi.com^' => 1, // #1011
     '@@||analytics.meituan.net^' => 1, // #1052
     '@@||tube.e.kuaishou.com^' => 1, // #1063
+    '@@||widgets.wp.com^' => 1, // #1071
+    '@@||analysis.windows.net^' => 1, // #1097
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
