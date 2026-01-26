@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "26 17 */3 * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,39 +15,55 @@ jobs:
         php-version: '8.4'
         coverage: none
         ini-values: opcache.enable=1, opcache.enable_cli=1, opcache.jit=tracing, opcache.jit_buffer_size=128M
+
     - uses: actions/checkout@main
     - name: Run start-ci.sh
       run: |
         ./scripts/start-ci.sh
+
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "GitHub Action[bot]"
         git add *
         git commit -m "Auto renew the anti-AD list." -a
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'master'
-    - name: clone the website
-      run: git clone https://github.com/avatartw/avatartw.github.io.git ~/website
-    - name: copy some list files
+
+  sync:
+    if: github.repository == 'avatartw/anti-AD'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get source code from master
+      uses: actions/checkout@main
+      with:
+        ref: master
+        path: master
+
+    - name: Get source code from website
+      uses: actions/checkout@main
+      with:
+        token: ${{ secrets.PERSON_TOKEN }}
+        repository: avatartw/avatartw.github.io.git
+        ref: main
+        path: website
+
+    - name: Update website files
       run: |
-        cp ./anti-ad-easylist.txt ~/website/anti-AD/anti-ad-easylist.txt
-        cp ./anti-ad-easylist.txt.md5 ~/website/anti-AD/anti-ad-easylist.txt.md5
-        cp ./anti-ad-domains.txt ~/website/anti-AD/anti-ad-domains.txt
-    - name: Commit files
+        cp -f ./master/anti-ad-easylist.txt ./website/anti-AD/anti-ad-easylist.txt
+        cp -f ./master/anti-ad-easylist.txt.md5 ./website/anti-AD/anti-ad-easylist.txt.md5
+        cp -f ./master/anti-ad-domains.txt ./website/anti-AD/anti-ad-domains.txt
+
+    - name: Commit to website
+      working-directory: website
       run: |
-        cd ~/website
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "GitHub Action[bot]"
         git add .
         git commit -m "pull newest list." -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'main'
-        directory: '/home/runner/website'
-        repository: 'avatartw/avatartw.github.io'
+        git push
