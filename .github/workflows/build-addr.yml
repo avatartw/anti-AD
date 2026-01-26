@@ -34,11 +34,6 @@ jobs:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'master'
 
-  sync:
-    if: github.repository == 'avatartw/anti-AD'
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
     - name: Get source code from master
       uses: actions/checkout@main
       with:
