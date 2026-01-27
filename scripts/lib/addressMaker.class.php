@@ -150,7 +150,7 @@ class addressMaker
         $str_reg .=
             "|\.xxx|\.xy|\.xyz|\.ye|\.yoga|\.yokohama|\.yt|\.za|\.zachpomor";
         $str_reg .=
-            "|\.zagan|\.zarow|\.zgora|\.zgorzelec|\.zip|\.zm|\.zone|\.zw";
+            "|\.zagan|\.zarow|\.zgora|\.zgorzelec|\.zip|\.zm|\.zone|\.zw|\.[a-z0-9_\-]+";
         $str_reg .= ")";
 
         $str_reg .=
