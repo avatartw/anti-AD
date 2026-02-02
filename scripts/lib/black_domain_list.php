@@ -1551,6 +1551,9 @@ return [
     "tanx.com" => [
         "sdk-config.tanx.com", // #1090
     ],
+    "metricslinks.com" => [
+        "metricslinks.com", // #1104
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
