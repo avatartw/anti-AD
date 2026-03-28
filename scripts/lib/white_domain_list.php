@@ -224,12 +224,15 @@ return [
     "ccmp.eu" => 0, // #365
     "alissl.ucdl.pp.uc.cn" => 0, // #370
     "c3pool.com" => 0, // #371
+    "wtradv.market.xiaomi.com" => 0, // #377
     "check.ddos-guard.net" => 0, // #388
     "update.avlyun.sec.miui.com" => 0, // #387
     "sugar.zhihu.com" => 0, // #380
     "chtbl.com" => 0, // #390
     "edge-enterprise.activity.windows.com" => 0, // #401
     "edge.activity.windows.com" => 0, // #401
+    "huoying666.com" => 0, // #405
+    "u.huoying666.com" => 0, // #405
     "hsforms.com" => 0, // #420
     "hsforms.net" => 0, // #420
     "jx.cn" => 0, // #423
@@ -238,13 +241,14 @@ return [
     "kpstaticbj.wx.ckjr001.com" => 0, // #433
     "www.supportxmr.com.cdn.cloudflare.net" => 0, // #436
     "www.supportxmr.com" => 0, // #436
-    "supportxmr.com" => 0, // #436
+    "supportxmr.com" => 0, // #436, #490
     "pool.supportxmr.com" => 0, // #436
     "pool-de.supportxmr.com" => 0, // #436
     "minergate.com" => 0, // #439
     "imagetwist.com" => 0, // #447
     "kanjiantu.com" => 0, // #451
     "www.kanjiantu.com" => 0, // #451
+    "ahd.ruten.com.tw" => 0, // #453
     "cdn.ark.qq.com" => 0, // #461
     "eq.10jqka.com.cn" => 0, // #463
     "stat.10jqka.com.cn" => 0, // #463
@@ -276,7 +280,7 @@ return [
     "fp.tongdun.net" => 0, // #480
     "kaptcha.com" => 0, // #481
     "dfcfw.com" => 0, // #482
-    "msedge.net" => 0, // #478
+    "msedge.net" => 0, // #478, #671
     "ecard.shenzhentong.com" => 0, // #486
     "minexmr.com" => 0, // #490
     "appdownload.alicdn.com" => 0, // #491
@@ -383,6 +387,7 @@ return [
     "my-material.zone1.meitudata.com" => 0, #688
     "ssl-cdn.static.browser.mi-img.com" => 0, #689
     "db-ip.com" => 0, #699
+    "geotrust.com" => 0, #701
     "mini2015.qq.com" => 0, #710
     "alimama.com" => 0, #710
     "salon.com" => 0, #711
@@ -431,6 +436,8 @@ return [
     "statsig.com" => 0, // #869, #860
     "api.statsig.com" => 0, // #869, #860
     "up.cm.ksmobile.com" => 0, // #880
+    "star.fallback.c10r.facebook.com" => 0, // #892
+    "star.c10r.facebook.com" => 0, // #892
     "icanhazip.com" => 0, // #899
     "ak-d.tripcdn.com" => 0, // #903
     "v6-adashx.ut.cainiao.com" => 0, // #904
@@ -456,6 +463,7 @@ return [
     "tracker.ai.xiaomi.com" => 0, // #960
     "awstrack.me" => 0, // #467 #964
     "c.paypal.com" => 0, // #965
+    "xp.apple.com" => 0, // #991, #972
     "cc.map.qq.com" => 0, // #974
     "pkoplink.com" => 0, // #998
     "r.stripe.com" => 0, // #1033
@@ -470,6 +478,7 @@ return [
     "snowflake.qq.com" => 0, // #1068
     "ac.dun.163.com" => 0, // #1014
     "ac.dun.163yun.com" => 0, // #1014
+    "onelink.me" => 0, // #1074
     "scarf.sh" => 0, // #957, #993, #1076
     "ads.privacy.qq.com" => 0, // #546
     "dig.lianjia.com" => 0, // #1088
