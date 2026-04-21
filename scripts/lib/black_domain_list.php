@@ -1554,6 +1554,9 @@ return [
     "metricslinks.com" => [
         "metricslinks.com", // #1104
     ],
+    "cherry-ai.com" => [
+        "analytics.cherry-ai.com", // #1120
+    ],
 
     // #781
     "2mdn-cn.net" => ["2mdn-cn.net"],
