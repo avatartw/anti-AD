@@ -1377,6 +1377,7 @@ return [
         "pangolin-sdk-toutiao1.com", // #800
     ],
     "beizi.biz" => [
+        "beizi.biz", // #1123
         "sdk.beizi.biz", // #813
         "api-htp.beizi.biz", // #859
     ],
@@ -1556,6 +1557,10 @@ return [
     ],
     "cherry-ai.com" => [
         "analytics.cherry-ai.com", // #1120
+    ],
+    "adn-plus.com.cn" => [
+        "adn-plus.com.cn", // #1123
+        "ad-api.adn-plus.com.cn", // #1123
     ],
 
     // #781
