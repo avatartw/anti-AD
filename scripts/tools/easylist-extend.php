@@ -127,7 +127,7 @@ $ARR_MERGED_WILD_LIST = [
     'adsserving*.*' => null,
     'adsystem*.*' => null,
     'adwords*.*' => null,
-    'analysis*.*' => null,
+    //'analysis*.*' => null, // #1130
     'analytics*.clickdimensions.com' => null,
     'counter*.freecounter.ovh' => null,
     'guanggao*.*' => null,
@@ -324,7 +324,7 @@ $ARR_WHITE_RULE_LIST = [
     '@@||analytics.meituan.net^' => 1, // #1052
     '@@||tube.e.kuaishou.com^' => 1, // #1063
     '@@||widgets.wp.com^' => 1, // #1071
-    '@@||analysis.windows.net^' => 1, // #1097
+    //'@@||analysis.windows.net^' => 1, // #1097 // #1130
 ];
 
 //針對上游赦免規則anti-AD不予赦免的規則，即赦免名單的黑名單
