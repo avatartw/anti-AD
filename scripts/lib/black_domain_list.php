@@ -27,7 +27,7 @@ return [
         "httpdns.bcelive.com", //一個不支持https的httpdns服務，並不能反制運營商劫持
     ],
     "tencentmusic.com" => [
-        "ad.tencentmusic.com"
+        "ad.tencentmusic.com",
         "adcdn.tencentmusic.com",
         "adcdn6.tencentmusic.com", // #1135
     ],
