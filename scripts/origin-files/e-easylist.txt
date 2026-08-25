@@ -12,6 +12,7 @@
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 *.chat.bilibili.com
 /^anon1.gt\d{6}.com$/
+||5hz.org^$important
 ||drscdn.500px.org^$ctag=device_tv
 ||adsrvmedia.adk2.co^$important
 ||telemetry.adsninja.ca^$important
@@ -20,9 +21,14 @@
 ||config.ioam.de^$ctag=device_tv|device_other
 ||de.ioam.de^$ctag=device_tv
 ||metrika.lookmovie.io^$important
+||api.mousegesturesapi.com^$important
 ||oclasrv.com$important
 ||xml.opera.com^$ctag=device_tv
+||pizzaseo.com^$important
+||sjpop1z.com^$important
+||version.bind^$important
 ||pixel.wp.pl^$important
+||xvlpazn.cn^$important
 @@178.248.233.239
 @@.instantservice.com
 @@/:\/\/.*[.]wp[.]pl\/[a-z0-9_]+[.][a-z]+[/:&?]?/
@@ -173,6 +179,10 @@
 @@||5471782.fls.doubleclick.net^
 @@||pagead.l.doubleclick.net^
 @@||www3.doubleclick.net^
+@@||avpclub.dpdns.org^
+@@||larch.dpdns.org^
+@@||latech.dpdns.org^
+@@||lawatch.dpdns.org^
 @@||proto2ad.durasite.net^
 @@||f-gear.ec-optimizer.com^
 @@||itoya.ec-optimizer.com^
