@@ -503,7 +503,7 @@ return [
     "izatcloud.net" => 0, // #1150
     "datadome.co" => 0, // #1153
 
-     // upstream-white-easylist 中選取的一些應放行網域名稱
+    // upstream-white-easylist 中選取的一些應放行網域名稱
     "a1.itc.cn" => 0,
     "adx.yiche.com" => 0,
     "cdn.segment.com" => 0,
