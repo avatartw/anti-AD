@@ -50,7 +50,7 @@ dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
   "https://raw.githubusercontent.com/avatartw/avatartw/main/CNAME-trackers-list.txt"
   "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt"
-  "https://raw.githubusercontent.com/neodevpro/neodevhost/refs/heads/master/deadblock"
+  "https://raw.githubusercontent.com/neodevpro/neodevhost/master/deadblock"
 )
 
 rm -f ./origin-files/easylist*
